@@ -6,4 +6,4 @@
 /vendors/*
 /lib/*
 /plugins/*
-index.php
+/vendor/*
