@@ -1,0 +1,720 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Config/bootstrap.php:71
+msgid "Failed to set decimal scale"
+msgstr ""
+
+#: Config/bootstrap.php:88
+msgid "Wrong renting option"
+msgstr ""
+
+#: Controller/AdminsController.php:59
+msgid "Too many failed attempts"
+msgstr ""
+
+#: Controller/AdminsController.php:73
+msgid "Failed to update database"
+msgstr ""
+
+#: Controller/AdminsController.php:119
+#: Controller/UsersController.php:1313
+msgid "Invalid gateway"
+msgstr ""
+
+#: Controller/AdminsController.php:436;518;533;560
+msgid "Invalid admin"
+msgstr ""
+
+#: Controller/AdminsController.php:485
+#: Controller/UsersController.php:159;198;510
+msgid "Wrong arguments"
+msgstr ""
+
+#: Controller/AdminsController.php:489
+msgid "Invalid Admin"
+msgstr ""
+
+#: Controller/AdminsController.php:493
+#: Controller/UsersController.php:214
+msgid "Invalid token"
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:182;216;275;327;347;367
+msgid "Invalid ad category"
+msgstr ""
+
+#: Controller/AdsCategoryPackagesController.php:78
+#: Controller/BannerAdsController.php:457;513;518;592
+#: Controller/FeaturedAdsController.php:460;516;521;595
+#: Controller/LoginAdsController.php:442;497;502;576
+#: Controller/PaidOffersController.php:196;844;895;967
+#: Controller/UsersController.php:1671;1752
+#: Model/AdsCategoryPackage.php:84
+#: Model/BannerAdsPackage.php:65
+#: Model/FeaturedAdsPackage.php:65
+#: Model/LoginAdsPackage.php:65
+#: Model/PaidOffersPackage.php:59
+msgid "Invalid package"
+msgstr ""
+
+#: Controller/AdsController.php:74;273;296;340;374;396;483;525;872;932;1000;1032;1101;1187;1237;1257;1277
+#: Controller/BannerAdsController.php:75;157;203;236;370;757;805;825;845;875
+#: Controller/FeaturedAdsController.php:75;156;202;235;373;767;816;836;856;886
+#: Controller/LoginAdsController.php:73;155;201;234;368;744;792;812;832;862
+msgid "Invalid advertisement"
+msgstr ""
+
+#: Controller/AdsController.php:84
+msgid "ClickValues not found"
+msgstr ""
+
+#: Controller/AdsController.php:120;152;218
+msgid "Cannot save statistic data"
+msgstr ""
+
+#: Controller/AdsController.php:144
+msgid "Cannot save upline data"
+msgstr ""
+
+#: Controller/AdsController.php:171;190;205
+msgid "Cannot save autopay data"
+msgstr ""
+
+#: Controller/AdsController.php:233
+msgid "Failed to mark ad visited"
+msgstr ""
+
+#: Controller/AdsController.php:250
+msgid "Cannot save ad data"
+msgstr ""
+
+#: Controller/AdsController.php:258
+msgid "Cannot save ad statistics"
+msgstr ""
+
+#: Controller/AdsController.php:276
+msgid "Session write failed"
+msgstr ""
+
+#: Controller/AdsController.php:301
+msgid "Failed to save report"
+msgstr ""
+
+#: Controller/AdsController.php:335
+msgid "Failed to update advertisement"
+msgstr ""
+
+#: Controller/AdsController.php:607
+msgid "No advertisement data"
+msgstr ""
+
+#: Controller/AdsController.php:731;736;820
+msgid "Wrong package"
+msgstr ""
+
+#: Controller/AdsController.php:784
+#: Controller/BannerAdsController.php:313
+#: Controller/FeaturedAdsController.php:315
+#: Controller/LoginAdsController.php:311
+msgid "Invalid ad"
+msgstr ""
+
+#: Controller/AdsController.php:857
+msgid "Invalid targeting mode"
+msgstr ""
+
+#: Controller/AntiCheatController.php:77
+msgid "Invalid model: %s"
+msgstr ""
+
+#: Controller/AntiCheatController.php:88
+msgid "Invalid entry"
+msgstr ""
+
+#: Controller/AntiCheatController.php:118;135;152;169
+msgid "Invalid id"
+msgstr ""
+
+#: Controller/AppController.php:326
+msgid "Failed to get user statistics"
+msgstr ""
+
+#: Controller/BannerAdsController.php:35
+msgid "Banner Ads are disabled"
+msgstr ""
+
+#: Controller/BannersController.php:44;122;148
+msgid "Invalid Banner"
+msgstr ""
+
+#: Controller/BannersController.php:49;60
+#: Controller/UsersController.php:167;206;984;1040;1096;1926;1998;2195;2215;2235;2253;2272;2312;2330;2350;2368
+#: Controller/Component/PaymentsComponent.php:283
+#: Model/User.php:1819;1833;1847;1861
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/CashoutsController.php:94;122;193;257
+msgid "Invalid cashout"
+msgstr ""
+
+#: Controller/CashoutsController.php:116
+msgid "Invalid status"
+msgstr ""
+
+#: Controller/CashoutsController.php:138
+#: Controller/PaymentsController.php:362
+msgid "Failed to refund"
+msgstr ""
+
+#: Controller/CashoutsController.php:143;147;166;169
+#: Controller/PaymentsController.php:339;342;366;370
+msgid "Failed to update statistics"
+msgstr ""
+
+#: Controller/CashoutsController.php:204
+msgid "Failed to change cashout status"
+msgstr ""
+
+#: Controller/CashoutsController.php:223
+msgid "Error while sending request to gateway and failed to change cashout status"
+msgstr ""
+
+#: Controller/CashoutsController.php:279
+msgid "Failed to create zip file"
+msgstr ""
+
+#: Controller/CommissionsController.php:101;125;159
+msgid "Invalid commission"
+msgstr ""
+
+#: Controller/DepositsController.php:262;428
+msgid "Invalid deposit"
+msgstr ""
+
+#: Controller/DepositsController.php:286
+msgid "Purchases cannot be cancelled."
+msgstr ""
+
+#: Controller/DepositsController.php:293;369
+msgid "Failed to cancel deposit"
+msgstr ""
+
+#: Controller/DepositsController.php:316
+msgid "Failed to cancel deposit bonus"
+msgstr ""
+
+#: Controller/DepositsController.php:351
+msgid "Invalid Deposit id"
+msgstr ""
+
+#: Controller/DepositsController.php:394
+msgid "Failed co cancel deposit bonus"
+msgstr ""
+
+#: Controller/DirectReferralsPricesController.php:29
+msgid "Invalid direct referrals price"
+msgstr ""
+
+#: Controller/FeaturedAdsController.php:36
+msgid "Featured Ads are disabled"
+msgstr ""
+
+#: Controller/GroupsController.php:25;61;101
+msgid "Invalid group"
+msgstr ""
+
+#: Controller/GroupsController.php:31
+msgid "Forbidden group edit"
+msgstr ""
+
+#: Controller/ItemReportsController.php:78;94;125
+msgid "Invalid item report"
+msgstr ""
+
+#: Controller/ItemReportsController.php:155
+msgid "Invalid item."
+msgstr ""
+
+#: Controller/LoginAdsController.php:35
+msgid "Login Ads are disabled"
+msgstr ""
+
+#: Controller/MembershipsController.php:133
+msgid "Invalid duration"
+msgstr ""
+
+#: Controller/MembershipsController.php:136;220;285;332;356;380
+#: Controller/UsersController.php:2113
+msgid "Invalid membership"
+msgstr ""
+
+#: Controller/MembershipsController.php:144
+msgid "Membership not available"
+msgstr ""
+
+#: Controller/MembershipsController.php:147
+msgid "Duration not available"
+msgstr ""
+
+#: Controller/NewsController.php:27;66;90;119
+msgid "Invalid news"
+msgstr ""
+
+#: Controller/PaidOffersController.php:38
+msgid "Paid offers are disabled"
+msgstr ""
+
+#: Controller/PaidOffersController.php:164
+msgid "Invalid category"
+msgstr ""
+
+#: Controller/PaidOffersController.php:180
+msgid "Invalid value"
+msgstr ""
+
+#: Controller/PaidOffersController.php:239;259;279;309;387;556;663;727;760;781;890;1157;1193;1223;1248;1303;1340
+msgid "Invalid offer"
+msgstr ""
+
+#: Controller/PaidOffersController.php:477;515;531;1366
+msgid "Invalid application"
+msgstr ""
+
+#: Controller/PaidOffersController.php:565;571;578;1260;1264;1375
+msgid "Failed to save application."
+msgstr ""
+
+#: Controller/PaidOffersController.php:1228
+msgid "Failed to save report."
+msgstr ""
+
+#: Controller/PaidOffersController.php:1256
+msgid "Please provide description."
+msgstr ""
+
+#: Controller/PaidOffersController.php:1371
+msgid "Please provide reject reason."
+msgstr ""
+
+#: Controller/PaymentsController.php:181
+msgid "Failed to unshorten item id"
+msgstr ""
+
+#: Controller/PaymentsController.php:195
+msgid "Failed to get Deposit gatewayid."
+msgstr ""
+
+#: Controller/PaymentsController.php:226
+msgid "Invalid User"
+msgstr ""
+
+#: Controller/PaymentsController.php:231
+msgid "Failed to assign item."
+msgstr ""
+
+#: Controller/PaymentsController.php:258
+msgid "Failed to save deposit: %s"
+msgstr ""
+
+#: Controller/PaymentsController.php:287
+msgid "Failed to get Cashout id."
+msgstr ""
+
+#: Controller/PaymentsController.php:332
+msgid "Failed to change Cashout status"
+msgstr ""
+
+#: Controller/PaymentsController.php:388
+msgid "Processor not specified"
+msgstr ""
+
+#: Controller/PaymentsController.php:409
+msgid "Operation not implemented"
+msgstr ""
+
+#: Controller/PaymentsController.php:413
+msgid "Processor not found"
+msgstr ""
+
+#: Controller/PaymentsController.php:462
+msgid "Payment data not set"
+msgstr ""
+
+#: Controller/PaymentsController.php:477
+msgid "PaymentMessage not set"
+msgstr ""
+
+#: Controller/RentExtensionPeriodsController.php:21
+msgid "Invalid renting period"
+msgstr ""
+
+#: Controller/SettingsController.php:156;167
+msgid "Failed to turn off payments gateways."
+msgstr ""
+
+#: Controller/SettingsController.php:487
+msgid "Failed to create new deposits column in UserStatistic"
+msgstr ""
+
+#: Controller/SettingsController.php:492
+msgid "Failed to create new column in UserProfile"
+msgstr ""
+
+#: Controller/SettingsController.php:495
+msgid "Failed to create new cashouts column in UserStatistic"
+msgstr ""
+
+#: Controller/SupportCannedAnswersController.php:46;108
+msgid "Invalid support canned answer."
+msgstr ""
+
+#: Controller/SupportCannedAnswersController.php:80
+msgid "Invalid support canned answer"
+msgstr ""
+
+#: Controller/SupportController.php:22
+#: Controller/UsersController.php:332
+msgid "Too many failed attempts."
+msgstr ""
+
+#: Controller/SupportController.php:28
+msgid "Support is disabled."
+msgstr ""
+
+#: Controller/SupportController.php:149;216;236;256;328;375
+msgid "Invalid ticket"
+msgstr ""
+
+#: Controller/SupportController.php:157
+msgid "Ticket is closed."
+msgstr ""
+
+#: Controller/SupportController.php:287
+msgid "Invalid ticket."
+msgstr ""
+
+#: Controller/UserProfilesController.php:43
+msgid "Invalid user profile"
+msgstr ""
+
+#: Controller/UsersController.php:176;524
+msgid "Invalid token."
+msgstr ""
+
+#: Controller/UsersController.php:180
+msgid "Failed to activate user."
+msgstr ""
+
+#: Controller/UsersController.php:210
+msgid "New e-mail not found"
+msgstr ""
+
+#: Controller/UsersController.php:219
+msgid "Failed to save new email"
+msgstr ""
+
+#: Controller/UsersController.php:223
+msgid "Failed to clear next email"
+msgstr ""
+
+#: Controller/UsersController.php:400
+msgid "Failed to update login data"
+msgstr ""
+
+#: Controller/UsersController.php:493
+msgid "Failed to create password reset token."
+msgstr ""
+
+#: Controller/UsersController.php:520
+msgid "Invalid user."
+msgstr ""
+
+#: Controller/UsersController.php:530
+msgid "Failed to reset password."
+msgstr ""
+
+#: Controller/UsersController.php:536
+msgid "Failed to clear reset token."
+msgstr ""
+
+#: Controller/UsersController.php:645
+#: Model/User.php:2338
+msgid "Invalid rrefs ids"
+msgstr ""
+
+#: Controller/UsersController.php:660;669
+msgid "Failed to extend referrals."
+msgstr ""
+
+#: Controller/UsersController.php:796
+msgid "Invalid RentExtensionPeriod"
+msgstr ""
+
+#: Controller/UsersController.php:856;1122
+msgid "Invalid referral id"
+msgstr ""
+
+#: Controller/UsersController.php:860;1126
+msgid "You cannot delete someone else referral"
+msgstr ""
+
+#: Controller/UsersController.php:876;1142
+msgid "Failed to change purchase balance."
+msgstr ""
+
+#: Controller/UsersController.php:885
+msgid "Failed to change account balance."
+msgstr ""
+
+#: Controller/UsersController.php:954
+msgid "Invalid autorenew value"
+msgstr ""
+
+#: Controller/UsersController.php:962
+msgid "Invalid referrals package"
+msgstr ""
+
+#: Controller/UsersController.php:1009;1065
+#: Model/Commission.php:88
+msgid "Invalid referral"
+msgstr ""
+
+#: Controller/UsersController.php:1099
+msgid "You cannot delete someone else"
+msgstr ""
+
+#: Controller/UsersController.php:1462
+msgid "Wrong cashout configuration"
+msgstr ""
+
+#: Controller/UsersController.php:1523
+msgid "Wrong gateway"
+msgstr ""
+
+#: Controller/UsersController.php:1536
+msgid "Failed to save user account balance."
+msgstr ""
+
+#: Controller/UsersController.php:1540
+msgid "Failed to save cashout."
+msgstr ""
+
+#: Controller/UsersController.php:1553
+msgid "Failed to save cashout status."
+msgstr ""
+
+#: Controller/UsersController.php:2027
+msgid "Failed to change direct upline"
+msgstr ""
+
+#: Controller/UsersController.php:2055
+msgid "Failed to change rented upline."
+msgstr ""
+
+#: Controller/UsersController.php:2118
+msgid "Failed to add new membership"
+msgstr ""
+
+#: Controller/Component/PaymentsComponent.php:172
+msgid "Payment processor settings not found"
+msgstr ""
+
+#: Controller/Component/PaymentsComponent.php:197;235
+msgid "Payment gateway not allowed"
+msgstr ""
+
+#: Controller/Component/PaymentsComponent.php:261
+msgid "Failed to shorten item id"
+msgstr ""
+
+#: Controller/Component/PaymentsComponent.php:268;458;471
+msgid "Payment processor not selected"
+msgstr ""
+
+#: Controller/Component/PaymentsComponent.php:271;461;474
+msgid "%s not found!"
+msgstr ""
+
+#: Controller/Component/PaymentsComponent.php:276
+msgid "%s: not allowed for deposits"
+msgstr ""
+
+#: Controller/Component/PaymentsComponent.php:419
+msgid "Invalid template string"
+msgstr ""
+
+#: Controller/Component/ReportComponent.php:21
+msgid "Invalid item report type"
+msgstr ""
+
+#: Controller/Component/ReportComponent.php:34
+msgid "Item not found"
+msgstr ""
+
+#: Model/AppModel.php:69
+msgid "Cannot compare to the non-existing field \"%s\" of model %s."
+msgstr ""
+
+#: Model/Banner.php:238
+msgid "Banner not found"
+msgstr ""
+
+#: Model/Banner.php:259
+msgid "Failed to allocate color"
+msgstr ""
+
+#: Model/Banner.php:274
+msgid "Failed to draw text"
+msgstr ""
+
+#: Model/Banner.php:280
+msgid "Failed to save image"
+msgstr ""
+
+#: Model/Banner.php:313
+msgid "Failed to load image %s"
+msgstr ""
+
+#: Model/Commission.php:161
+msgid "Commission already credited"
+msgstr ""
+
+#: Model/DepositBonus.php:82
+msgid "DepositBonus does not exists"
+msgstr ""
+
+#: Model/DepositBonus.php:90
+msgid "Failed to subtract purchase balance"
+msgstr ""
+
+#: Model/Email.php:122
+#: Model/PendingEmail.php:37
+msgid "Wrong e-mail data"
+msgstr ""
+
+#: Model/Ip2Nation.php:32
+msgid "Invalid IP address: %s = %s"
+msgstr ""
+
+#: Model/ItemReport.php:161
+msgid "Unknown model %s"
+msgstr ""
+
+#: Model/Membership.php:510
+msgid "Could not find default membership"
+msgstr ""
+
+#: Model/MembershipsUser.php:58;79
+msgid "Failed to save new membership"
+msgstr ""
+
+#: Model/MembershipsUser.php:99
+msgid "Failed to delete memberships user"
+msgstr ""
+
+#: Model/PaidOffersApplication.php:154
+msgid "Failed to free slot in offer %d"
+msgstr ""
+
+#: Model/PaidOffersApplication.php:184
+msgid "Failed to accept application %s."
+msgstr ""
+
+#: Model/SupportTicketAnswer.php:125
+msgid "Invalid ticket_id"
+msgstr ""
+
+#: Model/User.php:514
+msgid "Failed to create user associated records"
+msgstr ""
+
+#: Model/User.php:517
+msgid "Failed to get signup bonus"
+msgstr ""
+
+#: Model/User.php:655
+msgid "Failed to create User Metadata"
+msgstr ""
+
+#: Model/User.php:659
+msgid "Failed to create User Profile"
+msgstr ""
+
+#: Model/User.php:663
+msgid "Failed to create Default Membership"
+msgstr ""
+
+#: Model/User.php:667
+msgid "Failed to create User Statistics"
+msgstr ""
+
+#: Model/User.php:689
+msgid "Failed to add to default group"
+msgstr ""
+
+#: Model/User.php:1298
+msgid "Package is not in range"
+msgstr ""
+
+#: Model/User.php:1302
+msgid "Package is not available"
+msgstr ""
+
+#: Model/User.php:1306
+msgid "Available referrals packs is empty"
+msgstr ""
+
+#: Model/User.php:1310
+msgid "Amount is too small"
+msgstr ""
+
+#: Model/User.php:1373
+msgid "Direct referrals limit overflow"
+msgstr ""
+
+#: Model/User.php:1493
+msgid "Invalid rent filter"
+msgstr ""
+
+#: Model/User.php:1598
+msgid "Failed to recycle %d's referrals"
+msgstr ""
+
+#: Model/User.php:1622
+msgid "Failed to recycle %d's R-type referrals, probably we are too short on R-type referrals."
+msgstr ""
+
+#: Model/User.php:1692;1734
+msgid "null argument"
+msgstr ""
+
+#: Model/User.php:2266
+msgid "Failed to save upline balances"
+msgstr ""
+
+#: Model/User.php:2272
+msgid "Failed to extend referrals rent time"
+msgstr ""
+
+#: Model/User.php:2279
+msgid "Failed to save attempts number"
+msgstr ""
+
+#: Model/UserStatistic.php:410
+msgid "Wrong user id"
+msgstr ""
+

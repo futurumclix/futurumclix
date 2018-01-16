@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2016-06-20 15:28+0200\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.8\n"
+"Last-Translator: \n"
+"Language: es_ES\n"
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:169
+#: Module/Offerwalls/View/Offerwalls/index.ctp:11
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/index.ctp:8
+msgid "Offerwalls"
+msgstr "Ofertas de pago"
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:178
+msgid "Offerwall's Log"
+msgstr "Registro de ofertas de pago"
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:194
+msgid "Failed to get transaction id."
+msgstr "No se ha podido obtener el identificador de transacción."
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:228
+msgid "Failed to save offer"
+msgstr "No se puede guardar la oferta."
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:237
+msgid "Offerwall not specified"
+msgstr "La oferta no ha sido determinada."
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:245
+msgid "Offerwall not found: %s"
+msgstr "No se ha encontrado la oferta %s"
+
+#: Module/Offerwalls/Controller/Component/OfferwallsComponent.php:45
+msgid "Offerwall settings not found"
+msgstr "No se han encontrado los ajustes de la oferta de pago"
+
+#: Module/Offerwalls/Model/OfferwallsOffer.php:85
+msgid "Invalid user"
+msgstr "Usuario incorrecto"
+
+#: Module/Offerwalls/Model/OfferwallsOffer.php:92
+msgid "Empty offers options"
+msgstr "Opciones vacías de la oferta de pago"
+
+#: Module/Offerwalls/Model/OfferwallsOffer.php:105;111;147;153
+msgid "Failed to credit offer"
+msgstr "No se ha podido añadir la bonificación por la oferta"
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:12
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:7
+msgid "Offerwalls Log"
+msgstr "Registro de ofertas de pago"
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:19
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:18
+msgid "Offer ID"
+msgstr "ID de la oferta"
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:20
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:19
+msgid "Date completed"
+msgstr "Fecha de realización"
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:21
+msgid "Credit date"
+msgstr "Fecha de añadido de la bonificación"
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:38
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:49
+msgid "Page {:page} of {:pages}"
+msgstr "Página {:page} de {:pages}"
+
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:20
+msgid "Date credited"
+msgstr "Fecha de pago"

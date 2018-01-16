@@ -1,0 +1,294 @@
+/* IMPORTS */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700&subset=latin-ext);
+
+/* bootstrap overrides */
+
+.table-responsive {
+  	overflow-x: inherit !important;
+}
+
+.fa-plus-circle {
+	cursor: pointer;
+} 
+
+textarea.form-control {
+	min-height: 250x;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+    display: block;     
+    height: 0;          
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+    height: auto;       
+} 
+
+/* LAYOUT */
+
+body {
+	background: #dedede;
+	font-family: "Roboto";
+}
+
+a {
+	color: #0e68a6;
+	cursor: pointer;
+}
+
+form {
+	margin-bottom: 15px;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	cursor: copy !important;
+}
+
+.radio {
+	display: inline-block !important;
+	padding-left: 5px;
+}
+
+.control-label {
+	text-align: left !important;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.container {
+	padding: 5px;
+}
+
+.header {
+	margin-bottom: 10px;
+	background: #071722;
+	padding: 10px;
+}
+
+.box {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e5e5e5;
+}
+
+.paddingten {
+	padding: 10px;
+}
+
+.welcome {
+    border-right: 1px solid;
+    border-color: #fff;
+	padding-right: 10px;
+    color: #fff;
+}
+
+.title {
+    background: none repeat scroll 0 0 #0E68A6;
+    margin-bottom: 5px;
+    margin-top: 5px;
+	padding: 2px;
+}
+
+.title2 {
+	background: none repeat scroll 0 0 #2e9fed;
+    margin-bottom: 5px;
+    margin-top: 5px;
+	padding: 2px;
+}
+	
+.title3 {
+	background: none repeat scroll 0 0 #2ECEEC;
+    margin-bottom: 5px;
+    margin-top: 5px;
+	padding: 2px;
+}
+	
+
+.title h2,.title2 h2,.title3 h2{
+	color: #fff;
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 5px 0px 5px 5px;
+}
+
+.title2 a {
+	color: #ffffff;
+}
+
+.searchform {
+	margin: 0 0 15px 0 !important;
+}
+
+.alert {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.form-error {
+	-webkit-box-shadow: rgba(255,0,0,0.9) 0px 0px 2px 0px;
+	box-shadow: rgba(255,0,0,0.9) 0px 0px 2px 0px;
+	-webkit-appearance: none;
+	border: 1px solid rgba(255,0,0,0.1);
+}
+
+/* TOP NAVIGATION */
+
+.top_nav li{
+	display: inline-block;
+}
+
+.top_nav ul {
+	list-style-type: none;
+}
+
+.top_nav li a{
+	color: #fff;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+
+.top_nav li a:hover{
+	background: #135b94;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.navbar-top {
+	background-color: #45484a;
+}
+
+.navbar-top .navbar-nav > li > a {
+	color: #fff;
+	text-shadow: none;
+}
+
+.navbar-top .navbar-nav > li > a:hover {
+	color: #00ff00;
+	background: none;
+}
+
+.navbar-top .navbar-nav > .open > a, .navbar-top .navbar-nav > .open > a:hover, .navbar-top .navbar-nav > .open > a:focus {
+    background-color: #2e9fed;
+    color: #fff;
+}
+
+.nav-stats {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	font-size: 10px;
+	font-style: italic;
+}
+
+/* PA LOGIN */
+
+.login-box {
+	background:#fff;
+	margin-top: 20%;
+	padding: 2%;
+}
+
+.login-box .input-group {
+	margin-bottom: 10px;
+}
+
+.login-box img {
+	margin-bottom: 30px;
+}
+
+.login-box .lock {
+	padding-right: 14px;
+}
+
+/* PA INDEX */
+
+.effect6
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect6:before, .effect6:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+
+/* upload button */
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    width: 150px;
+	text-align: center;
+}
+
+/* checkbox override */
+
+input[type='checkbox'] {
+	height: inherit;
+	width: initial;
+}
+
+/* paddings for some radios */
+
+.gender label {
+	padding: 0 10px;
+}
+
+/* forum list */
+
+.forumorder .panel .panel-heading {
+	border-radius: 3px;
+}
+
+.forumorder .panel {
+	border: 0;
+	list-style-type: none;
+	margin: 10px 0 0 0;
+	box-shadow: none;
+}
+
+.forumorder .panel ul {
+	list-style-type: none;
+}
+
+ul.draggablePanelList.list-group.forumorder.ui-sortable li.panel.panel-primary ul.draggablePanelList.ui-sortable li.panel.panel-primary div.panel-heading {
+    background-image: linear-gradient(to bottom, #f2dede 0px, #ebcccc 100%);
+    background-repeat: repeat-x;
+	border: 0;
+	color: #000000;
+}

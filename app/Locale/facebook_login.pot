@@ -1,0 +1,102 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:43;80
+msgid "Facebook Graph returned an error: %s"
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:45;82
+msgid "Facebook SDK error: %s"
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:50
+msgid "Error %s, code %s, reason %s, description %s"
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:52
+msgid "Bad request"
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:63
+msgid "Invalid Facebook appID"
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:71
+msgid "Failed to get long-lived access token: %s"
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:95
+msgid "Invalid user data"
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:146
+msgid "Your IP is already in use."
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:156
+msgid "Your account has been successfully created."
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:160
+msgid "User could not be saved. Please, try again"
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:173
+msgid "Direct link"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:4
+#: View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:6
+msgid "Register at FuturumClix.com"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:6
+msgid "To finish your registration via Facebook you just need to provide us your username and password so you will be able to change your personal settings in the future and recover your password in case you will loose it."
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:9
+#: View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:15
+msgid "Username"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:23
+#: View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:29
+msgid "Password"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:37
+#: View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:43
+msgid "Confirm password"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:52
+#: View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:58
+msgid "Referrer"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:69
+#: View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:74
+msgid "I understand and agree with %s"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:69
+msgid "Terms of Service"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:73
+#: View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:78
+msgid "Register"
+msgstr ""
+

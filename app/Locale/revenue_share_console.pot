@@ -1,0 +1,31 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/RevenueShare/Console/Command/RevenueShareShell.php:17
+msgid "Runing revenue share pay..."
+msgstr ""
+
+#: Module/RevenueShare/Console/Command/RevenueShareShell.php:23
+msgid "done."
+msgstr ""
+
+#: Module/RevenueShare/Model/RevenueSharePacket.php:184;190
+msgid "Failed to change account balance of user %d"
+msgstr ""
+
+#: Module/RevenueShare/Model/RevenueSharePacket.php:195
+msgid "Invalid credit limit setting"
+msgstr ""
+

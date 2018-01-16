@@ -1,0 +1,12 @@
+;<?php exit(0);?>
+[debug]
+level = 0
+[cache]
+enabled = false
+prefix = "futurumclix_" 
+[security]
+salt = "SOME_RANDOM_VALUE"
+key = "SOME_RANDOM_VALUE"
+cipher_seed = "SOME_RANDOM_NUMBERS"
+[compatibility]
+disable_put = no

@@ -1,0 +1,179 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/BotSystem/Controller/BotSystemController.php:12;20
+msgid "Bot system settings saved sucessfully."
+msgstr ""
+
+#: Module/BotSystem/Controller/BotSystemController.php:14;22
+msgid "The settings could not be saved. Please, try again."
+msgstr ""
+
+#: Module/BotSystem/Controller/BotSystemController.php:55
+msgid "Wrong number of bots"
+msgstr ""
+
+#: Module/BotSystem/Controller/BotSystemController.php:61
+msgid "%d bots created successfully."
+msgstr ""
+
+#: Module/BotSystem/Controller/BotSystemController.php:63
+msgid "Failed to create bots. Please, try again."
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:3
+msgid "Bot System"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:6
+msgid "General Settings"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:8
+msgid "%s settings"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:14
+msgid "General settings"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:18
+msgid "Upline Activity Requirement"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:26
+msgid "Enable to force users to click specified amount of ads (in activity settings) the day before to get credited from his referrals clicks"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:32
+msgid "Show Bot Clicks When Activity Requirement Is Not Met"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:40
+msgid "It will show bot clicks in user's statistics even they will not be credited."
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:46
+msgid "Available Bots"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:52
+msgid "Bots in Use"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:58
+msgid "Add Bots Automatically (Daily)"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:66
+msgid "Enable auto adding bots (daily)"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:72
+msgid "How Much Bots To Add Per Day"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:75;213
+msgid "Min"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:87;229
+msgid "Max"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:99
+msgid "Save changes"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:104
+msgid "Generate new bots"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:108
+msgid "Generate New Bots"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:113
+msgid "Generate"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:123
+msgid "%s membership's Bots Settings"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:131
+msgid "Click Value"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:139
+msgid "This is how much upline will get per bot clicks"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:146
+msgid "Minimum Clicks Per Day"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:156
+msgid "Minimum amount of clicks this bot will make per day"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:162
+msgid "Maximum Clicks Per Day"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:172
+msgid "Maximum amount of clicks this bot will make per day"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:178
+msgid "Chance To Skip A Day"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:188
+msgid "Chance (in percent) that bot will not click certain day"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:194
+msgid "Maximum Average"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:204
+msgid "Maximum Average (in X.XX format) this group can make"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:210
+msgid "Activity Days"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:222
+msgid "Minimum amount of days this bot will stay active"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:238
+msgid "Maximum amount of days this bot will stay active"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:245
+msgid "Chance To Stop Clicking"
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:255
+msgid "How much (in percent) chances for bot to stop clicking."
+msgstr ""
+
+#: Module/BotSystem/View/BotSystem/admin_settings.ctp:261
+msgid "Save"
+msgstr ""
+

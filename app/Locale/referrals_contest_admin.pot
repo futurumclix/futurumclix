@@ -1,0 +1,297 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:30
+msgid "Referrals contest settings saved successfully."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:32
+msgid "The settings could not be saved. Please, try again."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:37
+msgid "Referrals contest successfully saved."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:40
+msgid "Failed to save new contest. Please, try again."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:57;80;105;135;150;180
+msgid "Invalid contest"
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:64
+msgid "Referrals contest saved successfully"
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:67
+msgid "Failed to save referrals contest. Please, try again."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:84
+msgid "Referrals contest deleted successfully"
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:86
+msgid "Failed to delete referrals contest. Please, try again."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:96;122
+msgid "Please select at least one contest."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:120
+msgid "Mass Action done."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:125
+msgid "Please select an action."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:155;184
+msgid "Invalid user"
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:168
+msgid "User banned successfully."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:170
+msgid "Failed to ban user. Please, try again."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:196
+msgid "User unbanned successfully."
+msgstr ""
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:198
+msgid "Failed to unban user. Please, try again."
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:3
+msgid "Contest details"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:7
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:157
+msgid "Contest Name"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:13
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:163
+msgid "Contest Description"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:23
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:173
+msgid "Contest Period"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:26
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:61;176
+msgid "From"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:32
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:62;182
+msgid "To"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:38
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:188
+msgid "Activity"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:42
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:192
+msgid "Count only those users which made at least %s clicks after they signup."
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:47
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:197
+msgid "Prizes"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:53;81
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:203;231
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:12
+msgid "Place"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:59;87
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:209;237
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:15
+msgid "Prize"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:65;93
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:215;243
+msgid "Where To Credit Prize"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:70;98
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:220;248
+msgid "Account Balance"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:71;99
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:221;249
+msgid "Purchase Balance"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:109
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:259
+msgid "Click to add another place"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_edit.ctp:113
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:263
+msgid "Save contest"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:3
+msgid "Referral Contest"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:6;13
+msgid "Settings"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:7
+msgid "Current contests"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:8
+msgid "Add Contest"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:17
+msgid "Show Finished Referral Contests"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:25
+msgid "Check this option to show all finished contests on the user side"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:31
+msgid "Show Future Referral Contests"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:39
+msgid "Check this option to show all future contests on the user side"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:45
+msgid "Save changes"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:63
+msgid "Places"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:64
+msgid "Status"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:65
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:16
+msgid "Actions"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:83
+msgid "Ended"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:85
+msgid "Future"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:87
+msgid "Active"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:93
+msgid "View"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:99
+msgid "Edit"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:105;126
+msgid "Delete"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:108
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:119
+msgid "Mass action"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:122
+msgid "--Choose--"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:131
+msgid "Perform action"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:137
+msgid "Page {:page} of {:pages}"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_index.ctp:153
+msgid "Contest Details"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:3
+msgid "Referral contest - \"%s\""
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:13
+msgid "Nickname"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:14
+msgid "Referrals"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:20
+msgid "%d."
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:27
+msgid "%s (%s)"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:27
+msgid "%s Balance"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:29
+msgid "---"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:38
+msgid "Are you sure you want to unban \"%s\" from \"%s\"?"
+msgstr ""
+
+#: Module/ReferralsContest/View/ReferralsContest/admin_view.ctp:46
+msgid "Are you sure you want to ban \"%s\" from \"%s\"?"
+msgstr ""
+

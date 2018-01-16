@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2016-06-20 15:35+0200\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.8\n"
+"Last-Translator: \n"
+"Language: es_ES\n"
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:239;255
+msgid "Referral's Contest"
+msgstr "Concurso de recomendados"
+
+#: Module/ReferralsContest/Controller/ReferralsContestController.php:249
+msgid "Invalid contest"
+msgstr "Concurso incorrecto"
+
+#: Module/ReferralsContest/View/ReferralsContest/index.ctp:11
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/index.ctp:9
+msgid "Referral's contest"
+msgstr "Concurso de recomendados"
+
+#: Module/ReferralsContest/View/ReferralsContest/index.ctp:14
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/index.ctp:20
+msgid "Current contests"
+msgstr "Concursos actuales"
+
+#: Module/ReferralsContest/View/ReferralsContest/index.ctp:16
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/index.ctp:22
+msgid "Old contests"
+msgstr "Concursos expirados"
+
+#: Module/ReferralsContest/View/ReferralsContest/index.ctp:19
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/index.ctp:25
+msgid "Incoming contests"
+msgstr "Concursos próximos"
+
+#: Module/ReferralsContest/View/ReferralsContest/index.ctp:30;68;107
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/index.ctp:36;71;107
+msgid "Title"
+msgstr "Nombre"
+
+#: Module/ReferralsContest/View/ReferralsContest/index.ctp:31;69;108
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/index.ctp:37;72;108
+msgid "From"
+msgstr "De"
+
+#: Module/ReferralsContest/View/ReferralsContest/index.ctp:32;70;109
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/index.ctp:38;73;109
+msgid "To"
+msgstr "A"
+
+#: Module/ReferralsContest/View/ReferralsContest/index.ctp:33;71;110
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/index.ctp:39;74;110
+msgid "Places"
+msgstr "Lugares"
+
+#: Module/ReferralsContest/View/ReferralsContest/index.ctp:34;72;111
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/index.ctp:40;75;111
+msgid "Actions"
+msgstr "Actividades"
+
+#: Module/ReferralsContest/View/ReferralsContest/view.ctp:11
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/view.ctp:9
+msgid "Referral's contest - \"%s\""
+msgstr "Concurso de recomendados - \"%s\""
+
+#: Module/ReferralsContest/View/ReferralsContest/view.ctp:21
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/view.ctp:26
+msgid "Place"
+msgstr "Lugar"
+
+#: Module/ReferralsContest/View/ReferralsContest/view.ctp:22
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/view.ctp:27
+msgid "Nickname"
+msgstr "Nombre de usuario"
+
+#: Module/ReferralsContest/View/ReferralsContest/view.ctp:23
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/view.ctp:28
+msgid "Referrals"
+msgstr "Recomendados"
+
+#: Module/ReferralsContest/View/ReferralsContest/view.ctp:24
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/view.ctp:29
+msgid "Prize"
+msgstr "Premio"
+
+#: Module/ReferralsContest/View/ReferralsContest/view.ctp:30
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/view.ctp:33
+msgid "%d."
+msgstr "Premio"
+
+#: Module/ReferralsContest/View/ReferralsContest/view.ctp:32
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/view.ctp:35
+msgid "%d"
+msgstr "Premio"
+
+#: Module/ReferralsContest/View/ReferralsContest/view.ctp:35
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/view.ctp:38
+msgid "%s (%s)"
+msgstr "Premio"
+
+#: Module/ReferralsContest/View/ReferralsContest/view.ctp:35
+msgid "%s Balance"
+msgstr "Premio"
+
+#: Module/ReferralsContest/View/ReferralsContest/view.ctp:37
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/view.ctp:40
+msgid "---"
+msgstr "Premio"

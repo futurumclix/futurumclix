@@ -1,0 +1,85 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:169
+#: Module/Offerwalls/View/Offerwalls/index.ctp:11
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/index.ctp:8
+msgid "Offerwalls"
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:178
+msgid "Offerwall's Log"
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:194
+msgid "Failed to get transaction id."
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:228
+msgid "Failed to save offer"
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:237
+msgid "Offerwall not specified"
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:245
+msgid "Offerwall not found: %s"
+msgstr ""
+
+#: Module/Offerwalls/Controller/Component/OfferwallsComponent.php:45
+msgid "Offerwall settings not found"
+msgstr ""
+
+#: Module/Offerwalls/Model/OfferwallsOffer.php:85
+msgid "Invalid user"
+msgstr ""
+
+#: Module/Offerwalls/Model/OfferwallsOffer.php:92
+msgid "Empty offers options"
+msgstr ""
+
+#: Module/Offerwalls/Model/OfferwallsOffer.php:105;111;147;153
+msgid "Failed to credit offer"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:12
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:7
+msgid "Offerwalls Log"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:19
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:18
+msgid "Offer ID"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:20
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:19
+msgid "Date completed"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:21
+msgid "Credit date"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:38
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:49
+msgid "Page {:page} of {:pages}"
+msgstr ""
+
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:20
+msgid "Date credited"
+msgstr ""
+

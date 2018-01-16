@@ -1,0 +1,1 @@
+<?=$this->Html->image($image, array('class' => 'countryFlag', 'alt' => $country, 'title' => $country, 'uk-tooltip' => ''))?>

@@ -1,0 +1,331 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:24;32;49
+msgid "Settings saved successfully."
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:26;34;52
+msgid "The settings could not be saved. Please, try again."
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:98
+msgid "Invalid option id"
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:102
+msgid "Option deleted successfully."
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:104
+msgid "Failed to delete option. Please, try again."
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:114
+msgid "Invalid packet id"
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:118
+msgid "Packet deleted successfully."
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:120
+msgid "Failed to delete packet. Please, try again."
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:130;156
+msgid "Please select at least one packet."
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:139
+msgid "Invalid packet"
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:154
+msgid "Mass Action done."
+msgstr ""
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:159
+msgid "Please select an action."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:11
+msgid "Revenue Share"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:14;41
+msgid "Settings"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:16
+msgid "%s settings"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:18
+msgid "Share Log"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:19
+msgid "Statistics"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:25;418
+msgid "Income"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:26
+msgid "Outcome"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:45
+msgid "Show Historic Revenue Shares"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:53
+msgid "Check this option to show all finished shares on the user side."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:59
+msgid "Upline Activity Requirement"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:67
+msgid "Enable to force users to click specified amount of ads (in activity settings) the day before to get credited from his revenue shares."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:73
+msgid "Allow Buying With Purchase Balance"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:81
+msgid "Enable to allow buying shares from purchase balance."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:87;175
+msgid "Save changes"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:94
+msgid "%s Settings"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:102
+msgid "Enable Revenue Share For This Membership"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:110
+msgid "Check this option if you want to enable revenue sharing for this membership."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:116
+msgid "Where To Credit Revenue Shares Income"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:127
+msgid "Maximum Amount Of Shares Allowed"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:137
+msgid "Enter the maximum amount of shares this membership can own (-1 means unlimited)."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:143
+msgid "Maximum Amount Of Shares Allowed In One Purchase"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:153
+msgid "Enter the maximum amount of shares this membership can buy in one purchase (-1 means unlimited)."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:159
+msgid "How Many Days Between Buying Shares"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:169
+msgid "Enter the amount of days this membership have to wait to buy another pack of shares."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:180
+msgid "Current Share Packs"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:186;235
+msgid "Name"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:187
+msgid "Running days"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:188
+msgid "Pack price"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:189
+msgid "Overall return"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:190
+msgid "Step"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:191
+msgid "Items"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:192;419
+msgid "Actions"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:197
+msgid "%d - %d"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:199
+msgid "%s%%"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:200
+msgid "%d hours and %d minutes"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:209
+msgid "None"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:215;456;477
+msgid "Delete"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:218
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:228
+msgid "Add New Revenue Share Pack"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:242
+msgid "Enter the name of this pack, it is only for information purposes."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:248
+msgid "Running Days"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:255;269
+msgid "Enter the amount of days this pack will be valid for."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:262
+msgid "Max Running Days"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:275
+msgid "Pack Price"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:283
+msgid "Enter the price for this share pack."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:291
+msgid "Overall Return"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:302
+msgid "Enter the overall return for this pack."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:311
+msgid "Credit Revenue Step"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:318
+msgid "Step (in minutes)."
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:325
+msgid "Items Included In This Pack"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:336
+msgid "Hold control key to select more than one item"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:344
+msgid "Expected Income Per Step"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:360
+msgid "Expected Income Per Day"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:376
+msgid "Expected Overall Income"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:394
+msgid "Add"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:402
+msgid "Revenue Share Log"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:414
+msgid "Username"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:415
+msgid "Membership"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:416
+msgid "Pack name"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:435;442
+msgid "User deleted"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:449
+msgid "Not longer available"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:452
+msgid "Completed"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:459
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:470
+msgid "Mass action"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:473
+msgid "--Choose--"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:482
+msgid "Perform action"
+msgstr ""
+
+#: Module/RevenueShare/View/RevenueShare/admin_index.ctp:488
+msgid "Page {:page} of {:pages}"
+msgstr ""
+

@@ -1,0 +1,6005 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AdminsController.php:94
+msgid "E-mail or password is incorrect"
+msgstr ""
+
+#: Controller/AdminsController.php:104
+msgid "Successfully loged out"
+msgstr ""
+
+#: Controller/AdminsController.php:253
+msgid "Site is currently in maintenance mode."
+msgstr ""
+
+#: Controller/AdminsController.php:263
+msgid "%d new cashouts are waiting for your attention."
+msgstr ""
+
+#: Controller/AdminsController.php:265
+msgid "New cashout is waiting for your attention."
+msgstr ""
+
+#: Controller/AdminsController.php:270
+msgid "Invalid URL configuration, please check."
+msgstr ""
+
+#: Controller/AdminsController.php:274
+msgid "Site name is not configured. Please check."
+msgstr ""
+
+#: Controller/AdminsController.php:277
+msgid "Site title is not configured. Please check."
+msgstr ""
+
+#: Controller/AdminsController.php:280
+msgid "Site e-mail is not configured. Please check."
+msgstr ""
+
+#: Controller/AdminsController.php:283
+msgid "Site e-mail sender is not configured. Please check."
+msgstr ""
+
+#: Controller/AdminsController.php:294
+msgid "%d PTC ads are waiting for your approval."
+msgstr ""
+
+#: Controller/AdminsController.php:296
+msgid "PTC ad is waiting for your approval."
+msgstr ""
+
+#: Controller/AdminsController.php:313
+msgid "%d %s are waiting for your approval."
+msgstr ""
+
+#: Controller/AdminsController.php:315
+msgid "%s is waiting for your approval."
+msgstr ""
+
+#: Controller/AdminsController.php:329
+msgid "%d AdGrid ads are waiting for your approval."
+msgstr ""
+
+#: Controller/AdminsController.php:331
+msgid "AdGrid ad is waiting for your approval."
+msgstr ""
+
+#: Controller/AdminsController.php:343
+msgid "%d item reports are waiting for your attention."
+msgstr ""
+
+#: Controller/AdminsController.php:345
+msgid "Item report is waiting for your attention."
+msgstr ""
+
+#: Controller/AdminsController.php:356
+msgid "%d Support tickets are waiting for your attention."
+msgstr ""
+
+#: Controller/AdminsController.php:358
+msgid "Support ticket is waiting for your attention."
+msgstr ""
+
+#: Controller/AdminsController.php:373
+msgid "%d Paid Offers applications is waiting for your attention."
+msgstr ""
+
+#: Controller/AdminsController.php:375
+msgid "Paid Offers application is waiting for your attention."
+msgstr ""
+
+#: Controller/AdminsController.php:381
+msgid "Daily cron is not working"
+msgstr ""
+
+#: Controller/AdminsController.php:385
+msgid "Frequent cron is not working"
+msgstr ""
+
+#: Controller/AdminsController.php:389
+msgid "Bot cron is not working"
+msgstr ""
+
+#: Controller/AdminsController.php:408
+msgid "The admin has been saved. Verification e-mail has been sent."
+msgstr ""
+
+#: Controller/AdminsController.php:410;542
+msgid "The admin could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AdminsController.php:428;453
+msgid "Please select at least one admin."
+msgstr ""
+
+#: Controller/AdminsController.php:451
+#: Controller/AdsCategoriesController.php:238
+#: Controller/AdsController.php:1124
+#: Controller/AntiCheatController.php:103
+#: Controller/BannerAdsController.php:898
+#: Controller/CashoutsController.php:340
+#: Controller/CommissionsController.php:185
+#: Controller/DepositsController.php:451
+#: Controller/FeaturedAdsController.php:909
+#: Controller/GroupsController.php:76
+#: Controller/ItemReportsController.php:170
+#: Controller/LoginAdsController.php:885
+#: Controller/MembershipsController.php:246
+#: Controller/NewsController.php:105
+#: Controller/PaidOffersController.php:332;500
+#: Controller/SupportController.php:310
+#: Controller/UsersController.php:1959
+msgid "Mass Action done."
+msgstr ""
+
+#: Controller/AdminsController.php:456
+#: Controller/AdsCategoriesController.php:243
+#: Controller/AdsController.php:1129
+#: Controller/AntiCheatController.php:108
+#: Controller/BannerAdsController.php:903
+#: Controller/CashoutsController.php:345
+#: Controller/CommissionsController.php:190
+#: Controller/DepositsController.php:456
+#: Controller/FeaturedAdsController.php:914
+#: Controller/GroupsController.php:81
+#: Controller/ItemReportsController.php:175
+#: Controller/LoginAdsController.php:890
+#: Controller/NewsController.php:110
+#: Controller/PaidOffersController.php:337;505
+#: Controller/SupportController.php:315
+#: Controller/UsersController.php:1964
+msgid "Please select action."
+msgstr ""
+
+#: Controller/AdminsController.php:499
+msgid "Your account has been successfully verified"
+msgstr ""
+
+#: Controller/AdminsController.php:539
+msgid "The admin has been saved."
+msgstr ""
+
+#: Controller/AdminsController.php:564
+msgid "The admin has been deleted."
+msgstr ""
+
+#: Controller/AdminsController.php:566
+msgid "The admin could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:208;240
+msgid "Please select at least one category."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:257;279
+msgid "The ad category has been saved."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:260;281
+msgid "The ad category could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:331
+msgid "The ad category has been deleted."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:333
+msgid "The ad category could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:351
+msgid "The ad category has been enabled."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:353
+msgid "The ad category could not be enabled. Please, try again."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:371
+msgid "The ad category has been disabled."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:373
+msgid "The ad category could not be disabled. Please, try again."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:386
+msgid "The ads categories order has been successfully saved."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:388
+msgid "The ads categories order could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:420
+#: Controller/FeaturedAdsController.php:673
+#: Controller/PaidOffersController.php:107
+msgid "Settings saved successfully."
+msgstr ""
+
+#: Controller/AdsCategoriesController.php:422
+msgid "Failed to save settings. Please, try again."
+msgstr ""
+
+#: Controller/AdsController.php:1092;1126
+#: Controller/BannerAdsController.php:866;900
+#: Controller/FeaturedAdsController.php:877;911
+#: Controller/LoginAdsController.php:853;887
+msgid "Please select at least one ad."
+msgstr ""
+
+#: Controller/AdsController.php:1155
+#: Controller/BannerAdsController.php:725;771
+#: Controller/FeaturedAdsController.php:730;785
+#: Controller/LoginAdsController.php:712;758
+#: Controller/PaidOffersController.php:351;397
+msgid "Advertiser not found."
+msgstr ""
+
+#: Controller/AdsController.php:1163;1201
+msgid "The advertisement has been saved."
+msgstr ""
+
+#: Controller/AdsController.php:1166;1204
+msgid "The advertisement could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AdsController.php:1170;1210
+msgid "Please select at least one country"
+msgstr ""
+
+#: Controller/AdsController.php:1173;1213
+msgid "Please select at least one membership"
+msgstr ""
+
+#: Controller/AdsController.php:1207
+msgid "Wrong advertiser"
+msgstr ""
+
+#: Controller/AdsController.php:1241
+#: Controller/BannerAdsController.php:809
+#: Controller/FeaturedAdsController.php:820
+#: Controller/LoginAdsController.php:796
+msgid "The advertisement has been deleted."
+msgstr ""
+
+#: Controller/AdsController.php:1243
+#: Controller/BannerAdsController.php:811
+#: Controller/FeaturedAdsController.php:822
+#: Controller/LoginAdsController.php:798
+msgid "The advertisement could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/AdsController.php:1261
+#: Controller/BannerAdsController.php:829
+#: Controller/FeaturedAdsController.php:840
+#: Controller/LoginAdsController.php:816
+msgid "The advertisement has been inactivated."
+msgstr ""
+
+#: Controller/AdsController.php:1263
+#: Controller/BannerAdsController.php:831
+#: Controller/FeaturedAdsController.php:842
+#: Controller/LoginAdsController.php:818
+msgid "The advertisement could not be inactivated. Please, try again."
+msgstr ""
+
+#: Controller/AdsController.php:1281
+#: Controller/BannerAdsController.php:849
+#: Controller/FeaturedAdsController.php:860
+#: Controller/LoginAdsController.php:836
+msgid "The advertisement has been activated."
+msgstr ""
+
+#: Controller/AdsController.php:1283
+#: Controller/BannerAdsController.php:851
+#: Controller/FeaturedAdsController.php:862
+#: Controller/LoginAdsController.php:838
+msgid "The advertisement could not be activated. Please, try again."
+msgstr ""
+
+#: Controller/AntiCheatController.php:19
+msgid "IP added sucessfully."
+msgstr ""
+
+#: Controller/AntiCheatController.php:22
+msgid "Failed to save IP. Please, try again."
+msgstr ""
+
+#: Controller/AntiCheatController.php:28
+msgid "Email lock added sucessfully."
+msgstr ""
+
+#: Controller/AntiCheatController.php:31
+msgid "Failed to save email lock. Please, try again."
+msgstr ""
+
+#: Controller/AntiCheatController.php:37
+msgid "Username lock added sucessfully."
+msgstr ""
+
+#: Controller/AntiCheatController.php:40
+msgid "Failed to save username lock. Please, try again."
+msgstr ""
+
+#: Controller/AntiCheatController.php:46
+msgid "Country lock added sucessfully."
+msgstr ""
+
+#: Controller/AntiCheatController.php:49
+msgid "Failed to save country lock. Please, try again."
+msgstr ""
+
+#: Controller/AntiCheatController.php:82;105
+#: Controller/DepositsController.php:453
+msgid "Please select at least one entry."
+msgstr ""
+
+#: Controller/AntiCheatController.php:122
+msgid "IP lock successfully deleted."
+msgstr ""
+
+#: Controller/AntiCheatController.php:124
+msgid "Failed to delete IP lock. Please, try again."
+msgstr ""
+
+#: Controller/AntiCheatController.php:139
+msgid "Username lock successfully deleted."
+msgstr ""
+
+#: Controller/AntiCheatController.php:141
+msgid "Failed to delete username lock. Please, try again."
+msgstr ""
+
+#: Controller/AntiCheatController.php:156
+msgid "Email lock successfully deleted."
+msgstr ""
+
+#: Controller/AntiCheatController.php:158
+msgid "Failed to delete email lock. Please, try again."
+msgstr ""
+
+#: Controller/AntiCheatController.php:173
+msgid "Country lock successfully deleted."
+msgstr ""
+
+#: Controller/AntiCheatController.php:175
+msgid "Failed to delete country lock. Please, try again."
+msgstr ""
+
+#: Controller/AntiCheatController.php:184
+#: Controller/SettingsController.php:177;220;260;299;519;698;744;776
+msgid "The settings has been saved."
+msgstr ""
+
+#: Controller/AntiCheatController.php:186
+#: Controller/BannerAdsController.php:672
+#: Controller/FeaturedAdsController.php:675
+#: Controller/LoginAdsController.php:652
+#: Controller/PaidOffersController.php:109
+#: Controller/SettingsController.php:179;222;262;301;513;703;746;778
+#: Controller/SupportController.php:422
+msgid "The settings could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AppController.php:200
+msgid "[%s] Suspended: Shared device detected with Evercookie."
+msgstr ""
+
+#: Controller/AppController.php:203;204
+msgid "Device shared with: %s."
+msgstr ""
+
+#: Controller/BannerAdsController.php:670
+#: Controller/LoginAdsController.php:650
+#: Controller/SupportController.php:420
+msgid "Settings saved successfully"
+msgstr ""
+
+#: Controller/BannerAdsController.php:678
+msgid "Banner ads packages saved successfully"
+msgstr ""
+
+#: Controller/BannerAdsController.php:680
+msgid "Failed to save banner ads packages. Please, try again."
+msgstr ""
+
+#: Controller/BannerAdsController.php:739;783
+msgid "Banner ad saved sucessfully"
+msgstr ""
+
+#: Controller/BannerAdsController.php:742;786
+msgid "Failed to save banner ad. Please, try again."
+msgstr ""
+
+#: Controller/BannersController.php:93
+msgid "File uploaded successfully"
+msgstr ""
+
+#: Controller/BannersController.php:95
+msgid "Banner saved sucessfully"
+msgstr ""
+
+#: Controller/BannersController.php:99
+msgid "Invalid font"
+msgstr ""
+
+#: Controller/BannersController.php:151
+msgid "The Banner has been deleted."
+msgstr ""
+
+#: Controller/BannersController.php:153
+msgid "The Banner could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CashoutsController.php:98
+msgid "The cashout has been deleted."
+msgstr ""
+
+#: Controller/CashoutsController.php:100
+msgid "The cashout could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CashoutsController.php:173
+msgid "Cashout status changed"
+msgstr ""
+
+#: Controller/CashoutsController.php:175
+msgid "Failed to change cashout status"
+msgstr ""
+
+#: Controller/CashoutsController.php:219
+msgid "Cashout request successfully send to gateway."
+msgstr ""
+
+#: Controller/CashoutsController.php:230
+msgid "Error while sending cashout request to gateway. Funds refunded to user."
+msgstr ""
+
+#: Controller/CashoutsController.php:232
+msgid "Error while sending cashout request to gateway and failed to refund funds to user."
+msgstr ""
+
+#: Controller/CashoutsController.php:235
+msgid "Error while sending cashout request to gateway."
+msgstr ""
+
+#: Controller/CashoutsController.php:239
+msgid "Cashout already completed."
+msgstr ""
+
+#: Controller/CashoutsController.php:305;342
+msgid "Please select at least one cashout."
+msgstr ""
+
+#: Controller/CommissionsController.php:106;137
+msgid "The commission has been deleted."
+msgstr ""
+
+#: Controller/CommissionsController.php:108;139
+msgid "The commission could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CommissionsController.php:131
+msgid "Failed to cancel commission. Please, try again."
+msgstr ""
+
+#: Controller/CommissionsController.php:153;187
+msgid "Please select at least one commission."
+msgstr ""
+
+#: Controller/DepositsController.php:231
+msgid "Save succesfull."
+msgstr ""
+
+#: Controller/DepositsController.php:240
+msgid "Error while saving. Please, try again."
+msgstr ""
+
+#: Controller/DepositsController.php:243
+msgid "Error while saving. User does not exist."
+msgstr ""
+
+#: Controller/DepositsController.php:266
+msgid "The deposit has been deleted."
+msgstr ""
+
+#: Controller/DepositsController.php:268
+msgid "The deposit could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/DepositsController.php:296
+msgid "User has insufficient purchase balance, failed to cancel deposit."
+msgstr ""
+
+#: Controller/DepositsController.php:320;397
+msgid "Failed to cancel deposit bonus, user has insufficient purchase balance."
+msgstr ""
+
+#: Controller/DepositsController.php:327
+msgid "Deposit deleted successfully."
+msgstr ""
+
+#: Controller/DepositsController.php:329
+msgid "Failed to delete deposit."
+msgstr ""
+
+#: Controller/DepositsController.php:332
+msgid "Deposit cancelled successfully."
+msgstr ""
+
+#: Controller/DepositsController.php:372
+msgid "Sorry, user has insufficient purchase balance, refund cannot be done."
+msgstr ""
+
+#: Controller/DepositsController.php:405
+msgid "Refund has been done."
+msgstr ""
+
+#: Controller/DepositsController.php:407
+msgid "Failed to refund. Please, try again."
+msgstr ""
+
+#: Controller/DepositsController.php:422
+msgid "Please select at least one deposit."
+msgstr ""
+
+#: Controller/DirectReferralsPricesController.php:33
+msgid "The direct referrals price has been deleted."
+msgstr ""
+
+#: Controller/DirectReferralsPricesController.php:35
+msgid "The direct referrals price could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/FeaturedAdsController.php:681
+msgid "Featured ads packages saved successfully."
+msgstr ""
+
+#: Controller/FeaturedAdsController.php:683
+#: Controller/SupportController.php:430
+msgid "Failed to save featured ads packages. Please, try again."
+msgstr ""
+
+#: Controller/FeaturedAdsController.php:744
+msgid "Featured ad saved successfully."
+msgstr ""
+
+#: Controller/FeaturedAdsController.php:747;800
+msgid "Failed to save featured ad. Please, try again."
+msgstr ""
+
+#: Controller/FeaturedAdsController.php:797
+msgid "Featured ad saved sucessfully"
+msgstr ""
+
+#: Controller/GroupsController.php:36
+msgid "The group has been saved."
+msgstr ""
+
+#: Controller/GroupsController.php:39
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/GroupsController.php:56;78
+msgid "Please select at least one group."
+msgstr ""
+
+#: Controller/GroupsController.php:90
+msgid "The group has been created."
+msgstr ""
+
+#: Controller/GroupsController.php:93
+msgid "The group could not be created. Please, try again."
+msgstr ""
+
+#: Controller/GroupsController.php:106
+msgid "The group has been deleted."
+msgstr ""
+
+#: Controller/GroupsController.php:108
+msgid "The group could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ItemReportsController.php:100
+msgid "The item report has been saved."
+msgstr ""
+
+#: Controller/ItemReportsController.php:103
+msgid "The item report could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ItemReportsController.php:129
+msgid "The item report has been deleted."
+msgstr ""
+
+#: Controller/ItemReportsController.php:131
+msgid "The item report could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ItemReportsController.php:146;172
+msgid "Please select at least one item."
+msgstr ""
+
+#: Controller/LoginAdsController.php:658
+msgid "Login ads packages saved successfully"
+msgstr ""
+
+#: Controller/LoginAdsController.php:660
+msgid "Failed to save login ads packages. Please, try again."
+msgstr ""
+
+#: Controller/LoginAdsController.php:683
+#: View/Users/admin_index.ctp:194
+msgid "Never"
+msgstr ""
+
+#: Controller/LoginAdsController.php:684
+msgid "On every login"
+msgstr ""
+
+#: Controller/LoginAdsController.php:685
+msgid "Once every 24 hours"
+msgstr ""
+
+#: Controller/LoginAdsController.php:726;770
+msgid "Login ad saved successfully"
+msgstr ""
+
+#: Controller/LoginAdsController.php:729;773
+msgid "Failed to save login ad. Please, try again."
+msgstr ""
+
+#: Controller/MembershipsController.php:223
+msgid "Default membership cannot be modified by Mass Action."
+msgstr ""
+
+#: Controller/MembershipsController.php:248
+msgid "Please select memberships."
+msgstr ""
+
+#: Controller/MembershipsController.php:251
+msgid "Please select an action."
+msgstr ""
+
+#: Controller/MembershipsController.php:266
+msgid "The membership has been created."
+msgstr ""
+
+#: Controller/MembershipsController.php:269;306
+msgid "The membership could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MembershipsController.php:302
+msgid "The membership has been saved."
+msgstr ""
+
+#: Controller/MembershipsController.php:337
+msgid "The membership has been deleted."
+msgstr ""
+
+#: Controller/MembershipsController.php:339
+msgid "The membership could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MembershipsController.php:342
+msgid "Default membership cannot be deleted"
+msgstr ""
+
+#: Controller/MembershipsController.php:361
+msgid "The membership has been disabled."
+msgstr ""
+
+#: Controller/MembershipsController.php:363
+msgid "The membership could not be disabled. Please, try again."
+msgstr ""
+
+#: Controller/MembershipsController.php:366
+msgid "Default membership cannot be disabled"
+msgstr ""
+
+#: Controller/MembershipsController.php:386
+msgid "The membership has been activated."
+msgstr ""
+
+#: Controller/MembershipsController.php:388
+msgid "The membership could not be activated. Please, try again."
+msgstr ""
+
+#: Controller/MembershipsController.php:391
+msgid "Enable at least one period before activation of membership."
+msgstr ""
+
+#: Controller/MembershipsController.php:394
+msgid "Default membership cannot be activated."
+msgstr ""
+
+#: Controller/ModulesController.php:23
+msgid "Module activated sucessfully."
+msgstr ""
+
+#: Controller/ModulesController.php:27;41
+msgid "Failed to install module. Please, try again later."
+msgstr ""
+
+#: Controller/ModulesController.php:39
+msgid "Module deactivated sucessfully."
+msgstr ""
+
+#: Controller/NewsController.php:55
+msgid "The news has been created."
+msgstr ""
+
+#: Controller/NewsController.php:58
+msgid "The news could not be created. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:72
+msgid "The news has been saved."
+msgstr ""
+
+#: Controller/NewsController.php:75
+msgid "The news could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:85;107
+msgid "Please select at least one news."
+msgstr ""
+
+#: Controller/NewsController.php:122
+msgid "The news has been deleted."
+msgstr ""
+
+#: Controller/NewsController.php:124
+msgid "The news could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:115
+msgid "Paid offers categories saved successfully."
+msgstr ""
+
+#: Controller/PaidOffersController.php:117
+msgid "Failed to save paid offers categories. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:123
+msgid "Paid offers values saved successfully."
+msgstr ""
+
+#: Controller/PaidOffersController.php:125
+msgid "Failed to save paid offers values. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:131
+msgid "Paid offers packages saved successfully."
+msgstr ""
+
+#: Controller/PaidOffersController.php:133
+msgid "Failed to save paid offers packages. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:168
+msgid "Paid offers category successfully deleted."
+msgstr ""
+
+#: Controller/PaidOffersController.php:170
+msgid "Failed to delete paid offers category. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:184
+msgid "Paid offers value successfully deleted."
+msgstr ""
+
+#: Controller/PaidOffersController.php:186
+msgid "Failed to delete paid offers value. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:200
+msgid "Paid offers package successfully deleted."
+msgstr ""
+
+#: Controller/PaidOffersController.php:202
+msgid "Failed to delete paid offers package. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:243
+msgid "The offer has been deleted."
+msgstr ""
+
+#: Controller/PaidOffersController.php:245
+msgid "The offer could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:263
+msgid "The offer has been inactivated."
+msgstr ""
+
+#: Controller/PaidOffersController.php:265
+msgid "The offer could not be inactivated. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:283
+msgid "The offer has been activated."
+msgstr ""
+
+#: Controller/PaidOffersController.php:285
+msgid "The offer could not be activated. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:300;334
+msgid "Please select at least one offer."
+msgstr ""
+
+#: Controller/PaidOffersController.php:364
+msgid "Paid Offer saved successfully."
+msgstr ""
+
+#: Controller/PaidOffersController.php:367;411
+msgid "Failed to save paid offer. Please, try again."
+msgstr ""
+
+#: Controller/PaidOffersController.php:408
+msgid "Paid offer saved successfully"
+msgstr ""
+
+#: Controller/PaidOffersController.php:468;502
+msgid "Please select at least one application."
+msgstr ""
+
+#: Controller/PaidOffersController.php:519
+msgid "Application successfully accepted."
+msgstr ""
+
+#: Controller/PaidOffersController.php:521
+msgid "Failed to accept application. Please, try again later."
+msgstr ""
+
+#: Controller/PaidOffersController.php:541
+msgid "Application successfully rejected."
+msgstr ""
+
+#: Controller/PaidOffersController.php:543
+msgid "Failed to reject application. Please, try again later."
+msgstr ""
+
+#: Controller/RentExtensionPeriodsController.php:25
+msgid "The renting period has been deleted."
+msgstr ""
+
+#: Controller/RentExtensionPeriodsController.php:27
+msgid "The renting period could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/RentedReferralsPricesController.php:20
+msgid "The rented referrals prices has been deleted."
+msgstr ""
+
+#: Controller/RentedReferralsPricesController.php:22
+msgid "The rented referrals prices could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/SettingsController.php:171
+msgid "The following gateways were turned off: %s"
+msgstr ""
+
+#: Controller/SettingsController.php:252
+msgid "Failed to save rent extension periods."
+msgstr ""
+
+#: Controller/SettingsController.php:381;389;397
+msgid "Direct referrals assigned."
+msgstr ""
+
+#: Controller/SettingsController.php:383;391;399
+msgid "Failed to assign referrals. Please, try again."
+msgstr ""
+
+#: Controller/SettingsController.php:404;443
+msgid "You cannot assign more referrals than there is available."
+msgstr ""
+
+#: Controller/SettingsController.php:407
+msgid "Buying referrals is disabled."
+msgstr ""
+
+#: Controller/SettingsController.php:440
+msgid "Please select valid number of days"
+msgstr ""
+
+#: Controller/SettingsController.php:446
+msgid "Referral renting is disabled."
+msgstr ""
+
+#: Controller/SettingsController.php:450;453
+msgid "Unknown type."
+msgstr ""
+
+#: Controller/SettingsController.php:456
+#: Controller/UsersController.php:2411
+msgid "User not found."
+msgstr ""
+
+#: Controller/SettingsController.php:459
+msgid "Please enter username."
+msgstr ""
+
+#: Controller/SettingsController.php:462
+msgid "Please enter number of referrals."
+msgstr ""
+
+#: Controller/SettingsController.php:503
+msgid "Failed to save gateway settings"
+msgstr ""
+
+#: Controller/SettingsController.php:566
+msgid "ToS saved successfully."
+msgstr ""
+
+#: Controller/SettingsController.php:568;598;628
+msgid "Failed to save, please try again."
+msgstr ""
+
+#: Controller/SettingsController.php:596
+msgid "Privacy Policy saved successfully."
+msgstr ""
+
+#: Controller/SettingsController.php:626
+msgid "FAQ saved successfully."
+msgstr ""
+
+#: Controller/SettingsController.php:650
+msgid "E-mail saved successfully."
+msgstr ""
+
+#: Controller/SettingsController.php:652
+msgid "Failed to save e-mail. Please try again."
+msgstr ""
+
+#: Controller/SettingsController.php:700
+msgid "Failed to change default site URL protocol. Please try again."
+msgstr ""
+
+#: Controller/SupportCannedAnswersController.php:61;85
+msgid "The support canned answer has been saved."
+msgstr ""
+
+#: Controller/SupportCannedAnswersController.php:64;88
+msgid "The support canned answer could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SupportCannedAnswersController.php:112
+msgid "The support canned answer has been deleted."
+msgstr ""
+
+#: Controller/SupportCannedAnswersController.php:114
+msgid "The support canned answer could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/SupportController.php:220
+msgid "The ticket has been closed."
+msgstr ""
+
+#: Controller/SupportController.php:222
+msgid "The ticket could not be closed. Please, try again."
+msgstr ""
+
+#: Controller/SupportController.php:240
+msgid "The ticket has been opened."
+msgstr ""
+
+#: Controller/SupportController.php:242
+msgid "The ticket could not be opened. Please, try again."
+msgstr ""
+
+#: Controller/SupportController.php:260
+msgid "The ticket has been deleted."
+msgstr ""
+
+#: Controller/SupportController.php:262
+msgid "The ticket could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/SupportController.php:278;312
+msgid "Please select at least one ticket."
+msgstr ""
+
+#: Controller/SupportController.php:351
+msgid "Answer successfully saved."
+msgstr ""
+
+#: Controller/SupportController.php:357
+msgid "Failed to close ticket. Please, try again."
+msgstr ""
+
+#: Controller/SupportController.php:363
+msgid "Failed to save your answer. Please, try again."
+msgstr ""
+
+#: Controller/SupportController.php:428
+msgid "Departments saved successfully"
+msgstr ""
+
+#: Controller/UsersController.php:1917;1961
+msgid "Please select at least one user."
+msgstr ""
+
+#: Controller/UsersController.php:1980;2132
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:1983;2135
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:2097
+msgid "Failed to save groups associations."
+msgstr ""
+
+#: Controller/UsersController.php:2101
+msgid "Successfully removed all groups associations."
+msgstr ""
+
+#: Controller/UsersController.php:2104
+msgid "Failed to delete old groups associations."
+msgstr ""
+
+#: Controller/UsersController.php:2198
+msgid "User has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:2200
+msgid "User could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:2218
+msgid "User has been suspended."
+msgstr ""
+
+#: Controller/UsersController.php:2220
+msgid "User could not be suspended. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:2238
+msgid "User has been activated."
+msgstr ""
+
+#: Controller/UsersController.php:2240
+msgid "User could not be activated. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:2257
+msgid "Active membership deleted."
+msgstr ""
+
+#: Controller/UsersController.php:2259
+msgid "You cannot delete default membership."
+msgstr ""
+
+#: Controller/UsersController.php:2276
+msgid "User degraded to default membership."
+msgstr ""
+
+#: Controller/UsersController.php:2278
+msgid "Failed to degrade user. Please try again."
+msgstr ""
+
+#: Controller/UsersController.php:2296
+msgid "Action successfully completed."
+msgstr ""
+
+#: Controller/UsersController.php:2298
+msgid "An error has occurred. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:2315
+msgid "Users advertisements reseted."
+msgstr ""
+
+#: Controller/UsersController.php:2317
+msgid "Failed to reset advertisements. Please try again."
+msgstr ""
+
+#: Controller/UsersController.php:2335
+msgid "User's login data reseted"
+msgstr ""
+
+#: Controller/UsersController.php:2337
+msgid "Failed to reset user's login data"
+msgstr ""
+
+#: Controller/UsersController.php:2353
+msgid "Users direct referrals unhooked."
+msgstr ""
+
+#: Controller/UsersController.php:2355
+msgid "Failed to unhook direct referrals. Please try again."
+msgstr ""
+
+#: Controller/UsersController.php:2371
+msgid "Users rented referrals unhooked."
+msgstr ""
+
+#: Controller/UsersController.php:2373
+msgid "Failed to unhook rented referrals. Please try again."
+msgstr ""
+
+#: Controller/UsersController.php:2385
+msgid "All users"
+msgstr ""
+
+#: Controller/UsersController.php:2386
+msgid "Single user"
+msgstr ""
+
+#: Controller/UsersController.php:2395
+msgid "E-mail queued to save."
+msgstr ""
+
+#: Controller/UsersController.php:2397
+msgid "Failed to add e-mail to queue. Please try again."
+msgstr ""
+
+#: Controller/UsersController.php:2409
+msgid "E-mail successfully sent."
+msgstr ""
+
+#: Lib/Module.php:43
+msgid "Failed to read \"%s\" module info file"
+msgstr ""
+
+#: Lib/Module.php:170
+msgid "Module \"%s\" is not available."
+msgstr ""
+
+#: Lib/Module.php:360
+msgid "Module \"%s\" is too old."
+msgstr ""
+
+#: Lib/Payments/AdvcashGateway.php:32
+msgid "Failed to create SoapClient: %s"
+msgstr ""
+
+#: Lib/Payments/AdvcashGateway.php:51
+msgid "Failed to send Soap request: %s"
+msgstr ""
+
+#: Lib/Payments/AdvcashGateway.php:98
+msgid "Invalid request hash"
+msgstr ""
+
+#: Lib/Payments/AdvcashGateway.php:102
+msgid "Invalid account number"
+msgstr ""
+
+#: Lib/Payments/AdvcashGateway.php:106
+#: Lib/Payments/SolidTrustPayGateway.php:65
+msgid "Invalid amount"
+msgstr ""
+
+#: Lib/Payments/AdvcashGateway.php:110
+#: Lib/Payments/PerfectMoneyGateway.php:73
+msgid "Invalid currency"
+msgstr ""
+
+#: Lib/Payments/AdvcashGateway.php:114
+msgid "Order ID is empty"
+msgstr ""
+
+#: Lib/Payments/AdvcashGateway.php:133
+#: Lib/Payments/NetellerGateway.php:289;403
+msgid "Invalid status: %s"
+msgstr ""
+
+#: Lib/Payments/AdvcashGateway.php:191
+#: Lib/Payments/NetellerGateway.php:412
+#: Lib/Payments/PayeerGateway.php:145
+#: Lib/Payments/PerfectMoneyGateway.php:162
+#: Lib/Payments/SolidTrustPayGateway.php:193
+msgid "Not supported"
+msgstr ""
+
+#: Lib/Payments/AdvcashGateway.php:207;211
+#: Lib/Payments/NetellerGateway.php:420;424
+#: Lib/Payments/PayeerGateway.php:153;157
+#: Lib/Payments/PerfectMoneyGateway.php:178;182
+msgid "Not needed"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:5
+#: Lib/Payments/SolidTrustPaySettings.ctp:5
+msgid "SCI settings"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:8;73
+msgid "Account E-mail"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:14
+msgid "Please enter your AdvCash e-mail address"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:19
+#: Lib/Payments/PayeerSettings.ctp:51
+msgid "Account Number"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:25
+msgid "Please enter your AdvCash account number"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:30
+msgid "SCI Password"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:36
+msgid "Please enter password from SCI section"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:41
+msgid "Successful Transaction Page"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:47
+msgid "Failed Transaction Page"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:53
+msgid "Status Page"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:59
+msgid "Merchant API settings"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:62
+#: Lib/Payments/SolidTrustPaySettings.ctp:59;64
+msgid "API Name"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:68
+msgid "Please enter API name from your API section"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:79
+msgid "Please enter your AdvCash email address"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:84
+#: Lib/Payments/PayPalSettings.ctp:45
+#: Lib/Payments/PayzaSettings.ctp:28
+#: Lib/Payments/SolidTrustPaySettings.ctp:69;74
+msgid "API Password"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:90
+msgid "Please enter API Password from your API section"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:95
+#: Lib/Payments/NetellerSettings.ctp:61
+#: Lib/Payments/PayPalSettings.ctp:78
+#: Lib/Payments/PayzaSettings.ctp:41
+#: Lib/Payments/PerfectMoneySettings.ctp:55
+msgid "Payment Description"
+msgstr ""
+
+#: Lib/Payments/AdvcashSettings.ctp:103
+#: Lib/Payments/NetellerSettings.ctp:69
+#: Lib/Payments/PayPalSettings.ctp:86
+#: Lib/Payments/PayeerSettings.ctp:84
+#: Lib/Payments/PayzaSettings.ctp:49
+#: Lib/Payments/PerfectMoneySettings.ctp:63
+#: Lib/Payments/SolidTrustPaySettings.ctp:79
+#: View/PaidOffers/admin_edit.ctp:111
+#: View/Settings/admin_captcha.ctp:152
+#: View/Settings/admin_cron.ctp:151
+msgid "Save changes"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:76;129;165
+msgid "Connection error: %s"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:82;135;171
+msgid "Unknown response format"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:86
+msgid "Neteller OAuth error: %s"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:90
+msgid "Invalid Neteller access token type"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:94
+msgid "Invalid Neteller access token"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:208;390
+msgid "Neteller error[%d]: \"%s\" %s"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:212
+msgid "Neteller order id not received"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:216
+msgid "No redirect links received"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:227
+msgid "Neteller hosted payment redirect URL not found"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:237;259
+msgid "No data received"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:242
+msgid "Invalid webhook secret key"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:247
+msgid "No event type set"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:254
+msgid "Unknown event type"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:267
+msgid "No invoice url"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:293
+msgid "Invalid merchantRefId"
+msgstr ""
+
+#: Lib/Payments/NetellerGateway.php:314
+msgid "Neteller payment description cannot be longer than 255 characters"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:5
+msgid "Neteller API settings"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:8
+msgid "Client ID"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:14
+msgid "Please enter Client ID from Developer / Apps section"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:19
+msgid "Client Secret"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:25
+msgid "Please enter Client Secret from Developer / Apps section"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:30
+msgid "Webhook Secret Key"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:36
+msgid "Please enter Webhook secret key from Developer / Webhooks section"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:41
+msgid "Webhook URL"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:47
+#: Lib/Payments/PayPalSettings.ctp:65
+#: Lib/Payments/PayzaSettings.ctp:38
+msgid "MassPay settings"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:50
+#: Lib/Payments/PayPalSettings.ctp:68
+msgid "Payment Subject"
+msgstr ""
+
+#: Lib/Payments/NetellerSettings.ctp:56
+msgid "Payment subject for every payment"
+msgstr ""
+
+#: Lib/Payments/PayPalGateway.php:256
+msgid "Failed to refund"
+msgstr ""
+
+#: Lib/Payments/PayPalGateway.php:296
+msgid "PayPal account id should be a valid e-mail address."
+msgstr ""
+
+#: Lib/Payments/PayPalGateway.php:300
+msgid "PayPal payment description cannot be longer than 255 characters"
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:5
+msgid "PayPal settings"
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:8
+msgid "PayPal E-mail Address"
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:14
+msgid "Please put your own PayPal address for receiving money."
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:19
+msgid "Allow Purchases From Non Verified Accounts"
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:26
+msgid "Enable if you want to receive money from non verified accounts. Otherwise payments will be refunded to owner's account."
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:32
+#: Lib/Payments/PayzaSettings.ctp:25
+#: Lib/Payments/SolidTrustPaySettings.ctp:56
+msgid "API settings"
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:35
+msgid "API Username"
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:40
+msgid "API username"
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:50
+#: Lib/Payments/PayzaSettings.ctp:33
+msgid "API password"
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:55
+msgid "API Signature"
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:60
+msgid "API signature"
+msgstr ""
+
+#: Lib/Payments/PayPalSettings.ctp:73
+msgid "Payment subject"
+msgstr ""
+
+#: Lib/Payments/PayeerGateway.php:55
+#: Lib/Payments/PerfectMoneyGateway.php:52
+msgid "Not allowed"
+msgstr ""
+
+#: Lib/Payments/PayeerGateway.php:62
+msgid "Invalid request"
+msgstr ""
+
+#: Lib/Payments/PayeerGateway.php:95
+msgid "Operation id not set"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:5
+msgid "Payeer Payment API settings"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:8;62
+msgid "Shop Number (ID)"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:14
+msgid "Please enter your Shop ID from Merchant section"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:19;73
+msgid "Secret Key"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:25
+msgid "Please enter your Secret Key from Merchant section"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:30
+msgid "Success URL"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:36
+msgid "Fail URL"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:42
+msgid "Status URL"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:48
+msgid "Payeer Cashout API settings"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:57
+msgid "Please enter your Payeer Account number in format PXXXXXXX"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:68
+msgid "Please enter your ID from Mass Payment section"
+msgstr ""
+
+#: Lib/Payments/PayeerSettings.ctp:79
+msgid "Please enter your Secret Key from Mass Payment section"
+msgstr ""
+
+#: Lib/Payments/PayzaGateway.php:154
+msgid "Payza account id should be a valid e-mail address."
+msgstr ""
+
+#: Lib/Payments/PayzaSettings.ctp:5
+msgid "Payza settings"
+msgstr ""
+
+#: Lib/Payments/PayzaSettings.ctp:8
+msgid "Payza E-mail Address"
+msgstr ""
+
+#: Lib/Payments/PayzaSettings.ctp:14
+msgid "Please put your own Payza address for receiving money."
+msgstr ""
+
+#: Lib/Payments/PayzaSettings.ctp:19
+msgid "Alert URL"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneyGateway.php:65
+msgid "Invalid V2_HASH"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneyGateway.php:69
+msgid "Invalid merchant account"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneyGateway.php:89
+msgid "PerfectMoney payment memo cannot be longer than 100 characters"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneyGateway.php:134
+#: Lib/Payments/SolidTrustPayGateway.php:164
+msgid "Failed to connect"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneyGateway.php:141
+msgid "Invalid response"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneyGateway.php:151
+msgid "ERROR: %s"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneySettings.ctp:5
+msgid "PerfectMoney SCI settings"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneySettings.ctp:8
+msgid "Account UID"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneySettings.ctp:14
+msgid "Please enter your Account UID in format UXXXXXXX"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneySettings.ctp:19
+msgid "Alternate Passphrase"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneySettings.ctp:25
+msgid "Please enter Aleternate Passphrase from your profile settings"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneySettings.ctp:30
+msgid "PerfectMoney API settings"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneySettings.ctp:33
+msgid "Account ID"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneySettings.ctp:39
+msgid "Please enter your Account ID, the one you use to log in to your account"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneySettings.ctp:44
+msgid "Account Password"
+msgstr ""
+
+#: Lib/Payments/PerfectMoneySettings.ctp:50
+msgid "Please enter your Account Passwored, the on you use to log in to your account"
+msgstr ""
+
+#: Lib/Payments/PurchaseBalanceGateway.php:37
+msgid "Unknown amount"
+msgstr ""
+
+#: Lib/Payments/PurchaseBalanceGateway.php:41
+msgid "Unknown title"
+msgstr ""
+
+#: Lib/Payments/PurchaseBalanceGateway.php:45
+msgid "Unknown id"
+msgstr ""
+
+#: Lib/Payments/PurchaseBalanceGateway.php:52
+msgid "Unknown user"
+msgstr ""
+
+#: Lib/Payments/PurchaseBalanceGateway.php:59
+msgid "%s bought sucessfully"
+msgstr ""
+
+#: Lib/Payments/PurchaseBalanceGateway.php:61
+msgid "Failed to save purchase balance"
+msgstr ""
+
+#: Lib/Payments/PurchaseBalanceGateway.php:64
+msgid "Sorry, your do not have enough funds on your Purchase Balance."
+msgstr ""
+
+#: Lib/Payments/SolidTrustPayGateway.php:49
+msgid "Test mode without debug mode"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPayGateway.php:61
+msgid "Invalid merchant"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPayGateway.php:69
+msgid "Invalid currency: %s"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPayGateway.php:82
+msgid "Invalid security hash"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPaySettings.ctp:8
+msgid "Merchant Account"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPaySettings.ctp:13
+msgid "Merchant account"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPaySettings.ctp:18
+msgid "Payment Button Name (Sci_Name)"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPaySettings.ctp:23
+msgid "Payment Button Name (sci_name)"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPaySettings.ctp:28;33
+msgid "Payment Button Password"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPaySettings.ctp:38
+msgid "Notify URL"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPaySettings.ctp:44
+msgid "Return URL"
+msgstr ""
+
+#: Lib/Payments/SolidTrustPaySettings.ctp:50
+msgid "Confirm URL"
+msgstr ""
+
+#: Model/RentedReferralsPrice.php:104
+msgid "Mixed memberships."
+msgstr ""
+
+#: Model/RentedReferralsPrice.php:107
+msgid "Ranges are not continuous."
+msgstr ""
+
+#: Model/RentedReferralsPrice.php:113
+msgid "Last range should end at infinity."
+msgstr ""
+
+#: Model/Settings.php:544
+msgid "Too many keys in Settings \"%s\" array (%s)."
+msgstr ""
+
+#: Plugin/Forum/Controller/StationsController.php:215
+msgid "%s Not Found"
+msgstr ""
+
+#: Plugin/Forum/Controller/StationsController.php:223
+msgid "Successfully deleted %s with ID %s"
+msgstr ""
+
+#: Plugin/Forum/Controller/StationsController.php:227
+msgid "Failed to delete %s with ID %s"
+msgstr ""
+
+#: Plugin/Forum/View/Elements/pagination.ctp:4
+msgid "First"
+msgstr ""
+
+#: Plugin/Forum/View/Elements/pagination.ctp:5
+msgid "Last"
+msgstr ""
+
+#: Plugin/Forum/View/Elements/pagination.ctp:15
+msgid "Showing %s-%s of %s"
+msgstr ""
+
+#: Plugin/Forum/View/Elements/acl/actions.ctp:3
+msgid "Add Requester"
+msgstr ""
+
+#: Plugin/Forum/View/Elements/acl/actions.ctp:7
+msgid "Add Controller"
+msgstr ""
+
+#: Plugin/Forum/View/Stations/admin_delete.ctp:8
+msgid "Delete %s"
+msgstr ""
+
+#: Plugin/Forum/View/Stations/admin_delete.ctp:11
+#: View/Groups/admin_index.ctp:42
+msgid "Are you sure you want to delete %s?"
+msgstr ""
+
+#: View/Admins/admin_edit.ctp:10
+msgid "Edit Admin"
+msgstr ""
+
+#: View/Admins/admin_edit.ctp:13
+#: View/Admins/admin_index.ctp:103
+#: View/Admins/admin_login.ctp:8
+#: View/Users/admin_add.ctp:19
+msgid "E-mail Address"
+msgstr ""
+
+#: View/Admins/admin_edit.ctp:19
+#: View/Admins/admin_index.ctp:109
+#: View/Admins/admin_login.ctp:12
+#: View/Users/admin_add.ctp:23
+#: View/Users/admin_edit.ctp:54
+msgid "Password"
+msgstr ""
+
+#: View/Admins/admin_edit.ctp:25
+#: View/Users/admin_edit.ctp:59
+msgid "Please left empty if you do not want to change"
+msgstr ""
+
+#: View/Admins/admin_edit.ctp:31
+#: View/Admins/admin_index.ctp:115
+msgid "Allowed IPs"
+msgstr ""
+
+#: View/Admins/admin_edit.ctp:37
+#: View/Admins/admin_index.ctp:121
+msgid "You can enter more than one IP, separated with comma with no spaces, for example: 1.1.1.1,2.2.2.2. Leave this field empty if you want to allow connections from any IP."
+msgstr ""
+
+#: View/Admins/admin_edit.ctp:48
+#: View/AdsCategories/admin_order.ctp:28
+#: View/News/admin_edit.ctp:33
+#: View/PaidOffers/admin_application_details.ctp:17
+#: View/Settings/admin_faq.ctp:41
+#: View/Settings/admin_privacy.ctp:41
+#: View/Settings/admin_tos.ctp:41
+#: View/SupportCannedAnswers/admin_edit.ctp:29
+msgid "Save"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:4
+msgid "Work to do list:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:12
+msgid "Overall statistics:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:17
+msgid "Total Users:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:19
+msgid "Account Balances:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:23
+msgid "Active Users:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:25
+msgid "Purchase Balances:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:29
+msgid "Unverified Users:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:31
+msgid "Referrals For Rent:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:35
+msgid "Suspended Users:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:37
+msgid "Referrals For Sale:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:47
+msgid "Statistics:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:50
+msgid "Overall"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:59
+msgid "Total:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:63;100
+msgid "Deposits:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:67;104
+msgid "Paid:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:71;108
+msgid "New Cashouts:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:75;112
+msgid "Overall Profit:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:82;119
+msgid "Last 7 Days:"
+msgstr ""
+
+#: View/Admins/admin_home.ctp:96
+msgid "Total"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:3
+msgid "Admins list"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:16
+msgid "Verified"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:19
+#: View/Ads/admin_index.ctp:95
+#: View/AdsCategories/admin_index.ctp:23
+#: View/AntiCheat/admin_blocking.ctp:58;153;240;335
+#: View/AntiCheat/admin_suspicious.ctp:45;156;267
+#: View/BannerAds/admin_index.ctp:73
+#: View/Cashouts/admin_index.ctp:98
+#: View/Commissions/admin_index.ctp:98
+#: View/Deposits/admin_deposits.ctp:101
+#: View/Deposits/admin_purchases.ctp:114
+#: View/FeaturedAds/admin_index.ctp:73
+#: View/Groups/admin_index.ctp:16
+#: View/ItemReports/admin_index.ctp:93
+#: View/LoginAds/admin_index.ctp:72
+#: View/Memberships/admin_index.ctp:20
+#: View/News/admin_index.ctp:20
+#: View/PaidOffers/admin_applications.ctp:84
+#: View/PaidOffers/admin_index.ctp:74
+#: View/PaidOffers/admin_settings.ctp:130;193
+#: View/Support/admin_index.ctp:52
+#: View/SupportCannedAnswers/admin_index.ctp:11
+#: View/Users/admin_edit.ctp:10
+#: View/Users/admin_index.ctp:165
+msgid "Actions"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:32
+#: View/AdsCategories/admin_index.ctp:37;38;39
+#: View/News/admin_index.ctp:33
+#: View/Users/admin_edit.ctp:153
+msgid "Yes"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:32
+#: View/AdsCategories/admin_index.ctp:37;38;39
+#: View/News/admin_index.ctp:33
+#: View/Users/admin_edit.ctp:157
+#: View/Users/admin_index.ctp:125
+msgid "No"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:33
+msgid "Any"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:47
+#: View/Cashouts/admin_index.ctp:143
+msgid "Are you sure you want to delete # %s"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:59
+#: View/Ads/admin_index.ctp:164
+#: View/AdsCategories/admin_index.ctp:77
+#: View/AntiCheat/admin_blocking.ctp:89;184;271;366
+#: View/AntiCheat/admin_suspicious.ctp:88;199;310
+#: View/BannerAds/admin_index.ctp:154
+#: View/Cashouts/admin_index.ctp:164
+#: View/Commissions/admin_index.ctp:165
+#: View/Deposits/admin_deposits.ctp:174
+#: View/Deposits/admin_purchases.ctp:167
+#: View/FeaturedAds/admin_index.ctp:141
+#: View/Groups/admin_index.ctp:54
+#: View/ItemReports/admin_index.ctp:153
+#: View/LoginAds/admin_index.ctp:152
+#: View/Memberships/admin_index.ctp:79
+#: View/News/admin_index.ctp:60
+#: View/PaidOffers/admin_applications.ctp:140
+#: View/PaidOffers/admin_index.ctp:141
+#: View/Support/admin_index.ctp:113
+#: View/Users/admin_index.ctp:231
+msgid "Mass Action"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:62
+#: View/Ads/admin_index.ctp:167
+#: View/AdsCategories/admin_index.ctp:80
+#: View/AntiCheat/admin_blocking.ctp:92;187;274;369
+#: View/AntiCheat/admin_suspicious.ctp:91;202;313
+#: View/BannerAds/admin_index.ctp:157
+#: View/Cashouts/admin_index.ctp:167
+#: View/Commissions/admin_index.ctp:168
+#: View/Deposits/admin_deposits.ctp:177
+#: View/Deposits/admin_purchases.ctp:170
+#: View/FeaturedAds/admin_index.ctp:144
+#: View/Groups/admin_index.ctp:57
+#: View/ItemReports/admin_index.ctp:156
+#: View/LoginAds/admin_index.ctp:155
+#: View/Memberships/admin_index.ctp:82
+#: View/News/admin_index.ctp:63
+#: View/PaidOffers/admin_applications.ctp:143
+#: View/PaidOffers/admin_index.ctp:144
+#: View/Support/admin_index.ctp:116
+#: View/Users/admin_index.ctp:234
+msgid "--Choose--"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:66
+msgid "Delete Admins"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:71
+#: View/Ads/admin_index.ctp:178
+#: View/AdsCategories/admin_index.ctp:91
+#: View/AntiCheat/admin_blocking.ctp:101;196;283;378
+#: View/AntiCheat/admin_suspicious.ctp:101;212;323
+#: View/BannerAds/admin_index.ctp:168
+#: View/Cashouts/admin_index.ctp:181
+#: View/Commissions/admin_index.ctp:179
+#: View/Deposits/admin_deposits.ctp:187
+#: View/Deposits/admin_purchases.ctp:179
+#: View/FeaturedAds/admin_index.ctp:155
+#: View/Groups/admin_index.ctp:66
+#: View/ItemReports/admin_index.ctp:165
+#: View/LoginAds/admin_index.ctp:166
+#: View/Memberships/admin_index.ctp:93
+#: View/News/admin_index.ctp:72
+#: View/PaidOffers/admin_applications.ctp:154
+#: View/PaidOffers/admin_index.ctp:155
+#: View/Support/admin_index.ctp:127
+#: View/Users/admin_index.ctp:247
+msgid "Perform Action"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:76
+#: View/Ads/admin_index.ctp:185
+#: View/AdsCategories/admin_index.ctp:96
+#: View/AntiCheat/admin_suspicious.ctp:107;218;329
+#: View/BannerAds/admin_index.ctp:176
+#: View/Cashouts/admin_index.ctp:189
+#: View/Commissions/admin_index.ctp:186
+#: View/Deposits/admin_deposits.ctp:194
+#: View/Deposits/admin_purchases.ctp:186
+#: View/FeaturedAds/admin_index.ctp:163
+#: View/Groups/admin_index.ctp:73
+#: View/ItemReports/admin_index.ctp:172
+#: View/LoginAds/admin_index.ctp:174
+#: View/Memberships/admin_index.ctp:98
+#: View/News/admin_index.ctp:79
+#: View/PaidOffers/admin_applications.ctp:162
+#: View/PaidOffers/admin_index.ctp:163
+#: View/Support/admin_index.ctp:135
+#: View/SupportCannedAnswers/admin_index.ctp:38
+#: View/Users/admin_index.ctp:253
+msgid "Page {:page} of {:pages}"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:95
+msgid "Add admin"
+msgstr ""
+
+#: View/Admins/admin_index.ctp:127
+msgid "Add Admin"
+msgstr ""
+
+#: View/Admins/admin_login.ctp:14
+msgid "Login"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:3
+msgid "Add new paid to click ad:"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:9
+#: View/Ads/admin_edit.ctp:10
+#: View/Ads/admin_index.ctp:11;86
+#: View/BannerAds/admin_add.ctp:7
+#: View/BannerAds/admin_edit.ctp:7
+#: View/BannerAds/admin_index.ctp:7;66
+#: View/FeaturedAds/admin_add.ctp:7
+#: View/FeaturedAds/admin_edit.ctp:7
+#: View/FeaturedAds/admin_index.ctp:7;66
+#: View/LoginAds/admin_add.ctp:7
+#: View/LoginAds/admin_edit.ctp:7
+#: View/LoginAds/admin_index.ctp:7;66
+#: View/PaidOffers/admin_add.ctp:7
+#: View/PaidOffers/admin_applications.ctp:7;78
+#: View/PaidOffers/admin_edit.ctp:8
+#: View/PaidOffers/admin_index.ctp:7;66
+msgid "Advertiser"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:16
+#: View/Ads/admin_edit.ctp:17
+#: View/BannerAds/admin_add.ctp:13
+#: View/BannerAds/admin_edit.ctp:13
+#: View/FeaturedAds/admin_add.ctp:13
+#: View/FeaturedAds/admin_edit.ctp:13
+#: View/LoginAds/admin_add.ctp:13
+#: View/LoginAds/admin_edit.ctp:13
+#: View/PaidOffers/admin_add.ctp:13
+#: View/PaidOffers/admin_edit.ctp:14
+msgid "Leave blank for self sponsored advertisement (admin's ad)"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:22
+#: View/Ads/admin_edit.ctp:23
+#: View/BannerAds/admin_add.ctp:19
+#: View/BannerAds/admin_edit.ctp:19
+#: View/Deposits/admin_purchases.ctp:47
+#: View/FeaturedAds/admin_add.ctp:19
+#: View/FeaturedAds/admin_edit.ctp:19
+#: View/LoginAds/admin_add.ctp:19
+#: View/LoginAds/admin_edit.ctp:19
+#: View/News/admin_add.ctp:19
+#: View/News/admin_edit.ctp:19
+#: View/PaidOffers/admin_add.ctp:19
+#: View/PaidOffers/admin_applications.ctp:80
+#: View/PaidOffers/admin_edit.ctp:20
+msgid "Title"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:28
+#: View/Ads/admin_edit.ctp:29
+#: View/FeaturedAds/admin_add.ctp:33
+#: View/FeaturedAds/admin_edit.ctp:33
+#: View/Modules/admin_index.ctp:9
+#: View/PaidOffers/admin_add.ctp:33
+#: View/PaidOffers/admin_edit.ctp:34
+msgid "Description"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:34
+#: View/Ads/admin_edit.ctp:35
+#: View/Ads/admin_index.ctp:33
+#: View/BannerAds/admin_add.ctp:39
+#: View/BannerAds/admin_edit.ctp:39
+#: View/BannerAds/admin_index.ctp:29
+#: View/FeaturedAds/admin_add.ctp:48
+#: View/FeaturedAds/admin_edit.ctp:48
+#: View/FeaturedAds/admin_index.ctp:29
+#: View/LoginAds/admin_add.ctp:39
+#: View/LoginAds/admin_edit.ctp:39
+#: View/LoginAds/admin_index.ctp:29
+#: View/PaidOffers/admin_add.ctp:48
+#: View/PaidOffers/admin_applications.ctp:40;81
+#: View/PaidOffers/admin_edit.ctp:49
+#: View/PaidOffers/admin_index.ctp:29;68
+msgid "URL"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:40
+#: View/Ads/admin_edit.ctp:41
+#: View/Ads/admin_index.ctp:59
+#: View/PaidOffers/admin_add.ctp:60
+#: View/PaidOffers/admin_edit.ctp:61
+msgid "Category"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:51
+#: View/Ads/admin_edit.ctp:66
+#: View/BannerAds/admin_add.ctp:45
+#: View/BannerAds/admin_edit.ctp:45
+#: View/FeaturedAds/admin_add.ctp:54
+#: View/FeaturedAds/admin_edit.ctp:54
+#: View/LoginAds/admin_add.ctp:45
+#: View/LoginAds/admin_edit.ctp:45
+msgid "Expiry"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:60
+#: View/PaidOffers/admin_add.ctp:72
+#: View/PaidOffers/admin_edit.ctp:79
+msgid "Membership Targeting"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:72;88
+#: View/Ads/admin_edit.ctp:87;103
+#: View/PaidOffers/admin_add.ctp:84;100
+#: View/PaidOffers/admin_edit.ctp:91;107
+msgid "Select All"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:76
+#: View/PaidOffers/admin_add.ctp:88
+#: View/PaidOffers/admin_edit.ctp:95
+msgid "Country Targeting"
+msgstr ""
+
+#: View/Ads/admin_add.ctp:92
+msgid "Add advertisement"
+msgstr ""
+
+#: View/Ads/admin_edit.ctp:3
+msgid "Edit paid to click ad:"
+msgstr ""
+
+#: View/Ads/admin_edit.ctp:52
+#: View/ItemReports/admin_view.ctp:93
+#: View/Support/admin_view.ctp:25
+msgid "Created"
+msgstr ""
+
+#: View/Ads/admin_edit.ctp:60
+msgid "Credited Clicks / Outside Clicks"
+msgstr ""
+
+#: View/Ads/admin_edit.ctp:75
+msgid "Membership targeting"
+msgstr ""
+
+#: View/Ads/admin_edit.ctp:91
+msgid "Country targeting"
+msgstr ""
+
+#: View/Ads/admin_edit.ctp:107
+#: View/BannerAds/admin_add.ctp:59
+#: View/BannerAds/admin_edit.ctp:59
+#: View/BannerAds/admin_settings.ctp:84;138
+#: View/Banners/admin_settings.ctp:250
+#: View/FeaturedAds/admin_add.ctp:68
+#: View/FeaturedAds/admin_edit.ctp:68
+#: View/FeaturedAds/admin_settings.ctp:78;132
+#: View/ItemReports/admin_edit.ctp:68
+#: View/LoginAds/admin_add.ctp:59
+#: View/LoginAds/admin_edit.ctp:59
+#: View/LoginAds/admin_settings.ctp:104;158
+#: View/PaidOffers/admin_add.ctp:104
+#: View/PaidOffers/admin_settings.ctp:176;239;311
+#: View/Settings/admin_activity.ctp:120
+#: View/Settings/admin_buying_referrals.ctp:97
+#: View/Settings/admin_captcha.ctp:119;201;234
+#: View/Settings/admin_emails.ctp:56
+#: View/Settings/admin_general.ctp:366
+#: View/Settings/admin_payments.ctp:208;276
+#: View/Settings/admin_promotions.ctp:109;162
+#: View/Settings/admin_renting_referrals.ctp:178
+#: View/Support/admin_settings.ctp:55;95
+msgid "Save Changes"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:3
+#: View/BannerAds/admin_index.ctp:3
+#: View/FeaturedAds/admin_index.ctp:3
+#: View/LoginAds/admin_index.ctp:3
+msgid "Search advertisements"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:16
+msgid "Enter advertiser username to search"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:22
+#: View/BannerAds/admin_index.ctp:18
+#: View/FeaturedAds/admin_index.ctp:18
+#: View/LoginAds/admin_index.ctp:18
+#: View/PaidOffers/admin_applications.ctp:29
+#: View/PaidOffers/admin_index.ctp:18
+msgid "Advertisement Title"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:27
+#: View/BannerAds/admin_index.ctp:23
+#: View/FeaturedAds/admin_index.ctp:23
+#: View/LoginAds/admin_index.ctp:23
+#: View/PaidOffers/admin_applications.ctp:34
+#: View/PaidOffers/admin_index.ctp:23
+msgid "Enter advertisement title to search"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:38
+msgid "Enter url to search"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:45
+#: View/Cashouts/admin_index.ctp:39
+#: View/Commissions/admin_index.ctp:40
+#: View/Deposits/admin_deposits.ctp:42
+#: View/Deposits/admin_purchases.ctp:42
+#: View/ItemReports/admin_index.ctp:40
+#: View/Users/admin_index.ctp:45
+msgid "Click to show more search options"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:50
+#: View/BannerAds/admin_index.ctp:40
+#: View/Cashouts/admin_index.ctp:28
+#: View/Commissions/admin_index.ctp:67
+#: View/Deposits/admin_add.ctp:27
+#: View/FeaturedAds/admin_index.ctp:40
+#: View/ItemReports/admin_index.ctp:29
+#: View/ItemReports/admin_view.ctp:37
+#: View/LoginAds/admin_index.ctp:40
+#: View/Modules/admin_index.ctp:11
+#: View/PaidOffers/admin_application_details.ctp:11
+#: View/PaidOffers/admin_applications.ctp:51;83
+#: View/PaidOffers/admin_edit.ctp:73
+#: View/PaidOffers/admin_index.ctp:40
+#: View/Support/admin_index.ctp:25
+#: View/Support/admin_view.ctp:37
+#: View/Users/admin_edit.ctp:94
+#: View/Users/admin_index.ctp:110
+msgid "Status"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:74
+msgid "Paid To Click Advertisements"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:88
+msgid "Category name"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:109
+#: View/BannerAds/admin_index.ctp:88
+#: View/FeaturedAds/admin_index.ctp:88
+#: View/LoginAds/admin_index.ctp:87
+#: View/PaidOffers/admin_applications.ctp:100
+#: View/PaidOffers/admin_index.ctp:89
+msgid "Admin"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:117
+#: View/BannerAds/admin_index.ctp:99
+#: View/FeaturedAds/admin_index.ctp:99
+#: View/LoginAds/admin_index.ctp:97
+#: View/PaidOffers/admin_index.ctp:98
+msgid "Not assigned"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:130
+#: View/BannerAds/admin_index.ctp:107
+#: View/FeaturedAds/admin_index.ctp:107
+#: View/LoginAds/admin_index.ctp:105
+msgid "Edit advertisement"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:136
+#: View/BannerAds/admin_index.ctp:111
+#: View/FeaturedAds/admin_index.ctp:111
+#: View/LoginAds/admin_index.ctp:109
+msgid "Inactivate advertisement"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:139
+msgid "Are you sure you want to inactivate # %s?"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:143
+#: View/BannerAds/admin_index.ctp:119
+#: View/FeaturedAds/admin_index.ctp:119
+#: View/LoginAds/admin_index.ctp:117
+msgid "Activate advertisement"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:146
+#: View/Memberships/admin_index.ctp:60
+#: View/Users/admin_index.ctp:213
+msgid "Are you sure you want to activate # %s?"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:150
+#: View/BannerAds/admin_index.ctp:127
+#: View/FeaturedAds/admin_index.ctp:127
+#: View/LoginAds/admin_index.ctp:125
+msgid "Delete advertisement"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:153
+#: View/AntiCheat/admin_suspicious.ctp:77;188;299
+#: View/Banners/admin_settings.ctp:45
+#: View/Commissions/admin_index.ctp:135;144
+#: View/Deposits/admin_deposits.ctp:132;141
+#: View/Deposits/admin_purchases.ctp:146
+#: View/ItemReports/admin_index.ctp:136
+#: View/Memberships/admin_index.ctp:53
+#: View/Settings/admin_buying_referrals.ctp:85
+#: View/Settings/admin_renting_referrals.ctp:167
+#: View/Users/admin_index.ctp:220
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:171
+#: View/BannerAds/admin_index.ctp:161
+#: View/FeaturedAds/admin_index.ctp:148
+#: View/LoginAds/admin_index.ctp:159
+msgid "Activate advertisements"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:172
+#: View/BannerAds/admin_index.ctp:162
+#: View/FeaturedAds/admin_index.ctp:149
+#: View/LoginAds/admin_index.ctp:160
+msgid "Inactivate advertisements"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:173
+#: View/BannerAds/admin_index.ctp:163
+#: View/FeaturedAds/admin_index.ctp:150
+#: View/LoginAds/admin_index.ctp:161
+msgid "Delete advertisements"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:202
+#: View/FeaturedAds/admin_index.ctp:180
+#: View/Layouts/admin.ctp:146;162;178;200;218
+#: View/LoginAds/admin_index.ctp:191
+#: View/PaidOffers/admin_index.ctp:180
+msgid "Add New Advertisement"
+msgstr ""
+
+#: View/AdsCategories/admin_add.ctp:3
+msgid "Add New Advertisement Category"
+msgstr ""
+
+#: View/AdsCategories/admin_add.ctp:7
+msgid "Please enter category name. After you do so, you will be redirected to editing your new category terms."
+msgstr ""
+
+#: View/AdsCategories/admin_add.ctp:15
+msgid "Add Category"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:4
+msgid "Edit PTC category:"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:7
+msgid "Category Details"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:8
+msgid "Click Values"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:9
+msgid "Click {ackages"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:22
+#: View/AdsCategories/admin_index.ctp:17
+msgid "Category Name"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:28
+msgid "Ad Timer In Seconds"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:34
+msgid "Display Description"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:40
+msgid "Allow Geo-targeting"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:46
+msgid "Allow Earnings From Referral Clicks"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:52;89;141
+#: View/AdsCategories/admin_settings.ctp:82
+#: View/AntiCheat/admin_evercookie.ctp:67
+#: View/Groups/admin_edit.ctp:19
+#: View/Memberships/admin_edit.ctp:146;222;344;473;528
+#: View/PaidOffers/admin_settings.ctp:113
+msgid "Save Info"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:67
+#: View/Users/admin_edit.ctp:188;225;253
+#: View/Users/admin_index.ctp:100
+msgid "Membership"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:68
+msgid "User Click"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:69
+msgid "Direct Referral Click"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:70
+msgid "Rented Referral Click"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:103
+#: View/BannerAds/admin_settings.ctp:99
+#: View/FeaturedAds/admin_settings.ctp:93
+#: View/LoginAds/admin_settings.ctp:119
+#: View/PaidOffers/admin_settings.ctp:128;191;254
+#: View/Support/admin_settings.ctp:70
+msgid "No."
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:104
+#: View/BannerAds/admin_settings.ctp:100
+#: View/FeaturedAds/admin_settings.ctp:94
+#: View/ItemReports/admin_index.ctp:45
+#: View/ItemReports/admin_view.ctp:45
+#: View/LoginAds/admin_settings.ctp:120
+msgid "Type"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:105
+#: View/BannerAds/admin_settings.ctp:101
+#: View/Deposits/admin_add.ctp:13
+#: View/FeaturedAds/admin_settings.ctp:95
+#: View/LoginAds/admin_settings.ctp:121
+msgid "Amount"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:106
+#: View/BannerAds/admin_settings.ctp:102
+#: View/FeaturedAds/admin_settings.ctp:96
+#: View/LoginAds/admin_settings.ctp:122
+#: View/Memberships/admin_edit.ctp:311;486;539
+#: View/PaidOffers/admin_settings.ctp:257
+#: View/Settings/admin_buying_referrals.ctp:70;103
+msgid "Price"
+msgstr ""
+
+#: View/AdsCategories/admin_edit.ctp:136
+msgid "Click To Add More Packages"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:4
+msgid "Paid To Click categories"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:18
+msgid "Timer"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:19
+msgid "Show Description"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:36
+msgid " seconds"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:43
+msgid "Edit category"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:49
+msgid "Delete category"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:52
+msgid "Are You sure you want to delete # %s"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:56
+#: View/Settings/admin_faq.ctp:11
+#: View/Settings/admin_privacy.ctp:11
+#: View/Settings/admin_tos.ctp:11
+msgid "Enable"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:59
+msgid "Are You sure you want to enable # %s"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:63
+msgid "Disable"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:66
+msgid "Are You sure you want to disable # %s"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:84
+msgid "Delete categories"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:85
+msgid "Enable categories"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:86
+msgid "Disable categories"
+msgstr ""
+
+#: View/AdsCategories/admin_index.ctp:111
+msgid "Add new category"
+msgstr ""
+
+#: View/AdsCategories/admin_order.ctp:3
+msgid "Order PTC categories"
+msgstr ""
+
+#: View/AdsCategories/admin_order.ctp:6
+msgid "You can set the order of PTC categories in here. All the changes will be visible on user side while clicking ads on View Advertisement page."
+msgstr ""
+
+#: View/AdsCategories/admin_order.ctp:32
+msgid "Before you start ordering categories, you should create any. You can do it %s."
+msgstr ""
+
+#: View/AdsCategories/admin_order.ctp:32
+msgid "here"
+msgstr ""
+
+#: View/AdsCategories/admin_settings.ctp:3
+msgid "PTC Ads Settings"
+msgstr ""
+
+#: View/AdsCategories/admin_settings.ctp:12
+#: View/PaidOffers/admin_settings.ctp:47
+msgid "Ad Title Length"
+msgstr ""
+
+#: View/AdsCategories/admin_settings.ctp:25
+#: View/PaidOffers/admin_settings.ctp:60
+msgid "Ad Description Length"
+msgstr ""
+
+#: View/AdsCategories/admin_settings.ctp:38
+#: View/BannerAds/admin_settings.ctp:30
+#: View/FeaturedAds/admin_settings.ctp:30
+#: View/LoginAds/admin_settings.ctp:30
+#: View/PaidOffers/admin_settings.ctp:33
+msgid "Auto Approve Ads"
+msgstr ""
+
+#: View/AdsCategories/admin_settings.ctp:48
+msgid "Check Connection Before New Ad Preview"
+msgstr ""
+
+#: View/AdsCategories/admin_settings.ctp:58
+msgid "Check Connection Timeout"
+msgstr ""
+
+#: View/AdsCategories/admin_settings.ctp:70
+msgid "Preview Time"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:3
+msgid "Blocking settings"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:6
+msgid "IP Blocking"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:7
+msgid "Email Blocking"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:8
+msgid "Country Blocking"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:9
+msgid "Username Blocking"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:14
+msgid "Add new IP to block"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:18
+msgid "Please Enter IP to block"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:26
+msgid "Enter IP to block, you can use ranges like 1.1.1.1-1.1.1.255."
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:32;127;214;309
+msgid "Add Note To This Block"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:38;133;220;315
+#: View/Banners/admin_settings.ctp:33
+#: View/News/admin_add.ctp:33
+#: View/SupportCannedAnswers/admin_add.ctp:29
+msgid "Add"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:43
+msgid "Currently blocked IP"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:55
+msgid "IP range"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:56;151;238;333
+msgid "Date Added"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:57;152;239;334
+msgid "Note"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:70
+msgid "%s - %s"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:75;96;170;191;257;278;352;373
+#: View/Commissions/admin_index.ctp:173
+#: View/Deposits/admin_purchases.ctp:143;174
+#: View/Groups/admin_index.ctp:61
+#: View/ItemReports/admin_index.ctp:160
+#: View/News/admin_index.ctp:67
+#: View/Support/admin_index.ctp:122
+#: View/SupportCannedAnswers/admin_index.ctp:23
+#: View/Users/admin_cleanup.ctp:53;79
+msgid "Delete"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:78
+msgid "Are you sure you want to delete # %s-%s?"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:109
+msgid "Add new email to block"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:113
+msgid "Please Enter E-mail To Block"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:121
+msgid "Enter email to block, you can use wildcard like *.hotmail.com."
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:138
+msgid "Currently blocked emails"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:150
+msgid "Email"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:173;260;355
+#: View/BannerAds/admin_index.ctp:130
+#: View/FeaturedAds/admin_index.ctp:130
+#: View/LoginAds/admin_index.ctp:128
+#: View/News/admin_index.ctp:49
+#: View/PaidOffers/admin_index.ctp:130
+#: View/Support/admin_index.ctp:102
+#: View/SupportCannedAnswers/admin_index.ctp:26
+#: View/Users/admin_edit.ctp:433
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:204
+msgid "Add new country to block"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:208
+msgid "Please Choose Country To Block"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:225
+msgid "Currently blocked countries"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:237
+#: View/AntiCheat/admin_suspicious.ctp:44;155;266
+#: View/Cashouts/admin_index.ctp:92
+#: View/Users/admin_add.ctp:27
+#: View/Users/admin_edit.ctp:38
+#: View/Users/admin_index.ctp:90;157
+msgid "Country"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:291
+msgid "Add new username to block"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:295
+msgid "Enter Username To Block"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:303
+msgid "Enter username to block, this username will be prohibited to use while registering."
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:320
+msgid "Currently blocked usernames"
+msgstr ""
+
+#: View/AntiCheat/admin_blocking.ctp:332
+#: View/AntiCheat/admin_suspicious.ctp:39;150;261
+#: View/Cashouts/admin_index.ctp:8
+#: View/Commissions/admin_index.ctp:7;93
+#: View/Deposits/admin_add.ctp:7
+#: View/Deposits/admin_deposits.ctp:12
+#: View/Deposits/admin_purchases.ctp:12
+#: View/Support/admin_view.ctp:14
+#: View/Users/admin_add.ctp:15
+#: View/Users/admin_index.ctp:12
+msgid "Username"
+msgstr ""
+
+#: View/AntiCheat/admin_evercookie.ctp:3
+msgid "Evercookie settings"
+msgstr ""
+
+#: View/AntiCheat/admin_evercookie.ctp:7
+msgid "Enable Evercookie"
+msgstr ""
+
+#: View/AntiCheat/admin_evercookie.ctp:15
+msgid "Click To Enable EverCookie Protection"
+msgstr ""
+
+#: View/AntiCheat/admin_evercookie.ctp:22
+msgid "Java"
+msgstr ""
+
+#: View/AntiCheat/admin_evercookie.ctp:32
+msgid "SliverLight"
+msgstr ""
+
+#: View/AntiCheat/admin_evercookie.ctp:42
+msgid "History"
+msgstr ""
+
+#: View/AntiCheat/admin_evercookie.ctp:53
+msgid "What To Do With Users Caught Cheating via Evercookie"
+msgstr ""
+
+#: View/AntiCheat/admin_evercookie.ctp:59
+#: View/Users/admin_cleanup.ctp:27
+msgid "Suspend"
+msgstr ""
+
+#: View/AntiCheat/admin_evercookie.ctp:60
+msgid "Send email to admin"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:3
+msgid "Suspicious"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:6
+msgid "Similar IP"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:7
+msgid "Similar Usernames"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:8
+msgid "Username The Same As E-mail Address"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:13
+msgid "Search for similar IP"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:17
+msgid "This option will search for similar signup and login IPs with 7 days interval time. For example it will list accounts opened with ip like 1.1.1.1 and then 1.1.1.2 within 7 days. Please note that you have to make a final decision if accounts are cheating or not."
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:20;131;242
+#: View/BannerAds/admin_index.ctp:49
+#: View/FeaturedAds/admin_index.ctp:49
+#: View/LoginAds/admin_index.ctp:49
+#: View/PaidOffers/admin_applications.ctp:60
+#: View/PaidOffers/admin_index.ctp:49
+#: View/Support/admin_index.ctp:29
+msgid "Search"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:32
+msgid "Similar IP users"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:40;151;262
+#: View/Users/admin_edit.ctp:86
+#: View/Users/admin_index.ctp:80
+msgid "Signup IP"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:41;152;263
+msgid "Login IP"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:42;153;264
+msgid "Signup Date"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:43;154;265
+#: View/Users/admin_edit.ctp:34
+#: View/Users/admin_index.ctp:22
+msgid "E-mail"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:67;178;289
+#: View/Users/admin_index.ctp:203
+msgid "Suspend user"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:70;181;292
+#: View/Users/admin_index.ctp:206
+msgid "Are you sure you want to suspend # %s?"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:74;185;296
+#: View/Users/admin_index.ctp:217
+msgid "Delete user"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:95;206;317
+#: View/Users/admin_index.ctp:239
+msgid "Suspend users"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:96;207;318
+#: View/Users/admin_index.ctp:240
+msgid "Delete users"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:124
+msgid "Search for users with similar usernames"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:128
+msgid "This option will search for users with similar usernames like username, username1, username2 etc. Please note that you have to make a final decision if accounts are cheating or not."
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:138;249
+msgid "Similar usernames"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:235
+msgid "Search for users with usernames the same as e-mail addresses"
+msgstr ""
+
+#: View/AntiCheat/admin_suspicious.ctp:239
+msgid "This option will search for users with usernames the same as email addresses, for example user1-user1@hotmail.com. This is very common way of bots and cheaters to open multiple accounts. Please note that you have to make a final decision if accounts are cheating or not."
+msgstr ""
+
+#: View/BannerAds/admin_add.ctp:3
+msgid "Add new banner ad"
+msgstr ""
+
+#: View/BannerAds/admin_add.ctp:33
+#: View/BannerAds/admin_edit.ctp:33
+#: View/LoginAds/admin_add.ctp:33
+#: View/LoginAds/admin_edit.ctp:33
+msgid "Image URL"
+msgstr ""
+
+#: View/BannerAds/admin_edit.ctp:3
+msgid "Edit banner ad"
+msgstr ""
+
+#: View/BannerAds/admin_index.ctp:12
+#: View/Cashouts/admin_index.ctp:13
+#: View/Commissions/admin_index.ctp:12
+#: View/Deposits/admin_deposits.ctp:17
+#: View/Deposits/admin_purchases.ctp:17
+#: View/FeaturedAds/admin_index.ctp:12
+#: View/ItemReports/admin_index.ctp:12
+#: View/LoginAds/admin_index.ctp:12
+#: View/PaidOffers/admin_applications.ctp:12
+#: View/PaidOffers/admin_index.ctp:12
+#: View/Users/admin_index.ctp:17
+msgid "Enter username to search"
+msgstr ""
+
+#: View/BannerAds/admin_index.ctp:34
+#: View/FeaturedAds/admin_index.ctp:34
+#: View/LoginAds/admin_index.ctp:34
+#: View/PaidOffers/admin_applications.ctp:45
+#: View/PaidOffers/admin_index.ctp:34
+msgid "Enter URL to search"
+msgstr ""
+
+#: View/BannerAds/admin_index.ctp:44
+#: View/FeaturedAds/admin_index.ctp:44
+#: View/ItemReports/admin_index.ctp:33;49
+#: View/LoginAds/admin_index.ctp:44
+#: View/PaidOffers/admin_applications.ctp:55
+#: View/PaidOffers/admin_index.ctp:44
+#: View/Support/admin_index.ctp:22;26
+msgid "All"
+msgstr ""
+
+#: View/BannerAds/admin_index.ctp:54
+msgid "Banner ads advertisements"
+msgstr ""
+
+#: View/BannerAds/admin_index.ctp:101
+#: View/FeaturedAds/admin_index.ctp:101
+#: View/LoginAds/admin_index.ctp:99
+msgid "%d %s"
+msgstr ""
+
+#: View/BannerAds/admin_index.ctp:114
+#: View/FeaturedAds/admin_index.ctp:114
+#: View/LoginAds/admin_index.ctp:112
+#: View/PaidOffers/admin_index.ctp:114
+msgid "Are you sure you want to inactivate \"%s\"?"
+msgstr ""
+
+#: View/BannerAds/admin_index.ctp:122
+#: View/FeaturedAds/admin_index.ctp:122
+#: View/LoginAds/admin_index.ctp:120
+#: View/Modules/admin_index.ctp:36
+#: View/PaidOffers/admin_index.ctp:122
+msgid "Are you sure you want to activate \"%s\"?"
+msgstr ""
+
+#: View/BannerAds/admin_index.ctp:193
+msgid "Add new advertisement"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:3
+msgid "Banner Ads settings"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:6;12
+#: View/FeaturedAds/admin_settings.ctp:6;12
+#: View/LoginAds/admin_settings.ctp:6;12
+#: View/Memberships/admin_edit.ctp:6
+#: View/Support/admin_settings.ctp:6;12
+msgid "Details"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:7
+#: View/LoginAds/admin_settings.ctp:7
+msgid "Click packages"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:16
+msgid "Enable Banner Ads"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:24
+msgid "Check if you want to turn on Banner Ads"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:38
+#: View/FeaturedAds/admin_settings.ctp:38
+#: View/LoginAds/admin_settings.ctp:38
+#: View/PaidOffers/admin_settings.ctp:41
+msgid "Check if you want to auto approve ads, otherwise admin will have to approve them manually"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:44
+#: View/FeaturedAds/admin_settings.ctp:58
+#: View/LoginAds/admin_settings.ctp:58
+msgid "Maximum Amount Of Chars For Ad Title"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:57
+#: View/LoginAds/admin_settings.ctp:77
+msgid "Default Banner Size"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:60
+#: View/LoginAds/admin_settings.ctp:80
+msgid "Width"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:72
+#: View/LoginAds/admin_settings.ctp:92
+msgid "Height"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:90
+#: View/FeaturedAds/admin_settings.ctp:84
+#: View/LoginAds/admin_settings.ctp:110
+msgid "Price & Packages"
+msgstr ""
+
+#: View/BannerAds/admin_settings.ctp:134
+#: View/FeaturedAds/admin_settings.ctp:128
+#: View/LoginAds/admin_settings.ctp:154
+msgid "Click to add more packages"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:3
+msgid "Add new banner"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:7
+msgid "Upload New Banner"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:16
+msgid "Choose a file"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:20
+msgid "Add New Banner From The Web"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:27
+msgid "Please include protocol name, for example: http://example.com/image.png"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:39
+msgid "Banner #%s (%s)"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:42
+msgid "Delete this banner"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:60
+msgid "Make This Banner Statistical"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:71
+msgid "What Data Do You Want To Show On This Banner"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:82
+msgid "How Much User Got Paid"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:94
+msgid "How Much User Earned"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:106
+msgid "How Much Site Already Paid"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:113;118
+msgid "Font"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:130
+msgid "Font Size"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:141
+msgid "Font Color"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:156
+msgid "I Already Got Paid"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:161;192;223
+msgid "X position"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:172;203;234
+msgid "Y position"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:187
+msgid "I Already Earned"
+msgstr ""
+
+#: View/Banners/admin_settings.ctp:218
+msgid "Site Paid"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:3
+#: View/Modules/admin_index.ctp:3
+msgid "Payouts list"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:18
+#: View/Deposits/admin_deposits.ctp:22
+#: View/Deposits/admin_purchases.ctp:22
+#: View/Users/admin_index.ctp:70
+msgid "Payment Account"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:23
+#: View/Deposits/admin_deposits.ctp:27
+#: View/Deposits/admin_purchases.ctp:27
+#: View/Users/admin_index.ctp:75
+msgid "Enter payment email to search"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:33;71
+msgid "Show all"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:44
+#: View/Commissions/admin_index.ctp:45
+#: View/Deposits/admin_deposits.ctp:47
+#: View/Deposits/admin_purchases.ctp:59
+#: View/Memberships/admin_edit.ctp:259;537
+#: View/Settings/admin_promotions.ctp:27
+msgid "From"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:49
+#: View/Commissions/admin_index.ctp:50
+#: View/Deposits/admin_deposits.ctp:52
+#: View/Deposits/admin_purchases.ctp:64
+msgid "Select from date"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:55
+#: View/Commissions/admin_index.ctp:56
+#: View/Deposits/admin_deposits.ctp:58
+#: View/Deposits/admin_purchases.ctp:70
+#: View/Memberships/admin_edit.ctp:275;538
+#: View/Settings/admin_promotions.ctp:37
+#: View/Users/admin_edit.ctp:202;239;267
+msgid "To"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:60
+#: View/Commissions/admin_index.ctp:61
+#: View/Deposits/admin_deposits.ctp:63
+#: View/Deposits/admin_purchases.ctp:75
+msgid "Select to date"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:66
+#: View/Deposits/admin_add.ctp:33
+#: View/Deposits/admin_deposits.ctp:32
+#: View/Deposits/admin_purchases.ctp:32
+msgid "Method"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:91
+msgid "User"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:114
+#: View/Commissions/admin_index.ctp:116;123
+#: View/Deposits/admin_deposits.ctp:117
+#: View/Deposits/admin_purchases.ctp:130
+#: View/ItemReports/admin_edit.ctp:15
+#: View/ItemReports/admin_index.ctp:109
+#: View/ItemReports/admin_view.ctp:21
+#: View/Support/admin_index.ctp:69
+#: View/Support/admin_view.ctp:19
+msgid "User deleted"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:124
+msgid "Cancel request"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:127
+msgid "Are you sure you want to cancel # %s"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:132
+msgid "Mark as paid"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:135
+msgid "Are you sure you want to mark as paid # %s"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:140
+msgid "Delete request"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:149
+msgid "Pay this request"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:152
+#: View/Commissions/admin_index.ctp:153
+msgid "Are you sure you want to pay # %s"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:171
+msgid "Mark as Paid"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:172
+msgid "Mark as New"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:173
+msgid "Delete requests"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:174
+msgid "Cancel requests"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:175
+msgid "Automatically pay"
+msgstr ""
+
+#: View/Cashouts/admin_index.ctp:176
+msgid "Download MassPay list(s)"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:3
+msgid "Commissions list"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:18;94
+msgid "Referral"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:23
+msgid "Enter referal name to search"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:29;95
+#: View/ItemReports/admin_view.ctp:69
+msgid "Item"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:34;71
+msgid "Please select"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:91
+msgid "Purchase Date"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:132
+msgid "Delete commission"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:141
+msgid "Delete commission and remove cash from account"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:150
+msgid "Pay"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:172
+msgid "Set as credited"
+msgstr ""
+
+#: View/Commissions/admin_index.ctp:174
+#: View/Deposits/admin_deposits.ctp:182
+msgid "Delete and remove cash"
+msgstr ""
+
+#: View/Deposits/admin_add.ctp:3
+msgid "Add deposit"
+msgstr ""
+
+#: View/Deposits/admin_add.ctp:21
+msgid "From Account"
+msgstr ""
+
+#: View/Deposits/admin_add.ctp:37
+#: View/Deposits/admin_deposits.ctp:36
+#: View/Deposits/admin_purchases.ctp:36;53
+msgid "Select one"
+msgstr ""
+
+#: View/Deposits/admin_add.ctp:42
+msgid "Transaction ID"
+msgstr ""
+
+#: View/Deposits/admin_add.ctp:48
+#: View/ItemReports/admin_index.ctp:85
+#: View/PaidOffers/admin_applications.ctp:77
+msgid "Date"
+msgstr ""
+
+#: View/Deposits/admin_add.ctp:54
+#: View/Layouts/admin.ctp:266
+msgid "Add Deposit"
+msgstr ""
+
+#: View/Deposits/admin_deposits.ctp:3
+msgid "Deposit list"
+msgstr ""
+
+#: View/Deposits/admin_deposits.ctp:69;99
+#: View/Deposits/admin_purchases.ctp:81;112
+msgid "Payment ID"
+msgstr ""
+
+#: View/Deposits/admin_deposits.ctp:74
+#: View/Deposits/admin_purchases.ctp:86
+msgid "Put payment's ID"
+msgstr ""
+
+#: View/Deposits/admin_deposits.ctp:129
+msgid "Delete deposit"
+msgstr ""
+
+#: View/Deposits/admin_deposits.ctp:138
+msgid "Delete deposit and remove cash from purchase balance"
+msgstr ""
+
+#: View/Deposits/admin_deposits.ctp:149
+msgid "Refund deposit and remove cash from purchase balance"
+msgstr ""
+
+#: View/Deposits/admin_deposits.ctp:152
+msgid "Are you sure you want to refund and cancel # %s?"
+msgstr ""
+
+#: View/Deposits/admin_deposits.ctp:158
+#: View/Deposits/admin_purchases.ctp:152
+msgid "Refund"
+msgstr ""
+
+#: View/Deposits/admin_deposits.ctp:161
+#: View/Deposits/admin_purchases.ctp:155
+msgid "Are you sure you want to refund # %s?"
+msgstr ""
+
+#: View/Deposits/admin_deposits.ctp:181
+msgid "Delete deposits"
+msgstr ""
+
+#: View/Deposits/admin_purchases.ctp:3
+msgid "Purchases list"
+msgstr ""
+
+#: View/Deposits/admin_purchases.ctp:52
+msgid "Select type"
+msgstr ""
+
+#: View/Elements/adminNoticeInfo.ctp:4
+#: View/PaidOffers/admin_application_details.ctp:2
+msgid "Close"
+msgstr ""
+
+#: View/FeaturedAds/admin_add.ctp:3
+msgid "Add new featured ad"
+msgstr ""
+
+#: View/FeaturedAds/admin_edit.ctp:3
+msgid "Edit featured ad"
+msgstr ""
+
+#: View/FeaturedAds/admin_index.ctp:54
+msgid "Featured ads advertisements"
+msgstr ""
+
+#: View/FeaturedAds/admin_settings.ctp:3
+msgid "Featured Ads settings"
+msgstr ""
+
+#: View/FeaturedAds/admin_settings.ctp:7
+msgid "Click Packages"
+msgstr ""
+
+#: View/FeaturedAds/admin_settings.ctp:16
+msgid "Enable Featured Ads"
+msgstr ""
+
+#: View/FeaturedAds/admin_settings.ctp:24
+msgid "Check if you want to turn on Featured Ads"
+msgstr ""
+
+#: View/FeaturedAds/admin_settings.ctp:44
+msgid "Amount Of Ads Per Box"
+msgstr ""
+
+#: View/FeaturedAds/admin_settings.ctp:52
+msgid "How much ads do you want to show per featured ads box"
+msgstr ""
+
+#: View/FeaturedAds/admin_settings.ctp:68
+msgid "Maximum Amount Of Chars For Ad Description"
+msgstr ""
+
+#: View/Groups/admin_add.ctp:3
+msgid "Add new group"
+msgstr ""
+
+#: View/Groups/admin_add.ctp:7
+msgid "Please Enter Group Name You Want To Add."
+msgstr ""
+
+#: View/Groups/admin_add.ctp:15
+#: View/Layouts/admin.ctp:115
+msgid "Add Group"
+msgstr ""
+
+#: View/Groups/admin_edit.ctp:3
+msgid "Edit Group:"
+msgstr ""
+
+#: View/Groups/admin_edit.ctp:13
+msgid "Alias"
+msgstr ""
+
+#: View/Groups/admin_index.ctp:3
+msgid "Groups list"
+msgstr ""
+
+#: View/Groups/admin_index.ctp:32
+msgid "Edit group"
+msgstr ""
+
+#: View/Groups/admin_index.ctp:39
+msgid "Delete group"
+msgstr ""
+
+#: View/ItemReports/admin_edit.ctp:3
+msgid "Edit Item Report"
+msgstr ""
+
+#: View/ItemReports/admin_edit.ctp:9
+#: View/ItemReports/admin_index.ctp:7;86
+#: View/ItemReports/admin_view.ctp:15
+msgid "Reporter"
+msgstr ""
+
+#: View/ItemReports/admin_edit.ctp:21;41
+#: View/ItemReports/admin_index.ctp:54
+#: View/ItemReports/admin_view.ctp:77
+msgid "Reason"
+msgstr ""
+
+#: View/ItemReports/admin_edit.ctp:29
+msgid "Reported Item"
+msgstr ""
+
+#: View/ItemReports/admin_edit.ctp:35
+msgid "Item deleted"
+msgstr ""
+
+#: View/ItemReports/admin_edit.ctp:49
+#: View/ItemReports/admin_index.ctp:62
+#: View/ItemReports/admin_view.ctp:85
+msgid "Comment"
+msgstr ""
+
+#: View/ItemReports/admin_edit.ctp:57
+#: View/Modules/admin_index.ctp:12
+#: View/PaidOffers/admin_settings.ctp:258
+msgid "Action"
+msgstr ""
+
+#: View/ItemReports/admin_edit.ctp:60
+msgid "Select Action..."
+msgstr ""
+
+#: View/ItemReports/admin_index.ctp:3
+msgid "Reports list"
+msgstr ""
+
+#: View/ItemReports/admin_index.ctp:18;87
+#: View/ItemReports/admin_view.ctp:28
+msgid "Resolver"
+msgstr ""
+
+#: View/ItemReports/admin_index.ctp:23
+msgid "Enter admin e-mail to search"
+msgstr ""
+
+#: View/ItemReports/admin_index.ctp:114
+msgid "--"
+msgstr ""
+
+#: View/ItemReports/admin_index.ctp:123
+#: View/PaidOffers/admin_applications.ctp:107
+msgid "Deleted"
+msgstr ""
+
+#: View/ItemReports/admin_index.ctp:133
+msgid "Delete report"
+msgstr ""
+
+#: View/ItemReports/admin_index.ctp:140
+msgid "View report"
+msgstr ""
+
+#: View/ItemReports/admin_index.ctp:143
+msgid "Edit report"
+msgstr ""
+
+#: View/ItemReports/admin_view.ctp:3
+msgid "Item Report"
+msgstr ""
+
+#: View/ItemReports/admin_view.ctp:7
+msgid "Id"
+msgstr ""
+
+#: View/ItemReports/admin_view.ctp:53
+msgid "Model"
+msgstr ""
+
+#: View/ItemReports/admin_view.ctp:61
+msgid "Foreign Key"
+msgstr ""
+
+#: View/ItemReports/admin_view.ctp:101
+msgid "Modified"
+msgstr ""
+
+#: View/ItemReports/admin_view.ctp:108
+msgid "Return"
+msgstr ""
+
+#: View/Layouts/admin.ctp:4
+msgid "Admin Panel"
+msgstr ""
+
+#: View/Layouts/admin.ctp:35
+msgid " Home"
+msgstr ""
+
+#: View/Layouts/admin.ctp:41
+msgid " Manage your account"
+msgstr ""
+
+#: View/Layouts/admin.ctp:47
+msgid " Logout"
+msgstr ""
+
+#: View/Layouts/admin.ctp:67
+msgid "Toggle navigation"
+msgstr ""
+
+#: View/Layouts/admin.ctp:77
+msgid "Users"
+msgstr ""
+
+#: View/Layouts/admin.ctp:80
+msgid "View And Edit"
+msgstr ""
+
+#: View/Layouts/admin.ctp:86
+msgid "Add New User"
+msgstr ""
+
+#: View/Layouts/admin.ctp:93
+msgid "Send Message"
+msgstr ""
+
+#: View/Layouts/admin.ctp:98
+msgid "User Clean Up"
+msgstr ""
+
+#: View/Layouts/admin.ctp:104
+msgid "Manage Admins"
+msgstr ""
+
+#: View/Layouts/admin.ctp:110
+msgid "Manage Groups"
+msgstr ""
+
+#: View/Layouts/admin.ctp:122
+msgid "Advertisements"
+msgstr ""
+
+#: View/Layouts/admin.ctp:124
+msgid "PTC Ads"
+msgstr ""
+
+#: View/Layouts/admin.ctp:126
+msgid "PTC Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:131
+msgid "PTC Categories"
+msgstr ""
+
+#: View/Layouts/admin.ctp:136
+msgid "Categories Order List"
+msgstr ""
+
+#: View/Layouts/admin.ctp:141
+msgid "Manage Advertisements"
+msgstr ""
+
+#: View/Layouts/admin.ctp:150
+msgid "Featured Ads"
+msgstr ""
+
+#: View/Layouts/admin.ctp:152
+msgid "Manage Featured Ads"
+msgstr ""
+
+#: View/Layouts/admin.ctp:157
+msgid "Featured Ads Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:166
+msgid "Banner Ads"
+msgstr ""
+
+#: View/Layouts/admin.ctp:168
+msgid "Manage Banner Ads"
+msgstr ""
+
+#: View/Layouts/admin.ctp:173
+msgid "Banner Ads Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:183
+msgid "AdGrid"
+msgstr ""
+
+#: View/Layouts/admin.ctp:186
+msgid "Manage AdGrid"
+msgstr ""
+
+#: View/Layouts/admin.ctp:193
+msgid "AdGrid Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:206
+msgid "Login Ads"
+msgstr ""
+
+#: View/Layouts/admin.ctp:208
+msgid "Manage Login Ads"
+msgstr ""
+
+#: View/Layouts/admin.ctp:213
+msgid "Login Ads Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:222
+#: View/PaidOffers/admin_index.ctp:54
+msgid "Paid Offers"
+msgstr ""
+
+#: View/Layouts/admin.ctp:224
+#: View/PaidOffers/admin_settings.ctp:3
+msgid "Paid Offers Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:229
+msgid "Manage Paid Offers"
+msgstr ""
+
+#: View/Layouts/admin.ctp:234
+msgid "Manage Applications"
+msgstr ""
+
+#: View/Layouts/admin.ctp:239
+msgid "Offerwalls"
+msgstr ""
+
+#: View/Layouts/admin.ctp:242
+msgid "Offerwall Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:249
+msgid "Postback Log"
+msgstr ""
+
+#: View/Layouts/admin.ctp:258
+msgid "Finances"
+msgstr ""
+
+#: View/Layouts/admin.ctp:261
+msgid "Deposits"
+msgstr ""
+
+#: View/Layouts/admin.ctp:271
+msgid "Purchases"
+msgstr ""
+
+#: View/Layouts/admin.ctp:276
+msgid "Commissions"
+msgstr ""
+
+#: View/Layouts/admin.ctp:283
+msgid "Payouts"
+msgstr ""
+
+#: View/Layouts/admin.ctp:286
+msgid "Payouts List"
+msgstr ""
+
+#: View/Layouts/admin.ctp:293
+msgid "Communication"
+msgstr ""
+
+#: View/Layouts/admin.ctp:295
+msgid "News"
+msgstr ""
+
+#: View/Layouts/admin.ctp:297
+msgid "Manage News"
+msgstr ""
+
+#: View/Layouts/admin.ctp:302
+msgid "Add News"
+msgstr ""
+
+#: View/Layouts/admin.ctp:306
+msgid "Support System"
+msgstr ""
+
+#: View/Layouts/admin.ctp:308
+msgid "Reports"
+msgstr ""
+
+#: View/Layouts/admin.ctp:313
+#: View/Support/admin_settings.ctp:3
+msgid "Tickets Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:318
+#: View/SupportCannedAnswers/admin_index.ctp:3
+msgid "Canned Responses"
+msgstr ""
+
+#: View/Layouts/admin.ctp:323
+msgid "Tickets"
+msgstr ""
+
+#: View/Layouts/admin.ctp:327
+msgid "Forum"
+msgstr ""
+
+#: View/Layouts/admin.ctp:329;375
+#: View/PaidOffers/admin_settings.ctp:6
+#: View/Settings/admin_general.ctp:3
+#: View/Settings/admin_payments.ctp:6
+msgid "General Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:334
+msgid "Forum Orders"
+msgstr ""
+
+#: View/Layouts/admin.ctp:339
+msgid "Forum ToS"
+msgstr ""
+
+#: View/Layouts/admin.ctp:344
+msgid "Forum Help"
+msgstr ""
+
+#: View/Layouts/admin.ctp:349
+msgid "Manage Forums"
+msgstr ""
+
+#: View/Layouts/admin.ctp:354
+msgid "Create New Forum"
+msgstr ""
+
+#: View/Layouts/admin.ctp:359
+msgid "Manage Moderators"
+msgstr ""
+
+#: View/Layouts/admin.ctp:364
+msgid "Add New Moderator"
+msgstr ""
+
+#: View/Layouts/admin.ctp:371
+msgid "Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:373
+msgid "Global Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:380
+msgid "Activity And Security"
+msgstr ""
+
+#: View/Layouts/admin.ctp:385
+#: View/Settings/admin_captcha.ctp:3;6;15
+msgid "Captcha Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:390
+msgid "Cron Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:395
+msgid "Promotional Banners"
+msgstr ""
+
+#: View/Layouts/admin.ctp:399
+msgid "Page Content"
+msgstr ""
+
+#: View/Layouts/admin.ctp:401
+msgid "Terms of Service"
+msgstr ""
+
+#: View/Layouts/admin.ctp:406
+msgid "Privacy Policy"
+msgstr ""
+
+#: View/Layouts/admin.ctp:411
+msgid "FAQ"
+msgstr ""
+
+#: View/Layouts/admin.ctp:415
+#: View/Memberships/admin_index.ctp:3
+msgid "Memberships"
+msgstr ""
+
+#: View/Layouts/admin.ctp:417
+msgid "List Memberships"
+msgstr ""
+
+#: View/Layouts/admin.ctp:422
+#: View/Memberships/admin_add.ctp:15
+#: View/Memberships/admin_index.ctp:113
+#: View/Users/admin_edit.ctp:221
+msgid "Add Membership"
+msgstr ""
+
+#: View/Layouts/admin.ctp:426
+msgid "Referrals"
+msgstr ""
+
+#: View/Layouts/admin.ctp:428
+#: View/Settings/admin_renting_referrals.ctp:3
+msgid "Renting Referrals"
+msgstr ""
+
+#: View/Layouts/admin.ctp:433
+#: View/Settings/admin_buying_referrals.ctp:3
+msgid "Buying Referrals"
+msgstr ""
+
+#: View/Layouts/admin.ctp:438
+#: View/Settings/admin_assign_referrals.ctp:3;99
+msgid "Assign Referrals"
+msgstr ""
+
+#: View/Layouts/admin.ctp:445
+msgid "Bot System"
+msgstr ""
+
+#: View/Layouts/admin.ctp:451
+msgid "Payments Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:453
+msgid "Payments"
+msgstr ""
+
+#: View/Layouts/admin.ctp:458
+#: View/Settings/admin_promotions.ctp:3
+msgid "Promotion Settings"
+msgstr ""
+
+#: View/Layouts/admin.ctp:462
+msgid "System E-mails"
+msgstr ""
+
+#: View/Layouts/admin.ctp:464
+msgid "Edit system E-mails"
+msgstr ""
+
+#: View/Layouts/admin.ctp:468
+msgid "Modules"
+msgstr ""
+
+#: View/Layouts/admin.ctp:470
+msgid "Manage Modules"
+msgstr ""
+
+#: View/Layouts/admin.ctp:477
+msgid "Referral Contest"
+msgstr ""
+
+#: View/Layouts/admin.ctp:486
+msgid "Facebook Login"
+msgstr ""
+
+#: View/Layouts/admin.ctp:495
+msgid "Revenue Share"
+msgstr ""
+
+#: View/Layouts/admin.ctp:504
+msgid "Anti-Cheat"
+msgstr ""
+
+#: View/Layouts/admin.ctp:507
+msgid "Blocking Options"
+msgstr ""
+
+#: View/Layouts/admin.ctp:513
+msgid "EverCookie"
+msgstr ""
+
+#: View/Layouts/admin.ctp:519
+msgid "Search For Suspicious Users"
+msgstr ""
+
+#: View/Layouts/admin.ctp:551
+msgid "FuturumClix.com - all right reserved"
+msgstr ""
+
+#: View/LoginAds/admin_add.ctp:3
+msgid "Add new login ad"
+msgstr ""
+
+#: View/LoginAds/admin_edit.ctp:3
+msgid "Edit login ad"
+msgstr ""
+
+#: View/LoginAds/admin_index.ctp:54
+msgid "Login ads advertisements"
+msgstr ""
+
+#: View/LoginAds/admin_settings.ctp:3
+msgid "Login Ads settings"
+msgstr ""
+
+#: View/LoginAds/admin_settings.ctp:16
+msgid "Enable Login Ads"
+msgstr ""
+
+#: View/LoginAds/admin_settings.ctp:24
+msgid "Check if you want to turn on Login Ads"
+msgstr ""
+
+#: View/LoginAds/admin_settings.ctp:44
+msgid "Max Ads Per Box"
+msgstr ""
+
+#: View/LoginAds/admin_settings.ctp:52
+msgid "How much ads do you want to show per login ads box"
+msgstr ""
+
+#: View/LoginAds/admin_settings.ctp:71
+msgid "Show Login Ads"
+msgstr ""
+
+#: View/Memberships/admin_add.ctp:3
+msgid "Add Memberships - please provide membership name"
+msgstr ""
+
+#: View/Memberships/admin_add.ctp:7
+msgid "Please enter membership name. After you do so, you will be redirected to editing your new membership terms."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:3
+msgid "Edit membership - details"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:7
+msgid "Referrals Settings"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:8
+msgid "Referrals Prices"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:9
+msgid "Commissions And Bonuses"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:11
+msgid "Prices And Availability"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:19
+msgid "Membership Name"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:25
+msgid "Direct Referrals Limit"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:32
+msgid "Put -1 to no limit, 0 to disable direct referrals"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:38
+msgid "Direct Referrals Delete Cost"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:46
+msgid "How much user will pay for every direct referral manual removal."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:53
+msgid "Rented Referrals Limit"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:60
+msgid "Put -1 to no limit, 0 to disable rented referrals"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:66
+msgid "Minimum Payout"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:73
+msgid "Please put minimum payout for this membership. You can use stepped cashout, just put another value after comma like: 2,4,6."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:79
+msgid "Payout Waiting Time"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:86
+msgid "Please put how long user have to wait in days between cashing out."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:92
+msgid "Allow More Than One Pending Payout Request"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:99
+msgid "Allow user to place another payout request even if he has already placed one and it is still pending."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:105
+msgid "Instant Payouts"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:112
+msgid "Activate instant payouts for this membership."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:118
+msgid "Maximum Withdraw Amount"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:126
+msgid "Please put how much user can withdraw per one cashout. Put 0 to disable."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:133
+msgid "Results Per Page"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:140
+msgid "How many results do you want to show per page (like direct referrals, rented referrals)"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:154
+msgid "Time between Renting"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:161
+msgid "Please put how long user have to wait in days between renting."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:167
+msgid "Available Referrals Pack"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:174
+msgid "Please set how many referrals will be available in one pack, you can put different values after decimal like: 10,20,50."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:180
+msgid "Referral Recycle Cost"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:188
+msgid "Referral Expire Cost"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:196
+msgid "If referral will be expired and user will not renew it, this is a fee for referral expiry."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:203
+msgid "Autorecycle Time"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:210
+msgid "After how many days do you want to replace inactive rented referral. Put 0 to disable autorecycling."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:216
+msgid "AutoPay Trigger Days"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:228
+msgid "Referral prices"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:231
+msgid "Click to delete all ranges"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:234
+msgid "Are you sure you want to delete all ranges?"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:245;338
+#: View/Settings/admin_renting_referrals.ctp:122;172
+msgid "Click to add another range"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:267
+msgid "Minimum range of referrals for this price"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:278;566
+msgid "Infinite"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:285;573
+msgid "Click to specify range"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:302;550
+msgid "Please put maximum range of referrals for this price"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:317;557
+msgid "Please put price for this range"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:325;540
+msgid "AutoPay Price"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:331;564
+msgid "Please put autopay price for this range"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:352
+msgid "Direct Referral's Upgrade Commission"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:360
+msgid "How much (in %s) this user will get for every upgrade bought by his referrals."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:367
+msgid "Direct Referral's Fund Purchase Balance Commission"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:375
+msgid "How much (in percent) this user will get for every purchase done by his referrals."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:386
+msgid "Direct Referral's Purchases Commission"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:394
+msgid "How much (in percent) this user will get for every  purchase of his referral like referrals, advertisements, excluding upgrades."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:405
+msgid "Choose Items Which Purchase Will Be Commissioned"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:421
+msgid "Count Commission While Transferring From Main Balance To Purchase Balance"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:427
+msgid "Max Purchase Commission Per Referral"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:432
+msgid "How much (in %s) this user will get in total per one referral's purchases. Put 0 for no limit."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:442
+msgid "Max Purchase Commission Per Transaction"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:447
+msgid "What maximum amount (in %s) this user will get per one referral's purchase. Put 0 for no limit."
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:457
+msgid "Add Commission After"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:462
+msgid "After how many days add upgrade or purchase commission to upline's account balance (put 0 for instant)"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:468
+#: View/PaidOffers/admin_settings.ctp:108
+#: View/Settings/admin_renting_referrals.ctp:75
+msgid "days"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:482
+msgid "Period and prices"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:485
+msgid "Period"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:487
+msgid "Availability"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:491
+msgid "1 month"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:503;522
+msgid "Enabled"
+msgstr ""
+
+#: View/Memberships/admin_edit.ctp:510
+msgid "%d months"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:15
+msgid "Membership name"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:37;38
+msgid "Unlimited"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:43
+msgid "Edit membership"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:50
+msgid "Delete membership"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:57
+msgid "Make active"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:64
+msgid "Make inactive"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:67
+msgid "Are you sure you want to make inactive # %s?"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:86
+msgid "Activate memberships"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:87
+msgid "Disable memberships"
+msgstr ""
+
+#: View/Memberships/admin_index.ctp:88
+msgid "Delete memberships"
+msgstr ""
+
+#: View/Modules/admin_index.ctp:8
+#: View/PaidOffers/admin_settings.ctp:129
+#: View/Support/admin_settings.ctp:71
+#: View/Support/admin_view.ctp:7
+#: View/SupportCannedAnswers/admin_add.ctp:10
+#: View/SupportCannedAnswers/admin_edit.ctp:10
+msgid "Name"
+msgstr ""
+
+#: View/Modules/admin_index.ctp:10
+msgid "Version"
+msgstr ""
+
+#: View/Modules/admin_index.ctp:24
+msgid "Deactivate module"
+msgstr ""
+
+#: View/Modules/admin_index.ctp:27
+msgid "Are you sure you want to deactivate \"%s\"?"
+msgstr ""
+
+#: View/Modules/admin_index.ctp:33
+msgid "Activate module"
+msgstr ""
+
+#: View/News/admin_add.ctp:3
+msgid "Add new news item"
+msgstr ""
+
+#: View/News/admin_add.ctp:7
+#: View/News/admin_edit.ctp:7
+msgid "Include In Login Ads"
+msgstr ""
+
+#: View/News/admin_add.ctp:13
+#: View/News/admin_edit.ctp:13
+msgid "Display For How Long In Login Ads"
+msgstr ""
+
+#: View/News/admin_add.ctp:25
+#: View/News/admin_edit.ctp:25
+msgid "News Content"
+msgstr ""
+
+#: View/News/admin_edit.ctp:3
+msgid "Edit \"%s\""
+msgstr ""
+
+#: View/News/admin_index.ctp:3
+msgid "News list"
+msgstr ""
+
+#: View/News/admin_index.ctp:39
+msgid "Edit news"
+msgstr ""
+
+#: View/News/admin_index.ctp:46
+msgid "Delete news"
+msgstr ""
+
+#: View/News/admin_index.ctp:100
+msgid "Add New News"
+msgstr ""
+
+#: View/PaidOffers/admin_add.ctp:3
+#: View/PaidOffers/admin_edit.ctp:3
+msgid "Add new Paid Offer"
+msgstr ""
+
+#: View/PaidOffers/admin_add.ctp:54
+#: View/PaidOffers/admin_edit.ctp:55
+msgid "Slots"
+msgstr ""
+
+#: View/PaidOffers/admin_add.ctp:66
+#: View/PaidOffers/admin_applications.ctp:82
+#: View/PaidOffers/admin_edit.ctp:67
+#: View/PaidOffers/admin_settings.ctp:192;255
+msgid "Value"
+msgstr ""
+
+#: View/PaidOffers/admin_application_details.ctp:3
+msgid "Application details"
+msgstr ""
+
+#: View/PaidOffers/admin_application_details.ctp:5
+msgid "Application sucessfully saved."
+msgstr ""
+
+#: View/PaidOffers/admin_application_details.ctp:6
+msgid "Failed to save application, please try again later."
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:3
+msgid "Search applications"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:18;79
+msgid "Applicant"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:23
+msgid "Enter applicant username to search"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:65
+msgid "Applications"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:115
+msgid "Show details of this application"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:118
+msgid "Accept application"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:121
+msgid "Are you sure you want to accept %s?"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:126
+msgid "Reject application"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:129
+msgid "Are you sure you want to reject %s?"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:147
+msgid "Accept applications"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:148
+msgid "Reject applications"
+msgstr ""
+
+#: View/PaidOffers/admin_applications.ctp:149
+msgid "Delete applications"
+msgstr ""
+
+#: View/PaidOffers/admin_index.ctp:3
+msgid "Search offers"
+msgstr ""
+
+#: View/PaidOffers/admin_index.ctp:107
+msgid "Edit offer"
+msgstr ""
+
+#: View/PaidOffers/admin_index.ctp:111
+msgid "Inactivate offer"
+msgstr ""
+
+#: View/PaidOffers/admin_index.ctp:119
+msgid "Activate offer"
+msgstr ""
+
+#: View/PaidOffers/admin_index.ctp:127
+msgid "Delete offer"
+msgstr ""
+
+#: View/PaidOffers/admin_index.ctp:148
+msgid "Activate offers"
+msgstr ""
+
+#: View/PaidOffers/admin_index.ctp:149
+msgid "Inactivate offers"
+msgstr ""
+
+#: View/PaidOffers/admin_index.ctp:150
+msgid "Delete offers"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:7
+msgid "Offer's Categories"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:8
+msgid "Offer's Values"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:9
+msgid "Offer's Packages"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:19
+msgid "Enable Paid Offers"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:27
+msgid "Check if you want to enable Paid Offers section"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:73
+msgid "Ban Members From Paid Offers After"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:85
+msgid "If user will get more than selected number of rejects from Paid Offers, he will be excluded from that section"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:88
+msgid "rejected applications"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:93
+msgid "Auto Approve Pending Applications After"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:105
+msgid "If advertiser will not approve pending applications, after how many days do you want to auto approve them"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:119
+msgid "Offer's categories"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:142;159
+msgid "Click to delete this category"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:145;162
+msgid "Are you sure you want to delete category \"%s\"?"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:172;235;307
+msgid "Click to add more categories"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:182
+msgid "Offer's values"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:205;222
+msgid "Click to delete this value"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:208;225
+msgid "Are you sure you want to delete value of %s?"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:245
+msgid "Offer's packages"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:256
+#: View/Users/admin_send_message.ctp:11
+msgid "Quantity"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:274;294
+#: View/Settings/admin_buying_referrals.ctp:82
+msgid "Click to delete this package"
+msgstr ""
+
+#: View/PaidOffers/admin_settings.ctp:277;297
+msgid "Are you sure you want to delete package %s?"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:3
+msgid "Activity settings"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:7
+msgid "How Many Ads User Needs To Click The Day Before To Earn Referral's Commission"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:17
+msgid "Put 0 to add referral's commission all the time"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:23
+msgid "How Many Clicks User Needs To Be Able To Withdraw"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:33;94
+msgid "Put 0 to disable"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:39
+msgid "After How Many Days Of Inactivity Do You Want To Suspend Users"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:49
+msgid "Put 0 to not to suspended inactive users at all"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:55
+msgid "After How Many Days Of Inactivity Do You Want To Delete Users"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:65
+msgid "Put 0 to not to delete inactive users at all"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:71
+msgid "Security settings"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:74
+msgid "E-mail Verification Required"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:84
+msgid "For How Many Hours Block Cashout After Payment E-mail Change"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:100
+msgid "Force SSL Connection"
+msgstr ""
+
+#: View/Settings/admin_activity.ctp:110
+msgid "Disable SSL Connection On Forum"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:7
+msgid "Type Of Referral"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:11
+msgid "You have no referrals available to assign."
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:11
+msgid "Referral buying is not enabled"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:31
+msgid "Direct"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:33
+msgid "Direct (available: %u)"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:39
+msgid "You have no referrals available for renting."
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:39
+msgid "Referral renting is not enabled"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:54
+#: View/Users/admin_edit.ctp:150
+msgid "Rented"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:56
+msgid "Rented (available: %u)"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:63
+msgid "Number Of Referrals"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:73
+msgid "How Many Days?"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:85
+msgid "Upline Username"
+msgstr ""
+
+#: View/Settings/admin_assign_referrals.ctp:93
+msgid "To who do you want to assign referrals"
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:7
+msgid "Enable Selling Direct Referrals"
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:14
+#: View/Settings/admin_renting_referrals.ctp:14
+msgid "Check to enable / disable referral renting."
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:20
+msgid "Who Can Be Sold (Filter)"
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:30
+msgid "Active user which clicked at least last "
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:30
+msgid " days"
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:31
+msgid "All active users with no upline"
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:32
+msgid "All members with no upline (active and inactive)."
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:43
+msgid "Referral packs"
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:56
+msgid "Referrals Amount"
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:62;108
+msgid "Please put number of referrals in this pack"
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:92
+msgid "Click to add another pack"
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:102
+msgid "Referrals amount"
+msgstr ""
+
+#: View/Settings/admin_buying_referrals.ctp:113
+#: View/Settings/admin_renting_referrals.ctp:164;197
+msgid "Click to delete this range"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:7
+msgid "SweetCaptcha"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:8
+msgid "reCaptcha"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:9
+msgid "SolveMedia"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:18
+msgid "Please choose which captcha system do you want to use on your site"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:23;88
+msgid "You need to fill in captcha settings to be able to enable it."
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:48
+msgid "None"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:54
+msgid "Page Selection"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:57
+msgid "Please Choose On Which Pages Do You Want To Use Captcha System"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:62
+msgid "Login Page"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:68
+msgid "Registration Page"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:74
+msgid "Support Page"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:80
+msgid "Clicking Captcha"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:83
+msgid "Please Choose Which Captcha You Want To Sse For Watching Advertisements"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:113
+msgid "Disabled"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:125
+msgid "SweetCaptcha Settings"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:134
+msgid "Application ID"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:140
+msgid "Application Key"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:146
+msgid "Application Secret"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:158
+msgid "reCaptcha settings"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:167
+msgid "reCaptcha Public Key"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:173
+msgid "Please put your own public key. If you do not have one you need to sign up on Google Recaptcha site."
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:179
+msgid "reCaptcha Private Key"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:185
+msgid "Please put your own private key. If you do not have one you need to sign up on Google Recaptcha site."
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:191
+msgid "reCaptcha Theme"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:207
+msgid "SolveMedia Settings"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:216
+msgid "Verification Key"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:222
+msgid "Authentication Key"
+msgstr ""
+
+#: View/Settings/admin_captcha.ctp:228
+msgid "Challenge Key"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:3
+msgid "Setup Cron"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:6
+msgid "Please set your crontab with commands below:"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:15
+msgid "Cron Job Settings"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:19
+msgid "Delete PTC ads if they are expired/inactive for at least"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:30;45;60;75;90;106
+msgid " days since they were expired/added."
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:34
+msgid "Delete Banner ads if they are expired/inactive for at least"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:49
+msgid "Delete Featured ads if they are expired/inactive for at least"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:64
+msgid "Delete Login ads if they are expired/inactive for at least"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:79
+msgid "Delete Paid Offers if they are expired/inactive for at least"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:95
+msgid "Delete AdGrid ads if they are expired/inactive for at least"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:111
+#: View/Support/admin_view.ctp:94
+msgid "Send"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:122
+msgid " e-mails in one e-mail cron run."
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:126
+msgid "Remove PTC ads statistics older than"
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:137
+msgid " days (0 = never)."
+msgstr ""
+
+#: View/Settings/admin_cron.ctp:141
+msgid "Remove overfloated referrals when degrade user."
+msgstr ""
+
+#: View/Settings/admin_emails.ctp:3
+msgid "System E-mails Settings"
+msgstr ""
+
+#: View/Settings/admin_emails.ctp:14
+msgid "Email Format"
+msgstr ""
+
+#: View/Settings/admin_emails.ctp:19
+msgid "What format of email do you want to send?"
+msgstr ""
+
+#: View/Settings/admin_emails.ctp:25
+msgid "Email Title"
+msgstr ""
+
+#: View/Settings/admin_emails.ctp:33
+msgid "Email Content"
+msgstr ""
+
+#: View/Settings/admin_emails.ctp:36
+#: View/Support/admin_view.ctp:78
+#: View/SupportCannedAnswers/admin_add.ctp:15
+#: View/SupportCannedAnswers/admin_edit.ctp:15
+#: View/Users/admin_send_message.ctp:58
+msgid "Insert Variables"
+msgstr ""
+
+#: View/Settings/admin_faq.ctp:3
+msgid "FAQ - Edit Page Content"
+msgstr ""
+
+#: View/Settings/admin_faq.ctp:21
+#: View/Settings/admin_privacy.ctp:21
+#: View/Settings/admin_tos.ctp:21
+msgid "Page Title"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:7
+msgid "Site Name"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:15
+msgid "Put name of your site which is going to be displayed on every page"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:22
+msgid "Site Title"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:30
+msgid "Put title of your site which is going to be displayed on browser's window"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:37
+msgid "Site URL"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:45
+msgid "Put full URL of your site, including http:// or https://"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:52
+msgid "Site E-mail"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:60
+msgid "Put email which is going to be used for every e-mail send from your site (like registration confirmation or support email"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:67
+msgid "Site E-mail Sender"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:75
+msgid "Put sender name for site e-mail"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:82
+msgid "Site Currency"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:92
+msgid "Select currency for site."
+msgstr ""
+
+#: View/Settings/admin_general.ctp:99
+msgid "Currency Symbol Display Mode"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:104
+msgid "On left, with space"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:104
+msgid "On left, without space"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:104
+msgid "On right, with space"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:104
+msgid "On right, without space"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:108
+msgid "Select where to display currency symbol: on left ($1.23) or right (1.23€) with ($ 1.23 or 1.23 €) or without space."
+msgstr ""
+
+#: View/Settings/admin_general.ctp:115
+msgid "Display Places After Comma"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:126
+msgid "Select how many places after comma should be displayed in all of monetary values."
+msgstr ""
+
+#: View/Settings/admin_general.ctp:133
+msgid "Cut Trailing Zeros"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:141
+msgid "Check if you want to cut trailing zeros."
+msgstr ""
+
+#: View/Settings/admin_general.ctp:148
+msgid "Remind User To Update His Profile"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:156
+msgid "Keep showing message to update user profile after signup"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:163
+msgid "Theme"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:168
+msgid "Default"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:172
+#: View/Support/admin_view.ctp:72
+msgid ""
+msgstr ""
+
+#: View/Settings/admin_general.ctp:179
+msgid "Double IP settings"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:182
+msgid "Block Same Signup IPs"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:190
+msgid "Disallow signing up multiple users from one IP"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:197
+msgid "Block Same Login IPs"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:205
+msgid "Disallow logging in multiple users from one IP"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:212
+msgid "Allow to log in with the same IP if other user (with the same IP) logged in more than"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:222;240
+msgid "Put 0 to disable, to check double IP all the time"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:226;244
+msgid " days ago."
+msgstr ""
+
+#: View/Settings/admin_general.ctp:230
+msgid "Allow to signup with the same IP if other user (with the same IP) signup more than"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:248
+msgid "Advertisement watching settings"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:251
+msgid "Focus Setting"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:259
+msgid "Turn on / turn off forcing focus while watching advertisements."
+msgstr ""
+
+#: View/Settings/admin_general.ctp:266
+msgid "Start Ad Timer Settings"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:274
+msgid "If advertised page does not load or load slow you can set after how many seconds timer has to start if site is not loaded fully yet. Set 0 to start timer immediately."
+msgstr ""
+
+#: View/Settings/admin_general.ctp:281
+msgid "Start ad timer after"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:282
+msgid "Start timer immediately"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:283
+msgid "Start timer only if site is fully loaded"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:294
+msgid "Maintenance mode"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:297
+msgid "Put The Site Into Maintenance Mode"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:308
+msgid "My IP"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:311
+msgid "Click to enter into Bypass IP field"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:315
+msgid "Maintenance Mode Info"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:326
+msgid "Bypass IP"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:335
+msgid "Enter IP or IPs which can access the site during maintenance mode (if more than one, separate them with comma)"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:341
+msgid "Google Analytics"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:344
+msgid "Enable Google Analytics Stats"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:355
+msgid "Google Analytics ID"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:371
+msgid "Change in site currency will deactivate any payment gateway which does not support selected currency. Are you sure?"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:3
+msgid "Payment Processors Settings"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:8
+msgid "Fees And Others"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:21
+msgid "Choose Payment Processors For incoming payments (deposits & purchasing items)"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:24
+msgid "Please Choose Which Payment Processors Do You Want To Use For Incoming Payments"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:29
+msgid "Purchase Balance can be used only for purchasing items, it cannot be used for deposits."
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:41
+msgid "Choose Payment Processors For Cashouts"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:44
+msgid "Please Choose Which Payment Processors Do You Want To Use For Cashouts"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:57
+msgid "Payout Settings"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:60
+msgid "Allow To Withdraw To All Processors, Ignore Deposits."
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:67
+msgid "Allow withdrawing unlimited amounts to all processors. Do not take any deposits into consideration."
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:76
+msgid "Allow To Withdraw Only To One Processor From Which Most Of Deposits Are Made"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:83
+msgid "Allow withdrawing only to one processors from which most of deposits are made. Other processors will be disabled."
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:92
+msgid "Allow To Withdraw Unlimited Amount To Processor From Which Most Of Deposits Are Made"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:99
+msgid "Allow withdrawing with no limit to one processors from which most of deposits are made. Other processors will be limited to the amount of deposits made with them. If deposits will be equal for more than one processor, they will have unlimited withdraw amounts."
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:108
+msgid "Other settings"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:111
+msgid "Check, To Enable Transferring Money From Account Balance To Purchase Balance"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:121
+msgid "Which Balance Do You Want To Credit With Purchase Commission"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:127;183
+#: View/Settings/admin_promotions.ctp:75
+msgid "Account Balance"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:128
+#: View/Settings/admin_promotions.ctp:76
+#: View/Users/admin_edit.ctp:325
+msgid "Purchase Balance"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:135
+msgid "Check, To Allow Upgrading From Purchase Balance"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:145
+msgid "From Which Balance Do You Want To Take Money For Direct Referral Delete Fee"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:150
+msgid "Purchase balance"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:151;174
+msgid "Account balance"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:152;175
+msgid "Purchase balance or Account balance"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:159
+msgid "Automatically Refund To User Balance If Autocashout Failed"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:169
+msgid "From Which Balance Do You Want To Take Money For Rented Referrals Expiry"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:186
+msgid "Minimum Transfer Amount"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:194
+msgid "Maximum Transfer Amount"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:201
+msgid "Put 0 to disable (no maximum transfer amount)"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:221
+msgid "Minimum Deposit Amount"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:230
+msgid "Deposit Fee"
+msgstr ""
+
+#: View/Settings/admin_payments.ctp:252
+msgid "Withdraw Fee"
+msgstr ""
+
+#: View/Settings/admin_privacy.ctp:3
+msgid "Privacy Policy - Edit Page Content"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:6
+msgid "Signup Bonus"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:7
+msgid "Deposit Bonus"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:13
+msgid "Enable Signup Bonus"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:24
+msgid "Bonus Period"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:47
+msgid "Bonus Type"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:58
+msgid "Bonus Value"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:70
+msgid "Where To Credit Bonus"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:85
+msgid "Membership Type"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:95
+msgid "Period (In Days)"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:116
+msgid "Enable Deposit Bonus"
+msgstr ""
+
+#: View/Settings/admin_promotions.ctp:132
+msgid "%s members"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:7
+msgid "Enable Renting Referrals"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:20
+msgid "Renting Option"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:32
+msgid "Rent Real Users Only"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:36
+msgid "You need to install and activate BotSystem module to enable this option."
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:45
+msgid "Rent bots only"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:51
+msgid "Rental Period"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:59
+msgid "For how long (in days) do you want to rent referrals"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:65
+msgid "Who Can Be Rented (Filter)"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:75
+msgid "Active user which clicked at least last"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:76
+msgid "All active users"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:77
+msgid "All members (active and inactive)"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:87
+msgid "Auto Renew Days"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:94
+msgid "Please set days before expiry for AutoRenew, please put them after comma like: 1,2,3,4"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:100
+msgid "Auto Renew Tries"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:111
+msgid "How many times can system try to AutoRenew referral. Pust -1 for unlimited amount of times, 0 to disable AutoRenew. If system will try set amount of days and upline will have no money for AutoRenew, referral will be marked and will not be taken in consideration for AutoRenew."
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:117
+msgid "Extension Periods And Discounts"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:134;183
+msgid "Days"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:141;189
+msgid "Please put number of days to extend referrals"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:149;184
+msgid "Discount"
+msgstr ""
+
+#: View/Settings/admin_renting_referrals.ctp:156;195
+msgid "Please put discount for this period. Put 0 to not to give any discount"
+msgstr ""
+
+#: View/Settings/admin_tos.ctp:3
+msgid "Terms of Service - Edit Page Content"
+msgstr ""
+
+#: View/Support/admin_index.ctp:3
+msgid "Search Tickets"
+msgstr ""
+
+#: View/Support/admin_index.ctp:7;46
+msgid "Owner"
+msgstr ""
+
+#: View/Support/admin_index.ctp:12
+msgid "Enter ticket's owner to search"
+msgstr ""
+
+#: View/Support/admin_index.ctp:17;47
+msgid "Ticket ID"
+msgstr ""
+
+#: View/Support/admin_index.ctp:21;48
+msgid "Department"
+msgstr ""
+
+#: View/Support/admin_index.ctp:34
+msgid "Support tickets"
+msgstr ""
+
+#: View/Support/admin_index.ctp:79
+msgid "View ticket"
+msgstr ""
+
+#: View/Support/admin_index.ctp:83
+msgid "Close ticket"
+msgstr ""
+
+#: View/Support/admin_index.ctp:86
+msgid "Are you sure you want to close \"%s\"?"
+msgstr ""
+
+#: View/Support/admin_index.ctp:91
+msgid "Open ticket"
+msgstr ""
+
+#: View/Support/admin_index.ctp:94
+msgid "Are you sure you want to open \"%s\"?"
+msgstr ""
+
+#: View/Support/admin_index.ctp:99
+msgid "Delete ticket"
+msgstr ""
+
+#: View/Support/admin_index.ctp:120
+msgid "Mark as closed"
+msgstr ""
+
+#: View/Support/admin_index.ctp:121
+msgid "Mark as open"
+msgstr ""
+
+#: View/Support/admin_settings.ctp:7;61
+msgid "Departments"
+msgstr ""
+
+#: View/Support/admin_settings.ctp:16
+msgid "Enable Support System"
+msgstr ""
+
+#: View/Support/admin_settings.ctp:22
+msgid "For Members Only"
+msgstr ""
+
+#: View/Support/admin_settings.ctp:29
+msgid "Check if you want to enable support system only for logged in users."
+msgstr ""
+
+#: View/Support/admin_settings.ctp:35
+msgid "Minimum Characters"
+msgstr ""
+
+#: View/Support/admin_settings.ctp:47
+msgid "Minimum amount of characters a tickets needs to contain, to prevent spam and nonsense tickets."
+msgstr ""
+
+#: View/Support/admin_settings.ctp:50
+msgid "characters"
+msgstr ""
+
+#: View/Support/admin_settings.ctp:91
+msgid "Click to add more departments"
+msgstr ""
+
+#: View/Support/admin_view.ctp:3
+msgid "Ticket %s"
+msgstr ""
+
+#: View/Support/admin_view.ctp:31
+msgid "Last Action"
+msgstr ""
+
+#: View/Support/admin_view.ctp:43
+#: View/Users/admin_send_message.ctp:50
+msgid "Subject"
+msgstr ""
+
+#: View/Support/admin_view.ctp:50
+msgid "Messages"
+msgstr ""
+
+#: View/Support/admin_view.ctp:55
+msgid "Owner At %s"
+msgstr ""
+
+#: View/Support/admin_view.ctp:62
+msgid "%s at %s"
+msgstr ""
+
+#: View/Support/admin_view.ctp:69
+msgid "Reply"
+msgstr ""
+
+#: View/Support/admin_view.ctp:72
+msgid "Insert Canned Response"
+msgstr ""
+
+#: View/Support/admin_view.ctp:75
+msgid "Please select..."
+msgstr ""
+
+#: View/Support/admin_view.ctp:95
+msgid "Send And Close"
+msgstr ""
+
+#: View/SupportCannedAnswers/admin_add.ctp:3
+msgid "Add Canned Response"
+msgstr ""
+
+#: View/SupportCannedAnswers/admin_add.ctp:6
+#: View/SupportCannedAnswers/admin_edit.ctp:6
+msgid "Response Content"
+msgstr ""
+
+#: View/SupportCannedAnswers/admin_edit.ctp:3
+msgid "Edit Canned Response \"%s\""
+msgstr ""
+
+#: View/SupportCannedAnswers/admin_index.ctp:19
+msgid "Edit"
+msgstr ""
+
+#: View/SupportCannedAnswers/admin_index.ctp:56
+msgid "Add New Canned Response"
+msgstr ""
+
+#: View/Users/admin_add.ctp:3
+msgid "Manually Add User"
+msgstr ""
+
+#: View/Users/admin_add.ctp:7
+#: View/Users/admin_edit.ctp:26
+msgid "First Name"
+msgstr ""
+
+#: View/Users/admin_add.ctp:11
+#: View/Users/admin_edit.ctp:30
+msgid "Last Name"
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:3
+msgid "Clean Up User Database"
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:6
+msgid "Suspend Inactive Users"
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:8
+msgid "Suspend all users which weren't logged in longer than entered amount of days."
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:12
+msgid "Suspend users logged in more than"
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:19;45;71
+msgid "days ago."
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:32
+msgid "Delete Inactive Users"
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:34
+msgid "Delete all users which weren't logged in longer than entered amount of days."
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:38
+msgid "Delete users logged in more than"
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:58
+msgid "Delete Suspended Users"
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:60
+msgid "Delete all suspended users which weren't logged in longer than entered amount of days."
+msgstr ""
+
+#: View/Users/admin_cleanup.ctp:64
+msgid "Delete suspended users logged in more than"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:4
+msgid "Details Of User:"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:7
+msgid "Personal Data"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:8
+msgid "Earnings And Stats"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:9
+msgid "Groups"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:15
+msgid "Personal"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:50
+msgid "Address"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:64
+msgid "Sex"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:79
+msgid "%s e-mail"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:90
+msgid "Last Login IP"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:103
+msgid "Verification Date"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:106
+msgid "Not verified"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:113
+msgid "Last Login"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:117
+msgid "Last Click"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:122
+msgid "Referrals And Membership"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:126
+msgid "Direct Referrals"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:138
+msgid "Rented Referrals"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:162
+msgid "Rented Expiry Date"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:166
+msgid "Direct Upline"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:174
+#: View/Users/admin_index.ctp:60
+msgid "Rented Upline"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:184
+msgid "Edit Active Membership"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:198;235;263
+msgid "From: "
+msgstr ""
+
+#: View/Users/admin_edit.ctp:207
+msgid "Add New Membership: "
+msgstr ""
+
+#: View/Users/admin_edit.ctp:207
+msgid "Click to add another membership to the member"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:208
+msgid "Show All Memberships: "
+msgstr ""
+
+#: View/Users/admin_edit.ctp:208
+msgid "Click to show all memberships"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:214
+msgid "This User Has Standard Membership."
+msgstr ""
+
+#: View/Users/admin_edit.ctp:247
+msgid "Edit Memberships"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:278
+msgid "Click to remove any membership from this member and switch him to Standard Membership."
+msgstr ""
+
+#: View/Users/admin_edit.ctp:294
+msgid "Admin Notes"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:299
+msgid "Enter admin notes for this user"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:319
+msgid "Current Balance"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:331
+msgid "Total Clicks"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:335
+msgid "Personal Earnings"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:343
+msgid "Direct Referrals Clicks"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:347
+msgid "Direct Referrals Clicks Credited"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:351
+msgid "Rented Referrals Clicks"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:355
+msgid "Rented Referrals Clicks Credited"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:361
+msgid "Direct Referrals Earnings"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:367
+msgid "Rented Referrals Earnings"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:373
+msgid "Total Paid"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:379
+msgid "Cashout Times"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:385
+msgid "Total Deposits"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:391
+msgid "Total Purchases"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:397
+msgid "Pending Payouts"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:410
+msgid "Choose to which groups this user belongs"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:423
+msgid "Suspend User"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:426
+msgid "Are you sure you want to suspend \"%s\"?"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:430
+msgid "Delete Sser"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:437
+msgid "Unhook Direct Referrals"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:440
+msgid "Are you sure you want to unhook direct referrals of \"%s\"?"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:444
+msgid "Unhook Rented Referrals"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:447
+msgid "Are you sure you want to unhook rented referrals of \"%s\"?"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:456
+msgid "Reset Login Data"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:459
+msgid "Are you sure you want to reset login data of \"%s\"?"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:463
+msgid "Reset Advertisements"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:466
+msgid "Are you sure you want to reset advertisements clicks of \"%s\"?"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:471
+msgid "Ban From Forum"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:474
+msgid "Are you sure you want to ban \"%s\"?"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:479
+msgid "Unban From Forum"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:482
+msgid "Are you sure you want to unban \"%s\"?"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:487
+#: View/Users/admin_send_message.ctp:76
+msgid "Send E-mail"
+msgstr ""
+
+#: View/Users/admin_index.ctp:3
+msgid "Search Members"
+msgstr ""
+
+#: View/Users/admin_index.ctp:27
+msgid "Enter email to search"
+msgstr ""
+
+#: View/Users/admin_index.ctp:34
+msgid "Last IP"
+msgstr ""
+
+#: View/Users/admin_index.ctp:39
+msgid "Enter last IP to search"
+msgstr ""
+
+#: View/Users/admin_index.ctp:50
+msgid "Upline"
+msgstr ""
+
+#: View/Users/admin_index.ctp:55
+msgid "Enter upline username to search"
+msgstr ""
+
+#: View/Users/admin_index.ctp:65
+msgid "Enter rented upline username to search"
+msgstr ""
+
+#: View/Users/admin_index.ctp:85
+msgid "Enter singup IP to search"
+msgstr ""
+
+#: View/Users/admin_index.ctp:120
+msgid "Upgraded"
+msgstr ""
+
+#: View/Users/admin_index.ctp:125
+msgid "Only"
+msgstr ""
+
+#: View/Users/admin_index.ctp:130
+msgid "Forum Status"
+msgstr ""
+
+#: View/Users/admin_index.ctp:135
+msgid "Active"
+msgstr ""
+
+#: View/Users/admin_index.ctp:135
+msgid "Banned"
+msgstr ""
+
+#: View/Users/admin_index.ctp:162
+msgid "Account"
+msgstr ""
+
+#: View/Users/admin_index.ctp:197
+msgid "Edit user"
+msgstr ""
+
+#: View/Users/admin_index.ctp:210
+msgid "Activate user"
+msgstr ""
+
+#: View/Users/admin_index.ctp:238
+msgid "Activate users"
+msgstr ""
+
+#: View/Users/admin_index.ctp:241
+msgid "Ban from forum"
+msgstr ""
+
+#: View/Users/admin_index.ctp:242
+msgid "Unban from froum"
+msgstr ""
+
+#: View/Users/admin_send_message.ctp:3
+msgid "Send E-mail To Users"
+msgstr ""
+
+#: View/Users/admin_send_message.ctp:14
+msgid "To how many users do you want to send an email"
+msgstr ""
+
+#: View/Users/admin_send_message.ctp:20
+msgid "E-mail Type"
+msgstr ""
+
+#: View/Users/admin_send_message.ctp:23
+msgid "What format of email do you want to send"
+msgstr ""
+
+#: View/Users/admin_send_message.ctp:29
+msgid "E-mail Details"
+msgstr ""
+
+#: View/Users/admin_send_message.ctp:32
+msgid "Recipient Username"
+msgstr ""
+
+#: View/Users/admin_send_message.ctp:38
+msgid "Sender Name"
+msgstr ""
+
+#: View/Users/admin_send_message.ctp:44
+msgid "Reply To"
+msgstr ""
+
+#: View/Users/admin_send_message.ctp:56
+msgid "E-mail Content"
+msgstr ""
+

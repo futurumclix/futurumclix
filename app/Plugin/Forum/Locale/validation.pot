@@ -1,0 +1,1024 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Model/Ad.php:validation for field title
+#: Model/LoginAd.php:validation for field title
+#: Model/PaidOffer.php:validation for field title
+msgid "Title cannot be longer than 128 characters"
+msgstr ""
+
+#: Model/Ad.php:validation for field title
+#: Model/BannerAd.php:validation for field title
+#: Model/FeaturedAd.php:validation for field title
+#: Model/LoginAd.php:validation for field title
+#: Model/PaidOffer.php:validation for field title
+msgid "Title can contain only alphanumerical characters, \"-\", \"_\" or \".\""
+msgstr ""
+
+#: Model/Ad.php:validation for field description
+#: Model/PaidOffer.php:validation for field description
+msgid "Description cannot be longer than 1024 characters"
+msgstr ""
+
+#: Model/Ad.php:validation for field url
+#: Model/BannerAd.php:validation for field url
+#: Model/FeaturedAd.php:validation for field url
+#: Model/LoginAd.php:validation for field url
+msgid "URL cannot be longer than 512 characters"
+msgstr ""
+
+#: Model/Ad.php:validation for field url
+#: Model/BannerAd.php:validation for field url
+#: Model/FeaturedAd.php:validation for field url
+#: Model/LoginAd.php:validation for field url
+#: Model/PaidOffer.php:validation for field url
+msgid "Please enter a valid URL"
+msgstr ""
+
+#: Model/Ad.php:validation for field clicks;validation for field outside_clicks
+#: Model/BannerAd.php:validation for field clicks;validation for field total_clicks
+#: Model/FeaturedAd.php:validation for field clicks;validation for field total_clicks
+#: Model/LoginAd.php:validation for field clicks;validation for field total_clicks
+msgid "Number of clicks should be a natural number or 0"
+msgstr ""
+
+#: Model/Ad.php:validation for field status
+#: Model/BannerAd.php:validation for field status
+#: Model/FeaturedAd.php:validation for field status
+#: Model/LoginAd.php:validation for field status
+#: Model/PaidOffer.php:validation for field status
+msgid "Please select a valid status"
+msgstr ""
+
+#: Model/Ad.php:validation for field package_type
+#: Model/BannerAd.php:validation for field package_type
+#: Model/FeaturedAd.php:validation for field package_type
+#: Model/LoginAd.php:validation for field package_type
+msgid "Package type cannot be longer than 20 characters"
+msgstr ""
+
+#: Model/Ad.php:validation for field package_type
+#: Model/BannerAd.php:validation for field package_type
+#: Model/FeaturedAd.php:validation for field package_type
+#: Model/LoginAd.php:validation for field package_type
+msgid "Please select a valid package type"
+msgstr ""
+
+#: Model/Ad.php:validation for field expiry
+msgid "Expiry should be a natural number or 0"
+msgstr ""
+
+#: Model/Admin.php:validation for field email
+msgid "Please enter valid e-mail address"
+msgstr ""
+
+#: Model/Admin.php:validation for field email
+msgid "This e-mail adress is in use"
+msgstr ""
+
+#: Model/Admin.php:validation for field password
+msgid "Password should be at least 7 characters long"
+msgstr ""
+
+#: Model/Admin.php:validation for field allowed_ips
+#: Model/Settings.php:validation for field maintenanceIPs
+msgid "Please enter a comma separated list of valid IP addresses"
+msgstr ""
+
+#: Model/AdsCategory.php:validation for field name
+msgid "Name cannot be longer than 32 characters"
+msgstr ""
+
+#: Model/AdsCategory.php:validation for field name
+msgid "Name cannot be empty"
+msgstr ""
+
+#: Model/AdsCategory.php:validation for field name
+msgid "Name can only contain alphanumerical symbols"
+msgstr ""
+
+#: Model/AdsCategory.php:validation for field time
+msgid "Time should be a numeric value (seconds)"
+msgstr ""
+
+#: Model/AdsCategory.php:validation for field time
+msgid "Time cannot be a negative value"
+msgstr ""
+
+#: Model/AdsCategory.php:validation for field allow_description
+msgid "Allow description should be a boolean value"
+msgstr ""
+
+#: Model/AdsCategory.php:validation for field geo_targetting
+msgid "Geo-targeting should be a boolean value"
+msgstr ""
+
+#: Model/AdsCategory.php:validation for field referrals_earnings
+msgid "Referrals earnings should be a boolean value"
+msgstr ""
+
+#: Model/AdsCategory.php:validation for field status
+msgid "Status cannot be longer than 20 characters"
+msgstr ""
+
+#: Model/AdsCategoryPackage.php:validation for field type
+msgid "Type cannot be longer than 20 characters"
+msgstr ""
+
+#: Model/AdsCategoryPackage.php:validation for field type
+msgid "Type have to be \"Clicks\" or \"Days\""
+msgstr ""
+
+#: Model/AdsCategoryPackage.php:validation for field type
+msgid "Type cannot be empty"
+msgstr ""
+
+#: Model/AdsCategoryPackage.php:validation for field amount
+#: Model/BannerAdsPackage.php:validation for field amount
+#: Model/DirectReferralsPrice.php:validation for field amount
+#: Model/FeaturedAdsPackage.php:validation for field amount
+#: Model/LoginAdsPackage.php:validation for field amount
+msgid "Amount should be a numeric value"
+msgstr ""
+
+#: Model/AdsCategoryPackage.php:validation for field amount
+#: Model/BannerAdsPackage.php:validation for field amount
+#: Model/Cashout.php:validation for field amount
+#: Model/Deposit.php:validation for field amount
+#: Model/FeaturedAdsPackage.php:validation for field amount
+#: Model/LoginAdsPackage.php:validation for field amount
+msgid "Amount cannot be a negative number"
+msgstr ""
+
+#: Model/AdsCategoryPackage.php:validation for field price
+#: Model/BannerAdsPackage.php:validation for field price
+#: Model/FeaturedAdsPackage.php:validation for field price
+#: Model/LoginAdsPackage.php:validation for field price
+msgid "Price should be non-negative decimal with max two places after dot"
+msgstr ""
+
+#: Model/Banner.php:validation for field file
+msgid "Please supply a valid image"
+msgstr ""
+
+#: Model/Banner.php:validation for field file
+msgid "Invalid file, only images allowed (gif, png, jpg)"
+msgstr ""
+
+#: Model/Banner.php:validation for field file
+msgid "Image must be less than 2MB"
+msgstr ""
+
+#: Model/Banner.php:validation for field file;validation for field filename
+msgid "Something went wrong with upload. Please try again."
+msgstr ""
+
+#: Model/Banner.php:validation for field file
+msgid "File with this name already exists"
+msgstr ""
+
+#: Model/Banner.php:validation for field remote
+#: Model/BannerAd.php:validation for field image_url
+#: Model/LoginAd.php:validation for field image_url
+msgid "Please supply a valid URL to image file"
+msgstr ""
+
+#: Model/Banner.php:validation for field remote
+msgid "Failed to download given file"
+msgstr ""
+
+#: Model/Banner.php:validation for field statistical;validation for field user_paid;validation for field user_earned;validation for field site_paid
+#: Model/PaymentGateway.php:validation for field deposits;validation for field cashouts
+msgid "boolean"
+msgstr ""
+
+#: Model/Banner.php:validation for field font_name
+msgid "Font name have to be shorter than 50 characters"
+msgstr ""
+
+#: Model/Banner.php:validation for field font_color
+msgid "Font color should be in format RRGGBB"
+msgstr ""
+
+#: Model/Banner.php:validation for field font_size
+msgid "Font size should be a numeric value"
+msgstr ""
+
+#: Model/Banner.php:validation for field user_paid_x;validation for field user_paid_y;validation for field user_earned_x;validation for field user_earned_y;validation for field site_paid_x;validation for field site_paid_y
+msgid "Coordinate should be a numeric value"
+msgstr ""
+
+#: Model/BannerAd.php:validation for field title
+#: Model/FeaturedAd.php:validation for field title
+msgid "Title cannot be longer than 128 charcters"
+msgstr ""
+
+#: Model/BannerAd.php:validation for field image_url
+#: Model/LoginAd.php:validation for field image_url
+msgid "Image URL cannot be longer than 512 characters"
+msgstr ""
+
+#: Model/BannerAd.php:validation for field impressions
+#: Model/FeaturedAd.php:validation for field impressions
+msgid "Number of impressions should be a natural number or 0"
+msgstr ""
+
+#: Model/BannerAd.php:validation for field expiry
+#: Model/FeaturedAd.php:validation for field expiry
+#: Model/LoginAd.php:validation for field expiry
+msgid "Expiry value should be a natural number or 0"
+msgstr ""
+
+#: Model/BannerAdsPackage.php:validation for field type
+#: Model/FeaturedAdsPackage.php:validation for field type
+msgid "Type have to be \"Clicks\", \"Days\", or \"Impressions\""
+msgstr ""
+
+#: Model/BoughtItem.php:validation for field model
+#: Model/ClickHistory.php:validation for field model
+#: Model/ImpressionHistory.php:validation for field model
+#: Model/Settings.php:validation for field key
+msgid "maxLength"
+msgstr ""
+
+#: Model/Cashout.php:validation for field amount
+#: Model/Deposit.php:validation for field amount
+msgid "Amount should be a decimal value"
+msgstr ""
+
+#: Model/Cashout.php:validation for field fee
+msgid "Fee should be a decimal value"
+msgstr ""
+
+#: Model/Cashout.php:validation for field fee
+msgid "Fee cannot be a negative number"
+msgstr ""
+
+#: Model/Cashout.php:validation for field payment_account;validation for field gateway
+msgid "between"
+msgstr ""
+
+#: Model/Cashout.php:validation for field status
+#: Model/Commission.php:validation for field status
+msgid "inList"
+msgstr ""
+
+#: Model/ClickValue.php:validation for field user_click_value;validation for field direct_referral_click_value;validation for field rented_referral_click_value
+msgid "Click value should be non-negative decimal value"
+msgstr ""
+
+#: Model/Commission.php:validation for field amount
+msgid "userDefined"
+msgstr ""
+
+#: Model/Commission.php:validation for field credit_date
+#: Model/UserProfile.php:validation for field birth_day
+msgid "datetime"
+msgstr ""
+
+#: Model/CountryLock.php:validation for field note
+#: Model/EmailLock.php:validation for field note
+#: Model/IpLock.php:validation for field note
+#: Model/UsernameLock.php:validation for field note
+msgid "Note cannot be longer than 255 characters."
+msgstr ""
+
+#: Model/Currency.php:validation for field code
+msgid "Currency code cannot be empty"
+msgstr ""
+
+#: Model/Currency.php:validation for field code
+msgid "Currency code cannot be shorter than 3 characters"
+msgstr ""
+
+#: Model/Currency.php:validation for field code
+msgid "Currency code cannot be longer than 3 characters"
+msgstr ""
+
+#: Model/Currency.php:validation for field name
+msgid "Currency name cannot be empty"
+msgstr ""
+
+#: Model/Currency.php:validation for field name
+msgid "Currency name cannot be longer than 32 characters"
+msgstr ""
+
+#: Model/Currency.php:validation for field symbol
+msgid "Currency symbol cannot be empty"
+msgstr ""
+
+#: Model/Currency.php:validation for field symbol
+msgid "Currency symbol cannot be longer than 3 characters"
+msgstr ""
+
+#: Model/Currency.php:validation for field iso_number
+msgid "Currency ISO number should be a numeric value"
+msgstr ""
+
+#: Model/Currency.php:validation for field step
+msgid "Real step value should be a valid monetary value"
+msgstr ""
+
+#: Model/Deposit.php:validation for field gateway
+msgid "Gateway name cannot be longer than 25 characters"
+msgstr ""
+
+#: Model/Deposit.php:validation for field account
+msgid "Account cannot be longer than 50 characters"
+msgstr ""
+
+#: Model/Deposit.php:validation for field status
+msgid "Deposit status is wrong"
+msgstr ""
+
+#: Model/Deposit.php:validation for field item
+msgid "Item id cannot be longer than 100 characters"
+msgstr ""
+
+#: Model/Deposit.php:validation for field gatewayid
+msgid "Gateway identification cannot be longer than 255 characters"
+msgstr ""
+
+#: Model/Deposit.php:validation for field date
+msgid "Datetime should be valid datetime"
+msgstr ""
+
+#: Model/DepositBonus.php:validation for field amount
+#: Model/User.php:validation for field purchase_balance
+msgid "Purchase balance should be a decimal value"
+msgstr ""
+
+#: Model/DepositBonus.php:validation for field status
+msgid "Status can be only \"Credited\" or \"Cancelled\"."
+msgstr ""
+
+#: Model/DirectReferralsPrice.php:validation for field amount
+msgid "Amount should be less than 65535"
+msgstr ""
+
+#: Model/DirectReferralsPrice.php:validation for field price
+msgid "Price should be a valid decimal value"
+msgstr ""
+
+#: Model/Email.php:validation for field name
+#: Model/PendingEmail.php:validation for field name
+msgid "E-mail name cannot be longer than 50 characters"
+msgstr ""
+
+#: Model/Email.php:validation for field format
+#: Model/PendingEmail.php:validation for field format
+msgid "Format can only be \"text\" or \"html\""
+msgstr ""
+
+#: Model/Email.php:validation for field subject
+#: Model/PendingEmail.php:validation for field subject
+msgid "Subject cannot be longer than 50 characters"
+msgstr ""
+
+#: Model/EmailLock.php:validation for field template
+#: Model/UsernameLock.php:validation for field template
+msgid "Template cannot be empty."
+msgstr ""
+
+#: Model/EmailLock.php:validation for field template
+#: Model/UsernameLock.php:validation for field template
+msgid "Template cannot be longer than 50 characters."
+msgstr ""
+
+#: Model/FeaturedAd.php:validation for field description
+msgid "Description cannot be longer than 300 characters"
+msgstr ""
+
+#: Model/IpLock.php:validation for field ip_start;validation for field ip_end
+msgid "Please supply a valid IP address."
+msgstr ""
+
+#: Model/LoginAdsPackage.php:validation for field type
+msgid "Type have to be \"Clicks\" or \"Days\"."
+msgstr ""
+
+#: Model/Membership.php:validation for field name
+msgid "Name should be between 1 and 50 characters"
+msgstr ""
+
+#: Model/Membership.php:validation for field status
+msgid "values"
+msgstr ""
+
+#: Model/Membership.php:validation for field direct_referrals_limit;validation for field rented_referrals_limit
+msgid "Limit should be lower than 1000000 (or -1 for unlimited value)"
+msgstr ""
+
+#: Model/Membership.php:validation for field 1_month_price;validation for field 2_months_price;validation for field 3_months_price;validation for field 4_months_price;validation for field 5_months_price;validation for field 6_months_price;validation for field 7_months_price;validation for field 8_months_price;validation for field 9_months_price;validation for field 10_months_price;validation for field 11_months_price
+msgid "Price should be non-negative decimal value"
+msgstr ""
+
+#: Model/Membership.php:validation for field 1_month_price;validation for field 2_months_price;validation for field 3_months_price;validation for field 4_months_price;validation for field 5_months_price;validation for field 6_months_price;validation for field 7_months_price;validation for field 8_months_price;validation for field 9_months_price;validation for field 10_months_price;validation for field 11_months_price;validation for field 12_months_price
+msgid "Price cannot be negative value"
+msgstr ""
+
+#: Model/Membership.php:validation for field 12_months_price
+#: Model/RentedReferralsPrice.php:validation for field price;validation for field autopay_price
+msgid "Price should be a decimal value"
+msgstr ""
+
+#: Model/Membership.php:validation for field direct_referrals_delete_cost
+msgid "Direct referrals delete cost should be a decimal value"
+msgstr ""
+
+#: Model/Membership.php:validation for field rented_referral_expiry_fee
+msgid "Rented referrals expiry fee should be a decimal value"
+msgstr ""
+
+#: Model/Membership.php:validation for field minimum_cashout
+msgid "Minimum payout cannot be longer than 255 characters"
+msgstr ""
+
+#: Model/Membership.php:validation for field minimum_cashout
+msgid "Minimum payout should be a comma separated list of numbers"
+msgstr ""
+
+#: Model/Membership.php:validation for field maximum_cashout_amount
+msgid "Maximum cashout amount should be a decimal value"
+msgstr ""
+
+#: Model/Membership.php:validation for field upgrade_commission
+msgid "Upgrade commission should be a decimal value"
+msgstr ""
+
+#: Model/Membership.php:validation for field fund_commission
+msgid "Fund commission should be a percentage value (0-100)"
+msgstr ""
+
+#: Model/Membership.php:validation for field purchase_commission
+msgid "Purchase commission should be a percentage value (0-100)"
+msgstr ""
+
+#: Model/Membership.php:validation for field time_between_renting
+msgid "Time between renting should be a non-negative numeric value"
+msgstr ""
+
+#: Model/Membership.php:validation for field available_referrals_packs
+msgid "Available referrals packs cannot be longer than 255 characters"
+msgstr ""
+
+#: Model/Membership.php:validation for field available_referrals_packs
+msgid "Available referrals packs should be a comma separated list of numbers"
+msgstr ""
+
+#: Model/Membership.php:validation for field referral_recycle_cost
+msgid "Referral recycle cost should be a decimal value"
+msgstr ""
+
+#: Model/Membership.php:validation for field autorecycle_time;validation for field cashout_waiting_time
+msgid "Autorecycle time should be a non-negative numeric value"
+msgstr ""
+
+#: Model/Membership.php:validation for field max_purchase_commission_referral
+msgid "Maximum purchase commission per referral should be a decimal value"
+msgstr ""
+
+#: Model/Membership.php:validation for field max_purchase_commission_transaction
+msgid "Maximum purchase commission per transaction should be a decimal value"
+msgstr ""
+
+#: Model/Membership.php:validation for field commission_delay
+msgid "Commission delay should be a non-negative numeric value"
+msgstr ""
+
+#: Model/Membership.php:validation for field commission_delay
+msgid "Commission delay cannot be longer than 65535 days"
+msgstr ""
+
+#: Model/Membership.php:validation for field results_per_page
+msgid "Results per page should be a non-negative numeric value"
+msgstr ""
+
+#: Model/Membership.php:validation for field results_per_page
+msgid "Results per page  should be a non-negative numeric value"
+msgstr ""
+
+#: Model/Membership.php:validation for field results_per_page
+msgid "Results per page cannot be more than 65535"
+msgstr ""
+
+#: Model/Membership.php:validation for field autopay_trigger_days
+msgid "AutoPay trigger days should be a non-negative numeric value"
+msgstr ""
+
+#: Model/Membership.php:validation for field autopay_trigger_days
+msgid "AutoPay trigger days cannot be longer than 255 days"
+msgstr ""
+
+#: Model/News.php:validation for field title
+msgid "Title length cannot be longer than 150 characters."
+msgstr ""
+
+#: Model/News.php:validation for field content
+msgid "New's content cannot be empty."
+msgstr ""
+
+#: Model/News.php:validation for field show_in_login_ads_until
+msgid "Show in login ads should be a valid date and time value."
+msgstr ""
+
+#: Model/PaidOffer.php:validation for field url
+msgid "URL should be between 10 and 512 characters"
+msgstr ""
+
+#: Model/PaidOffer.php:validation for field total_slots
+msgid "Number of slots should be a natural number or 0"
+msgstr ""
+
+#: Model/PaidOffer.php:validation for field taken_slots
+msgid "Number of taken slots should be a natural number or 0"
+msgstr ""
+
+#: Model/PaidOffer.php:validation for field value
+msgid "Value should be a valid monetary value"
+msgstr ""
+
+#: Model/PaidOffersApplication.php:validation for field status
+msgid "Invalid status."
+msgstr ""
+
+#: Model/PaidOffersApplication.php:validation for field description
+msgid "Description cannot be longer than 1024 characters."
+msgstr ""
+
+#: Model/PaidOffersApplication.php:validation for field reject_reason
+msgid "Reject reason cannot be longer than 1024 characters."
+msgstr ""
+
+#: Model/PaidOffersCategory.php:validation for field name
+msgid "Name length should be between 1 and 100 characters"
+msgstr ""
+
+#: Model/PaidOffersPackage.php:validation for field value
+#: Model/PaidOffersValue.php:validation for field value
+msgid "Value should be a valid monetary value."
+msgstr ""
+
+#: Model/PaidOffersPackage.php:validation for field quantity
+msgid "Quantity should be a valid numeric value."
+msgstr ""
+
+#: Model/PaidOffersPackage.php:validation for field quantity
+msgid "Quantity should be between 0 and 4294967295."
+msgstr ""
+
+#: Model/PaidOffersPackage.php:validation for field price
+msgid "Price should be a valid monetary value."
+msgstr ""
+
+#: Model/PaymentGateway.php:validation for field name
+msgid "Name should be between 0 and 129 characters long"
+msgstr ""
+
+#: Model/PaymentGateway.php:validation for field minimum_deposit_amount
+msgid "Minimum deposit amount should be a decimal value"
+msgstr ""
+
+#: Model/PaymentGateway.php:validation for field deposit_fee_percent
+msgid "Deposit fee (percent) should be a valid percentage value"
+msgstr ""
+
+#: Model/PaymentGateway.php:validation for field deposit_fee
+msgid "Deposit fee should be a decimal value"
+msgstr ""
+
+#: Model/PaymentGateway.php:validation for field cashout_fee_percent
+msgid "Cashout fee (percent) should be a valid percentage value"
+msgstr ""
+
+#: Model/PaymentGateway.php:validation for field cashout_fee
+msgid "Cashout fee should be a decimal value"
+msgstr ""
+
+#: Model/PaymentGateway.php:validation for field api_settings
+msgid "Wrong gateway settings"
+msgstr ""
+
+#: Model/RentExtensionPeriod.php:validation for field days
+msgid "Number of days should be natural number"
+msgstr ""
+
+#: Model/RentExtensionPeriod.php:validation for field days
+msgid "Number of days should be unique"
+msgstr ""
+
+#: Model/RentExtensionPeriod.php:validation for field discount
+msgid "Discount value should be a percentage value (0% - 100%)"
+msgstr ""
+
+#: Model/RentedReferralsPrice.php:validation for field min
+msgid "Range start should be a natural number"
+msgstr ""
+
+#: Model/RentedReferralsPrice.php:validation for field min
+msgid "Start value has to be lower than end value"
+msgstr ""
+
+#: Model/RentedReferralsPrice.php:validation for field max
+msgid "Range end should be a natural number"
+msgstr ""
+
+#: Model/RentedReferralsPrice.php:validation for field max
+msgid "End value has to be bigger than start value"
+msgstr ""
+
+#: Model/RentedReferralsPrice.php:validation for field price;validation for field autopay_price
+msgid "Price has to be bigger or equal to zero"
+msgstr ""
+
+#: Model/RequestObject.php:validation for field alias
+msgid "Alias should be unique"
+msgstr ""
+
+#: Model/RequestObject.php:validation for field maxLength
+msgid "Alias should be shorter than 200 characters."
+msgstr ""
+
+#: Model/Settings.php:validation for field key
+msgid "characters"
+msgstr ""
+
+#: Model/Settings.php:validation for field key
+msgid "minLength"
+msgstr ""
+
+#: Model/Settings.php:validation for field siteTitle
+msgid "Please enter site title."
+msgstr ""
+
+#: Model/Settings.php:validation for field siteName
+msgid "Please enter site name."
+msgstr ""
+
+#: Model/Settings.php:validation for field siteURL
+msgid "Please enter site URL."
+msgstr ""
+
+#: Model/Settings.php:validation for field siteURL
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: Model/Settings.php:validation for field siteEmail
+msgid "Site email should be a valid e-mail address."
+msgstr ""
+
+#: Model/Settings.php:validation for field siteTheme;validation for field activeStatsNumber;validation for field signUpBonus;validation for field paidOffers;validation for field Evercookie
+msgid "rule"
+msgstr ""
+
+#: Model/Settings.php:validation for field siteTheme;validation for field activeStatsNumber
+msgid "allowEmpty"
+msgstr ""
+
+#: Model/Settings.php:validation for field loadTimeAdView
+msgid "Time should be a natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field typeTimeAdView
+msgid "Wrong value for start timer."
+msgstr ""
+
+#: Model/Settings.php:validation for field captchaType;validation for field captchaTypeSurfer
+msgid "Unsupported captcha type."
+msgstr ""
+
+#: Model/Settings.php:validation for field rentingOption
+msgid "Unsupported renting option."
+msgstr ""
+
+#: Model/Settings.php:validation for field rentMinClickDays;validation for field rentPeriod;validation for field directMinClickDays;validation for field checkLoginIpDays;validation for field checkSignupIpDays
+msgid "Number of days should be a natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field rentFilter
+msgid "Unsupported renting filter"
+msgstr ""
+
+#: Model/Settings.php:validation for field directFilter
+msgid "Unsupported renting filter."
+msgstr ""
+
+#: Model/Settings.php:validation for field cashoutMode
+msgid "Unknown cashout mode"
+msgstr ""
+
+#: Model/Settings.php:validation for field maximumTransfer
+msgid "Maximum transfer value should be a decimal value."
+msgstr ""
+
+#: Model/Settings.php:validation for field minimumTransfer
+msgid "Minimum transfer value should be a decimal value."
+msgstr ""
+
+#: Model/Settings.php:validation for field currencySymbol
+msgid "Invalid value for currency symbol display mode."
+msgstr ""
+
+#: Model/Settings.php:validation for field commaPlaces
+msgid "Available places after comma should be in range [0, 8]."
+msgstr ""
+
+#: Model/Settings.php:validation for field commaPlaces
+msgid "Available places after comma should be a valid natural number (0 included)."
+msgstr ""
+
+#: Model/Settings.php:validation for field totalDeposits;validation for field totalCashouts
+msgid "Total deposits amount should be a decimal value."
+msgstr ""
+
+#: Model/Settings.php:validation for field commissionTo
+msgid "Commission can be added only to Account or Purchase Balance."
+msgstr ""
+
+#: Model/Settings.php:validation for field deleteReferralsBalance
+msgid "Money can be taken only from Account or Purchase balance."
+msgstr ""
+
+#: Model/Settings.php:validation for field PTCTitleLength;validation for field featuredAdsTitleMaxLen;validation for field bannerAdsTitleMaxLen;validation for field loginAdsTitleMaxLen
+msgid "Title length should be between 0 and 128."
+msgstr ""
+
+#: Model/Settings.php:validation for field PTCTitleLength;validation for field featuredAdsTitleMaxLen;validation for field bannerAdsTitleMaxLen;validation for field loginAdsTitleMaxLen;validation for field loginAdsPerBox;validation for field supportMinMsgLen
+msgid "Title length should be a valid natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field PTCDescLength
+msgid "Description length should be between 0 and 1024."
+msgstr ""
+
+#: Model/Settings.php:validation for field PTCDescLength;validation for field featuredAdsDescMaxLen
+msgid "Description length should be a valid natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field PTCPreviewTime
+msgid "Preview time should be a valid natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field PTCCheckConnectionTimeout
+msgid "Timeout should be a valid natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field userActivityClicks
+msgid "Activity clicks should be a valid natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field withdrawClicks
+msgid "Withdraw clicks should be a valid natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field inactivitySuspendDays;validation for field inactivityDeleteDays
+msgid "Days should be a valid natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field cashoutBlockTime
+msgid "Number of hours should be a valid natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field featuredAdsPerBox
+msgid "Ads per box should be a valid natural number."
+msgstr ""
+
+#: Model/Settings.php:validation for field featuredAdsDescMaxLen
+msgid "Description length should be between 0 and 300."
+msgstr ""
+
+#: Model/Settings.php:validation for field loginAdsShowMode
+msgid "list"
+msgstr ""
+
+#: Model/Settings.php:validation for field autoRenewDays
+msgid "AutoRenew days should be numbers separated by commas."
+msgstr ""
+
+#: Model/Settings.php:validation for field autoRenewTries
+msgid "AutoRenew tries number should be between -1 and 128."
+msgstr ""
+
+#: Model/Settings.php:validation for field paidOffersActive
+msgid "Paid Offers active setting should be a boolean value"
+msgstr ""
+
+#: Model/SupportCannedAnswer.php:validation for field name
+#: Model/SupportDepartment.php:validation for field name
+msgid "Name cannot be longer than 100 characters."
+msgstr ""
+
+#: Model/SupportCannedAnswer.php:validation for field message
+#: Model/SupportTicket.php:validation for field message
+msgid "Message cannot be empty."
+msgstr ""
+
+#: Model/SupportTicket.php:validation for field id
+#: Model/SupportTicketAnswer.php:validation for field ticket_id
+msgid "uuid"
+msgstr ""
+
+#: Model/SupportTicket.php:validation for field department_id
+msgid "Please select department."
+msgstr ""
+
+#: Model/SupportTicket.php:validation for field full_name
+msgid "Full name cannot be longer than 71 characters."
+msgstr ""
+
+#: Model/SupportTicket.php:validation for field email
+msgid "E-mail cannot be longer than 50 characters."
+msgstr ""
+
+#: Model/SupportTicket.php:validation for field email
+msgid "Please enter a valid e-mail address."
+msgstr ""
+
+#: Model/SupportTicket.php:validation for field subject
+msgid "Subject cannot be longer than 100 characters."
+msgstr ""
+
+#: Model/SupportTicket.php:validation for field status
+msgid "Status can be only \"Open\" or \"Closed\"."
+msgstr ""
+
+#: Model/SupportTicketAnswer.php:validation for field sender_flag
+msgid "range"
+msgstr ""
+
+#: Model/SupportTicketAnswer.php:validation for field message
+msgid "Message cannot be empty"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "Username cannot be blank"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "Username cannot be longer than 50 and shorter than 3 characters"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "Username must only contain letters and numbers"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "This username is already taken"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "This username is blocked"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "Password cannot be blank"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "Password have to be longer than 6 characters"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "You cannot use your username as password"
+msgstr ""
+
+#: Model/User.php:validation for field confirm_password
+msgid "Please retype your password"
+msgstr ""
+
+#: Model/User.php:validation for field confirm_password
+msgid "Passwords do not match"
+msgstr ""
+
+#: Model/User.php:validation for field role
+msgid "valid"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Please enter a valid e-mail address"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "This e-mail is in use"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "This email is blocked."
+msgstr ""
+
+#: Model/User.php:validation for field first_name
+msgid "Please enter your first name"
+msgstr ""
+
+#: Model/User.php:validation for field last_name
+msgid "Please enter your last name"
+msgstr ""
+
+#: Model/User.php:validation for field acceptTos
+msgid "Please read and accept Terms Of Service"
+msgstr ""
+
+#: Model/User.php:validation for field acceptTos
+msgid "notEmpty"
+msgstr ""
+
+#: Model/User.php:validation for field signup_ip;validation for field last_ip
+msgid "Please supply a valid IP address"
+msgstr ""
+
+#: Model/User.php:validation for field signup_ip;validation for field last_ip
+msgid "This IP is already in use"
+msgstr ""
+
+#: Model/User.php:validation for field account_balance
+msgid "Account balance should be a decimal value"
+msgstr ""
+
+#: Model/User.php:validation for field purchase_balance
+msgid "Purchase balance cannot be a negative number"
+msgstr ""
+
+#: Model/User.php:validation for field upline_commission
+msgid "Upline commission should be a decimal value"
+msgstr ""
+
+#: Model/User.php:validation for field upline_commission
+msgid "Upline commission cannot be a negative number"
+msgstr ""
+
+#: Model/User.php:validation for field comes_from
+msgid "length"
+msgstr ""
+
+#: Model/User.php:validation for field avatar
+msgid "Avatar URL cannot be longer than 255 characters"
+msgstr ""
+
+#: Model/User.php:validation for field avatar
+msgid "Avatar should be a valid HTTP URL (with \"http://\")"
+msgstr ""
+
+#: Model/User.php:validation for field signature
+msgid "Signature cannot be longer than 255 characters"
+msgstr ""
+
+#: Model/User.php:validation for field autopay_enable
+msgid "AutoPay enable should be a boolean value"
+msgstr ""
+
+#: Model/User.php:validation for field autopay_done
+msgid "AutoPay done should be a boolean value"
+msgstr ""
+
+#: Model/User.php:validation for field auto_renew_days
+msgid "AutoRenew days should be between 0 and 65535"
+msgstr ""
+
+#: Model/User.php:validation for field auto_renew_extend
+msgid "AutoRenew extend should be between 0 and 65535"
+msgstr ""
+
+#: Model/User.php:validation for field country
+msgid "This country is blocked."
+msgstr ""
+
+#: Model/UserProfile.php:validation for field gender
+msgid "Please select Male or Female"
+msgstr ""
+
+#: Model/UserProfile.php:validation for field birth_day
+msgid "Birthday cannot be in the future"
+msgstr ""
+
+#: Model/UserProfile.php:validation for field address
+msgid "Address cannot be longer than 200 characters"
+msgstr ""
+
+#: Model/UserStatistic.php:validation for field total_clicks;validation for field total_rrefs_clicks;validation for field total_rrefs_credited_clicks;validation for field total_drefs_clicks;validation for field total_drefs_credited_clicks;validation for field user_clicks_0;validation for field user_clicks_1;validation for field user_clicks_2;validation for field user_clicks_3;validation for field user_clicks_4;validation for field user_clicks_5;validation for field user_clicks_6;validation for field dref_clicks_0;validation for field dref_clicks_1;validation for field dref_clicks_2;validation for field dref_clicks_3;validation for field dref_clicks_4;validation for field dref_clicks_5;validation for field dref_clicks_6;validation for field rref_clicks_0;validation for field rref_clicks_1;validation for field rref_clicks_2;validation for field rref_clicks_3;validation for field rref_clicks_4;validation for field rref_clicks_5;validation for field rref_clicks_6
+msgid "numeric"
+msgstr ""
+
+#: Model/UserStatistic.php:validation for field total_rrefs_clicks;validation for field total_rrefs_credited_clicks;validation for field total_drefs_clicks;validation for field total_drefs_credited_clicks
+msgid "Total clicks number cannot be less than credited clicks number"
+msgstr ""
+
+#: Model/UserStatistic.php:validation for field total_deposits;validation for field total_cashouts
+msgid "Deposit amount should be a decimal value"
+msgstr ""
+
+#: Model/UserStatistic.php:validation for field total_deposits;validation for field total_cashouts
+msgid "Deposit amount cannot be a negative number"
+msgstr ""
+

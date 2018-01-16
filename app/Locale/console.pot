@@ -1,0 +1,199 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Console/Command/AdsShell.php:10
+msgid "clearing visited ads..."
+msgstr ""
+
+#: Console/Command/AdsShell.php:13;23
+#: Console/Command/AppShell.php:61
+#: Console/Command/EmailShell.php:48
+#: Console/Command/PaidOffersShell.php:14
+#: Console/Command/UsersShell.php:158;184;201
+msgid "done."
+msgstr ""
+
+#: Console/Command/AdsShell.php:15;25;37;49
+#: Console/Command/BannerAdsShell.php:16
+#: Console/Command/FeaturedAdsShell.php:16
+#: Console/Command/LoginAdsShell.php:16
+#: Console/Command/PaidOffersShell.php:16;28
+msgid "failed!"
+msgstr ""
+
+#: Console/Command/AdsShell.php:32
+#: Console/Command/BannerAdsShell.php:11
+#: Console/Command/FeaturedAdsShell.php:11
+#: Console/Command/LoginAdsShell.php:11
+#: Console/Command/PaidOffersShell.php:23
+msgid "Deleting inactive ads modified at least %d days ago..."
+msgstr ""
+
+#: Console/Command/AdsShell.php:35
+#: Console/Command/BannerAdsShell.php:14
+#: Console/Command/FeaturedAdsShell.php:14
+#: Console/Command/LoginAdsShell.php:14
+#: Console/Command/PaidOffersShell.php:26
+msgid "done, removed %d ads."
+msgstr ""
+
+#: Console/Command/AdsShell.php:44
+msgid "Deleting old click history (created at least %d days ago)..."
+msgstr ""
+
+#: Console/Command/AdsShell.php:47
+msgid "done, removed %d entries."
+msgstr ""
+
+#: Console/Command/AppShell.php:32
+msgid "Setting active stats field number..."
+msgstr ""
+
+#: Console/Command/AppShell.php:49
+msgid "Failed to cleanup users statistics"
+msgstr ""
+
+#: Console/Command/AppShell.php:54
+msgid "Failed to cleanup bots statistics"
+msgstr ""
+
+#: Console/Command/AppShell.php:59
+msgid "Failed to set activeStatsNumber"
+msgstr ""
+
+#: Console/Command/EmailShell.php:6
+msgid "Sending queued emails..."
+msgstr ""
+
+#: Console/Command/EmailShell.php:12
+msgid "nothing to send, end."
+msgstr ""
+
+#: Console/Command/EmailShell.php:30
+msgid "removed old queue entry, end."
+msgstr ""
+
+#: Console/Command/PaidOffersShell.php:11
+msgid "Auto accepting applications older than %d days..."
+msgstr ""
+
+#: Console/Command/TestsShell.php:14
+msgid "Please enter an email address for new admin:"
+msgstr ""
+
+#: Console/Command/TestsShell.php:16
+msgid "Please enter password:"
+msgstr ""
+
+#: Console/Command/TestsShell.php:18
+msgid "Please enter a comma separated list of valid allowed IP addresses"
+msgstr ""
+
+#: Console/Command/TestsShell.php:23
+msgid "New admin account sucessfully created."
+msgstr ""
+
+#: Console/Command/TestsShell.php:25
+msgid "Failed to create admin account. Please try again."
+msgstr ""
+
+#: Console/Command/TestsShell.php:96
+msgid "Failed to activate user"
+msgstr ""
+
+#: Console/Command/TestsShell.php:151
+msgid "Failed to save ad"
+msgstr ""
+
+#: Console/Command/TestsShell.php:235
+msgid "Failed to set decimal scale"
+msgstr ""
+
+#: Console/Command/TestsShell.php:252
+msgid "ClickValues not found"
+msgstr ""
+
+#: Console/Command/TestsShell.php:262;282;301
+msgid "Cannot save statistic data"
+msgstr ""
+
+#: Console/Command/TestsShell.php:272
+msgid "Cannot save user data"
+msgstr ""
+
+#: Console/Command/TestsShell.php:288;307
+msgid "Cannot save upline data"
+msgstr ""
+
+#: Console/Command/TestsShell.php:323
+msgid "Failed to mark ad visted"
+msgstr ""
+
+#: Console/Command/TestsShell.php:340
+msgid "Cannot save ad data"
+msgstr ""
+
+#: Console/Command/UsersShell.php:16
+msgid "Suspending users inactive at least %d days..."
+msgstr ""
+
+#: Console/Command/UsersShell.php:19
+msgid "done. %d users suspended."
+msgstr ""
+
+#: Console/Command/UsersShell.php:21;37;160;174;186
+msgid "error!"
+msgstr ""
+
+#: Console/Command/UsersShell.php:32
+msgid "Deleting users inactive at least %d days..."
+msgstr ""
+
+#: Console/Command/UsersShell.php:35
+msgid "done. %d users deleted."
+msgstr ""
+
+#: Console/Command/UsersShell.php:43
+msgid "Removing expired memberships..."
+msgstr ""
+
+#: Console/Command/UsersShell.php:69
+msgid "done. %d users degraded."
+msgstr ""
+
+#: Console/Command/UsersShell.php:75
+msgid "Removing expired rented referrals, mode: %s..."
+msgstr ""
+
+#: Console/Command/UsersShell.php:152;153
+msgid "error saving user data!"
+msgstr ""
+
+#: Console/Command/UsersShell.php:165
+msgid "Refreshing autopay in users..."
+msgstr ""
+
+#: Console/Command/UsersShell.php:172
+msgid "done. %d users affected."
+msgstr ""
+
+#: Console/Command/UsersShell.php:179
+msgid "Runing AutoRenew..."
+msgstr ""
+
+#: Console/Command/UsersShell.php:191
+msgid "Runing AutoRecycle..."
+msgstr ""
+

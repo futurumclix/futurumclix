@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2016-09-07 11:42+0200\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:43;80
+msgid "Facebook Graph returned an error: %s"
+msgstr "Мы не можем получить токен доступа от Facebook. Интерфейс API возвратил следующую ошибку: %s"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:45;82
+msgid "Facebook SDK error: %s"
+msgstr "Ошибка SDK Facebook: %s"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:50
+msgid "Error %s, code %s, reason %s, description %s"
+msgstr "Ошибка %s, код ошибки %s, причина %s, описание %s"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:52
+msgid "Bad request"
+msgstr "Ошибочное требование"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:63
+msgid "Invalid Facebook appID"
+msgstr "Неправильный идентификатор аппликации Facebook"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:71
+msgid "Failed to get long-lived access token: %s"
+msgstr "Нельзя получить токен доступа : %s"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:95
+msgid "Invalid user data"
+msgstr "Неправильные данные"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:146
+msgid "Your IP is already in use."
+msgstr "Ваш адрес IP уже используется."
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:156
+msgid "Your account has been successfully created."
+msgstr "Ваш счет был создан!"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:160
+msgid "User could not be saved. Please, try again"
+msgstr "Нельзя записать пользователя. Прошу попробовать еще раз"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:173
+msgid "Direct link"
+msgstr "Непосредственная ссылка"
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:4 View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:6
+msgid "Register at %s"
+msgstr "Зарегистрируйтесь на %s"
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:6
+msgid ""
+"To finish your registration via Facebook you just need to provide us your username and password so you will be able to change your personal settings in the future and recover your password in case you "
+"will loose it."
+msgstr "Для конца регистрации через Facebook достаточно указать название пользователя и пароль, благодаря чему Вы сможете в будущем изменить свои личные установки и возобновить пароль, если его потеряете."
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:9 View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:15
+msgid "Username"
+msgstr "Название пользователя"
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:23 View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:29
+msgid "Password"
+msgstr "Пароль"
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:37 View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:43
+msgid "Confirm password"
+msgstr "Подтвердите пароль"
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:52 View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:58
+msgid "Referrer"
+msgstr "Рекомендованный"
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:69 View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:74
+msgid "I understand and agree with %s"
+msgstr "Принимаю и соглашаюсь с %s"
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:69
+msgid "Terms of Service"
+msgstr "постановлениями регламента"
+
+#: Module/FacebookLogin/View/FacebookLogin/signup.ctp:73 View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:78
+msgid "Register"
+msgstr "Регистрация"
+
+msgid "Register With Facebook"
+msgstr "Зарегистрируйтесь через Facebook"

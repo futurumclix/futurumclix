@@ -1,0 +1,555 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2016-06-20 12:41+0200\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.8\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+
+#: Module/AdGrid/Controller/AdGridController.php:200;206;252;281;327
+msgid "Invalid coordinates"
+msgstr "Неправильные координаты."
+
+#: Module/AdGrid/Controller/AdGridController.php:228
+msgid ""
+"Sorry, we currently do not have any ads to watch. Please try again later."
+msgstr "К сожалению, нет никаких доступных реклам для просмотра. Прошу попробовать позже."
+
+#: Module/AdGrid/Controller/AdGridController.php:233
+msgid "Session write failed"
+msgstr "Неудачная запись сессии."
+
+#: Module/AdGrid/Controller/AdGridController.php:259;287;294;314;333;340;358;422;435;468;501;681
+msgid "Invalid advertisement"
+msgstr "Неправильная реклама."
+
+#: Module/AdGrid/Controller/AdGridController.php:264
+msgid "Failed to save report"
+msgstr "Отчет не был записан."
+
+#: Module/AdGrid/Controller/AdGridController.php:408;541;657;707;763;844;918;930
+msgid "AdGrid ads panel"
+msgstr "Панель реклам AdGrid"
+
+#: Module/AdGrid/Controller/AdGridController.php:439
+msgid "Advertisement deleted."
+msgstr "Реклама была удалена."
+
+#: Module/AdGrid/Controller/AdGridController.php:441
+msgid "Failed to delete advertisement. Please try again."
+msgstr "Реклама не может быть удалена. Прошу попробовать еще раз."
+
+#: Module/AdGrid/Controller/AdGridController.php:472
+msgid "Ad successfully activated."
+msgstr "Реклама активировалась."
+
+#: Module/AdGrid/Controller/AdGridController.php:474
+msgid "Error when activating ad. Please try again."
+msgstr "Не удалось активировать рекламу. Прошу попробовать еще раз."
+
+#: Module/AdGrid/Controller/AdGridController.php:505
+msgid "Ad successfully paused."
+msgstr "Реклама была остановлена."
+
+#: Module/AdGrid/Controller/AdGridController.php:507
+msgid "Error when pausing ad. Please try again."
+msgstr "Не удалось остановить рекламу. Прошу попробовать еще раз."
+
+#: Module/AdGrid/Controller/AdGridController.php:558
+msgid "No advertisement data"
+msgstr "Неправильная реклама."
+
+#: Module/AdGrid/Controller/AdGridController.php:574
+msgid "Advertisement saved successfully."
+msgstr "Реклама успешно записана."
+
+#: Module/AdGrid/Controller/AdGridController.php:580
+msgid "Failed to save advertisement. Please, try again."
+msgstr "Не удалось записать рекламу. Прошу попробовать еще раз."
+
+#: Module/AdGrid/Controller/AdGridController.php:592
+msgid "Please supply a valid http(s) URL."
+msgstr "Прошу указать полный адрес с приставкой http(s)://"
+
+#: Module/AdGrid/Controller/AdGridController.php:625
+msgid "Invalid ad"
+msgstr "Неправильная реклама."
+
+#: Module/AdGrid/Controller/AdGridController.php:647
+msgid "AdGrid ad saved successfully"
+msgstr "Реклама успешно записана."
+
+#: Module/AdGrid/Controller/AdGridController.php:650
+msgid "Failed to save AdGrid ad. Please, try again."
+msgstr "Не удалось записать рекламу. Прошу попробовать еще раз."
+
+#: Module/AdGrid/Controller/AdGridController.php:755;815;820;894
+#: Module/AdGrid/Model/AdGridAdsPackage.php:64
+msgid "Invalid package"
+msgstr "Неправильный пакет."
+
+#: Module/AdGrid/Controller/AdGridController.php:823;897
+msgid "Package assigned successfully."
+msgstr "Пакет был приписан к рекламе."
+
+#: Module/AdGrid/Controller/AdGridController.php:826;900
+msgid "Failed to assign package. Please try again."
+msgstr "Не удалось приписать пакет. Прошу попробовать еще раз."
+
+#: Module/AdGrid/Controller/AdGridController.php:840;914
+msgid "%d %s"
+msgstr "%d %s"
+
+#: Module/AdGrid/Model/AdGridAd.php:151
+msgid "Active"
+msgstr "Активная"
+
+#: Module/AdGrid/Model/AdGridAd.php:185
+msgid "Inactive"
+msgstr "Неактивная"
+
+#: Module/AdGrid/Model/AdGridAd.php:332
+msgid "You have reached maximum clicks today. Try again tomorrow."
+msgstr "Вы сегодня уже использовали лимит попыток. Приглашаем завтра."
+
+#: Module/AdGrid/Model/AdGridAd.php:338
+msgid "Sorry, but you already clicked this field."
+msgstr "Вы уже кликали на это поле раньше."
+
+#: Module/AdGrid/Model/AdGridAd.php:352
+msgid "Failed to save click data"
+msgstr "Неудачная запись данных."
+
+#: Module/AdGrid/Model/AdGridAd.php:365
+msgid "Failed to increment ad clicks"
+msgstr "Неудачная запись данных кликов."
+
+#: Module/AdGrid/Model/AdGridAd.php:391
+msgid "Failed to save user account balance"
+msgstr "Неудачная запись состояния счета пользователя."
+
+#: Module/AdGrid/Model/AdGridAd.php:399
+msgid "Sorry, you did not win this time. Please, try again."
+msgstr "Нам жаль, но в этот раз Вы не выиграли. Попробуй еще раз."
+
+#: Module/AdGrid/View/AdGrid/add.ctp:11 Module/AdGrid/View/AdGrid/assign.ctp:11
+#: Module/AdGrid/View/AdGrid/assign_to.ctp:11
+#: Module/AdGrid/View/AdGrid/buy.ctp:11 Module/AdGrid/View/AdGrid/edit.ctp:11
+#: Module/AdGrid/View/AdGrid/index.ctp:11
+#: Module/AdGrid/View/AdGrid/statistics.ctp:11
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/add.ctp:8
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign.ctp:8
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign_to.ctp:8
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/buy.ctp:8
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/edit.ctp:8
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:8
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/statistics.ctp:8
+msgid "AdGrid Ads Panel"
+msgstr "Панель реклам AdGrid"
+
+#: Module/AdGrid/View/AdGrid/add.ctp:21
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/add.ctp:23
+msgid "Add new advertisement"
+msgstr "Добавьте новую рекламу."
+
+#: Module/AdGrid/View/AdGrid/add.ctp:30 Module/AdGrid/View/AdGrid/edit.ctp:27
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/add.ctp:32
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/edit.ctp:28
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:38
+msgid "URL"
+msgstr "Адрес www"
+
+#: Module/AdGrid/View/AdGrid/add.ctp:41
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/add.ctp:41
+msgid "Add"
+msgstr "Добавьте"
+
+#: Module/AdGrid/View/AdGrid/assign.ctp:22
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign.ctp:25
+msgid "Sorry, you do not have any not assigned approved advertisements."
+msgstr "У вас нет никаких неприписанных акцептированных реклам."
+
+#: Module/AdGrid/View/AdGrid/assign.ctp:24
+#: Module/AdGrid/View/AdGrid/assign_to.ctp:23
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign.ctp:27
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign_to.ctp:25
+msgid "Sorry, you do not have any AdGrid Ads packages."
+msgstr "У Вас нет никаких пакетов реклам AdGrid."
+
+#: Module/AdGrid/View/AdGrid/assign.ctp:26
+#: Module/AdGrid/View/AdGrid/assign_to.ctp:25
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign.ctp:29
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign_to.ctp:27
+msgid "Assign advertisement click packages"
+msgstr "Припишите рекламные пакеты"
+
+#: Module/AdGrid/View/AdGrid/assign.ctp:31
+#: Module/AdGrid/View/AdGrid/assign_to.ctp:30
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign.ctp:34
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign_to.ctp:32
+msgid "Choose package"
+msgstr "Выберите пакет"
+
+#: Module/AdGrid/View/AdGrid/assign.ctp:37
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign.ctp:39
+msgid "Advertisement"
+msgstr "Реклама"
+
+#: Module/AdGrid/View/AdGrid/assign.ctp:43
+#: Module/AdGrid/View/AdGrid/assign_to.ctp:36
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign.ctp:43
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/assign_to.ctp:37
+msgid "Assign"
+msgstr "Припишите"
+
+#: Module/AdGrid/View/AdGrid/buy.ctp:21
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/buy.ctp:24
+msgid "Purchase advertisement exposures"
+msgstr "Купите рекламные экспозиции"
+
+#: Module/AdGrid/View/AdGrid/buy.ctp:26
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/buy.ctp:29
+msgid "Pack"
+msgstr "Пакет"
+
+#: Module/AdGrid/View/AdGrid/buy.ctp:32;56
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/buy.ctp:34;56
+msgid "Price per click"
+msgstr "Цена за клик"
+
+#: Module/AdGrid/View/AdGrid/buy.ctp:38
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/buy.ctp:39
+msgid "Total price"
+msgstr "Сумма"
+
+#: Module/AdGrid/View/AdGrid/buy.ctp:57
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/buy.ctp:57
+msgid "Price per day"
+msgstr "Цена за день"
+
+#: Module/AdGrid/View/AdGrid/credited.ctp:3
+msgid "Congratulations. You've won %s!"
+msgstr "Поздравляем. Вы выиграли %s!"
+
+#: Module/AdGrid/View/AdGrid/edit.ctp:22
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/edit.ctp:23
+msgid "Edit advertisement"
+msgstr "Редактирование рекламы"
+
+#: Module/AdGrid/View/AdGrid/edit.ctp:37
+#: Module/AdGrid/View/AdGrid/preview.ctp:17
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/edit.ctp:37
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/preview.ctp:16
+msgid "Save"
+msgstr "Запишите"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:5
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:6
+msgid "AdGrid - win up to %s"
+msgstr "Игра AdGrid – выиграйте до %s"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:6
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:9
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing Elit."
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:22
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:25
+msgid "Position:"
+msgstr "Позиция:"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:22;80
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:75
+msgid "Click anywhere on the picture"
+msgstr "Кликните в произвольном месте на картинке"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:28
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:31
+msgid "Your stats"
+msgstr "Ваша статистика"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:32
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:34
+msgid "Your chances (left/total)"
+msgstr "Ваши шансы (оставшиеся / всего)"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:33;37
+msgid "%d / %d"
+msgstr "%d / %d"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:36
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:37
+msgid "Clicks (left/total)"
+msgstr "Клики (оставшиеся / всего)"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:40
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:40
+msgid "Winnings (today/total)"
+msgstr "Выигранные (сегодня / всего)"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:41
+msgid "%s / %s"
+msgstr "%s / %s"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:46
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:44
+msgid "Latest winners"
+msgstr "Последние победители"
+
+#: Module/AdGrid/View/AdGrid/grid.ctp:61
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:57
+msgid "Latest %s winners"
+msgstr "Последние %s победители"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:23
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:25
+msgid ""
+"You have no advertisement campaigns at the moment. Please click %s to add "
+"one."
+msgstr "У Вас нет никаких рекламных кампаний на этот момент. Прошу кликнуть %s, чтобы добавить новую."
+
+#: Module/AdGrid/View/AdGrid/index.ctp:23
+msgid "here"
+msgstr "Здесь"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:28
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:29
+msgid "My current AdGrid ads advertisements"
+msgstr "Мои рекламные кампании AdGrid"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:40
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:120
+msgid "Pause advertisement"
+msgstr "Остановить рекламу"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:43
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:123
+msgid "Are you sure you want to pause \"%s\"?"
+msgstr "Вы точно хотите остановить \"%s\"?"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:48
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:128
+msgid "Activate advertisement"
+msgstr "Активируйте рекламу"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:51
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:131
+msgid "Are you sure you want to activate \"%s\"?"
+msgstr "Вы точно хотите включить \"%s\"?"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:56
+msgid "Pending"
+msgstr "Ожидающая"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:62
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:107
+msgid "Click to edit advertisement data"
+msgstr "Редактирование рекламы"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:71
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:80
+msgid "Add more %s"
+msgstr "Добавьте больше %s"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:71
+msgid "exposures"
+msgstr "представлений"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:79
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:144
+msgid "Show statistics"
+msgstr "Показать статистику"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:85
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:53
+msgid "Exposure type"
+msgstr "Вид экспозиции"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:86
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:54
+msgid "Not assigned"
+msgstr "Не приписанная"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:88
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:61
+msgid "Total clicks"
+msgstr "Кликов всего"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:91
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:57
+msgid "Clicks today"
+msgstr "Кликов сегодня"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:96
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:67
+msgid "Valid until"
+msgstr "Действительна до"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:98
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:71
+msgid "%s left"
+msgstr "Осталось %s"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:105
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:155
+msgid "Delete this advertisement"
+msgstr "Удалите эту рекламу"
+
+#: Module/AdGrid/View/AdGrid/index.ctp:108
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:158
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "Вы точно хотите удалить \"%s\"?"
+
+#: Module/AdGrid/View/AdGrid/not_logged_in.ctp:3
+msgid "You need to log in order to play"
+msgstr "Вы должны залогироваться, чтобы играть"
+
+#: Module/AdGrid/View/AdGrid/not_logged_in.ctp:4
+msgid "our AdGrid game."
+msgstr "в нашу игру AdGrid."
+
+#: Module/AdGrid/View/AdGrid/preview.ctp:13
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/preview.ctp:12
+msgid "Please watch your site below."
+msgstr "Прошу просмотреть нижеуказанную рекламу."
+
+#: Module/AdGrid/View/AdGrid/preview.ctp:24
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/preview.ctp:23
+msgid "We are sorry but an error occurred,"
+msgstr "Нам жаль, но произошла ошибка,"
+
+#: Module/AdGrid/View/AdGrid/preview.ctp:25
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/preview.ctp:24
+msgid "please try again later."
+msgstr "попробуйте еще раз."
+
+#: Module/AdGrid/View/AdGrid/preview.ctp:34
+#: Module/AdGrid/View/AdGrid/view.ctp:27
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/preview.ctp:33
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/view.ctp:27
+msgid "You are watching:"
+msgstr "Просматриваете:"
+
+#: Module/AdGrid/View/AdGrid/preview.ctp:34
+#: Module/AdGrid/View/AdGrid/view.ctp:27
+msgid "Open in a new window"
+msgstr "Откройте ссылку в новом окне"
+
+#: Module/AdGrid/View/AdGrid/progress_bar.ctp:5
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/progress_bar.ctp:5
+msgid "Please watch advertiser's site below."
+msgstr "Прошу просмотреть нижеуказанную рекламу."
+
+#: Module/AdGrid/View/AdGrid/report.ctp:3;26
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/report.ctp:3;14
+msgid "Report Ad"
+msgstr "Подайте заявку в модерацию"
+
+#: Module/AdGrid/View/AdGrid/report.ctp:5
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/report.ctp:5
+msgid "Your report is received, thanks for your contribution."
+msgstr "Мы получили Вашу заявку, благодарим."
+
+#: Module/AdGrid/View/AdGrid/report.ctp:6
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/report.ctp:6
+msgid "We could not receive your report, please try again later."
+msgstr "Мы не могли получить отчет, попробуйте позже еще раз."
+
+#: Module/AdGrid/View/AdGrid/report.ctp:13
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/report.ctp:9
+msgid "Reason"
+msgstr "Причина"
+
+#: Module/AdGrid/View/AdGrid/statistics.ctp:22
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/statistics.ctp:24
+msgid "Clicks statistics for: \"%s\"."
+msgstr "Статистика кликов для: \"%s\"."
+
+#: Module/AdGrid/View/AdGrid/statistics.ctp:25
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/statistics.ctp:27
+msgid "Clicks"
+msgstr "Клики"
+
+#: Module/AdGrid/View/AdGrid/view.ctp:12
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/view.ctp:12
+msgid "Please wait until advertisement is loading."
+msgstr "Прошу подождать пока загрузиться реклама."
+
+#: Module/AdGrid/View/AdGrid/view.ctp:17
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/view.ctp:17
+msgid "We are sorry but this advertisement"
+msgstr "Нам жаль, но эта реклама"
+
+#: Module/AdGrid/View/AdGrid/view.ctp:18
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/view.ctp:18
+msgid "is no longer available."
+msgstr "уже не доступна."
+
+#: Module/AdGrid/View/AdGrid/view.ctp:28
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/view.ctp:28
+msgid "Close this window"
+msgstr "Закройте окно"
+
+#: Module/AdGrid/View/AdGrid/view.ctp:30
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/view.ctp:30
+msgid "Report this ad"
+msgstr "Подайте заявку в модерацию"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/credited.ctp:3
+msgid "You have earned %s for watching this ad."
+msgstr "Вы заработали %s за просмотр этой рекламы."
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:35
+msgid "Advertisement details"
+msgstr "Детали рекламы"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:42
+msgid "Date Added"
+msgstr "Добавлено"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:50
+msgid "Statistics"
+msgstr "Статистики"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:94
+msgid "Other"
+msgstr "Разное"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:97
+msgid "Status"
+msgstr "Состояние"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:101;104
+msgid "Edit"
+msgstr "Редактирование"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:116
+msgid "Action"
+msgstr "Деятельность"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:138
+msgid "Stats"
+msgstr "Статистики"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:141
+msgid "Show"
+msgstr "Показать"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/not_logged_in.ctp:3
+msgid "You need to log in order to earn"
+msgstr "Вы должны залогироваться, чтобы заработать"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/not_logged_in.ctp:4
+msgid "for watching this advertisement."
+msgstr "на просмотре этой рекламы."
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/report.ctp:2
+msgid "Close"
+msgstr "Закройте"

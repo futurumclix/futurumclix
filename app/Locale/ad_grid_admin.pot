@@ -1,0 +1,379 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/AdGrid/Controller/AdGridController.php:975;1023
+msgid "Advertiser not found."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:989;1035
+msgid "AdGrid ad saved successfully"
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:992;1038
+msgid "Failed to save AdGrid ad. Please, try again."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1012;1054;1074;1094;1124
+msgid "Invalid advertisement"
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1058
+msgid "The advertisement has been deleted."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1060
+msgid "The advertisement could not be deleted. Please, try again."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1078
+msgid "The advertisement has been inactivated."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1080
+msgid "The advertisement could not be inactivated. Please, try again."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1098
+msgid "The advertisement has been activated."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1100
+msgid "The advertisement could not be activated. Please, try again."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1115;1149
+msgid "Please select at least one ad."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1147
+msgid "Mass Action done."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1152
+msgid "Please select action."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1166
+msgid "AdGridSettings saved successfully."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1168
+msgid "The settings could not be saved. Please, try again."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1174
+msgid "AdGrid ads packages saved successfully."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1176
+msgid "Failed to save AdGrid ads packages. Please, try again."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1183
+msgid "AdGrid membership options saved successfully."
+msgstr ""
+
+#: Module/AdGrid/Controller/AdGridController.php:1185
+msgid "Failed to save AdGrid memberships options. Please, try again."
+msgstr ""
+
+#: Module/AdGrid/Model/AdGridMembershipsOption.php:96
+msgid "Please enter a prize."
+msgstr ""
+
+#: Module/AdGrid/Model/AdGridMembershipsOption.php:100
+msgid "Please enter a probability."
+msgstr ""
+
+#: Module/AdGrid/Model/AdGridMembershipsOption.php:104
+msgid "Probability should be between 0 and 100."
+msgstr ""
+
+#: Module/AdGrid/Model/AdGridMembershipsOption.php:108
+msgid "Prize should be a valid monetary value"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_add.ctp:3
+msgid "Add new AdGrid ad"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_add.ctp:7
+#: Module/AdGrid/View/AdGrid/admin_edit.ctp:7
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:7;55
+msgid "Advertiser"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_add.ctp:13
+#: Module/AdGrid/View/AdGrid/admin_edit.ctp:13
+msgid "Leave blank for self sponsored advertisement (admin's ad)"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_add.ctp:19
+#: Module/AdGrid/View/AdGrid/admin_edit.ctp:19
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:18
+msgid "URL"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_add.ctp:25
+#: Module/AdGrid/View/AdGrid/admin_edit.ctp:25
+msgid "Expiry"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_add.ctp:39
+#: Module/AdGrid/View/AdGrid/admin_edit.ctp:39
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:123;177;294
+msgid "Save changes"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_edit.ctp:3
+msgid "Edit AdGrid ad"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:3
+msgid "Search advertisements"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:12
+msgid "Enter username to search"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:23
+msgid "Enter URL to search"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:29
+msgid "Status"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:33
+msgid "All"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:38
+msgid "Search"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:43
+msgid "AdGrid ads advertisements"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:60
+msgid "Actions"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:76
+msgid "User deleted"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:79
+msgid "Admin"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:88
+msgid "Not assigned"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:90
+msgid "%d %s"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:96
+msgid "Edit advertisement"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:100
+msgid "Inactivate advertisement"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:103
+msgid "Are you sure you want to inactivate \"%s\"?"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:108
+msgid "Activate advertisement"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:111
+msgid "Are you sure you want to activate \"%s\"?"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:116
+msgid "Delete advertisement"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:119
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:130
+msgid "Mass action"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:133
+msgid "--Choose--"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:137
+msgid "Activate advertisements"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:138
+msgid "Inactivate advertisements"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:139
+msgid "Delete advertisements"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:144
+msgid "Perform action"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:152
+msgid "Page {:page} of {:pages}"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_index.ctp:169
+msgid "Add new advertisement"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:3
+msgid "AdGrid settings"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:6
+msgid "General settings"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:7;129
+msgid "Price & Packages"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:9
+msgid "\"%s\" settings"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:16
+msgid "Auto Approve Ads"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:23;78
+msgid "Check if you want to auto approve ads, otherwise admin will have to approve them manually"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:29
+msgid "AdGrid Size"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:32
+msgid "Width"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:44
+msgid "Height"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:56
+msgid "Ad timer"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:59
+msgid "Seconds"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:71
+msgid "Focus Setting"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:84
+msgid "Start Ad Timer Settings"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:92
+msgid "If advertised page does not load or load slow you can set after how many seconds timer has to start if site is not loaded fully yet. Set 0 to start timer immediately."
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:98
+msgid "Start ad timer after"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:99
+msgid "Start timer immediately"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:100
+msgid "Start timer only if site is fully loaded"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:110
+msgid "Where To Credit Prizes"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:115
+msgid "Account balance"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:116
+msgid "Purchase balance"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:138
+msgid "No."
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:139
+msgid "Type"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:140
+msgid "Amount"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:141
+msgid "Price"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:173
+msgid "Click to add more packages"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:189
+msgid "Max Clicks Per Day"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:200
+msgid "Winning Probability"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:214
+msgid "Prizes"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:220;255
+msgid "Prize"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:230;265
+msgid "Probability"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:245;280
+msgid "Delete this prize"
+msgstr ""
+
+#: Module/AdGrid/View/AdGrid/admin_settings.ctp:290
+msgid "Click to add more prizes"
+msgstr ""
+

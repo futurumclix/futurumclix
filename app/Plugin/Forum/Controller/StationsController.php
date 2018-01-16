@@ -1,0 +1,273 @@
+<?php
+/**
+ * Copyright (c) 2018 FuturumClix
+ *
+ * This program is free software: you can redistribute it and/or  modify
+ * it under the terms of the GNU Affero General Public License, version 3,
+ * as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Please notice this program incorporates variety of libraries or other
+ * programs that may or may not have their own licenses, also they may or
+ * may not be modified by FuturumClix. All modifications made by
+ * FuturumClix are available under the terms of GNU Affero General Public
+ * License, version 3, if original license allows that.
+ *
+ * @copyright   2006-2013, Miles Johnson - http://milesj.me
+ * @license     https://github.com/milesj/admin/blob/master/license.md
+ * @link        http://milesj.me/code/cakephp/admin
+ */
+App::import('Lib', 'FAdmin');
+App::uses('ForumAppController', 'Forum.Controller');
+
+/**
+ * @property Forum $Forum
+ * @property Subscription $Subscription
+ * @property AjaxHandlerComponent $AjaxHandler
+ */
+class StationsController extends ForumAppController {
+
+    /**
+     * Models.
+     *
+     * @type array
+     */
+    public $uses = array('Forum.Forum', 'Forum.Subscription');
+
+    /**
+     * Components.
+     *
+     * @type array
+     */
+    public $components = array('Utility.AjaxHandler', 'RequestHandler');
+
+    /**
+     * Pagination.
+     *
+     * @type array
+     */
+    public $paginate = array(
+        'Topic' => array(
+            'order' => array('LastPost.created' => 'DESC'),
+            'contain' => array(
+                'User', 'LastPost', 'LastUser',
+                'Poll.id',
+                'Forum.id', 'Forum.autoLock'
+            )
+        )
+    );
+
+    /**
+     * Helpers.
+     *
+     * @type array
+     */
+    public $helpers = array('Rss');
+
+    /**
+     * Redirect.
+     */
+    public function index() {
+        $this->ForumToolbar->goToPage();
+    }
+
+    /**
+     * Read a forum.
+     *
+     * @param string $slug
+     * @throws NotFoundException
+     */
+    public function view($slug) {
+        $forum = $this->Forum->getBySlug($slug);
+        $user_id = $this->Auth->user('id');
+
+        if (!$forum) {
+            throw new NotFoundException();
+        }
+
+        $this->ForumToolbar->verifyAccess(array(
+            'status' => $forum['Forum']['status'],
+            'access' => $forum['Forum']['accessRead']
+        ));
+
+        $this->paginate['Topic']['limit'] = $this->settings['topicsPerPage'];
+        $this->paginate['Topic']['conditions'] = array(
+            'Topic.forum_id' => $forum['Forum']['id'],
+            'Topic.type' => Topic::NORMAL
+        );
+
+        if ($this->RequestHandler->isRss()) {
+            $this->paginate['Topic']['contain'] = array('User', 'FirstPost', 'LastPost.created');
+
+            $this->set('topics', $this->paginate('Topic'));
+            $this->set('forum', $forum);
+
+            return;
+        }
+
+        $this->set('forum', $forum);
+        $this->set('topics', $this->paginate('Topic'));
+        $this->set('stickies', $this->Forum->Topic->getStickiesInForum($forum['Forum']['id']));
+        $this->set('subscription', $this->Subscription->isSubscribedToForum($user_id, $forum['Forum']['id']));
+        $this->set('rss', $slug);
+    }
+
+    /**
+     * Moderate a forum.
+     *
+     * @param string $slug
+     * @throws NotFoundException
+     */
+    public function moderate($slug) {
+        $forum = $this->Forum->getBySlug($slug);
+
+        if (!$forum) {
+            throw new NotFoundException();
+        }
+
+        $this->ForumToolbar->verifyAccess(array(
+            'moderate' => $forum['Forum']['id']
+        ));
+
+        if (!empty($this->request->data['Topic']['items'])) {
+            $items = $this->request->data['Topic']['items'];
+            $action = $this->request->data['Topic']['action'];
+            $message = null;
+
+            foreach ($items as $topic_id) {
+                if (is_numeric($topic_id)) {
+                    $this->Forum->Topic->id = $topic_id;
+
+                    if ($action === 'delete') {
+                        $this->Forum->Topic->delete($topic_id, true);
+                        $message = __d('forum', 'A total of %d topic(s) have been permanently deleted');
+
+                    } else if ($action === 'close') {
+                        $this->Forum->Topic->saveField('status', Topic::CLOSED);
+                        $message = __d('forum', 'A total of %d topic(s) have been locked to the public');
+
+                    } else if ($action === 'open') {
+                        $this->Forum->Topic->saveField('status', Topic::OPEN);
+                        $message = __d('forum', 'A total of %d topic(s) have been re-opened');
+
+                    } else if ($action === 'move') {
+                        $this->Forum->Topic->saveField('forum_id', $this->request->data['Topic']['move_id']);
+                        $message = __d('forum', 'A total of %d topic(s) have been moved to another forum category');
+                    }
+                }
+            }
+
+            $this->Session->setFlash(sprintf($message, count($items)), 'flash');
+        }
+
+        $this->paginate['Topic']['limit'] = $this->settings['topicsPerPage'];
+        $this->paginate['Topic']['conditions'] = array(
+            'Topic.forum_id' => $forum['Forum']['id'],
+        );
+
+        $this->set('forum', $forum);
+        $this->set('topics', $this->paginate('Topic'));
+        $this->set('forums', $this->Forum->getHierarchy());
+    }
+
+    /**
+     * Subscribe to a forum.
+     *
+     * @param int $id
+     */
+    public function subscribe($id) {
+        $success = false;
+        $data = __d('forum', 'Failed To Subscribe');
+
+        if ($this->settings['enableForumSubscriptions'] && $this->Subscription->subscribeToForum($this->Auth->user('id'), $id)) {
+            $success = true;
+            $data = __d('forum', 'Subscribed');
+        }
+
+        $this->AjaxHandler->respond('json', array(
+            'success' => $success,
+            'data' => $data
+        ));
+    }
+
+    /**
+     * Unsubscribe from a forum.
+     *
+     * @param int $id
+     */
+    public function unsubscribe($id) {
+        $success = false;
+        $data = __d('forum', 'Failed To Unsubscribe');
+
+        if ($this->settings['enableForumSubscriptions'] && $this->Subscription->unsubscribe($id)) {
+            $success = true;
+            $data = __d('forum', 'Unsubscribed');
+        }
+
+        $this->AjaxHandler->respond('json', array(
+            'success' => $success,
+            'data' => $data
+        ));
+    }
+
+    /**
+     * Admin override for Forum model delete action.
+     * Provides support for moving topics and forums to a new forum.
+     *
+     * @param int $id
+     * @throws NotFoundException
+     */
+    public function admin_delete($id) {
+        $this->Model = FAdmin::introspectModel('Forum.Forum');
+        $this->Model->id = $id;
+
+        $result = $this->AdminToolbar->getRecordById($this->Model, $id);
+
+        if (!$result) {
+            throw new NotFoundException(__d('admin', '%s Not Found', $this->Model->singularName));
+        }
+
+        if ($this->request->is('post')) {
+            if ($this->Model->delete($id, true)) {
+                $this->Forum->Topic->moveAll($id, $this->request->data['Forum']['move_topics']);
+                $this->Forum->moveAll($id, $this->request->data['Forum']['move_forums']);
+
+                $this->AdminToolbar->setFlashMessage(__d('admin', 'Successfully deleted %s with ID %s', array(mb_strtolower($this->Model->singularName), $id)), 'flash');
+                $this->AdminToolbar->redirectAfter($this->Model);
+
+            } else {
+                $this->AdminToolbar->setFlashMessage(__d('admin', 'Failed to delete %s with ID %s', array(mb_strtolower($this->Model->singularName), $id)), 'flash');
+            }
+        }
+
+        // Get tree excluding this record
+        $forums = $this->Model->generateTreeList(array('Forum.id !=' => $id), null, null, ' -- ');
+
+        $this->set('result', $result);
+        $this->set('moveTopics', $forums);
+        $this->set('moveForums', $forums);
+    }
+
+    /**
+     * Before filter.
+     */
+    public function beforeFilter() {
+        parent::beforeFilter();
+
+        if(!$this->config['Forum']['onlyLogged']) {
+           $this->Auth->allow('index', 'view', 'feed');
+        }
+        $this->AjaxHandler->handle('subscribe', 'unsubscribe');
+        $this->Security->unlockedFields = array('items');
+
+        $this->set('menuTab', 'forums');
+    }
+
+}

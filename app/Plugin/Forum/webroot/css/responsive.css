@@ -1,0 +1,61 @@
+@media (min-width: 34em) { 
+
+}
+
+@media (min-width: 48em) { 
+	
+}
+
+@media (min-width: 62em) { 
+
+}
+
+@media (min-width: 75em) { 
+
+}
+
+@media (max-width: 33.9em) {  
+
+}
+
+@media (max-width: 47.9em) {
+
+	.navbar {
+		line-height: inherit;
+	}
+
+	.navbar-brand {
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+	
+	#mainnavbar .nav {
+		text-align: center;
+		width: 100%;
+		padding: 0;
+		position: fixed;
+		top: 80px;
+		width: 100%;
+		z-index: 1;
+		background-color: #ffffff;
+	}
+	
+	#mainnavbar .navbar-nav .nav-item {
+		float: none;
+	}
+	
+	#mainnavbar .navbar-nav .nav-item + .nav-item {
+		margin: 0;
+	}
+	
+	#mainnavbar .navbar-nav a {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	
+}
+
+@media (max-width: 61.9em) {  }
+
+@media (max-width: 74.9em) {  }

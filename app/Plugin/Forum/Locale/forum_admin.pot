@@ -1,0 +1,204 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/UsersController.php:74;97
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:80
+msgid "User sucessfully banned."
+msgstr ""
+
+#: Controller/UsersController.php:82
+msgid "Failed to ban user. Please, try again"
+msgstr ""
+
+#: Controller/UsersController.php:103
+msgid "User sucessfully unbanned."
+msgstr ""
+
+#: Controller/UsersController.php:105
+msgid "Failed to unban user. Please, try again"
+msgstr ""
+
+#: View/Moderators/admin_index.ctp:19
+#: View/Settings/admin_index.ctp:23
+msgid "Actions"
+msgstr ""
+
+#: View/Moderators/admin_index.ctp:62
+#: View/Settings/admin_index.ctp:74
+msgid "Mass action"
+msgstr ""
+
+#: View/Moderators/admin_index.ctp:65
+#: View/Settings/admin_index.ctp:77
+msgid "--Choose--"
+msgstr ""
+
+#: View/Moderators/admin_index.ctp:69
+#: View/Settings/admin_index.ctp:81
+msgid "Delete"
+msgstr ""
+
+#: View/Moderators/admin_index.ctp:74
+#: View/Settings/admin_index.ctp:86
+msgid "Perform action"
+msgstr ""
+
+#: View/Moderators/admin_index.ctp:81
+#: View/Settings/admin_index.ctp:93
+msgid "Page {:page} of {:pages}"
+msgstr ""
+
+#: View/Settings/admin_add.ctp:3
+msgid "Add new forum"
+msgstr ""
+
+#: View/Settings/admin_add.ctp:7
+msgid "Please enter forum name. After you do so, you will be redirected to editing your new forum terms."
+msgstr ""
+
+#: View/Settings/admin_add.ctp:15
+msgid "Add forum"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:14
+msgid "Parent"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:16
+msgid "None"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:20
+msgid "Title"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:26
+msgid "Slug"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:32
+msgid "Description"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:38
+msgid "Icon"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:44
+msgid "Status"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:50
+msgid "Order"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:56
+msgid "Auto locking"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:62
+msgid "Excerpts"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:68
+msgid "Topic count"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:74
+msgid "Post count"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:80
+msgid "Access Read"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:85;96;107;118
+msgid "All"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:91
+msgid "Access Post"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:102
+msgid "Access Poll"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:113
+msgid "Access Reply"
+msgstr ""
+
+#: View/Settings/admin_edit.ctp:124
+#: View/Settings/admin_help.ctp:31
+#: View/Settings/admin_tos.ctp:31
+msgid "Save info"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:3
+msgid "General settings"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:7
+msgid "Active"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:18
+msgid "Show forum statistics"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:29
+msgid "Show newest user"
+msgstr ""
+
+#: View/Settings/admin_general.ctp:40
+msgid "Save changes"
+msgstr ""
+
+#: View/Settings/admin_help.ctp:12
+#: View/Settings/admin_tos.ctp:12
+msgid "Enable"
+msgstr ""
+
+#: View/Settings/admin_index.ctp:55
+msgid "Are you sure you want to delete %s?"
+msgstr ""
+
+#: View/Settings/admin_index.ctp:63
+msgid "Are you sure you want to delete %s icon?"
+msgstr ""
+
+#: View/Settings/admin_order.ctp:17
+msgid "Order PTC categories"
+msgstr ""
+
+#: View/Settings/admin_order.ctp:20
+msgid "You can set the order of Forum categories in here. All the changes will be visible on user side on forum page."
+msgstr ""
+
+#: View/Settings/admin_order.ctp:40
+msgid "Save"
+msgstr ""
+
+#: View/Settings/admin_order.ctp:44
+msgid "Before you start ordering categories, you should create any. You can do it %s."
+msgstr ""
+
+#: View/Settings/admin_order.ctp:44
+msgid "here"
+msgstr ""
+

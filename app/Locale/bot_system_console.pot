@@ -1,0 +1,79 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/BotSystem/Console/Command/ClickSimulatorShell.php:17
+msgid "Runing click simulator..."
+msgstr ""
+
+#: Module/BotSystem/Console/Command/ClickSimulatorShell.php:23;32;42
+msgid "done."
+msgstr ""
+
+#: Module/BotSystem/Console/Command/ClickSimulatorShell.php:28
+msgid "Refreshing click simulator..."
+msgstr ""
+
+#: Module/BotSystem/Console/Command/ClickSimulatorShell.php:36
+msgid "Runing autorenew..."
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:405
+msgid "Failed to save upline balances"
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:411
+msgid "Failed to extend referals rent time"
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:418
+msgid "Failed to save attempts number"
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:567
+msgid "Failed to add to account balance of %s"
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:584
+msgid "Failed to save bot data: %s"
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:591
+msgid "Cannot save statistic data"
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:600;621;637
+msgid "Cannot save autopay data"
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:652
+msgid "Failed to save bot data 2: %s"
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:666
+msgid "Failed to stop bots"
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:673;679
+msgid "Failed to save bot system runs number."
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:688
+msgid "Failed to refresh today_done"
+msgstr ""
+
+#: Module/BotSystem/Model/BotSystemBot.php:698
+msgid "Failed to create new bots (%d)."
+msgstr ""
+

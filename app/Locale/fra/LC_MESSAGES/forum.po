@@ -1,0 +1,1086 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2016-06-20 14:57+0200\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.8\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+
+#: Plugin/Forum/Config/bootstrap.php:53 Plugin/Forum/View/Forum/index.ctp:15
+#: Plugin/Forum/View/Layouts/forum.ctp:49
+#: Plugin/Forum/View/Moderators/admin_add.ctp:7
+#: Plugin/Forum/View/Moderators/admin_edit.ctp:7
+#: Plugin/Forum/View/Search/index.ctp:42 Plugin/Forum/View/Stations/view.ctp:35
+#: Plugin/Forum/View/Stations/rss/view.ctp:4
+#: Plugin/Forum/View/Topics/add.ctp:18 Plugin/Forum/View/Topics/edit.ctp:22
+#: View/Themed/Legacy/Plugin/Forum/Forum/index.ctp:15
+#: View/Themed/Legacy/Plugin/Forum/Layouts/forum.ctp:55
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:39
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:34
+#: View/Themed/Legacy/Plugin/Forum/Stations/rss/view.ctp:4
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:19
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:22
+msgid "Forum"
+msgstr "Forum"
+
+#: Plugin/Forum/Console/Command/SubscriptionShell.php:91
+msgid "%s [Subscriptions]"
+msgstr "%s [Abonnement]"
+
+#: Plugin/Forum/Console/Command/SubscriptionShell.php:190
+msgid "Hello %s,"
+msgstr "Bonjour %s,"
+
+#: Plugin/Forum/Console/Command/SubscriptionShell.php:191
+msgid ""
+"You have asked to be notified for any new activity within %s. Below you will "
+"find an update on all your forum subscriptions. The last subscription update "
+"was sent on %s."
+msgstr "Vous avez demandé des informations sur toute nouvelle activité en %s. Ci-dessous vous trouverez des informations mises à jour concernant tous les abonnements à un forum. La dernière mise à jour concernant l’abonnement a été envoyée le %s."
+
+#: Plugin/Forum/Console/Command/SubscriptionShell.php:192
+msgid ""
+"You may unsubscribe from a forum or topic by clicking the \"Unsubscribe\" "
+"button found within the respective forum or topic."
+msgstr "Vous pouvez vous désabonner du forum ou d'un thème en cliquant sur « Désabonnez-moi » sur un forum ou un thème particulier."
+
+#: Plugin/Forum/Console/Command/SubscriptionShell.php:197
+msgid "Forum Subscriptions"
+msgstr "Abonnez-vous à un forum"
+
+#: Plugin/Forum/Console/Command/SubscriptionShell.php:199
+msgid "The following topics have been created."
+msgstr "Les thèmes suivants ont été créés."
+
+#: Plugin/Forum/Console/Command/SubscriptionShell.php:206
+msgid "%s [%s] %s"
+msgstr "%s [%s] %s"
+
+#: Plugin/Forum/Console/Command/SubscriptionShell.php:220
+msgid "Topic Subscriptions"
+msgstr "Abonnement au thème"
+
+#: Plugin/Forum/Console/Command/SubscriptionShell.php:222
+msgid "The following topics have seen recent post activity."
+msgstr "Thèmes avec les réponses les plus récentes"
+
+#: Plugin/Forum/Console/Command/SubscriptionShell.php:229
+msgid "%s [%s] %d new posts"
+msgstr "%s [%s] %d nouveaux posts"
+
+#: Plugin/Forum/Controller/ForumAppController.php:143
+msgid "Forum is disabled"
+msgstr "Forum désactivé"
+
+#: Plugin/Forum/Controller/ForumAppController.php:168
+msgid "Your account is banned."
+msgstr "Votre compte a été bloqué."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:24;46
+msgid "Please select at least one moderator."
+msgstr "Sélectionnez au moins un modérateur."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:29;87;127
+msgid "Invalid moderator"
+msgstr "Modérateur non valide"
+
+#: Plugin/Forum/Controller/ModeratorsController.php:44
+#: Plugin/Forum/Controller/SettingsController.php:97
+msgid "Mass Action done."
+msgstr "Action de masse effectuée correctement."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:49
+#: Plugin/Forum/Controller/SettingsController.php:102
+msgid "Please select an action."
+msgstr "Sélectionnez une action."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:59;94
+msgid "Please enter an username."
+msgstr "Entrez le nom d'utilisateur."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:67;102
+msgid "User not found"
+msgstr "Utilisateur non trouvé."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:75
+msgid "The moderator has been created."
+msgstr "Le modérateur a été créé."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:78
+msgid "The moderator could not be created. Please, try again."
+msgstr "Le modérateur ne peut pas être créé. Essayez à nouveau."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:109
+msgid "The moderator has been saved sucessfully."
+msgstr "Le modérateur a été enregistré avec succès."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:112
+msgid "The moderator could not be saved. Please, try again."
+msgstr "Le modérateur a été enregistré avec succès."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:131
+msgid "The moderator has been deleted."
+msgstr "Le modérateur a été supprimé."
+
+#: Plugin/Forum/Controller/ModeratorsController.php:133
+msgid "The moderator could not be deleted. Please, try again."
+msgstr "Le modérateur ne peut pas être supprimé. Essayez à nouveau."
+
+#: Plugin/Forum/Controller/PostsController.php:154
+msgid ""
+"You have successfully reported this post! A moderator will review this post "
+"and take the necessary action."
+msgstr "Ce post a été rapporté avec succès! Le modérateur va examiner le post et prendra les mesures nécessaires."
+
+#: Plugin/Forum/Controller/SearchController.php:44
+msgid "Last post time"
+msgstr "Dernier post"
+
+#: Plugin/Forum/Controller/SearchController.php:45
+msgid "Topic created time"
+msgstr "Temps d’ouverture d’un thème"
+
+#: Plugin/Forum/Controller/SearchController.php:46
+msgid "Total posts"
+msgstr "Nombre de posts écrits"
+
+#: Plugin/Forum/Controller/SearchController.php:47
+msgid "Total views"
+msgstr "Nombre de visites au total"
+
+#: Plugin/Forum/Controller/SettingsController.php:27
+msgid "The settings has been saved."
+msgstr "Les paramètres ont été sauvegardés."
+
+#: Plugin/Forum/Controller/SettingsController.php:29
+msgid "The settings could not be saved. Please, try again."
+msgstr "Les paramètres n’ont pas pu être sauvegardés. Essayez à nouveau."
+
+#: Plugin/Forum/Controller/SettingsController.php:53;82;123;137
+msgid "Invalid forum"
+msgstr "Forum incorrect"
+
+#: Plugin/Forum/Controller/SettingsController.php:57
+msgid "The forum has been saved."
+msgstr "Le forum a été sauvegardé."
+
+#: Plugin/Forum/Controller/SettingsController.php:60
+msgid "The forum could not be saved. Please, try again."
+msgstr "Le forum n’a pas pu être sauvegardé. Essayez à nouveau"
+
+#: Plugin/Forum/Controller/SettingsController.php:77;99
+msgid "Please select at least one forum."
+msgstr "Sélectionnez au moins un forum."
+
+#: Plugin/Forum/Controller/SettingsController.php:112
+msgid "The forum has been created."
+msgstr "Le forum a été créé."
+
+#: Plugin/Forum/Controller/SettingsController.php:115
+msgid "The forum could not be created. Please, try again."
+msgstr "Le forum n’a pas pu être créé. Essayez à nouveau."
+
+#: Plugin/Forum/Controller/SettingsController.php:127
+msgid "The forum has been deleted."
+msgstr "Le forum a été supprimé."
+
+#: Plugin/Forum/Controller/SettingsController.php:129
+msgid "The forum could not be deleted. Please, try again."
+msgstr "Le forum a été supprimé."
+
+#: Plugin/Forum/Controller/SettingsController.php:141
+msgid "The forum icon has been deleted."
+msgstr "L'icône de forum a été supprimée."
+
+#: Plugin/Forum/Controller/SettingsController.php:143
+msgid "The forum icon could not be deleted. Please, try again."
+msgstr "L'icône de forum a été supprimée."
+
+#: Plugin/Forum/Controller/SettingsController.php:166
+msgid "Successfully saved new forums order"
+msgstr "Le nouvel ordre de catégories sur le forum été enregistré avec succès"
+
+#: Plugin/Forum/Controller/SettingsController.php:168
+msgid "Failed to save forums order. Please, try again."
+msgstr "Les paramètres de catégories sur le forum n’ont pas pu être enregistrés. Essayez à nouveau."
+
+#: Plugin/Forum/Controller/SettingsController.php:203
+msgid "ToS saved successfully."
+msgstr "Le règlement a été sauvegardé avec succès."
+
+#: Plugin/Forum/Controller/SettingsController.php:205;229
+msgid "Failed to save, please try again."
+msgstr "Échec de sauvegarde. Essayez à nouveau."
+
+#: Plugin/Forum/Controller/SettingsController.php:227
+msgid "Help saved successfully."
+msgstr "Aide enregistrée avec succès."
+
+#: Plugin/Forum/Controller/StationsController.php:130
+msgid "A total of %d topic(s) have been permanently deleted"
+msgstr "Au total, %d thèmes ont été définitivement supprimés."
+
+#: Plugin/Forum/Controller/StationsController.php:134
+msgid "A total of %d topic(s) have been locked to the public"
+msgstr "Au total, %d thèmes ont été définitivement bloqués."
+
+#: Plugin/Forum/Controller/StationsController.php:138
+msgid "A total of %d topic(s) have been re-opened"
+msgstr "Au total, %d thèmes ont été rouverts."
+
+#: Plugin/Forum/Controller/StationsController.php:142
+msgid "A total of %d topic(s) have been moved to another forum category"
+msgstr "Au total, %d thèmes ont été transférés à une autre catégorie de forum."
+
+#: Plugin/Forum/Controller/StationsController.php:168
+#: Plugin/Forum/Controller/TopicsController.php:262
+msgid "Failed To Subscribe"
+msgstr "Échec d’abonnement"
+
+#: Plugin/Forum/Controller/StationsController.php:172
+#: Plugin/Forum/Controller/TopicsController.php:266
+msgid "Subscribed"
+msgstr "Abonnés"
+
+#: Plugin/Forum/Controller/StationsController.php:188
+#: Plugin/Forum/Controller/TopicsController.php:282
+msgid "Failed To Unsubscribe"
+msgstr "Désabonnement échoué"
+
+#: Plugin/Forum/Controller/StationsController.php:192
+#: Plugin/Forum/Controller/TopicsController.php:286
+msgid "Unsubscribed"
+msgstr "Désabonnés"
+
+#: Plugin/Forum/Controller/TopicsController.php:70
+#: Plugin/Forum/View/Elements/tiles/forum_controls.ctp:23
+#: Plugin/Forum/View/Elements/tiles/topic_controls.ctp:22
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/forum_controls.ctp:23
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_controls.ctp:22
+msgid "Create Poll"
+msgstr "Créez un sondage"
+
+#: Plugin/Forum/Controller/TopicsController.php:73
+#: Plugin/Forum/View/Elements/tiles/forum_controls.ctp:19
+#: Plugin/Forum/View/Elements/tiles/topic_controls.ctp:18
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/forum_controls.ctp:19
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_controls.ctp:18
+msgid "Create Topic"
+msgstr "Créez un nouveau thème"
+
+#: Plugin/Forum/Controller/TopicsController.php:182
+msgid ""
+"You have successfully reported this topic! A moderator will review this "
+"topic and take the necessary action."
+msgstr "Le thème rapporté avec succès! Le modérateur va examiner cette question et il prendra les mesures nécessaires."
+
+#: Plugin/Forum/Controller/TopicsController.php:321
+msgid "A total of %d post(s) have been permanently deleted"
+msgstr "Au total, %d posts ont été définitivement supprimés."
+
+#: Plugin/Forum/Controller/UsersController.php:22;56
+msgid "Invalid user profile"
+msgstr "Profil d'utilisateur non valide"
+
+#: Plugin/Forum/View/Elements/flash.ctp:4
+msgid "Close"
+msgstr "Fermez"
+
+#: Plugin/Forum/View/Elements/login.ctp:6
+#: Plugin/Forum/View/Moderators/admin_add.ctp:6
+#: Plugin/Forum/View/Moderators/admin_edit.ctp:6
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: Plugin/Forum/View/Elements/login.ctp:7
+msgid "Password"
+msgstr "Mot de passe"
+
+#: Plugin/Forum/View/Elements/login.ctp:8
+msgid "Remember Me?"
+msgstr "Mémoriser mes données sur cet ordinateur"
+
+#: Plugin/Forum/View/Elements/login.ctp:9
+#: Plugin/Forum/View/Elements/navigation.ctp:30
+#: View/Themed/Legacy/Plugin/Forum/Elements/navigation.ctp:24
+msgid "Login"
+msgstr "Connectez-vous"
+
+#: Plugin/Forum/View/Elements/navigation.ctp:15
+#: View/Themed/Legacy/Plugin/Forum/Elements/navigation.ctp:11
+msgid "Forums"
+msgstr "Forums"
+
+#: Plugin/Forum/View/Elements/navigation.ctp:16
+#: Plugin/Forum/View/Search/index.ctp:3;7
+#: View/Themed/Legacy/Plugin/Forum/Elements/navigation.ctp:12
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:3;6
+msgid "Search"
+msgstr "Recherchez"
+
+#: Plugin/Forum/View/Elements/navigation.ctp:18
+#: View/Themed/Legacy/Plugin/Forum/Elements/navigation.ctp:13
+msgid "Rules"
+msgstr "Règlement"
+
+#: Plugin/Forum/View/Elements/navigation.ctp:20
+#: View/Themed/Legacy/Plugin/Forum/Elements/navigation.ctp:14
+msgid "Help"
+msgstr "Aide"
+
+#: Plugin/Forum/View/Elements/navigation.ctp:25
+#: View/Themed/Legacy/Plugin/Forum/Elements/navigation.ctp:19
+msgid "View Recent Topics"
+msgstr "Dernières discussions"
+
+#: Plugin/Forum/View/Elements/navigation.ctp:26
+#: View/Themed/Legacy/Plugin/Forum/Elements/navigation.ctp:20
+msgid "Logout"
+msgstr "Déconnectez-vous"
+
+#: Plugin/Forum/View/Elements/navigation.ctp:34
+#: View/Themed/Legacy/Plugin/Forum/Elements/navigation.ctp:28
+msgid "Sign Up"
+msgstr "Inscrivez-vous"
+
+#: Plugin/Forum/View/Elements/navigation.ctp:40
+#: View/Themed/Legacy/Plugin/Forum/Elements/navigation.ctp:34
+msgid "Forgot Password"
+msgstr "Rappelez moi le mot de passe"
+
+#: Plugin/Forum/View/Elements/tiles/forum_controls.ctp:7
+#: Plugin/Forum/View/Elements/tiles/topic_controls.ctp:7
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/forum_controls.ctp:7
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_controls.ctp:7
+msgid "Subscribe"
+msgstr "Abonnez-vous"
+
+#: Plugin/Forum/View/Elements/tiles/forum_controls.ctp:9
+#: Plugin/Forum/View/Elements/tiles/topic_controls.ctp:9
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/forum_controls.ctp:9
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_controls.ctp:9
+msgid "Unsubscribe"
+msgstr "Désabonnez-vous"
+
+#: Plugin/Forum/View/Elements/tiles/forum_controls.ctp:14
+#: Plugin/Forum/View/Elements/tiles/topic_controls.ctp:14
+#: Plugin/Forum/View/Stations/moderate.ctp:7;10
+#: Plugin/Forum/View/Topics/moderate.ctp:8;12
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/forum_controls.ctp:14
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_controls.ctp:14
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:7;10
+#: View/Themed/Legacy/Plugin/Forum/Topics/moderate.ctp:8;12
+msgid "Moderate"
+msgstr "Modérez la discussion"
+
+#: Plugin/Forum/View/Elements/tiles/forum_controls.ctp:26
+#: Plugin/Forum/View/Elements/tiles/topic_controls.ctp:29
+#: Plugin/Forum/View/Helper/ForumHelper.php:91;256
+#: Plugin/Forum/View/Topics/view.ctp:19
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/forum_controls.ctp:26
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_controls.ctp:29
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:19
+msgid "Closed"
+msgstr "Fermé"
+
+#: Plugin/Forum/View/Elements/tiles/forum_row.ctp:24
+#: Plugin/Forum/View/Stations/view.ctp:27
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/forum_row.ctp:24
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:27
+msgid "Sub-Forums"
+msgstr "Sous-forums"
+
+#: Plugin/Forum/View/Elements/tiles/forum_row.ctp:40
+#: Plugin/Forum/View/Elements/tiles/topic_row.ctp:45
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/forum_row.ctp:40
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_row.ctp:45
+msgid "by"
+msgstr "Auteur"
+
+#: Plugin/Forum/View/Elements/tiles/forum_row.ctp:43
+#: Plugin/Forum/View/Elements/tiles/topic_row.ctp:50
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/forum_row.ctp:43
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_row.ctp:50
+msgid "No latest activity to display"
+msgstr "Aucun événement nouveau à afficher"
+
+#: Plugin/Forum/View/Elements/tiles/topic_controls.ctp:27
+#: Plugin/Forum/View/Posts/add.ctp:8;10;19
+#: Plugin/Forum/View/Topics/view.ctp:263
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_controls.ctp:27
+#: View/Themed/Legacy/Plugin/Forum/Posts/add.ctp:8;11;19
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:261
+msgid "Post Reply"
+msgstr "Répondez"
+
+#: Plugin/Forum/View/Elements/tiles/topic_row.ctp:13
+#: Plugin/Forum/View/Topics/view.ctp:31
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_row.ctp:13
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:31
+msgid "Poll"
+msgstr "Vote"
+
+#: Plugin/Forum/View/Elements/tiles/topic_row.ctp:19
+#: View/Themed/Legacy/Plugin/Forum/Elements/tiles/topic_row.ctp:19
+msgid "Pages"
+msgstr "Pages"
+
+#: Plugin/Forum/View/Forum/help.ctp:1;5
+#: View/Themed/Legacy/Plugin/Forum/Forum/help.ctp:1;4
+msgid "Help Desk"
+msgstr "Aide"
+
+#: Plugin/Forum/View/Forum/index.ctp:16
+#: Plugin/Forum/View/Stations/view.ctp:36;88
+#: View/Themed/Legacy/Plugin/Forum/Forum/index.ctp:16
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:35;82
+msgid "Topics"
+msgstr "Thèmes"
+
+#: Plugin/Forum/View/Forum/index.ctp:17 Plugin/Forum/View/Search/index.ctp:45
+#: Plugin/Forum/View/Stations/moderate.ctp:29
+#: Plugin/Forum/View/Stations/view.ctp:37;72
+#: View/Themed/Legacy/Plugin/Forum/Forum/index.ctp:17
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:42
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:30
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:36;66
+msgid "Posts"
+msgstr "Posts"
+
+#: Plugin/Forum/View/Forum/index.ctp:18 Plugin/Forum/View/Search/index.ctp:47
+#: Plugin/Forum/View/Stations/moderate.ctp:31
+#: Plugin/Forum/View/Stations/view.ctp:38;74
+#: View/Themed/Legacy/Plugin/Forum/Forum/index.ctp:18
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:44
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:32
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:37;68
+msgid "Activity"
+msgstr "Activité"
+
+#: Plugin/Forum/View/Forum/index.ctp:33
+#: View/Themed/Legacy/Plugin/Forum/Forum/index.ctp:33
+msgid "There are no categories within this forum"
+msgstr "Pas de catégorie du forum"
+
+#: Plugin/Forum/View/Forum/index.ctp:48
+#: View/Themed/Legacy/Plugin/Forum/Forum/index.ctp:48
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: Plugin/Forum/View/Forum/index.ctp:48
+msgid "%d topics, %d posts <p>and</p> %d users"
+msgstr "%d thèmes, posts: %d<p>i</p>%d utilisateurs"
+
+#: Plugin/Forum/View/Forum/index.ctp:54
+#: View/Themed/Legacy/Plugin/Forum/Forum/index.ctp:54
+msgid "Newest User"
+msgstr "Nouveau membre"
+
+#: Plugin/Forum/View/Forum/rules.ctp:1;5
+#: View/Themed/Legacy/Plugin/Forum/Forum/rules.ctp:1;4
+msgid "Rules and Regulations"
+msgstr "Règlement"
+
+#: Plugin/Forum/View/Forum/rss/index.ctp:4
+#: View/Themed/Legacy/Plugin/Forum/Forum/rss/index.ctp:4
+msgid "Latest Topics"
+msgstr "Thèmes traités récemment"
+
+#: Plugin/Forum/View/Forum/rss/index.ctp:6
+#: View/Themed/Legacy/Plugin/Forum/Forum/rss/index.ctp:6
+msgid "The latest 10 topics out of all forums"
+msgstr "10 dernières discussions parmi tous les forums"
+
+#: Plugin/Forum/View/Helper/ForumHelper.php:90;254;255
+msgid "No New Posts"
+msgstr "Pas de nouveaux posts"
+
+#: Plugin/Forum/View/Helper/ForumHelper.php:92;257;258
+msgid "New Posts"
+msgstr "Nouveaux posts"
+
+#: Plugin/Forum/View/Helper/ForumHelper.php:259
+msgid "Sticky"
+msgstr "Collé"
+
+#: Plugin/Forum/View/Helper/ForumHelper.php:260
+msgid "Important"
+msgstr "Important"
+
+#: Plugin/Forum/View/Helper/ForumHelper.php:261
+msgid "Announcement"
+msgstr "Annonce"
+
+#: Plugin/Forum/View/Layouts/forum.ctp:19
+#: View/Themed/Legacy/Plugin/Forum/Layouts/forum.ctp:18
+msgid "RSS Feed - Latest Topics"
+msgstr "Flux RSS – derniers thèmes"
+
+#: Plugin/Forum/View/Layouts/forum.ctp:21
+#: View/Themed/Legacy/Plugin/Forum/Layouts/forum.ctp:20
+msgid "RSS Feed - Content Review"
+msgstr "Flux RSS – aperçu du contenu"
+
+#: Plugin/Forum/View/Moderators/admin_add.ctp:3
+msgid "Add new moderator"
+msgstr "Ajouter un nouveau modérateur"
+
+#: Plugin/Forum/View/Moderators/admin_add.ctp:9
+msgid "Add moderator"
+msgstr "Ajouter un modérateur"
+
+#: Plugin/Forum/View/Moderators/admin_edit.ctp:3
+#: Plugin/Forum/View/Moderators/admin_index.ctp:49
+msgid "Edit moderator"
+msgstr "Modifier le contenu"
+
+#: Plugin/Forum/View/Moderators/admin_edit.ctp:9
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: Plugin/Forum/View/Moderators/admin_index.ctp:3
+msgid "Forums list"
+msgstr "Liste des forums"
+
+#: Plugin/Forum/View/Moderators/admin_index.ctp:15
+msgid "Moderator"
+msgstr "Modérateur"
+
+#: Plugin/Forum/View/Moderators/admin_index.ctp:42
+msgid "Delete moderator"
+msgstr "Supprimer le modérateur"
+
+#: Plugin/Forum/View/Moderators/admin_index.ctp:45
+msgid "Are you sure you want to delete \"%s\" from moderators list of \"%s\"?"
+msgstr "Etes-vous sûr de vouloir supprimer « % » de la liste des modérateurs « %s »?"
+
+#: Plugin/Forum/View/Posts/add.ctp:28
+#: View/Themed/Legacy/Plugin/Forum/Posts/add.ctp:27
+msgid "Topic Review - Last 10 Replies"
+msgstr "Historique de contenu – 10 dernières réponses"
+
+#: Plugin/Forum/View/Posts/edit.ctp:8;11 Plugin/Forum/View/Topics/view.ctp:139
+#: View/Themed/Legacy/Plugin/Forum/Posts/edit.ctp:8;11
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:140
+msgid "Edit Post"
+msgstr "Modifier le post"
+
+#: Plugin/Forum/View/Posts/edit.ctp:20
+#: View/Themed/Legacy/Plugin/Forum/Posts/edit.ctp:19
+msgid "Update Post"
+msgstr "Mise à jour du post"
+
+#: Plugin/Forum/View/Posts/report.ctp:8;11
+#: Plugin/Forum/View/Topics/view.ctp:143
+#: View/Themed/Legacy/Plugin/Forum/Posts/report.ctp:8;11
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:144
+msgid "Report Post"
+msgstr "Signaler au modérateur"
+
+#: Plugin/Forum/View/Posts/report.ctp:16
+#: View/Themed/Legacy/Plugin/Forum/Posts/report.ctp:15
+msgid ""
+"Are you sure you want to report the post (below) in the topic %s? If so, "
+"please add a comment as to why you are reporting it, 255 max characters."
+msgstr "Êtes-vous sûr de vouloir signaler le post au modérateur ? Si oui, ajoutez votre commentaire pourquoi. Vous pouvez utiliser jusqu'à 255 caractères."
+
+#: Plugin/Forum/View/Posts/report.ctp:22
+#: Plugin/Forum/View/Topics/moderate.ctp:32
+#: View/Themed/Legacy/Plugin/Forum/Posts/report.ctp:21
+#: View/Themed/Legacy/Plugin/Forum/Topics/moderate.ctp:33
+msgid "Post"
+msgstr "Post"
+
+#: Plugin/Forum/View/Posts/report.ctp:24 Plugin/Forum/View/Topics/add.ctp:23
+#: Plugin/Forum/View/Topics/edit.ctp:26 Plugin/Forum/View/Topics/report.ctp:22
+#: View/Themed/Legacy/Plugin/Forum/Posts/report.ctp:23
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:24
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:26
+#: View/Themed/Legacy/Plugin/Forum/Topics/report.ctp:21
+msgid "Type"
+msgstr "Type"
+
+#: Plugin/Forum/View/Posts/report.ctp:26 Plugin/Forum/View/Topics/report.ctp:23
+#: View/Themed/Legacy/Plugin/Forum/Posts/report.ctp:25
+#: View/Themed/Legacy/Plugin/Forum/Topics/report.ctp:22
+msgid "Comment"
+msgstr "Commentaire"
+
+#: Plugin/Forum/View/Posts/report.ctp:28 Plugin/Forum/View/Topics/report.ctp:25
+#: View/Themed/Legacy/Plugin/Forum/Posts/report.ctp:27
+#: View/Themed/Legacy/Plugin/Forum/Topics/report.ctp:24
+msgid "Report"
+msgstr "Rapport"
+
+#: Plugin/Forum/View/Search/index.ctp:14
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:13
+msgid "With keywords"
+msgstr "Avec des mots-clés"
+
+#: Plugin/Forum/View/Search/index.ctp:17
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:16
+msgid "In forum"
+msgstr "Sur le forum"
+
+#: Plugin/Forum/View/Search/index.ctp:20
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:19
+msgid "By user"
+msgstr "Par l'utilisateur"
+
+#: Plugin/Forum/View/Search/index.ctp:23
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:22
+msgid "Order by"
+msgstr "Classer par"
+
+#: Plugin/Forum/View/Search/index.ctp:26
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:27
+msgid "Search Topics"
+msgstr "Rechercher les thèmes"
+
+#: Plugin/Forum/View/Search/index.ctp:41
+#: Plugin/Forum/View/Stations/moderate.ctp:25
+#: Plugin/Forum/View/Stations/view.ctp:69
+#: Plugin/Forum/View/Topics/rss/view.ctp:4
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:38
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:26
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:63
+#: View/Themed/Legacy/Plugin/Forum/Topics/rss/view.ctp:4
+msgid "Topic"
+msgstr "Thème"
+
+#: Plugin/Forum/View/Search/index.ctp:43
+#: Plugin/Forum/View/Stations/moderate.ctp:27
+#: Plugin/Forum/View/Stations/view.ctp:70
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:40
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:28
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:64
+msgid "Author"
+msgstr "Auteur"
+
+#: Plugin/Forum/View/Search/index.ctp:44
+#: Plugin/Forum/View/Stations/moderate.ctp:28
+#: Plugin/Forum/View/Stations/view.ctp:71
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:41
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:29
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:65
+msgid "Created"
+msgstr "Création de"
+
+#: Plugin/Forum/View/Search/index.ctp:46
+#: Plugin/Forum/View/Stations/moderate.ctp:30
+#: Plugin/Forum/View/Stations/view.ctp:73
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:43
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:31
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:67
+msgid "Views"
+msgstr "Visites"
+
+#: Plugin/Forum/View/Search/index.ctp:55
+#: View/Themed/Legacy/Plugin/Forum/Search/index.ctp:52
+msgid "No results were found, please refine your search criteria"
+msgstr "Utilisateur non trouvé, affiner votre recherche"
+
+#: Plugin/Forum/View/Settings/admin_edit.ctp:3
+msgid "Edit Forum:"
+msgstr "Modifier le forum:"
+
+#: Plugin/Forum/View/Settings/admin_help.ctp:3
+msgid "Edit Help"
+msgstr "Modifier l’aide"
+
+#: Plugin/Forum/View/Settings/admin_index.ctp:3
+msgid "Forums List"
+msgstr "Liste des forums"
+
+#: Plugin/Forum/View/Settings/admin_index.ctp:41
+#: Plugin/Forum/View/Stations/view.ctp:129;132;135;142;145;148
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:127;130;133;140;143;146
+msgid "Yes"
+msgstr "Oui"
+
+#: Plugin/Forum/View/Settings/admin_index.ctp:41
+#: Plugin/Forum/View/Stations/view.ctp:132;135;142;145;148
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:130;133;140;143;146
+msgid "No"
+msgstr "Non"
+
+#: Plugin/Forum/View/Settings/admin_index.ctp:42
+msgid "-"
+msgstr "-"
+
+#: Plugin/Forum/View/Settings/admin_index.ctp:45
+msgid "Edit forum"
+msgstr "Modifier le forum"
+
+#: Plugin/Forum/View/Settings/admin_index.ctp:52
+msgid "Delete forum"
+msgstr "Supprimer le forum"
+
+#: Plugin/Forum/View/Settings/admin_index.ctp:60
+msgid "Remove icon"
+msgstr "Supprimer l'icône"
+
+#: Plugin/Forum/View/Settings/admin_tos.ctp:3
+msgid "Edit ToS"
+msgstr "Modifier le règlement"
+
+#: Plugin/Forum/View/Stations/admin_delete.ctp:27
+msgid "Move Topics To"
+msgstr "Migrer un thème vers"
+
+#: Plugin/Forum/View/Stations/admin_delete.ctp:36
+msgid "Move Forums To"
+msgstr "Migrer le forum vers"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:12
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:12
+msgid "Return to Forum"
+msgstr "Retour au forum"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:26
+#: Plugin/Forum/View/Topics/add.ctp:21 Plugin/Forum/View/Topics/edit.ctp:24
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:27
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:22
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:24
+msgid "Status"
+msgstr "Statut"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:47
+#: Plugin/Forum/View/Stations/view.ctp:102
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:48
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:97
+msgid "There are no topics within this forum"
+msgstr "Pas de posts sur ce forum"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:60
+#: Plugin/Forum/View/Topics/moderate.ctp:68
+msgid "Action"
+msgstr "Activité"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:66
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:64
+msgid "Open Topic(s)"
+msgstr "Ouvrir un nouveau thème"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:67
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:65
+msgid "Close Topic(s)"
+msgstr "Fermer les thèmes"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:68
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:66
+msgid "Move Topic(s)"
+msgstr "Migrer les thèmes vers"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:69
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:67
+msgid "Delete Topic(s)"
+msgstr "Supprimer les thèmes"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:73
+#: Plugin/Forum/View/Topics/moderate.ctp:72
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:71
+#: View/Themed/Legacy/Plugin/Forum/Topics/moderate.ctp:71
+msgid "Perform Action"
+msgstr "Activité"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:76
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:74
+msgid "Move To"
+msgstr "Migrer vers"
+
+#: Plugin/Forum/View/Stations/moderate.ctp:78
+#: Plugin/Forum/View/Topics/moderate.ctp:74
+#: View/Themed/Legacy/Plugin/Forum/Stations/moderate.ctp:76
+#: View/Themed/Legacy/Plugin/Forum/Topics/moderate.ctp:73
+msgid "Process"
+msgstr "Effectuer"
+
+#: Plugin/Forum/View/Stations/view.ctp:125
+#: Plugin/Forum/View/Topics/view.ctp:191
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:123
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:190
+msgid "Total Topics"
+msgstr "Nombre de thèmes"
+
+#: Plugin/Forum/View/Stations/view.ctp:128
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:126
+msgid "Increases Post Count"
+msgstr "Augmente le nombre de posts"
+
+#: Plugin/Forum/View/Stations/view.ctp:131
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:129
+msgid "Can Read Topics"
+msgstr "Peut lire les thèmes"
+
+#: Plugin/Forum/View/Stations/view.ctp:134
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:132
+msgid "Can Create Topics"
+msgstr "Peut créer les thèmes"
+
+#: Plugin/Forum/View/Stations/view.ctp:138
+#: Plugin/Forum/View/Topics/view.ctp:195
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:136
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:194
+msgid "Total Posts"
+msgstr "Nombre de posts écrits"
+
+#: Plugin/Forum/View/Stations/view.ctp:141
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:139
+msgid "Auto-Lock Topics"
+msgstr "Fermer automatiquement les thèmes"
+
+#: Plugin/Forum/View/Stations/view.ctp:144
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:142
+msgid "Can Reply"
+msgstr "Peut répondre"
+
+#: Plugin/Forum/View/Stations/view.ctp:147
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:145
+msgid "Can Create Polls"
+msgstr "Peut créer des sondages"
+
+#: Plugin/Forum/View/Stations/view.ctp:152
+#: View/Themed/Legacy/Plugin/Forum/Stations/view.ctp:150
+msgid "Moderators"
+msgstr "Modérateurs"
+
+#: Plugin/Forum/View/Topics/add.ctp:16 Plugin/Forum/View/Topics/edit.ctp:19
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:17
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:19
+msgid "Title"
+msgstr "Titre"
+
+#: Plugin/Forum/View/Topics/add.ctp:18 Plugin/Forum/View/Topics/edit.ctp:22
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:19
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:22
+msgid "Select a Forum"
+msgstr "Choisissez le forum"
+
+#: Plugin/Forum/View/Topics/add.ctp:31 Plugin/Forum/View/Topics/edit.ctp:36
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:32
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:36
+msgid "Poll Options"
+msgstr "Vote"
+
+#: Plugin/Forum/View/Topics/add.ctp:32
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:33
+msgid "One option per line.<br /> Max 10 options."
+msgstr "Une option par ligne.<br />10 options au maximum."
+
+#: Plugin/Forum/View/Topics/add.ctp:38 Plugin/Forum/View/Topics/edit.ctp:57
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:39
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:57
+msgid "Expiration Date"
+msgstr "Date d'expiration"
+
+#: Plugin/Forum/View/Topics/add.ctp:39 Plugin/Forum/View/Topics/edit.ctp:58
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:40
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:58
+msgid "How many days till expiration? Leave blank to last forever."
+msgstr "Combien de jours jusqu'à l'expiration? Laissez vide à cause d'absence du terme."
+
+#: Plugin/Forum/View/Topics/add.ctp:56 Plugin/Forum/View/Topics/edit.ctp:73
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:58
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:73
+msgid "Excerpt"
+msgstr "Fragment"
+
+#: Plugin/Forum/View/Topics/add.ctp:60 Plugin/Forum/View/Topics/edit.ctp:77
+#: View/Themed/Legacy/Plugin/Forum/Topics/add.ctp:62
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:77
+msgid "%s characters remaining"
+msgstr "%s de caractères qui restent"
+
+#: Plugin/Forum/View/Topics/edit.ctp:8;11;91
+#: Plugin/Forum/View/Topics/view.ctp:129
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:8;11;91
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:130
+msgid "Edit Topic"
+msgstr "Modifier le thème"
+
+#: Plugin/Forum/View/Topics/edit.ctp:49
+#: View/Themed/Legacy/Plugin/Forum/Topics/edit.ctp:49
+msgid "Delete?"
+msgstr "Supprimer?"
+
+#: Plugin/Forum/View/Topics/moderate.ctp:15
+#: Plugin/Forum/View/Topics/view.ctp:133
+#: View/Themed/Legacy/Plugin/Forum/Topics/moderate.ctp:15
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:134
+msgid "Delete Topic"
+msgstr "Supprimer le thème"
+
+#: Plugin/Forum/View/Topics/moderate.ctp:15
+#: Plugin/Forum/View/Topics/view.ctp:133;140
+#: View/Themed/Legacy/Plugin/Forum/Topics/moderate.ctp:15
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:134;141
+msgid "Are you sure you want to delete?"
+msgstr "Êtes-vous sûr de vouloir supprimer cela?"
+
+#: Plugin/Forum/View/Topics/moderate.ctp:16
+#: View/Themed/Legacy/Plugin/Forum/Topics/moderate.ctp:16
+msgid "Return to Topic"
+msgstr "Retour au thème"
+
+#: Plugin/Forum/View/Topics/moderate.ctp:31
+#: View/Themed/Legacy/Plugin/Forum/Topics/moderate.ctp:32
+msgid "User"
+msgstr "Utilisateur"
+
+#: Plugin/Forum/View/Topics/moderate.ctp:33
+#: View/Themed/Legacy/Plugin/Forum/Topics/moderate.ctp:34
+msgid "Date"
+msgstr "Date"
+
+#: Plugin/Forum/View/Topics/moderate.ctp:72
+#: View/Themed/Legacy/Plugin/Forum/Topics/moderate.ctp:71
+msgid "Delete Post(s)"
+msgstr "Supprimer un post"
+
+#: Plugin/Forum/View/Topics/report.ctp:8;11
+#: Plugin/Forum/View/Topics/view.ctp:136
+#: View/Themed/Legacy/Plugin/Forum/Topics/report.ctp:8;11
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:137
+msgid "Report Topic"
+msgstr "Signaler au modérateur"
+
+#: Plugin/Forum/View/Topics/report.ctp:16
+#: View/Themed/Legacy/Plugin/Forum/Topics/report.ctp:15
+msgid ""
+"Are you sure you want to report the topic %s? If so, please add a comment as "
+"to why you are reporting it, 255 max characters."
+msgstr "Êtes-vous sûr de vouloir le thème %s? Si oui, commentez pourquoi vous le rapportez. Vous pouvez utiliser jusqu'à 255 caractères."
+
+#: Plugin/Forum/View/Topics/view.ctp:60
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:60
+msgid "Voting on this poll has been closed"
+msgstr "Le sondage a été fermé."
+
+#: Plugin/Forum/View/Topics/view.ctp:62
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:62
+msgid "Vote"
+msgstr "Votez"
+
+#: Plugin/Forum/View/Topics/view.ctp:65
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:65
+msgid "Please login to vote!"
+msgstr "Connectez-vous pour voter!"
+
+#: Plugin/Forum/View/Topics/view.ctp:83
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:83
+msgid "%d votes"
+msgstr "Voix: %d"
+
+#: Plugin/Forum/View/Topics/view.ctp:86
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:86
+msgid "Your Vote"
+msgstr "Votre voix"
+
+#: Plugin/Forum/View/Topics/view.ctp:140
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:141
+msgid "Delete Post"
+msgstr "Supprimer ce post"
+
+#: Plugin/Forum/View/Topics/view.ctp:147
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:148
+msgid "Quote"
+msgstr "Citation"
+
+#: Plugin/Forum/View/Topics/view.ctp:151
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:152
+msgid "Link To This"
+msgstr "Lien vers"
+
+#: Plugin/Forum/View/Topics/view.ctp:162
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:163
+msgid "Rate Up"
+msgstr "Je l’aime"
+
+#: Plugin/Forum/View/Topics/view.ctp:174
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:173
+msgid "Rate Down"
+msgstr "Je ne l'aime pas"
+
+#: Plugin/Forum/View/Topics/view.ctp:198 Plugin/Forum/View/Users/profile.ctp:15
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:197
+#: View/Themed/Legacy/Plugin/Forum/Users/profile.ctp:15
+msgid "Referrals: %d"
+msgstr "Recommandations : %d"
+
+#: Plugin/Forum/View/Topics/view.ctp:199
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:198
+msgid "Paid Out: %s"
+msgstr "Versés : %s"
+
+#: Plugin/Forum/View/Topics/view.ctp:200 Plugin/Forum/View/Users/profile.ctp:17
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:199
+#: View/Themed/Legacy/Plugin/Forum/Users/profile.ctp:17
+msgid "Earned: %s"
+msgstr "Gagné: %s"
+
+#: Plugin/Forum/View/Topics/view.ctp:210
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:209
+msgid "This post has been buried."
+msgstr "Ce post a été masqué."
+
+#: Plugin/Forum/View/Topics/view.ctp:211
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:210
+msgid "View the buried post?"
+msgstr "Afficher les posts masqués"
+
+#: Plugin/Forum/View/Topics/view.ctp:247
+#: View/Themed/Legacy/Plugin/Forum/Topics/view.ctp:245
+msgid "Quick Reply"
+msgstr "Riposte rapide"
+
+#: Plugin/Forum/View/Users/profile.ctp:3
+#: View/Themed/Legacy/Plugin/Forum/Users/profile.ctp:4
+msgid "%s's profile"
+msgstr "Profil %s"
+
+#: Plugin/Forum/View/Users/profile.ctp:12
+#: View/Themed/Legacy/Plugin/Forum/Users/profile.ctp:12
+msgid "Topics: %d"
+msgstr "Thèmes: %d"
+
+#: Plugin/Forum/View/Users/profile.ctp:13
+#: View/Themed/Legacy/Plugin/Forum/Users/profile.ctp:13
+msgid "Posts: %d"
+msgstr "Posts : %d"
+
+#: Plugin/Forum/View/Users/profile.ctp:16
+#: View/Themed/Legacy/Plugin/Forum/Users/profile.ctp:16
+msgid "Received: %s"
+msgstr "Reçu: %s"
+
+#: Plugin/Forum/View/Users/profile.ctp:22
+msgid "Signature:"
+msgstr "Signature :"
+
+#: View/Themed/Legacy/Plugin/Forum/Elements/navigation.ctp:4
+msgid "logo"
+msgstr "Logo"
+
+#: View/Themed/Legacy/Plugin/Forum/Elements/pagination.ctp:4
+msgid "First"
+msgstr "Première"
+
+#: View/Themed/Legacy/Plugin/Forum/Elements/pagination.ctp:5
+msgid "Last"
+msgstr "Dernière"
+
+#: View/Themed/Legacy/Plugin/Forum/Elements/pagination.ctp:15
+msgid "Showing %s-%s of %s"
+msgstr "Est affiché %s-%s z %s"
+
+#: View/Themed/Legacy/Plugin/Forum/Forum/index.ctp:48
+msgid "%d topics, %d posts, and %d users"
+msgstr "%d thèmes. %d posts et %d utilisateurs"

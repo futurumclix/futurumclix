@@ -1,0 +1,39 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:18
+msgid "FacebookLogin settings saved successfully."
+msgstr ""
+
+#: Module/FacebookLogin/Controller/FacebookLoginController.php:20
+msgid "The settings could not be saved. Please, try again."
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/admin_settings.ctp:3
+msgid "Facebook Login settings"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/admin_settings.ctp:7
+msgid "App ID"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/admin_settings.ctp:17
+msgid "App Secret"
+msgstr ""
+
+#: Module/FacebookLogin/View/FacebookLogin/admin_settings.ctp:27
+msgid "Save changes"
+msgstr ""
+

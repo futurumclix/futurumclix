@@ -1,0 +1,246 @@
+<?php
+/**
+ * Copyright (c) 2018 FuturumClix
+ *
+ * This program is free software: you can redistribute it and/or  modify
+ * it under the terms of the GNU Affero General Public License, version 3,
+ * as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Please notice this program incorporates variety of libraries or other
+ * programs that may or may not have their own licenses, also they may or
+ * may not be modified by FuturumClix. All modifications made by
+ * FuturumClix are available under the terms of GNU Affero General Public
+ * License, version 3, if original license allows that.
+ *
+ * @copyright   2006-2013, Miles Johnson - http://milesj.me
+ * @license     https://github.com/milesj/admin/blob/master/license.md
+ * @link        http://milesj.me/code/cakephp/admin
+ */
+
+App::uses('CakeSession', 'Model/Datasource');
+
+use Decoda\Decoda;
+
+class ForumAppModel extends AppModel {
+
+    /**
+     * Toggleable constants.
+     */
+    const YES = 1;
+    const NO = 0;
+
+    /**
+     * Status constants.
+     */
+    const OPEN = 1;
+    const CLOSED = 0;
+
+    /**
+     * Force plugin name.
+     *
+     * @type string
+     */
+    public $plugin = 'Forum';
+
+    /**
+     * Database config.
+     *
+     * @type string
+     */
+    public $useDbConfig = FORUM_DATABASE;
+
+    /**
+     * Cache queries.
+     *
+     * @type bool
+     */
+    public $cacheQueries = true;
+
+    /**
+     * No recursion.
+     *
+     * @type int
+     */
+    public $recursive = -1;
+
+    /**
+     * Behaviors.
+     *
+     * @type array
+     */
+    public $actsAs = array(
+        'Containable',
+        'Utility.Enumerable',
+        'Utility.Cacheable' => array(
+            'cacheConfig' => 'forum'
+        ),
+        'Utility.Validateable'
+    );
+
+    /**
+     * Global enum.
+     *
+     * @type array
+     */
+    public $enum = array(
+        'status' => array(
+            self::OPEN => 'OPEN',
+            self::CLOSED => 'CLOSED'
+        )
+    );
+
+    /**
+     * Session instance.
+     *
+     * @type CakeSession
+     */
+    public $Session;
+
+    /**
+     * Allow the model to interact with the session.
+     *
+     * @param int $id
+     * @param string $table
+     * @param string $ds
+     */
+    public function __construct($id = null, $table = null, $ds = null) {
+        parent::__construct($id, $table, $ds);
+
+        $this->Session = new CakeSession();
+    }
+
+    /**
+     * Return all records.
+     *
+     * @return array
+     */
+    public function getAll() {
+        return $this->find('all', array(
+            'contain' => false,
+            'cache' => $this->alias . '::' . __FUNCTION__
+        ));
+    }
+
+    /**
+     * Return all records as a list.
+     *
+     * @return array
+     */
+    public function getList() {
+        return $this->find('list', array(
+            'contain' => false,
+            'cache' => $this->alias . '::' . __FUNCTION__
+        ));
+    }
+
+    /**
+     * Return a record based on ID.
+     *
+     * @param int $id
+     * @return array
+     */
+    public function getById($id) {
+        return $this->find('first', array(
+            'conditions' => array($this->alias . '.id' => $id),
+            'contain' => array_keys($this->belongsTo),
+            'cache' => array($this->alias . '::' . __FUNCTION__, $id)
+        ));
+    }
+
+    /**
+     * Return a record based on slug.
+     *
+     * @param string $slug
+     * @return array
+     */
+    public function getBySlug($slug) {
+        return $this->find('first', array(
+            'conditions' => array($this->alias . '.slug' => $slug),
+            'contain' => array_keys($this->belongsTo),
+            'cache' => array($this->alias . '::' . __FUNCTION__, $slug)
+        ));
+    }
+
+    /**
+     * Get a count of all rows.
+     *
+     * @return int
+     */
+    public function getTotal() {
+        return $this->find('count', array(
+            'contain' => false,
+            'recursive' => false,
+            'cache' => $this->alias . '::' . __FUNCTION__,
+            'cacheExpires' => '+24 hours'
+        ));
+    }
+
+    /**
+     * Update a row with certain fields.
+     *
+     * @param int $id
+     * @param array $data
+     * @return bool
+     */
+    public function update($id, $data) {
+        $this->id = $id;
+
+        return $this->save($data, false, array_keys($data));
+    }
+
+    /**
+     * Validate the Decoda markup.
+     *
+     * @param string $model
+     * @param string $field
+     * @return bool
+     */
+    public function validateDecoda($model, $field = 'content') {
+        if (!isset($this->data[$model][$field])) {
+            return true;
+        }
+
+        $decoda = new Decoda($this->data[$model][$field]);
+        $decoda->defaults()->parse();
+        $errors = $decoda->getErrors();
+
+        if (!$errors) {
+            return true;
+        }
+
+        $nesting = array();
+        $closing = array();
+        $scope = array();
+
+        foreach ($errors as $error) {
+            switch ($error['type']) {
+                case Decoda::ERROR_NESTING:    $nesting[] = $error['tag']; break;
+                case Decoda::ERROR_CLOSING:    $closing[] = $error['tag']; break;
+                case Decoda::ERROR_SCOPE:    $scope[] = $error['child'] . ' -> ' . $error['parent']; break;
+            }
+        }
+
+        if ($nesting) {
+            return $this->invalid('content', 'The following tags have been nested in the wrong order: %s', implode(', ', $nesting));
+        }
+
+        if ($closing) {
+            return $this->invalid('content', 'The following tags have no closing tag: %s', implode(', ', $closing));
+        }
+
+        if ($scope) {
+            return $this->invalid('content', 'The following tags can not be placed within a specific tag: %s', implode(', ', $scope));
+        }
+
+        return true;
+    }
+
+}

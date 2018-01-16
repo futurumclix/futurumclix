@@ -1,0 +1,5148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2016-09-07 11:46+0200\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Language: es_ES\n"
+
+#: Controller/AdsCategoryPackagesController.php:90
+#: Controller/AdsController.php:470;555;590;760;846;910;976
+msgid "Advertisement panel"
+msgstr "Panel del anunciante"
+
+#: Controller/AdsController.php:495 Controller/BannerAdsController.php:170
+#: Controller/FeaturedAdsController.php:169
+#: Controller/LoginAdsController.php:168
+msgid "Invalid advertisement"
+msgstr "Anuncio incorrecto"
+
+#: Controller/AdsController.php:500 Controller/BannerAdsController.php:174
+#: Controller/FeaturedAdsController.php:173
+#: Controller/LoginAdsController.php:172
+msgid "Advertisement deleted."
+msgstr "El anuncio ha sido eliminado."
+
+#: Controller/AdsController.php:502 Controller/BannerAdsController.php:176
+#: Controller/FeaturedAdsController.php:175
+#: Controller/LoginAdsController.php:174
+msgid "Failed to delete advertisement. Please try again."
+msgstr "No se puede eliminar el anuncio. Por favor, inténtalo de nuevo."
+
+#: Controller/AdsController.php:628
+msgid "Advertisement saved successfully."
+msgstr "El anuncio se ha guardado correctamente."
+
+#: Controller/AdsController.php:634
+msgid "Failed to save advertisement. Please, try again."
+msgstr "No se ha podido guardar el anuncio. Por favor, inténtalo de nuevo."
+
+#: Controller/AdsController.php:646
+msgid "Please supply a valid http(s) URL."
+msgstr "Introduce la dirección completa con el protocolo http(s)://"
+
+#: Controller/AdsController.php:659
+msgid "Failed to connect to the service. Socket error: %s"
+msgstr "La conexión ha fallado debido al siguiete error: %s"
+
+#: Controller/AdsController.php:664
+msgid "Failed to connect to the service. Please check if URL is valid and server is running."
+msgstr "No se puede conectar con el servidor. Por favor, comprueba la dirección de la página e inténtalo de nuevo."
+
+#: Controller/AdsController.php:669
+msgid "This site have set X-Frame-Options to SAMEORIGIN, it cannot be displayed in frame."
+msgstr "No se puede conectar con el servidor. Por favor, comprueba la dirección de la página e inténtalo de nuevo."
+
+#: Controller/AdsController.php:739;823
+#: Controller/FeaturedAdsController.php:524;598
+msgid "Package successfully assigned."
+msgstr "El paquete ha sido asignado al anuncio."
+
+#: Controller/AdsController.php:742;826
+#: Controller/BannerAdsController.php:524;598
+#: Controller/FeaturedAdsController.php:527;601
+#: Controller/LoginAdsController.php:508;582
+#: Controller/PaidOffersController.php:901;973
+msgid "Failed to assign package. Please try again."
+msgstr "No se ha podido asignar el paquete. Por favor, inténtalo de nuevo."
+
+#: Controller/AdsController.php:755;841
+msgid "%d %s on %s"
+msgstr "%d %s a %s"
+
+#: Controller/AdsController.php:878
+msgid "Ad sucessfully saved."
+msgstr "El anuncio se ha guardado correctamente."
+
+#: Controller/AdsController.php:881
+msgid "Error while saving ad. Please try again."
+msgstr "Se ha producido un error a la hora de guardar el anuncio. Por favor, inténtalo de nuevo."
+
+#: Controller/AdsController.php:897
+msgid "Please choose countries for Geo-Targeting"
+msgstr "Elige los países para la focalización geográfica."
+
+#: Controller/AdsController.php:903
+msgid "Please choose memberships for targeting"
+msgstr "Elige las membresías para la focalización por membresía"
+
+#: Controller/AdsController.php:1004 Controller/BannerAdsController.php:207
+#: Controller/LoginAdsController.php:205
+msgid "Ad successfully activated."
+msgstr "El anuncio ha sido activado."
+
+#: Controller/AdsController.php:1006 Controller/LoginAdsController.php:207
+msgid "Error when activating ad. Please try again."
+msgstr "No se ha podido activar el anuncio. Por favor, inténtalo de nuevo."
+
+#: Controller/AdsController.php:1036 Controller/BannerAdsController.php:240
+#: Controller/FeaturedAdsController.php:239
+#: Controller/LoginAdsController.php:238
+msgid "Ad successfully paused."
+msgstr "El anuncio ha sido detenido."
+
+#: Controller/AdsController.php:1038 Controller/BannerAdsController.php:242
+#: Controller/FeaturedAdsController.php:241
+msgid "Error while pausing ad. Please try again."
+msgstr "Se ha producido un error a la hora de detener el anuncio. Por favor, inténtalo de nuevo."
+
+#: Controller/AppController.php:232
+msgid "Your account is suspended."
+msgstr "Tu cuenta ha sido suspendida."
+
+#: Controller/AppController.php:269
+msgid "Please do not refresh page after certain actions like buying on the site etc. Please come back to previous page with the back button in web browser."
+msgstr "Por favor, no refresques la página tras realizar las acciones tales como compra en la página. Vuelve a la página anterior, utilizando el botón de retroceso en tu navegador."
+
+#: Controller/AppController.php:287
+msgid "Please fill in your profile data!"
+msgstr "¡Actualiza tu perfil!"
+
+#: Controller/BannerAdsController.php:142;286;345;409;465;542;616
+#: Controller/PaidOffersController.php:922
+msgid "Banner ads panel"
+msgstr "Panel de anuncios banner"
+
+#: Controller/BannerAdsController.php:209
+#: Controller/FeaturedAdsController.php:208
+msgid "Error while activating ad. Please try again."
+msgstr "Se ha producido un error a la hora de activar el anuncio. Por favor, inténtalo de nuevo."
+
+#: Controller/BannerAdsController.php:278;335
+msgid "Banner ad saved successfully"
+msgstr "El anuncio banner se ha guardado correctamente."
+
+#: Controller/BannerAdsController.php:281;338
+msgid "Failed to save banner ad. Please, try again."
+msgstr "No se ha podido guardar el anuncio banner. Por favor, inténtalo de nuevo."
+
+#: Controller/BannerAdsController.php:521
+msgid "Package assigned sucessfully."
+msgstr "El paquete ha sido asignado al anuncio."
+
+#: Controller/BannerAdsController.php:538;612
+#: Controller/FeaturedAdsController.php:541;615
+#: Controller/LoginAdsController.php:522;596
+msgid "%d %s"
+msgstr "%d %s"
+
+#: Controller/BannerAdsController.php:595
+#: Controller/LoginAdsController.php:505;579
+#: Controller/PaidOffersController.php:898;970
+msgid "Package assigned successfully."
+msgstr "El paquete ha sido asignado al anuncio."
+
+#: Controller/CommissionsController.php:46 View/Commissions/index.ctp:11
+#: View/Themed/Legacy/Commissions/index.ctp:7
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:82
+msgid "Referral's commissions"
+msgstr "Comisiones por recomendados"
+
+#: Controller/DepositsController.php:59 View/Deposits/index.ctp:11
+#: View/Themed/Legacy/Deposits/index.ctp:7
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:36
+msgid "Purchase history"
+msgstr "Historial de compra"
+
+#: Controller/FeaturedAdsController.php:142;286;347;412;468;545;619
+msgid "Featured ads panel"
+msgstr "Panel de anuncios destacados"
+
+#: Controller/FeaturedAdsController.php:206
+msgid "Ad sucessfully activated."
+msgstr "El anuncio ha sido activado."
+
+#: Controller/FeaturedAdsController.php:278;337
+msgid "Featured ad saved sucessfully"
+msgstr "El anuncio destacado se ha guardado correctamente."
+
+#: Controller/FeaturedAdsController.php:281;340
+msgid "Failed to save featured ad. Please, try again."
+msgstr "No se ha podido guardar el anuncio destacado. Por favor, inténtalo de nuevo."
+
+#: Controller/LoginAdsController.php:140;284;343;394;450;526;600
+msgid "Login ads panel"
+msgstr "Panel de anuncios LoginAds"
+
+#: Controller/LoginAdsController.php:240
+msgid "Error when pausing ad. Please try again."
+msgstr "No se ha podido detener el anuncio. Por favor, inténtalo de nuevo."
+
+#: Controller/LoginAdsController.php:276;333
+msgid "Login ad saved successfully"
+msgstr "El anuncio LoginAd se ha guardado correctamente"
+
+#: Controller/LoginAdsController.php:279;336
+msgid "Failed to save login ad. Please, try again."
+msgstr "No se ha podido guardar el anuncio LoginAd. Por favor, inténtalo de nuevo."
+
+#: Controller/MembershipsController.php:89
+msgid "1 month - "
+msgstr "1 mes - "
+
+#: Controller/MembershipsController.php:93
+msgid "%d months - "
+msgstr "%d meses - "
+
+#: Controller/MembershipsController.php:108 View/Memberships/buy.ctp:26
+#: View/Memberships/index.ctp:25;96;103;127
+#: View/Themed/Legacy/Memberships/buy.ctp:28
+#: View/Themed/Legacy/Memberships/index.ctp:34;54;64;121
+#: View/Themed/Legacy/Users/transfer.ctp:33 View/Users/transfer.ctp:25
+msgid "Unlimited"
+msgstr "Sin límite"
+
+#: Controller/MembershipsController.php:120
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:33
+msgid "Upgrade your account"
+msgstr "Mejora tu cuenta"
+
+#: Controller/MembershipsController.php:153
+msgid "Upgrading from Purchase Balance is not allowed"
+msgstr "No se puede mejorar la cuenta desde la Cuenta de Compra"
+
+#: Controller/MembershipsController.php:177
+msgid "Buy membership"
+msgstr "Comprar membresía"
+
+#: Controller/PaidOffersController.php:48
+msgid "You have been banned from Paid Offers."
+msgstr "Tu posibilidad de realizar las tareas de pago ha sido bloqueada."
+
+#: Controller/PaidOffersController.php:604;643;1135 View/Ads/add.ctp:11
+#: View/Elements/userSidebar.ctp:46 View/PaidOffers/add.ctp:11
+#: View/PaidOffers/assign.ctp:11 View/PaidOffers/assign_to.ctp:11
+#: View/PaidOffers/buy.ctp:11 View/PaidOffers/edit.ctp:11
+#: View/PaidOffers/index.ctp:11 View/Themed/Legacy/PaidOffers/add.ctp:8
+#: View/Themed/Legacy/PaidOffers/applications.ctp:8
+#: View/Themed/Legacy/PaidOffers/assign.ctp:8
+#: View/Themed/Legacy/PaidOffers/buy.ctp:8
+#: View/Themed/Legacy/PaidOffers/edit.ctp:8
+#: View/Themed/Legacy/PaidOffers/index.ctp:8
+msgid "Paid Offers Panel"
+msgstr "Panel de tareas de pago"
+
+#: Controller/PaidOffersController.php:623;678
+msgid "Paid offer saved successfully."
+msgstr "La tarea de pago se ha guardado correctamente."
+
+#: Controller/PaidOffersController.php:626
+msgid "Failed to save paid offer. Please, try again."
+msgstr "No se ha podido guardar la tarea de pago. Por favor, inténtalo de nuevo."
+
+#: Controller/PaidOffersController.php:681
+msgid "Failed to save Paid Offer. Please, try again."
+msgstr "No se ha podido guardar la tarea de pago. Por favor, inténtalo de nuevo."
+
+#: Controller/PaidOffersController.php:700;852;1320
+#: View/Elements/Layout/HeaderDashboard.ctp:72 View/PaidOffers/view.ctp:11
+#: View/Themed/Legacy/Layouts/default.ctp:80
+#: View/Themed/Legacy/Layouts/error.ctp:77
+#: View/Themed/Legacy/Pages/home.ctp:143
+#: View/Themed/Legacy/PaidOffers/view.ctp:8
+msgid "Paid Offers"
+msgstr "Tareas de pago"
+
+#: Controller/PaidOffersController.php:731
+msgid "Offer successfully activated."
+msgstr "La tarea ha sido activada."
+
+#: Controller/PaidOffersController.php:733
+msgid "Error while activating offer. Please try again."
+msgstr "La tarea ha sido activada."
+
+#: Controller/PaidOffersController.php:764
+msgid "Offer successfully paused."
+msgstr "La tarea ha sido detenida."
+
+#: Controller/PaidOffersController.php:766
+msgid "Error while pausing offer. Please try again."
+msgstr "No se ha podido detener la tarea. Por favor, inténtalo de nuevo."
+
+#: Controller/PaidOffersController.php:794
+msgid "Invalid offer"
+msgstr "Tarea incorrecta"
+
+#: Controller/PaidOffersController.php:798
+msgid "Offer deleted."
+msgstr "La tarea ha sido eliminada."
+
+#: Controller/PaidOffersController.php:800
+msgid "Failed to delete offer. Please try again."
+msgstr "No se ha podido eliminar la tarea. Por favor, inténtalo de nuevo."
+
+#: Controller/PaidOffersController.php:829
+msgid "Value %s - %s slots - %s"
+msgstr "No se ha podido eliminar la tarea. Por favor, inténtalo de nuevo."
+
+#: Controller/PaidOffersController.php:918
+msgid "%s slots %s value"
+msgstr "%s slots de un valor de %s"
+
+#: Controller/PaidOffersController.php:990
+msgid "slots: %d value: %s"
+msgstr "slots: %d valor: %s"
+
+#: Controller/PaidOffersController.php:994
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:63
+msgid "Paid Offers panel"
+msgstr "Panel de tareas de pago"
+
+#: Controller/PaidOffersController.php:1168
+msgid "Offer successfully added to ignore list."
+msgstr "La tarea ha sido añadida a la lista de ignorados."
+
+#: Controller/PaidOffersController.php:1170
+msgid "Failed to add offer to ignore list. Please, try again later."
+msgstr "No se ha podido añadir la tarea a la lista de ignorados. Inténtalo de nuevo más tarde."
+
+#: Controller/PaidOffersController.php:1202
+msgid "Offer successfully removed from ignore list."
+msgstr "La tarea se ha eliminado correctamente de la lista de ignorados."
+
+#: Controller/PaidOffersController.php:1204
+msgid "Failed to remove offer from ignore list. Please, try again later."
+msgstr "No se ha podido eliminar la tarea de la lista de ignorados. Inténtalo de nuevo más tarde."
+
+#: Controller/PaidOffersController.php:1344
+msgid "Application successfully accepted."
+msgstr "La notificación ha sido aceptada."
+
+#: Controller/PaidOffersController.php:1346
+msgid "Failed to accept application. Please, try again later."
+msgstr "No se ha podido aceptar la notificación. Inténtalo de nuevo más tarde."
+
+#: Controller/PaymentsController.php:429
+msgid "Payment Cancelled"
+msgstr "El pago ha sido anulado"
+
+#: Controller/PaymentsController.php:441 View/Payments/success.ctp:12
+msgid "Payment Successful"
+msgstr "El pago no se ha realizado"
+
+#: Controller/PaymentsController.php:466
+#: View/Themed/Legacy/Payments/payment_redirect.ctp:8
+msgid "Payment redirection"
+msgstr "Redireccionamiento del pago"
+
+#: Controller/PaymentsController.php:481
+#: View/Themed/Legacy/Payments/message.ctp:8
+msgid "Payment message"
+msgstr "Información sobre el pago"
+
+#: Controller/SupportController.php:78
+msgid "Invalid ticket."
+msgstr "Notificación incorrecta."
+
+#: Controller/SupportController.php:112 Controller/UsersController.php:81
+msgid "Failed to check captcha. Please try again"
+msgstr "No se ha podido comprobar el Captcha. Inténtalo de nuevo."
+
+#: Controller/SupportController.php:128
+msgid "Ticket successfully added. Please check e-mail address, you have provided, for further informations."
+msgstr "La notificación ha sido aceptada. Por favor, consulta el correo electrónico que has introducido para comprobar las instrucciones a seguir."
+
+#: Controller/SupportController.php:131
+msgid "Failed to add new ticket. Please, try again."
+msgstr "No se ha podido aceptar la nueva notificación. Inténtalo de nuevo."
+
+#: Controller/SupportController.php:164
+msgid "Answer successfully saved."
+msgstr "La respuesta ha sido aceptada."
+
+#: Controller/SupportController.php:167
+msgid "Failed to save your answer. Please, try again."
+msgstr "No se ha podido aceptar la respuesta. Inténtalo de nuevo."
+
+#: Controller/ToolsController.php:36
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:80
+msgid "Promotion tools"
+msgstr "Herramientas para recomendar"
+
+#: Controller/UserProfilesController.php:102
+msgid "The user profile has been saved."
+msgstr "El perfil se ha guardado correctamente."
+
+#: Controller/UserProfilesController.php:122
+msgid "Failed to save user profile."
+msgstr "No se ha podido guardar el perfil de usuario."
+
+#: Controller/UserProfilesController.php:126
+msgid "Wrong password"
+msgstr "Contraseña incorrecta"
+
+#: Controller/UserProfilesController.php:145
+msgid "Edit your profile"
+msgstr "Editar perfil"
+
+#: Controller/UserProfilesController.php:159
+msgid "Verification e-mail has been send."
+msgstr "Se ha enviado el e-mail de verificación."
+
+#: Controller/UsersController.php:62
+msgid "You are already registered and logged in"
+msgstr "Ya estás registrado y has iniciado la sesión."
+
+#: Controller/UsersController.php:120;372
+msgid "Your IP is already in use."
+msgstr "Tu dirección IP ya está en uso."
+
+#: Controller/UsersController.php:134
+msgid "Please check your e-mail for activation link"
+msgstr "Consulta tu correo electrónico para comprobar si has recibido el enlace de confirmación."
+
+#: Controller/UsersController.php:137
+msgid "Your account has been successfully created. Please, log in."
+msgstr "¡Tu cuenta ha sido creada! Ahora puedes iniciar sesión."
+
+#: Controller/UsersController.php:142
+msgid "User could not be saved. Please, try again"
+msgstr "No se puede guardar el usuario. Por favor, inténtalo de nuevo."
+
+#: Controller/UsersController.php:171
+msgid "Your account has been already verified."
+msgstr "Tu cuenta ya ha sido verificada."
+
+#: Controller/UsersController.php:183
+msgid "Your account has been successfully verified."
+msgstr "Tu cuenta se ha verificado correctamente."
+
+#: Controller/UsersController.php:226
+msgid "Your e-mail has been successfully saved."
+msgstr "Tu dirección de correo electrónico se ha guardado correctamente."
+
+#: Controller/UsersController.php:243
+msgid "Direct link"
+msgstr "Enlace directo"
+
+#: Controller/UsersController.php:325
+msgid "Failed to check captcha. Please try again."
+msgstr "No se ha podido comprobar el Captcha. Inténtalo de nuevo."
+
+#: Controller/UsersController.php:341
+msgid "Your account is not verified. Please check your e-mail or "
+msgstr "Tu cuenta no ha sido verificada. Por favor, consulta tu correo electrónico o"
+
+#: Controller/UsersController.php:342
+msgid "resend verification link"
+msgstr "envía de nuevo el enlace de confirmación"
+
+#: Controller/UsersController.php:348
+msgid "Your account is suspended"
+msgstr "Tu cuenta está suspendida"
+
+#: Controller/UsersController.php:423
+msgid "Username or password is incorrect."
+msgstr "Nombre de usuario o contraseña incorrectos"
+
+#: Controller/UsersController.php:439
+msgid "You are logged out."
+msgstr "La sesión se ha cerrado."
+
+#: Controller/UsersController.php:454;458;481;485
+msgid "E-mail not found."
+msgstr "No se ha podido encontrar la dirección de correo electrónico."
+
+#: Controller/UsersController.php:462
+msgid "Your account is already verified."
+msgstr "Tu cuenta ya está verificada."
+
+#: Controller/UsersController.php:466
+msgid "Please check your e-mail for activation link."
+msgstr "Consulta tu correo electrónico para comprobar si has recibido el enlace de confirmación."
+
+#: Controller/UsersController.php:489
+msgid "Your account is not verified."
+msgstr "Tu cuenta todavía no está verificada."
+
+#: Controller/UsersController.php:497
+msgid "Please check your e-mail for password reset link."
+msgstr "Por favor, consulta tu dirección de correo electrónico para comprobar si has recibido el enlace para restablecer la contraseña."
+
+#: Controller/UsersController.php:539
+msgid "New password has been send to your e-mail."
+msgstr "Se ha enviado la nueva contraseña a tu correo electrónico."
+
+#: Controller/UsersController.php:576
+msgid "You need to click %d more ads to earn commissions from referrals tomorrow."
+msgstr "Tienes que ver al menos %d anuncios para ganar mañana la bonificación de tus recomendados."
+
+#: Controller/UsersController.php:594
+msgid "You need verified %s account to make purchases on the site. Your last purchase was refunded."
+msgstr "Tu cuenta %s tiene que estar verificada para poder realizar la compra con ella. Tu pago por la última compra se ha devuelto automáticamente."
+
+#: Controller/UsersController.php:673
+msgid "Sorry, you do not have enough funds."
+msgstr "No tienes fondos suficientes en tu cuenta."
+
+#: Controller/UsersController.php:698;790
+msgid "An error occurred. Please try again."
+msgstr "Se ha producido un error. Por favor, inténtalo de nuevo."
+
+#: Controller/UsersController.php:713;729
+#: View/Themed/Legacy/Users/rented_referrals.ctp:52;69
+#: View/Users/rented_referrals.ctp:28;53
+msgid "Disabled"
+msgstr "No disponible"
+
+#: Controller/UsersController.php:716;734 View/Memberships/index.ctp:121
+#: View/Themed/Legacy/Memberships/index.ctp:109
+msgid "%d days"
+msgstr "%d días"
+
+#: Controller/UsersController.php:754
+msgid "I want to recycle them --"
+msgstr "Quiero cambiarlos --"
+
+#: Controller/UsersController.php:758
+msgid "I want to extend their rental time for %d days --"
+msgstr "Quiero prolongar el período de alquiler por %d días --"
+
+#: Controller/UsersController.php:764;904
+msgid "Please select action."
+msgstr "Es necesario elegir una actividad."
+
+#: Controller/UsersController.php:778
+msgid "Please select at least one rented referral"
+msgstr "Por favor, elige al menos un recomendado."
+
+#: Controller/UsersController.php:799
+msgid "Failed to extend rented referrals. Please try again later."
+msgstr "No se ha podido prolongar el período de alquiler. Inténtalo de nuevo más tarde."
+
+#: Controller/UsersController.php:801
+msgid "Rented referrals extended."
+msgstr "Se ha prolongado el período de alquiler."
+
+#: Controller/UsersController.php:821 View/Elements/userSidebar.ctp:62
+#: View/Themed/Legacy/Users/rented_referrals.ctp:9 View/Users/dashboard.ctp:26
+#: View/Users/rented_referrals.ctp:12
+msgid "Rented Referrals"
+msgstr "Recomendados alquilados"
+
+#: Controller/UsersController.php:847
+msgid "Please select at least one direct referral."
+msgstr "Elige al menos un recomendado directo."
+
+#: Controller/UsersController.php:890
+msgid "You do not have sufficient funds on your balance."
+msgstr "No tienes fondos suficientes en tu cuenta."
+
+#: Controller/UsersController.php:896
+msgid "Referrals removed successfully."
+msgstr "Los recomendados han sido eliminados."
+
+#: Controller/UsersController.php:900
+msgid "Failed to remove referrals. Please, try again."
+msgstr "No se han podido eliminar los recomendados. Inténtalo de nuevo más tarde."
+
+#: Controller/UsersController.php:925
+msgid "I want to delete them -- for $0.01"
+msgstr "Quiero eliminarlos -- por $0.01"
+
+#: Controller/UsersController.php:927 View/Elements/userSidebar.ctp:57
+#: View/Themed/Legacy/Users/direct_referrals.ctp:9 View/Users/dashboard.ctp:22
+#: View/Users/direct_referrals.ctp:12
+msgid "Direct Referrals"
+msgstr "Recomendados directos"
+
+#: Controller/UsersController.php:966
+msgid "AutoRenew settings changed successfully."
+msgstr "Los ajustes AutoRenew se han guardado correctamente."
+
+#: Controller/UsersController.php:968
+msgid "Failed to change AutoRenew settings. Please, try again."
+msgstr "No se han podido cambiar los ajustes AutoRenew. Por favor, inténtalo de nuevo."
+
+#: Controller/UsersController.php:1102
+msgid "User has been deleted"
+msgstr "El usuario se ha eliminado correctamente"
+
+#: Controller/UsersController.php:1104
+msgid "User could not be deleted. Please, try again"
+msgstr "No se ha podido eliminar el usuario. Por favor, inténtalo de nuevo."
+
+#: Controller/UsersController.php:1147
+msgid "Referral removed successfully."
+msgstr "El recomendado ha sido eliminado."
+
+#: Controller/UsersController.php:1150
+msgid "Failed to remove referral. Please, try again."
+msgstr "No se ha podido eliminar el recomendado. Por favor, inténtalo de nuevo."
+
+#: Controller/UsersController.php:1153
+msgid "You do not have sufficient funds on your Purchase Balance."
+msgstr "No tienes dinero suficiente en tu cuenta de compra."
+
+#: Controller/UsersController.php:1205;1283 View/Users/dashboard.ctp:14
+msgid "Account Balance"
+msgstr "Cuenta principal"
+
+#: Controller/UsersController.php:1222
+msgid "Transfer completed successfully"
+msgstr "La transferencia de fondos se ha realizado correctamente."
+
+#: Controller/UsersController.php:1244;1247
+msgid "Error when transferring funds, please try again later."
+msgstr "Se ha producido un error a la hora de transferir fondos. Inténtalo de nuevo más tarde."
+
+#: Controller/UsersController.php:1250
+msgid "Not enough funds on Account Balance."
+msgstr "No tienes fondos suficientes en tu cuenta principal."
+
+#: Controller/UsersController.php:1253;1309
+msgid "Minimum deposit amount is %s."
+msgstr "El importe mínimo de ingreso es de %s."
+
+#: Controller/UsersController.php:1256
+msgid "Maximum deposit amount is %s."
+msgstr "El importe máximo de ingreso es de %s."
+
+#: Controller/UsersController.php:1259
+msgid "Please enter an amount."
+msgstr "Introduce el importe."
+
+#: Controller/UsersController.php:1265;1326 View/Users/deposit.ctp:11
+msgid "Add Funds"
+msgstr "Añadir fondos"
+
+#: Controller/UsersController.php:1316
+msgid "Please enter amount."
+msgstr "Introduce el importe."
+
+#: Controller/UsersController.php:1319
+msgid "Please select payment gateway."
+msgstr "Por favor, elige la pasarela de pagos."
+
+#: Controller/UsersController.php:1336 View/Themed/Legacy/Users/cashout.ctp:8
+msgid "Withdraw funds"
+msgstr "Desembolsar fondos"
+
+#: Controller/UsersController.php:1345
+msgid "Sorry, you need funds on Account Balance to cashout."
+msgstr "No tienes fondos suficientes en tu cuenta principal para desembolsarlos."
+
+#: Controller/UsersController.php:1352
+msgid "Sorry, but you need %d more clicks to cashout."
+msgstr "Lo sentimos, pero necesitas todavía ver al menos %d anuncios para desembolsar fondos."
+
+#: Controller/UsersController.php:1359
+msgid "Sorry, but minimum cashout for you is %s"
+msgstr "Lo sentimos, pero tu mínimo para desembolsar fondos es de %s."
+
+#: Controller/UsersController.php:1369
+msgid "Sorry, but you need to wait %d more day(s). You can request next cashout at %s"
+msgstr "Lo sentimos, pero debes esperar al menos %d días para desembolsar fondos. Puedes realizar la siguiente orden de pago el día %s."
+
+#: Controller/UsersController.php:1381
+msgid "Sorry, you are allowed to have only one pending cashout request."
+msgstr "Lo sentimos, pero puedes tener sólo una orden de pago pendiente para desembolsar fondos."
+
+#: Controller/UsersController.php:1558
+msgid "Cashout successfully done"
+msgstr "Los fondos se han desembolsado correctamente."
+
+#: Controller/UsersController.php:1594 View/Elements/userSidebar.ctp:63
+#: View/Themed/Legacy/Users/rent_referrals.ctp:8
+#: View/Users/rent_referrals.ctp:11
+msgid "Rent Referrals"
+msgstr "Alquilar recomendados"
+
+#: Controller/UsersController.php:1616
+msgid "Sorry, but you need to wait %d more day(s). You can rent next referrals at %s"
+msgstr "Lo sentimos, pero debes esperar al menos %d días para alquilar recomendados. Podrás alquilar los siguientes recomendados el día %s"
+
+#: Controller/UsersController.php:1645
+msgid "Sorry, we do not have enough referrals available now."
+msgstr "Lo sentimos, pero no tenemos ningún recomendado disponible para alquilar."
+
+#: Controller/UsersController.php:1648
+msgid "This packet will exceed your rented referrals limit."
+msgstr "Este paquete superará el número permitido de recomendados alquilados."
+
+#: Controller/UsersController.php:1656
+msgid "Sorry, you have not enough funds for this pack."
+msgstr "No tienes fondos suficientes en tu cuenta para comprar este paquete."
+
+#: Controller/UsersController.php:1728
+msgid "Sorry, your limit will overflow."
+msgstr "Desgraciadamente superarás tu límite."
+
+#: Controller/UsersController.php:1736
+msgid "Sorry, we do not have so many referrals available at now."
+msgstr "Lo sentimos, pero no tenemos ningún recomendado disponible para alquilar."
+
+#: Controller/UsersController.php:1756
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:87
+msgid "Buy referrals"
+msgstr "Comprar recomendados"
+
+#: Controller/UsersController.php:1771
+msgid "Autopay settings successfully changed."
+msgstr "Los ajustes AutoPay se han guardado correctamente."
+
+#: Model/Ad.php:215;463 Model/BannerAd.php:176 Model/FeaturedAd.php:171
+#: Model/LoginAd.php:160 Model/PaidOffer.php:213 Model/User.php:703
+msgid "Active"
+msgstr "Activo"
+
+#: Model/Ad.php:249;461 Model/BannerAd.php:210 Model/FeaturedAd.php:205
+#: Model/LoginAd.php:194 Model/PaidOffer.php:247
+msgid "Inactive"
+msgstr "No activo"
+
+#: Model/Ad.php:462 View/Ads/index.ctp:59 View/BannerAds/index.ctp:67
+#: View/FeaturedAds/index.ctp:58 View/LoginAds/index.ctp:67
+#: View/PaidOffers/index.ctp:59 View/PaidOffers/view.ctp:33
+#: View/Themed/Legacy/PaidOffers/index.ctp:151
+#: View/Themed/Legacy/PaidOffers/view.ctp:37
+msgid "Pending"
+msgstr "Pendiente"
+
+#: Model/AdsCategoryPackage.php:70 View/Ads/statistics.ctp:25
+#: View/BannerAds/statistics.ctp:25 View/FeaturedAds/statistics.ctp:25
+#: View/LoginAds/statistics.ctp:25 View/Themed/Legacy/Ads/statistics.ctp:27
+#: View/Themed/Legacy/BannerAds/statistics.ctp:27
+#: View/Themed/Legacy/FeaturedAds/statistics.ctp:27
+#: View/Themed/Legacy/LoginAds/statistics.ctp:27
+#: View/Themed/Legacy/Users/dashboard.ctp:149;167
+#: View/Themed/Legacy/Users/direct_referrals.ctp:31
+#: View/Themed/Legacy/Users/rented_referrals.ctp:110
+#: View/Users/dashboard.ctp:108;129 View/Users/direct_referrals.ctp:27
+#: View/Users/rented_referrals.ctp:115
+msgid "Clicks"
+msgstr "clics"
+
+#: Model/AdsCategoryPackage.php:71
+msgid "Days"
+msgstr "días"
+
+#: Model/Banner.php:263
+msgid "I already got paid: %s"
+msgstr "Ya he desembolsado: %s"
+
+#: Model/Banner.php:264
+msgid "I already earned: %s"
+msgstr "Ya he ganado: %s"
+
+#: Model/Banner.php:265
+msgid "Site paid: %s"
+msgstr "En total desembolsado: %s"
+
+#: Model/Deposit.php:155
+msgid "DELETED"
+msgstr "Eliminado"
+
+#: Model/ItemReport.php:165
+msgid "Wrong action %s on model %s"
+msgstr "Acción errónea %s en el modelo %s"
+
+#: Model/SupportTicket.php:148
+msgid "Message should be at least %d character length."
+msgstr "El mensaje debe tener al menos %s caracteres."
+
+#: Model/User.php:702
+msgid "Un-verified"
+msgstr "No verificado"
+
+#: Model/User.php:704
+msgid "Suspended"
+msgstr "Suspendido"
+
+#: Model/User.php:1294
+msgid "You do not have enough funds on Purchase Balance"
+msgstr "No tienes fondos suficientes en tu cuenta de compra."
+
+#: Model/User.php:2169
+msgid "Failed to assign deposit bonus"
+msgstr "No se ha podido asignar la bonificación por el depósito."
+
+#: Model/User.php:2312;2359
+msgid "Sorry, we do not have enough referrals available. Please try again later."
+msgstr "Desgraciadamente no hay ningún recomendado disponible. Por favor, inténtalo más tarde."
+
+#: Model/User.php:2376
+msgid "Sorry, you do not have enough funds on Purchase Balance."
+msgstr "No tienes fondos suficientes en tu cuenta de compra."
+
+#: Model/User.php:2378
+msgid "Failed to assign referrals. Please try again later."
+msgstr "No se han podido asignar los recomendados. Por favor, inténtalo más tarde."
+
+#: Model/UserProfile.php:88
+msgid "Sorry, but this %s account id is already taken"
+msgstr "Desgraciadamente la cuenta %d ya está en uso en el sitio web."
+
+#: Model/UserProfile.php:93
+msgid "%s account id cannot be longer than 255 characters"
+msgstr "La cuenta %d no puede superar 255 caracteres."
+
+#: Model/UserProfile.php:148 View/Themed/Legacy/UserProfiles/edit.ctp:24
+#: View/UserProfiles/edit.ctp:20
+msgid "Male"
+msgstr "Hombre"
+
+#: Model/UserProfile.php:149 View/Themed/Legacy/UserProfiles/edit.ctp:24
+#: View/UserProfiles/edit.ctp:20
+msgid "Female"
+msgstr "Mujer"
+
+#: Plugin/Installer2/Controller/InstallerController.php:133
+msgid "Your PHP version is too old. You need at least 5.2.8."
+msgstr "Tu versión PHP es obsoleta. La versión mínima requerida es al menos 5.2.8."
+
+#: Plugin/Installer2/Controller/InstallerController.php:137
+msgid "Temp directory is not writable by script. Please check permissions to \"%s\"."
+msgstr "El catálogo temporal no tiene permiso de escritura mediante el script. Por favor, comprueba los permisos para “%s”."
+
+#: Plugin/Installer2/Controller/InstallerController.php:141
+msgid "Database configuration file is not writable by script. Please check permissions to \"%s\"."
+msgstr "El archivo de configuración de la base de datos no tiene permiso de escritura mediante el script. Por favor, comprueba los permisos para “%s”"
+
+#: Plugin/Installer2/Controller/InstallerController.php:145
+msgid "Banners directory is not writable by script. Please check permissions to \"%s\"."
+msgstr "El catálogo de banners no tiene permiso de escritura mediante el script. Por favor, comprueba los permisos para “%s”"
+
+#: Plugin/Installer2/Controller/InstallerController.php:149
+msgid "Banners cache directory is not writable by script. Please check permissions to \"%s\"."
+msgstr "El catálogo de cache banners no tiene permiso de escritura mediante el script. Por favor, comprueba los permisos para “%s”."
+
+#: Plugin/Installer2/Controller/InstallerController.php:160
+msgid "Please specify host"
+msgstr "Introduce el nombre de host"
+
+#: Plugin/Installer2/Controller/InstallerController.php:164
+msgid "Please specify login"
+msgstr "Introduce el nombre de usuario"
+
+#: Plugin/Installer2/Controller/InstallerController.php:168
+msgid "Please specify password"
+msgstr "Introduce la contraseña"
+
+#: Plugin/Installer2/Controller/InstallerController.php:172
+msgid "Please specify database"
+msgstr "Introduce el nombre de la base de datos"
+
+#: Plugin/Installer2/Controller/InstallerController.php:202
+msgid "Failed to save database configuration. Please check if file %s is writable."
+msgstr "No se ha podido guardar la configuración de la base de datos. Comprueba si el archivo %s posee el permiso de escritura."
+
+#: Plugin/Installer2/Controller/InstallerController.php:210
+msgid "Error: \"%s\""
+msgstr "Error: \"%s\""
+
+#: Plugin/Installer2/Controller/InstallerController.php:212
+msgid "Failed to connect to database, please check configuration. %s"
+msgstr "No se puede conectar con la base de datos. Comprueba la configuración. %s"
+
+#: Plugin/Installer2/Controller/InstallerController.php:231;236
+msgid "Failed to install database schema. Please contact support."
+msgstr "No se ha podido instalar el esquema de la base de datos. Por favor, ponte en contacto con el servicio."
+
+#: Plugin/Installer2/Controller/InstallerController.php:254
+msgid "The settings has been saved."
+msgstr "Los ajustes han sido guardados."
+
+#: Plugin/Installer2/Controller/InstallerController.php:257
+msgid "The settings could not be saved. Please, try again."
+msgstr "No se pueden guardar los ajustes. Por favor, inténtalo de nuevo."
+
+#: Plugin/Installer2/Controller/InstallerController.php:276
+msgid "Database file not found"
+msgstr "No se ha encontrado el archivo de la base de datos."
+
+#: Plugin/Installer2/Controller/InstallerController.php:332
+msgid "Database sucessfully imported."
+msgstr "La importación de la base de datos se ha realizado correctamente."
+
+#: Plugin/Installer2/Controller/InstallerController.php:335
+msgid "Failed to import database. Please, try again."
+msgstr "No se ha podido importar la base de datos. Por favor, inténtalo de nuevo."
+
+#: Plugin/Installer2/Controller/InstallerController.php:346
+msgid "Admin has been saved."
+msgstr "El administrador ha sido guardado."
+
+#: Plugin/Installer2/Controller/InstallerController.php:349
+msgid "Admin could not be saved. Please, try again."
+msgstr "No se puede guardar el administrador. Por favor, inténtalo de nuevo."
+
+#: Plugin/Installer2/Controller/InstallerController.php:357
+msgid "Failed to remove installer. Please remove or rename \"%s\" manually. Please remove those files, otherwise your script will not be working properly and you are exposing yourself for security issues!"
+msgstr "No se ha podido eliminar el instalador. Hay que eliminar o cambiar el nombre “%s” manualmente. Por favor, elimina estos archivos, en caso contrario el script no funcionará correctamente y estará expuesto al peligro."
+
+#: Plugin/Installer2/Controller/InstallerController.php:359
+msgid "FuturumClix is sucessfully installed. Please, log in."
+msgstr "FuturumClix se instalará correctamente. Por favor, inicia sesión."
+
+#: Plugin/Installer2/View/Installer/end.ctp:1
+msgid "FuturumClix script is installed!"
+msgstr "¡El script FuturumClix se ha instalado!"
+
+#: Plugin/Installer2/View/Installer/end.ctp:2
+msgid "That is it! You have successfully installed FuturumClix on your server. Feel free to log in to your admin panel or view your site using the links below. Thanks for choosing our script. Do not hesitate to contact us in case you have any questions. Also please make sure to read our manual to set up your script properly. Good luck!"
+msgstr "¡Esto es todo! Has instalado correctamente el script FuturumClix en tu servidor. Ahora puedes entrar en el panel de administrador o ver la página, utilizando los siguientes enlaces. Si tienes alguna pregunta, utiliza nuestro servicio de apoyo que está disponible después de iniciar sesión en tu cuenta. Asegúrate de que has leído la documentación de nuestro script. ¡Suerte!"
+
+#: Plugin/Installer2/View/Installer/end.ctp:4
+msgid "Home"
+msgstr "Inicio"
+
+#: Plugin/Installer2/View/Installer/end.ctp:5
+msgid "Admin panel"
+msgstr "Panel de administrador"
+
+#: Plugin/Installer2/View/Installer/index.ctp:1
+msgid "Welcome to the FuturumClix Installation"
+msgstr "Bienvenido al instalador FuturumClix"
+
+#: Plugin/Installer2/View/Installer/index.ctp:2
+msgid "You are going to install FuturumClix on your server now. First, we will check if you have all the files and correct permissions set on your server. If you do not, we will let you know. Otherwise you will get the button to move on to the next part of installation."
+msgstr "Bienvenido al instalador FuturumClix"
+
+#: Plugin/Installer2/View/Installer/index.ctp:6
+msgid "Help me configure it"
+msgstr "Ayúdame a configurarlo"
+
+#: Plugin/Installer2/View/Installer/index.ctp:7
+msgid "I don't / can't use URL rewriting"
+msgstr "No puedo utilizar las redirecciones URL"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:1
+msgid "Database settings"
+msgstr "Ajustes de la base de datos"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:2
+msgid "Please provide your database data below. If you do not have any, you need to create new database and user to be able to install our script. You can also ask your hosting provider for more details."
+msgstr "Por favor, introduce los datos de la base de datos. Si no tienes ninguna base, debes crear una y asignarle un usuario. En caso contrario, no podrás instalar el script. También puedes pedir ayuda a tu proveedor de hospedaje."
+
+#: Plugin/Installer2/View/Installer/step1.ctp:5
+msgid "Hostname"
+msgstr "Nombre de host"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:6
+msgid "Most likely it will be localhost"
+msgstr "Probablemente será localhost"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:9
+msgid "Database username"
+msgstr "Nombre de usuario de la base de datos"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:10
+msgid "Enter your database username"
+msgstr "Introduce el nombre de usuario de la base de datos"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:13
+msgid "Database password"
+msgstr "Contraseña de la base de datos"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:14
+msgid "Enter your database password"
+msgstr "Introduce la contraseña de la base de datos"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:17
+msgid "Database name"
+msgstr "Nombre de la base de datos"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:18
+msgid "Enter your database name"
+msgstr "Introduce el nombre de la base de datos"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:21
+msgid "Database prefix (optional)"
+msgstr "Prefijo de la base de datos (opcional)"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:22
+msgid "Enter your database prefix, most likely for shared hostings and databases"
+msgstr "Introduce el prefijo de la base de datos, probablemente para el hospedaje compartido y las bases de datos"
+
+#: Plugin/Installer2/View/Installer/step1.ctp:25
+msgid "Save and go forward"
+msgstr "Guardar y continuar"
+
+#: Plugin/Installer2/View/Installer/step2.ctp:1
+msgid "Awesome sauce, we have connected to the database."
+msgstr "Muy bien, nos hemos conectado con la base de datos"
+
+#: Plugin/Installer2/View/Installer/step2.ctp:2
+msgid "We are connected to your database so all you need to do now is just approve further installation by clicking button below."
+msgstr "Estamos conectados con la base de datos. La última cosa que debes hacer es confirmar la siguiente parte de la instalación, pulsando este botón."
+
+#: Plugin/Installer2/View/Installer/step2.ctp:5
+msgid "Begin installation"
+msgstr "Iniciar instalación"
+
+#: Plugin/Installer2/View/Installer/step3.ctp:1
+msgid "Site settings"
+msgstr "Ajustes de página"
+
+#: Plugin/Installer2/View/Installer/step3.ctp:2
+msgid "Great, we have just installed database on your server. All we need now is to gather few basic information about your site from you. Please fill in the form below and press the button to move forward."
+msgstr "Muy bien, acabamos de instalar la base de datos en tu servidor. Ahora necesitamos alguna información básica sobre tu página. Rellena el siguiente formulario y continúa pulsando el botón inferior."
+
+#: Plugin/Installer2/View/Installer/step3.ctp:5
+msgid "Site name"
+msgstr "Nombre de página"
+
+#: Plugin/Installer2/View/Installer/step3.ctp:6
+msgid "Please enter your site name."
+msgstr "Por favor, introduce el nombre de página"
+
+#: Plugin/Installer2/View/Installer/step3.ctp:9
+msgid "Site title"
+msgstr "Título de página"
+
+#: Plugin/Installer2/View/Installer/step3.ctp:10
+msgid "Please enter your site title. It will be used for web browsers title etc."
+msgstr "Introduce el título de página. Se utilizará como título en los navegadores, etc."
+
+#: Plugin/Installer2/View/Installer/step3.ctp:13
+msgid "Site url"
+msgstr "Dirección URL"
+
+#: Plugin/Installer2/View/Installer/step3.ctp:14
+msgid "Please enter your site url. Make sure to enter full address like http://futurumclix.com"
+msgstr "Introduce la dirección url de la página. Asegúrate de que estás introduciendo la dirección completa, por ejemplo http://futurumclix.com"
+
+#: Plugin/Installer2/View/Installer/step3.ctp:17
+msgid "Site e-mail"
+msgstr "Correo electrónico de la página"
+
+#: Plugin/Installer2/View/Installer/step3.ctp:18
+msgid "Please enter your site e-mail address, where we will send notifications etc."
+msgstr "Por favor, introduce el correo electrónico de la página donde enviaremos entre otras las notificaciones."
+
+#: Plugin/Installer2/View/Installer/step3.ctp:21
+msgid "Sender e-mail"
+msgstr "Correo electrónico del remitente"
+
+#: Plugin/Installer2/View/Installer/step3.ctp:22
+msgid "Please enter your site e-mail address, which will be used as a sender address for all user's notifications."
+msgstr "Por favor, introduce el correo electrónico de la página que se utilizará como correo de remitente en las notificaciones a todos los usuarios."
+
+#: Plugin/Installer2/View/Installer/step3.ctp:25
+msgid "Save info"
+msgstr "Guardar"
+
+#: Plugin/Installer2/View/Installer/step4.ctp:1
+msgid "Import database settings"
+msgstr "Ajustes de importación de la base de datos"
+
+#: Plugin/Installer2/View/Installer/step4.ctp:2
+msgid "This is quite important step. You have to choose between importing empty database or most common PTC settings which we have prepared especially for you. Whatever option you will choose, you can change all the settings in your Admin Panel so no need to worry about that."
+msgstr "Es un paso bastante importante. Ahora debes elegir entre una base de datos completamente vacía o una redefinida con los ajustes más frecuentes en las páginas PTC, que hemos preparado especialmente para ti. Independientemente de la opción elegida, más tarde puedes cambiar todos los ajustes en el panel de administrador."
+
+#: Plugin/Installer2/View/Installer/step4.ctp:5
+msgid "Please choose your database settings"
+msgstr "Elige los ajustes de la base de datos"
+
+#: Plugin/Installer2/View/Installer/step4.ctp:10
+msgid "Empty"
+msgstr "Vacía"
+
+#: Plugin/Installer2/View/Installer/step4.ctp:11
+msgid "Default"
+msgstr "Predeterminada"
+
+#: Plugin/Installer2/View/Installer/step4.ctp:16
+msgid "Import"
+msgstr "Importar"
+
+#: Plugin/Installer2/View/Installer/step5.ctp:1
+msgid "Creating default Administrator account"
+msgstr "Crear una cuenta de administrador predeterminada"
+
+#: Plugin/Installer2/View/Installer/step5.ctp:2
+msgid "This is the last thing we need from you. We have to create default Administrator account so you can log in straight away after we will finish this installation process."
+msgstr "Es la última cosa que necesitamos. Ahora tenemos que crear una cuenta de administrador predeterminada para que puedas entrar en el panel de administrador nada más terminar la instalación."
+
+#: Plugin/Installer2/View/Installer/step5.ctp:5
+#: View/Themed/Legacy/Support/add.ctp:30
+msgid "E-mail address"
+msgstr "Dirección de correo electrónico"
+
+#: Plugin/Installer2/View/Installer/step5.ctp:6
+msgid "Please enter your e-mail address."
+msgstr "Introduce tu dirección de correo electrónico."
+
+#: Plugin/Installer2/View/Installer/step5.ctp:9
+#: View/Themed/Legacy/Pages/home.ctp:18 View/Themed/Legacy/Users/login.ctp:16
+#: View/Themed/Legacy/Users/signup.ctp:26 View/Users/login.ctp:13
+#: View/Users/signup.ctp:22
+msgid "Password"
+msgstr "Contraseña"
+
+#: Plugin/Installer2/View/Installer/step5.ctp:10
+msgid "Please enter your password."
+msgstr "Introduce contraseña"
+
+#: Plugin/Installer2/View/Installer/step5.ctp:13
+msgid "Allowed IP's"
+msgstr "Direcciones IP permitidas"
+
+#: Plugin/Installer2/View/Installer/step5.ctp:17
+msgid "You can enter more than one IP, separated with comma with no spaces. Leave this field empty if you want to allow connections from any IP."
+msgstr "Puedes introducir más de una dirección IP, sólo hay que separarlas con comas sin espacio entre ellas. Deja esta casilla vacía si quieres permitir la conexión de cualquier dirección IP."
+
+#: Plugin/Installer2/View/Installer/step5.ctp:22
+msgid "Save admin"
+msgstr "Guardar administrador"
+
+#: Plugin/Installer2/View/Layouts/installer.ctp:22
+#: View/Elements/Layout/HeaderMain.ctp:46
+#: View/Themed/Legacy/Layouts/default.ctp:65
+#: View/Themed/Legacy/Layouts/error.ctp:62
+msgid "logo"
+msgstr "Logo"
+
+#: View/Ads/add.ctp:21 View/BannerAds/add.ctp:21
+#: View/Elements/adsPanelBoxes.ctp:18 View/FeaturedAds/add.ctp:21
+#: View/LoginAds/add.ctp:21 View/PaidOffers/add.ctp:21
+#: View/Themed/Legacy/Ads/add.ctp:23 View/Themed/Legacy/BannerAds/add.ctp:23
+#: View/Themed/Legacy/Elements/adsPanelBoxes.ctp:18
+#: View/Themed/Legacy/FeaturedAds/add.ctp:23
+#: View/Themed/Legacy/LoginAds/add.ctp:23
+#: View/Themed/Legacy/PaidOffers/add.ctp:23
+msgid "Add new advertisement"
+msgstr "Añadir un nuevo anuncio."
+
+#: View/Ads/add.ctp:30 View/Ads/edit.ctp:32 View/BannerAds/add.ctp:26
+#: View/BannerAds/edit.ctp:27 View/FeaturedAds/add.ctp:26
+#: View/FeaturedAds/edit.ctp:27 View/LoginAds/add.ctp:26
+#: View/LoginAds/edit.ctp:27 View/PaidOffers/add.ctp:26
+#: View/PaidOffers/edit.ctp:28 View/Themed/Legacy/Ads/add.ctp:32
+#: View/Themed/Legacy/Ads/edit.ctp:34 View/Themed/Legacy/Ads/index.ctp:40
+#: View/Themed/Legacy/BannerAds/add.ctp:28
+#: View/Themed/Legacy/BannerAds/edit.ctp:28
+#: View/Themed/Legacy/BannerAds/index.ctp:50
+#: View/Themed/Legacy/FeaturedAds/add.ctp:28
+#: View/Themed/Legacy/FeaturedAds/edit.ctp:28
+#: View/Themed/Legacy/FeaturedAds/index.ctp:38
+#: View/Themed/Legacy/LoginAds/add.ctp:28
+#: View/Themed/Legacy/LoginAds/edit.ctp:28
+#: View/Themed/Legacy/LoginAds/index.ctp:50
+#: View/Themed/Legacy/PaidOffers/add.ctp:28
+#: View/Themed/Legacy/PaidOffers/edit.ctp:29
+#: View/Themed/Legacy/PaidOffers/index.ctp:37
+msgid "Title"
+msgstr "Título"
+
+#: View/Ads/add.ctp:33 View/Ads/edit.ctp:35 View/BannerAds/add.ctp:29
+#: View/BannerAds/edit.ctp:30 View/FeaturedAds/add.ctp:29
+#: View/FeaturedAds/edit.ctp:30 View/LoginAds/add.ctp:29
+#: View/LoginAds/edit.ctp:30 View/Themed/Legacy/Ads/add.ctp:35
+#: View/Themed/Legacy/Ads/edit.ctp:37 View/Themed/Legacy/BannerAds/add.ctp:31
+#: View/Themed/Legacy/BannerAds/edit.ctp:31
+#: View/Themed/Legacy/FeaturedAds/add.ctp:31
+#: View/Themed/Legacy/FeaturedAds/edit.ctp:31
+#: View/Themed/Legacy/LoginAds/add.ctp:31
+#: View/Themed/Legacy/LoginAds/edit.ctp:31
+msgid "Enter your advertisement title"
+msgstr "Introduce el título del anuncio"
+
+#: View/Ads/add.ctp:44 View/Ads/edit.ctp:46 View/FeaturedAds/add.ctp:40
+#: View/FeaturedAds/edit.ctp:41 View/PaidOffers/add.ctp:40
+#: View/PaidOffers/edit.ctp:42 View/Themed/Legacy/Ads/add.ctp:45
+#: View/Themed/Legacy/Ads/edit.ctp:47 View/Themed/Legacy/FeaturedAds/add.ctp:41
+#: View/Themed/Legacy/FeaturedAds/edit.ctp:41
+#: View/Themed/Legacy/FeaturedAds/index.ctp:42
+#: View/Themed/Legacy/PaidOffers/add.ctp:41
+#: View/Themed/Legacy/PaidOffers/edit.ctp:42
+#: View/Themed/Legacy/PaidOffers/index.ctp:41
+msgid "Description"
+msgstr "Descripción"
+
+#: View/Ads/add.ctp:47 View/Ads/edit.ctp:49 View/FeaturedAds/add.ctp:45
+#: View/FeaturedAds/edit.ctp:46 View/Themed/Legacy/Ads/add.ctp:48
+#: View/Themed/Legacy/Ads/edit.ctp:50 View/Themed/Legacy/FeaturedAds/add.ctp:46
+#: View/Themed/Legacy/FeaturedAds/edit.ctp:46
+msgid "Enter your advertisement description"
+msgstr "Introduce la descripción del anuncio"
+
+#: View/Ads/add.ctp:58 View/Ads/edit.ctp:60 View/BannerAds/add.ctp:52
+#: View/BannerAds/edit.ctp:52 View/FeaturedAds/add.ctp:56
+#: View/FeaturedAds/edit.ctp:57 View/LoginAds/add.ctp:52
+#: View/LoginAds/edit.ctp:52 View/PaidOffers/add.ctp:56
+#: View/PaidOffers/edit.ctp:58 View/Themed/Legacy/Ads/add.ctp:58
+#: View/Themed/Legacy/Ads/edit.ctp:60 View/Themed/Legacy/Ads/index.ctp:44
+#: View/Themed/Legacy/BannerAds/add.ctp:52
+#: View/Themed/Legacy/BannerAds/edit.ctp:51
+#: View/Themed/Legacy/BannerAds/index.ctp:58
+#: View/Themed/Legacy/FeaturedAds/add.ctp:56
+#: View/Themed/Legacy/FeaturedAds/edit.ctp:56
+#: View/Themed/Legacy/FeaturedAds/index.ctp:46
+#: View/Themed/Legacy/LoginAds/add.ctp:52
+#: View/Themed/Legacy/LoginAds/edit.ctp:51
+#: View/Themed/Legacy/LoginAds/index.ctp:58
+#: View/Themed/Legacy/PaidOffers/add.ctp:56
+#: View/Themed/Legacy/PaidOffers/edit.ctp:57
+#: View/Themed/Legacy/PaidOffers/index.ctp:49
+msgid "URL"
+msgstr "URL"
+
+#: View/Ads/add.ctp:69 View/BannerAds/add.ctp:63 View/FeaturedAds/add.ctp:67
+#: View/LoginAds/add.ctp:63 View/PaidOffers/add.ctp:105
+#: View/Themed/Legacy/Ads/add.ctp:67 View/Themed/Legacy/BannerAds/add.ctp:61
+#: View/Themed/Legacy/FeaturedAds/add.ctp:65
+#: View/Themed/Legacy/LoginAds/add.ctp:61
+#: View/Themed/Legacy/PaidOffers/add.ctp:100
+msgid "Add"
+msgstr "Añadir"
+
+#: View/Ads/assign.ctp:11 View/Ads/assign_to.ctp:11 View/Ads/edit.ctp:11
+#: View/Ads/index.ctp:11 View/Ads/statistics.ctp:11 View/Ads/targetting.ctp:11
+#: View/AdsCategoryPackages/buy.ctp:11 View/PaidOffers/applications.ctp:11
+#: View/Themed/Legacy/Ads/add.ctp:8 View/Themed/Legacy/Ads/assign.ctp:8
+#: View/Themed/Legacy/Ads/assign_to.ctp:8 View/Themed/Legacy/Ads/edit.ctp:8
+#: View/Themed/Legacy/Ads/index.ctp:8 View/Themed/Legacy/Ads/statistics.ctp:8
+#: View/Themed/Legacy/Ads/targetting.ctp:8
+#: View/Themed/Legacy/AdsCategoryPackages/buy.ctp:8
+#: View/Themed/Legacy/PaidOffers/assign_to.ctp:8
+msgid "Advertisement Panel"
+msgstr "Panel del anunciante"
+
+#: View/Ads/assign.ctp:23 View/BannerAds/assign.ctp:23
+#: View/FeaturedAds/assign.ctp:23 View/LoginAds/assign.ctp:23
+#: View/Themed/Legacy/Ads/assign.ctp:25
+#: View/Themed/Legacy/BannerAds/assign.ctp:24
+#: View/Themed/Legacy/FeaturedAds/assign.ctp:25
+#: View/Themed/Legacy/LoginAds/assign.ctp:25
+msgid "Sorry, you do not have any not assigned approved advertisements."
+msgstr "No tienes ningún anuncio no asignado que sea aceptado."
+
+#: View/Ads/assign.ctp:25 View/Themed/Legacy/Ads/assign.ctp:27
+msgid "Sorry, you do not have any PTC packages."
+msgstr "No tienes ningún paquete de anuncios PTC."
+
+#: View/Ads/assign.ctp:27 View/Ads/assign_to.ctp:30
+#: View/BannerAds/assign.ctp:27 View/BannerAds/assign_to.ctp:25
+#: View/FeaturedAds/assign.ctp:27 View/FeaturedAds/assign_to.ctp:25
+#: View/LoginAds/assign.ctp:27 View/LoginAds/assign_to.ctp:25
+#: View/PaidOffers/assign.ctp:27 View/Themed/Legacy/Ads/assign.ctp:29
+#: View/Themed/Legacy/Ads/assign_to.ctp:32
+#: View/Themed/Legacy/BannerAds/assign.ctp:28
+#: View/Themed/Legacy/BannerAds/assign_to.ctp:27
+#: View/Themed/Legacy/FeaturedAds/assign.ctp:29
+#: View/Themed/Legacy/FeaturedAds/assign_to.ctp:27
+#: View/Themed/Legacy/LoginAds/assign.ctp:29
+#: View/Themed/Legacy/LoginAds/assign_to.ctp:27
+#: View/Themed/Legacy/PaidOffers/assign.ctp:28
+msgid "Assign advertisement click packages"
+msgstr "Asignar paquetes de anuncios."
+
+#: View/Ads/assign.ctp:32 View/Ads/assign_to.ctp:35
+#: View/BannerAds/assign.ctp:32 View/BannerAds/assign_to.ctp:30
+#: View/FeaturedAds/assign.ctp:32 View/FeaturedAds/assign_to.ctp:30
+#: View/LoginAds/assign.ctp:32 View/LoginAds/assign_to.ctp:30
+#: View/PaidOffers/assign.ctp:32 View/PaidOffers/assign_to.ctp:35
+msgid "Choose Package"
+msgstr "Elegir paquete"
+
+#: View/Ads/assign.ctp:38 View/Ads/assign_to.ctp:41
+#: View/BannerAds/assign.ctp:38 View/FeaturedAds/assign.ctp:38
+#: View/LoginAds/assign.ctp:38 View/PaidOffers/assign.ctp:38
+#: View/Themed/Legacy/Ads/assign.ctp:39 View/Themed/Legacy/Ads/assign_to.ctp:42
+#: View/Themed/Legacy/BannerAds/assign.ctp:38
+#: View/Themed/Legacy/FeaturedAds/assign.ctp:39
+#: View/Themed/Legacy/LoginAds/assign.ctp:39
+#: View/Themed/Legacy/PaidOffers/assign.ctp:38
+msgid "Advertisement"
+msgstr "Anuncio"
+
+#: View/Ads/assign.ctp:44 View/Ads/assign_to.ctp:47
+#: View/BannerAds/assign.ctp:44 View/BannerAds/assign_to.ctp:36
+#: View/FeaturedAds/assign.ctp:44 View/FeaturedAds/assign_to.ctp:36
+#: View/LoginAds/assign.ctp:44 View/LoginAds/assign_to.ctp:36
+#: View/PaidOffers/assign.ctp:44 View/PaidOffers/assign_to.ctp:41
+#: View/Themed/Legacy/Ads/assign.ctp:43 View/Themed/Legacy/Ads/assign_to.ctp:46
+#: View/Themed/Legacy/BannerAds/assign.ctp:42
+#: View/Themed/Legacy/BannerAds/assign_to.ctp:37
+#: View/Themed/Legacy/FeaturedAds/assign.ctp:43
+#: View/Themed/Legacy/FeaturedAds/assign_to.ctp:37
+#: View/Themed/Legacy/LoginAds/assign.ctp:43
+#: View/Themed/Legacy/LoginAds/assign_to.ctp:37
+#: View/Themed/Legacy/PaidOffers/assign.ctp:42
+#: View/Themed/Legacy/PaidOffers/assign_to.ctp:42
+msgid "Assign"
+msgstr "Asignar"
+
+#: View/Ads/assign_to.ctp:23 View/Themed/Legacy/Ads/assign_to.ctp:25
+msgid "Sorry, you do not have any PTC packages for this ad. You will be automatically redirected to purchase advertisement exposures after 5 seconds."
+msgstr "No tienes ningún paquete de anuncios PTC para este tipo de anuncio. Serás redirigido automáticamente a la compra del paquete."
+
+#: View/Ads/credited.ctp:3 View/Themed/Legacy/Ads/credited.ctp:3
+msgid "Advertisement credited."
+msgstr "Anuncio aprobado."
+
+#: View/Ads/credited.ctp:4 View/Themed/Legacy/Ads/credited.ctp:4
+msgid "You have earned %s for watching this ad."
+msgstr "Has ganado %s por ver este anuncio."
+
+#: View/Ads/edit.ctp:22 View/BannerAds/edit.ctp:22 View/FeaturedAds/edit.ctp:22
+#: View/LoginAds/edit.ctp:22 View/PaidOffers/edit.ctp:22
+#: View/Themed/Legacy/Ads/edit.ctp:24 View/Themed/Legacy/BannerAds/edit.ctp:23
+#: View/Themed/Legacy/FeaturedAds/edit.ctp:23
+#: View/Themed/Legacy/LoginAds/edit.ctp:23
+msgid "Edit advertisement"
+msgstr "Editar anuncio"
+
+#: View/Ads/edit.ctp:71 View/Ads/preview.ctp:16 View/Ads/targetting.ctp:41
+#: View/BannerAds/edit.ctp:63 View/FeaturedAds/edit.ctp:68
+#: View/LoginAds/edit.ctp:63 View/PaidOffers/edit.ctp:107
+#: View/Themed/Legacy/Ads/edit.ctp:69 View/Themed/Legacy/Ads/preview.ctp:16
+#: View/Themed/Legacy/Ads/targetting.ctp:42
+#: View/Themed/Legacy/BannerAds/edit.ctp:60
+#: View/Themed/Legacy/FeaturedAds/edit.ctp:65
+#: View/Themed/Legacy/LoginAds/edit.ctp:60
+#: View/Themed/Legacy/PaidOffers/edit.ctp:101
+#: View/Themed/Legacy/UserProfiles/edit.ctp:137 View/UserProfiles/edit.ctp:113
+msgid "Save"
+msgstr "Guardar"
+
+#: View/Ads/index.ctp:23 View/BannerAds/index.ctp:23
+#: View/FeaturedAds/index.ctp:23 View/LoginAds/index.ctp:23
+#: View/PaidOffers/index.ctp:23 View/Themed/Legacy/Ads/index.ctp:25
+#: View/Themed/Legacy/BannerAds/index.ctp:25
+#: View/Themed/Legacy/FeaturedAds/index.ctp:25
+#: View/Themed/Legacy/LoginAds/index.ctp:25
+#: View/Themed/Legacy/PaidOffers/index.ctp:24
+msgid "You have no advertisement campaigns at the moment. Please click %s to add one."
+msgstr "No tienes ninguna campaña publicitaria en este momento. Por favor, pulsa %s para añadir una nueva."
+
+#: View/Ads/index.ctp:23 View/BannerAds/index.ctp:23
+#: View/FeaturedAds/index.ctp:23 View/LoginAds/index.ctp:23
+#: View/PaidOffers/index.ctp:23 View/Payments/payment_redirect.ctp:20
+#: View/Themed/Legacy/Ads/index.ctp:25
+#: View/Themed/Legacy/BannerAds/index.ctp:25
+#: View/Themed/Legacy/FeaturedAds/index.ctp:25
+#: View/Themed/Legacy/LoginAds/index.ctp:25
+#: View/Themed/Legacy/PaidOffers/index.ctp:24
+#: View/Themed/Legacy/Payments/payment_redirect.ctp:19
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:25
+#: View/Themed/Legacy/UserProfiles/edit.ctp:53 View/UserProfiles/edit.ctp:45
+msgid "here"
+msgstr "aquí"
+
+#: View/Ads/index.ctp:28
+msgid "My Current Paid To Click Advertisements"
+msgstr "Mis campañas publicitarias Paid To Click"
+
+#: View/Ads/index.ctp:43 View/BannerAds/index.ctp:51
+#: View/FeaturedAds/index.ctp:42 View/LoginAds/index.ctp:51
+#: View/PaidOffers/index.ctp:43 View/Themed/Legacy/Ads/index.ctp:156
+#: View/Themed/Legacy/BannerAds/index.ctp:140
+#: View/Themed/Legacy/FeaturedAds/index.ctp:128
+#: View/Themed/Legacy/LoginAds/index.ctp:140
+msgid "Pause advertisement"
+msgstr "Detener anuncio"
+
+#: View/Ads/index.ctp:46 View/BannerAds/index.ctp:54
+#: View/FeaturedAds/index.ctp:45 View/LoginAds/index.ctp:54
+#: View/PaidOffers/index.ctp:46 View/Themed/Legacy/Ads/index.ctp:159
+#: View/Themed/Legacy/BannerAds/index.ctp:143
+#: View/Themed/Legacy/FeaturedAds/index.ctp:131
+#: View/Themed/Legacy/LoginAds/index.ctp:143
+#: View/Themed/Legacy/PaidOffers/index.ctp:124
+msgid "Are you sure you want to pause \"%s\"?"
+msgstr "¿Estás seguro de que quieres detener \"%s\"?"
+
+#: View/Ads/index.ctp:51 View/BannerAds/index.ctp:59
+#: View/FeaturedAds/index.ctp:50 View/LoginAds/index.ctp:59
+#: View/PaidOffers/index.ctp:51 View/Themed/Legacy/Ads/index.ctp:164
+#: View/Themed/Legacy/BannerAds/index.ctp:148
+#: View/Themed/Legacy/FeaturedAds/index.ctp:136
+#: View/Themed/Legacy/LoginAds/index.ctp:148
+msgid "Activate advertisement"
+msgstr "Activar anuncio"
+
+#: View/Ads/index.ctp:54 View/BannerAds/index.ctp:62
+#: View/FeaturedAds/index.ctp:53 View/LoginAds/index.ctp:62
+#: View/PaidOffers/index.ctp:54 View/Themed/Legacy/Ads/index.ctp:167
+#: View/Themed/Legacy/BannerAds/index.ctp:151
+#: View/Themed/Legacy/FeaturedAds/index.ctp:139
+#: View/Themed/Legacy/LoginAds/index.ctp:151
+#: View/Themed/Legacy/PaidOffers/index.ctp:132
+msgid "Are you sure you want to activate \"%s\"?"
+msgstr "¿Estás seguro de que quieres activar \"%s\"?"
+
+#: View/Ads/index.ctp:65 View/BannerAds/index.ctp:73
+#: View/FeaturedAds/index.ctp:64 View/LoginAds/index.ctp:73
+#: View/PaidOffers/index.ctp:65 View/Themed/Legacy/Ads/index.ctp:111
+#: View/Themed/Legacy/BannerAds/index.ctp:127
+#: View/Themed/Legacy/FeaturedAds/index.ctp:115
+#: View/Themed/Legacy/LoginAds/index.ctp:127
+#: View/Themed/Legacy/PaidOffers/index.ctp:108
+msgid "Click to edit advertisement data"
+msgstr "Editar anuncio"
+
+#: View/Ads/index.ctp:74 View/BannerAds/index.ctp:82
+#: View/FeaturedAds/index.ctp:73 View/LoginAds/index.ctp:82
+#: View/PaidOffers/index.ctp:74 View/Themed/Legacy/Ads/index.ctp:82
+#: View/Themed/Legacy/BannerAds/index.ctp:100
+#: View/Themed/Legacy/FeaturedAds/index.ctp:88
+#: View/Themed/Legacy/LoginAds/index.ctp:100
+msgid "Add more %s"
+msgstr "Añadir más %s"
+
+#: View/Ads/index.ctp:74 View/BannerAds/index.ctp:82
+#: View/FeaturedAds/index.ctp:73 View/LoginAds/index.ctp:82
+#: View/Themed/Legacy/Ads/index.ctp:82
+#: View/Themed/Legacy/BannerAds/index.ctp:100
+#: View/Themed/Legacy/FeaturedAds/index.ctp:88
+#: View/Themed/Legacy/LoginAds/index.ctp:100
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:80
+msgid "exposures"
+msgstr "Añadir más %s"
+
+#: View/Ads/index.ctp:83
+msgid "Click to set geotargeting"
+msgstr "Pulsa para configurar la focalización geográfica"
+
+#: View/Ads/index.ctp:94
+msgid "Click to set memberships targeting"
+msgstr "Pulsa para configurar la focalización por membresías"
+
+#: View/Ads/index.ctp:102 View/BannerAds/index.ctp:90
+#: View/FeaturedAds/index.ctp:81 View/LoginAds/index.ctp:90
+#: View/Themed/Legacy/Ads/index.ctp:180
+#: View/Themed/Legacy/BannerAds/index.ctp:164
+#: View/Themed/Legacy/FeaturedAds/index.ctp:152
+#: View/Themed/Legacy/LoginAds/index.ctp:164
+msgid "Show statistics"
+msgstr "Enseñar estadísticas"
+
+#: View/Ads/index.ctp:107 View/BannerAds/index.ctp:96
+#: View/FeaturedAds/index.ctp:87 View/LoginAds/index.ctp:96
+#: View/Themed/Legacy/Ads/index.ctp:63
+#: View/Themed/Legacy/BannerAds/index.ctp:73
+#: View/Themed/Legacy/FeaturedAds/index.ctp:61
+#: View/Themed/Legacy/LoginAds/index.ctp:73
+msgid "Exposure type"
+msgstr "Tipo de exposición"
+
+#: View/Ads/index.ctp:107 View/BannerAds/index.ctp:99
+#: View/FeaturedAds/index.ctp:90 View/LoginAds/index.ctp:99
+#: View/Themed/Legacy/Ads/index.ctp:71
+#: View/Themed/Legacy/BannerAds/index.ctp:81
+#: View/Themed/Legacy/FeaturedAds/index.ctp:69
+#: View/Themed/Legacy/LoginAds/index.ctp:81
+msgid "Total clicks"
+msgstr "Clics en total"
+
+#: View/Ads/index.ctp:107 View/BannerAds/index.ctp:102
+#: View/FeaturedAds/index.ctp:93 View/LoginAds/index.ctp:102
+#: View/Themed/Legacy/Ads/index.ctp:67
+#: View/Themed/Legacy/BannerAds/index.ctp:77
+#: View/Themed/Legacy/FeaturedAds/index.ctp:65
+#: View/Themed/Legacy/LoginAds/index.ctp:77
+msgid "Clicks today"
+msgstr "Clics hoy"
+
+#: View/Ads/index.ctp:107 View/BannerAds/index.ctp:109
+#: View/FeaturedAds/index.ctp:100 View/LoginAds/index.ctp:109
+#: View/Themed/Legacy/Ads/index.ctp:75
+#: View/Themed/Legacy/BannerAds/index.ctp:91
+#: View/Themed/Legacy/FeaturedAds/index.ctp:79
+#: View/Themed/Legacy/LoginAds/index.ctp:91
+msgid "%s left"
+msgstr "Quedan %s"
+
+#: View/Ads/index.ctp:107 View/Themed/Legacy/Ads/index.ctp:75
+msgid "Exposures"
+msgstr "Visitas"
+
+#: View/Ads/index.ctp:107 View/Themed/Legacy/Ads/index.ctp:90
+msgid "Outside clicks"
+msgstr "Clics externos"
+
+#: View/Ads/index.ctp:110 View/BannerAds/index.ctp:116
+#: View/FeaturedAds/index.ctp:107 View/LoginAds/index.ctp:116
+#: View/PaidOffers/index.ctp:112 View/Themed/Legacy/Ads/index.ctp:191
+#: View/Themed/Legacy/BannerAds/index.ctp:175
+#: View/Themed/Legacy/FeaturedAds/index.ctp:163
+#: View/Themed/Legacy/LoginAds/index.ctp:175
+msgid "Delete this advertisement"
+msgstr "Eliminar este anuncio"
+
+#: View/Ads/index.ctp:113 View/BannerAds/index.ctp:119
+#: View/FeaturedAds/index.ctp:110 View/LoginAds/index.ctp:119
+#: View/PaidOffers/index.ctp:115 View/Themed/Legacy/Ads/index.ctp:194
+#: View/Themed/Legacy/BannerAds/index.ctp:178
+#: View/Themed/Legacy/FeaturedAds/index.ctp:166
+#: View/Themed/Legacy/LoginAds/index.ctp:178
+#: View/Themed/Legacy/PaidOffers/index.ctp:186
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "¿Estás seguro de que quieres eliminar \"%s\"?"
+
+#: View/Ads/not_logged_in.ctp:3 View/Themed/Legacy/Ads/not_logged_in.ctp:3
+msgid "You need to log in order to earn"
+msgstr "Tienes que iniciar sesión para ganar"
+
+#: View/Ads/not_logged_in.ctp:4 View/Themed/Legacy/Ads/not_logged_in.ctp:4
+msgid "for watching this advertisement."
+msgstr "por ver este anuncio."
+
+#: View/Ads/preview.ctp:12
+msgid "Please wait for the site validation."
+msgstr "Por favor, espera hasta que el anuncio se cargue."
+
+#: View/Ads/preview.ctp:23 View/Themed/Legacy/Ads/preview.ctp:23
+msgid "We are sorry but an error occurred,"
+msgstr "Lo sentimos, se ha producido un error."
+
+#: View/Ads/preview.ctp:24 View/Themed/Legacy/Ads/preview.ctp:24
+msgid "please try again later."
+msgstr "Inténtalo de nuevo más tarde."
+
+#: View/Ads/preview.ctp:33 View/Ads/view.ctp:27
+#: View/Themed/Legacy/Ads/preview.ctp:35 View/Themed/Legacy/Ads/view.ctp:27
+msgid "You are watching:"
+msgstr "Estás viendo:"
+
+#: View/Ads/preview.ctp:33 View/Ads/view.ctp:27
+#: View/Themed/Legacy/Ads/preview.ctp:35 View/Themed/Legacy/Ads/view.ctp:27
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/preview.ctp:33
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/view.ctp:27
+msgid "Open in a new window"
+msgstr "Abrir en una nueva ventana"
+
+#: View/Ads/progress_bar.ctp:5 View/Themed/Legacy/Ads/progress_bar.ctp:5
+msgid "Please watch advertiser's site below."
+msgstr "Mira el siguiente anuncio."
+
+#: View/Ads/report.ctp:3;25 View/Themed/Legacy/Ads/report.ctp:3;16
+msgid "Report Ad"
+msgstr "Notificar para moderación"
+
+#: View/Ads/report.ctp:5 View/PaidOffers/report.ctp:5
+#: View/Themed/Legacy/Ads/report.ctp:5
+#: View/Themed/Legacy/PaidOffers/report.ctp:5
+msgid "Your report is received, thanks for your contribution."
+msgstr "Hemos recibido tu notificación, gracias."
+
+#: View/Ads/report.ctp:6 View/PaidOffers/report.ctp:6
+#: View/Themed/Legacy/Ads/report.ctp:6
+#: View/Themed/Legacy/PaidOffers/report.ctp:6
+msgid "We could not receive your report, please try again later."
+msgstr "No hemos recibido tu notificación, inténtalo de nuevo más tarde."
+
+#: View/Ads/report.ctp:13 View/PaidOffers/report.ctp:14
+#: View/Themed/Legacy/Ads/report.ctp:10
+#: View/Themed/Legacy/PaidOffers/report.ctp:10
+msgid "Reason"
+msgstr "Motivo"
+
+#: View/Ads/statistics.ctp:22 View/BannerAds/statistics.ctp:22
+#: View/FeaturedAds/statistics.ctp:22 View/LoginAds/statistics.ctp:22
+#: View/Themed/Legacy/Ads/statistics.ctp:24
+#: View/Themed/Legacy/BannerAds/statistics.ctp:24
+#: View/Themed/Legacy/FeaturedAds/statistics.ctp:24
+#: View/Themed/Legacy/LoginAds/statistics.ctp:24
+msgid "Clicks statistics for: \"%s\"."
+msgstr "Estadísticas de clics para: \"%s\"."
+
+#: View/Ads/statistics.ctp:44 View/Themed/Legacy/Ads/statistics.ctp:38
+msgid "Geographic statistics for: \"%s\"."
+msgstr "Estadísticas geográficas para: \"%s\"."
+
+#: View/Ads/targetting.ctp:27 View/Themed/Legacy/Ads/targetting.ctp:29
+msgid "Choose"
+msgstr "Elegir"
+
+#: View/Ads/view.ctp:12 View/Themed/Legacy/Ads/view.ctp:12
+msgid "Please wait until advertisement is loading."
+msgstr "Por favor, espera hasta que el anuncio se cargue."
+
+#: View/Ads/view.ctp:17 View/Themed/Legacy/Ads/view.ctp:17
+msgid "We are sorry but this advertisement"
+msgstr "Lo sentimos, pero este anuncio"
+
+#: View/Ads/view.ctp:18 View/Themed/Legacy/Ads/view.ctp:18
+msgid "is no longer available."
+msgstr "ya no está disponible."
+
+#: View/Ads/view.ctp:28 View/Themed/Legacy/Ads/view.ctp:28
+msgid "Close this window"
+msgstr "Cerrar ventana"
+
+#: View/Ads/view.ctp:30 View/Themed/Legacy/Ads/view.ctp:30
+msgid "Report this ad"
+msgstr "Notificar para moderación"
+
+#: View/AdsCategories/index.ctp:9 View/Themed/Legacy/AdsCategories/index.ctp:8
+msgid "You have available advertisement(s)"
+msgstr "Tienes anuncios disponibles"
+
+#: View/AdsCategories/index.ctp:12
+#: View/Themed/Legacy/AdsCategories/index.ctp:10
+msgid "Next ad will be available not later than %s"
+msgstr "El siguiente anuncio estará disponible antes de %s."
+
+#: View/AdsCategories/index.ctp:15
+#: View/Themed/Legacy/AdsCategories/index.ctp:13
+msgid "Current server time is: %s"
+msgstr "Tiempo actual del servidor: %s"
+
+#: View/AdsCategories/index.ctp:36
+#: View/Themed/Legacy/AdsCategories/index.ctp:33
+msgid "seconds"
+msgstr "segundos"
+
+#: View/AdsCategoryPackages/buy.ctp:21
+msgid "Purchase Advertisement Exposures"
+msgstr "Comprar exposiciones publicitarias"
+
+#: View/AdsCategoryPackages/buy.ctp:26
+msgid "Advertisement Category"
+msgstr "Categoría de anuncio"
+
+#: View/AdsCategoryPackages/buy.ctp:32 View/BannerAds/buy.ctp:29
+#: View/FeaturedAds/buy.ctp:26 View/LoginAds/buy.ctp:29
+#: View/PaidOffers/buy.ctp:26 View/Themed/Legacy/AdsCategoryPackages/buy.ctp:34
+#: View/Themed/Legacy/BannerAds/buy.ctp:31
+#: View/Themed/Legacy/FeaturedAds/buy.ctp:29
+#: View/Themed/Legacy/LoginAds/buy.ctp:32
+#: View/Themed/Legacy/PaidOffers/buy.ctp:28
+msgid "Pack"
+msgstr "Paquete"
+
+#: View/AdsCategoryPackages/buy.ctp:38;62 View/BannerAds/buy.ctp:35;61
+#: View/FeaturedAds/buy.ctp:32;56 View/LoginAds/buy.ctp:35;60
+msgid "Price Per Click"
+msgstr "Precio por clic"
+
+#: View/AdsCategoryPackages/buy.ctp:44 View/BannerAds/buy.ctp:41
+#: View/FeaturedAds/buy.ctp:38
+msgid "Total Price"
+msgstr "En total"
+
+#: View/AdsCategoryPackages/buy.ctp:63 View/BannerAds/buy.ctp:62
+#: View/FeaturedAds/buy.ctp:57 View/LoginAds/buy.ctp:61
+msgid "Price Per Day"
+msgstr "Precio por día"
+
+#: View/BannerAds/add.ctp:11 View/BannerAds/assign.ctp:11
+#: View/BannerAds/assign_to.ctp:11 View/BannerAds/buy.ctp:11
+#: View/BannerAds/edit.ctp:11 View/BannerAds/index.ctp:11
+#: View/BannerAds/statistics.ctp:11 View/Themed/Legacy/BannerAds/add.ctp:8
+#: View/Themed/Legacy/BannerAds/assign.ctp:8
+#: View/Themed/Legacy/BannerAds/assign_to.ctp:8
+#: View/Themed/Legacy/BannerAds/buy.ctp:8
+#: View/Themed/Legacy/BannerAds/edit.ctp:8
+#: View/Themed/Legacy/BannerAds/index.ctp:8
+#: View/Themed/Legacy/BannerAds/statistics.ctp:8
+msgid "Banner Ads Panel"
+msgstr "Panel de anuncios banner"
+
+#: View/BannerAds/add.ctp:40 View/BannerAds/edit.ctp:41
+#: View/LoginAds/add.ctp:40 View/LoginAds/edit.ctp:41
+#: View/Themed/Legacy/BannerAds/add.ctp:41
+#: View/Themed/Legacy/BannerAds/edit.ctp:41
+#: View/Themed/Legacy/BannerAds/index.ctp:54
+#: View/Themed/Legacy/LoginAds/add.ctp:41
+#: View/Themed/Legacy/LoginAds/edit.ctp:41
+#: View/Themed/Legacy/LoginAds/index.ctp:54
+msgid "Image URL"
+msgstr "Dirección URL de la imagen"
+
+#: View/BannerAds/assign.ctp:25 View/FeaturedAds/assign.ctp:25
+#: View/FeaturedAds/assign_to.ctp:23 View/LoginAds/assign.ctp:25
+#: View/Themed/Legacy/FeaturedAds/assign.ctp:27
+#: View/Themed/Legacy/FeaturedAds/assign_to.ctp:25
+#: View/Themed/Legacy/LoginAds/assign.ctp:27
+msgid "Sorry, you do not have any Featured Ads packages."
+msgstr "No tienes ningún paquete de anuncios destacados."
+
+#: View/BannerAds/assign_to.ctp:23 View/Themed/Legacy/BannerAds/assign.ctp:26
+#: View/Themed/Legacy/BannerAds/assign_to.ctp:25
+msgid "Sorry, you do not have any Banner Ads packages."
+msgstr "No tienes ningún paquete de anuncios banner."
+
+#: View/BannerAds/buy.ctp:22 View/LoginAds/buy.ctp:22
+#: View/Themed/Legacy/BannerAds/buy.ctp:24
+#: View/Themed/Legacy/LoginAds/buy.ctp:25
+msgid "Sorry, but currently there are no available advertisement exposures"
+msgstr "Lo sentimos, pero actualmente no hay ninguno disponible."
+
+#: View/BannerAds/buy.ctp:24 View/FeaturedAds/buy.ctp:21
+#: View/LoginAds/buy.ctp:24 View/PaidOffers/buy.ctp:21
+#: View/Themed/Legacy/AdsCategoryPackages/buy.ctp:24
+#: View/Themed/Legacy/BannerAds/buy.ctp:26
+#: View/Themed/Legacy/FeaturedAds/buy.ctp:24
+#: View/Themed/Legacy/LoginAds/buy.ctp:27
+#: View/Themed/Legacy/PaidOffers/buy.ctp:23
+msgid "Purchase advertisement exposures"
+msgstr "Comprar exposiciones publicitarias"
+
+#: View/BannerAds/buy.ctp:63 View/FeaturedAds/buy.ctp:58
+msgid "Price Per Impression"
+msgstr "Precio por visionado"
+
+#: View/BannerAds/index.ctp:28 View/Themed/Legacy/BannerAds/index.ctp:29
+msgid "My current Banner ads advertisements"
+msgstr "Mis campañas de anuncios banner"
+
+#: View/BannerAds/index.ctp:97 View/FeaturedAds/index.ctp:88
+#: View/LoginAds/index.ctp:97 View/Themed/Legacy/BannerAds/index.ctp:74
+#: View/Themed/Legacy/FeaturedAds/index.ctp:62
+#: View/Themed/Legacy/LoginAds/index.ctp:74
+msgid "Not assigned"
+msgstr "No asignada"
+
+#: View/BannerAds/index.ctp:107 View/FeaturedAds/index.ctp:98
+#: View/LoginAds/index.ctp:107 View/Themed/Legacy/BannerAds/index.ctp:87
+#: View/Themed/Legacy/FeaturedAds/index.ctp:75
+#: View/Themed/Legacy/LoginAds/index.ctp:87
+msgid "Valid until"
+msgstr "Válida hasta"
+
+#: View/BannerAds/statistics.ctp:26 View/FeaturedAds/statistics.ctp:26
+#: View/Themed/Legacy/BannerAds/statistics.ctp:28
+#: View/Themed/Legacy/FeaturedAds/statistics.ctp:28
+msgid "Impressions"
+msgstr "Visitas"
+
+#: View/Commissions/index.ctp:17 View/Deposits/index.ctp:17
+msgid "Purchase Date"
+msgstr "Fecha de compra"
+
+#: View/Commissions/index.ctp:19 View/Themed/Legacy/Commissions/index.ctp:19
+#: View/Themed/Legacy/Users/direct_referrals.ctp:27
+#: View/Themed/Legacy/Users/rented_referrals.ctp:106
+#: View/Users/direct_referrals.ctp:23 View/Users/rented_referrals.ctp:111
+msgid "Referral"
+msgstr "Recomendado"
+
+#: View/Commissions/index.ctp:20 View/Themed/Legacy/Commissions/index.ctp:20
+#: View/Themed/Legacy/Users/autopay_stats.ctp:8
+#: View/Themed/Legacy/Users/autorenew_stats.ctp:8
+#: View/Themed/Legacy/Users/cashout.ctp:42
+#: View/Themed/Legacy/Users/deposit.ctp:46
+#: View/Themed/Legacy/Users/transfer.ctp:53 View/Users/autopay_stats.ctp:8
+#: View/Users/autorenew_stats.ctp:8 View/Users/cashout.ctp:42
+#: View/Users/deposit.ctp:34;39 View/Users/transfer.ctp:36;41
+msgid "Amount"
+msgstr "Importe"
+
+#: View/Commissions/index.ctp:21 View/Deposits/index.ctp:19
+#: View/Themed/Legacy/Commissions/index.ctp:21
+#: View/Themed/Legacy/Deposits/index.ctp:19
+msgid "Item"
+msgstr "Objeto"
+
+#: View/Commissions/index.ctp:37 View/Deposits/index.ctp:33
+#: View/News/index.ctp:21 View/Support/index.ctp:50
+#: View/Themed/Legacy/Commissions/index.ctp:48
+#: View/Themed/Legacy/Deposits/index.ctp:44
+#: View/Themed/Legacy/News/index.ctp:21 View/Themed/Legacy/Support/index.ctp:50
+#: View/Themed/Legacy/Users/direct_referrals.ctp:81
+#: View/Themed/Legacy/Users/rented_referrals.ctp:169
+#: View/Users/direct_referrals.ctp:67 View/Users/rented_referrals.ctp:164
+msgid "Page {:page} of {:pages}"
+msgstr "Página {:page} de {:pages}"
+
+#: View/Deposits/index.ctp:20 View/Themed/Legacy/Deposits/index.ctp:20
+msgid "Method"
+msgstr "Método"
+
+#: View/Elements/adsPanelBoxes.ctp:2 View/Memberships/buy.ctp:9
+#: View/Memberships/index.ctp:8
+#: View/Themed/Legacy/Elements/adsPanelBoxes.ctp:12
+#: View/Themed/Legacy/Elements/userPanel.ctp:15
+#: View/Themed/Legacy/Memberships/buy.ctp:15
+#: View/Themed/Legacy/Memberships/index.ctp:21
+#: View/Themed/Legacy/Users/buy_referrals.ctp:23
+#: View/Themed/Legacy/Users/dashboard.ctp:34
+#: View/Themed/Legacy/Users/rent_referrals.ctp:23
+#: View/Themed/Legacy/Users/rented_referrals.ctp:27
+#: View/Users/buy_referrals.ctp:14 View/Users/rent_referrals.ctp:14
+#: View/Users/rented_referrals.ctp:15
+msgid "Purchase balance"
+msgstr "Cuenta de compra"
+
+#: View/Elements/adsPanelBoxes.ctp:7 View/Memberships/buy.ctp:14
+#: View/Memberships/index.ctp:13
+#: View/Themed/Legacy/Elements/adsPanelBoxes.ctp:6
+#: View/Themed/Legacy/Memberships/index.ctp:16
+#: View/Themed/Legacy/Users/buy_referrals.ctp:18
+#: View/Themed/Legacy/Users/dashboard.ctp:29
+#: View/Themed/Legacy/Users/deposit.ctp:8
+#: View/Themed/Legacy/Users/rented_referrals.ctp:22
+#: View/Themed/Legacy/Users/transfer.ctp:8 View/Users/buy_referrals.ctp:19
+#: View/Users/rented_referrals.ctp:20 View/Users/transfer.ctp:11
+msgid "Add funds"
+msgstr "Añadir fondos"
+
+#: View/Elements/adsPanelBoxes.ctp:14
+msgid "Active Advertisements"
+msgstr "Anuncios activos"
+
+#: View/Elements/adsPanelBoxes.ctp:21
+msgid "My Click Packages"
+msgstr "Mis paquetes de anuncios"
+
+#: View/Elements/adsPanelBoxes.ctp:23
+#: View/Themed/Legacy/Elements/adsPanelBoxes.ctp:30
+msgid " \\ %d %s"
+msgstr "\\ %d %s"
+
+#: View/Elements/adsPanelBoxes.ctp:29
+#: View/Themed/Legacy/Elements/adsPanelBoxes.ctp:25
+msgid "Buy more advertisement exposures"
+msgstr "Comprar más paquetes de anuncios"
+
+#: View/Elements/adsPanelBoxes.ctp:30
+#: View/Themed/Legacy/Elements/adsPanelBoxes.ctp:26
+msgid "Attach your current exposures"
+msgstr "Asignar tus paquetes de anuncios"
+
+#: View/Elements/newsBox.ctp:19 View/Themed/Legacy/Elements/newsBox.ctp:18
+msgid "Read more..."
+msgstr "Leer más…"
+
+#: View/Elements/userBreadcrumbs.ctp:3;5
+#: View/Elements/Layout/HeaderDashboard.ctp:69
+#: View/Elements/Layout/HeaderMain.ctp:54
+#: View/Themed/Legacy/Elements/userPanel.ctp:5;7
+#: View/Themed/Legacy/Layouts/default.ctp:97
+#: View/Themed/Legacy/Layouts/error.ctp:94
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: View/Elements/userNoticeInfo.ctp:4 View/Elements/userSidebar.ctp:83;101
+#: View/PaidOffers/application_add.ctp:2;25
+#: View/PaidOffers/application_reject.ctp:2;21 View/PaidOffers/report.ctp:2
+#: View/Themed/Legacy/Ads/report.ctp:2
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:103;119
+#: View/Themed/Legacy/Elements/userNoticeInfo.ctp:4
+#: View/Themed/Legacy/PaidOffers/application_add.ctp:2;19
+#: View/Themed/Legacy/PaidOffers/application_reject.ctp:2;15
+#: View/Themed/Legacy/PaidOffers/report.ctp:2
+msgid "Close"
+msgstr "Cerrar"
+
+#: View/Elements/userSidebar.ctp:6
+msgid "Default Membership"
+msgstr "Membresía normal"
+
+#: View/Elements/userSidebar.ctp:9
+msgid "Valid Until: "
+msgstr "Válido hasta"
+
+#: View/Elements/userSidebar.ctp:12
+msgid "Upgrade Your Membership"
+msgstr "Mejora tu membresía"
+
+#: View/Elements/userSidebar.ctp:16
+msgid "Personal Settings"
+msgstr "Ajustes personales"
+
+#: View/Elements/userSidebar.ctp:20
+msgid "Support System"
+msgstr "Contacto"
+
+#: View/Elements/userSidebar.ctp:22
+msgid "Edit Profile"
+msgstr "Editar perfil"
+
+#: View/Elements/userSidebar.ctp:23
+msgid "Upgrade Your Account"
+msgstr "Mejora tu cuenta"
+
+#: View/Elements/userSidebar.ctp:24
+msgid "Fund Purchase Balance"
+msgstr "Recarga tu cuenta de compra"
+
+#: View/Elements/userSidebar.ctp:25
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:35
+msgid "Cashout"
+msgstr "Desembolso"
+
+#: View/Elements/userSidebar.ctp:26
+msgid "Purchase History"
+msgstr "Historial de compra"
+
+#: View/Elements/userSidebar.ctp:28
+msgid "Offerwalls Log"
+msgstr "Registro de ofertas de pago"
+
+#: View/Elements/userSidebar.ctp:32
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:45
+msgid "Advertisements"
+msgstr "Anuncios"
+
+#: View/Elements/userSidebar.ctp:35
+msgid "PTC Advertisement Panel"
+msgstr "Panel de anuncios PTC"
+
+#: View/Elements/userSidebar.ctp:37
+msgid "Featured Advertisement Panel"
+msgstr "Panel de anuncios destacados"
+
+#: View/Elements/userSidebar.ctp:40
+msgid "Banner Advertisement Panel"
+msgstr "Panel de anuncios banner"
+
+#: View/Elements/userSidebar.ctp:43
+msgid "Login Ads Advertisement Panel"
+msgstr "Panel de anuncios LoginAds"
+
+#: View/Elements/userSidebar.ctp:49
+msgid "AdGrid Advertisement Panel"
+msgstr "Panel de anuncios AdGrid"
+
+#: View/Elements/userSidebar.ctp:53
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:73
+msgid "Referrals"
+msgstr "Recomendados"
+
+#: View/Elements/userSidebar.ctp:56
+msgid "Promotion Tools"
+msgstr "Herramientas para recomendar"
+
+#: View/Elements/userSidebar.ctp:59
+msgid "Referral's Contest"
+msgstr "Concurso de recomendados"
+
+#: View/Elements/userSidebar.ctp:66
+#: View/Themed/Legacy/Users/buy_referrals.ctp:8 View/Users/buy_referrals.ctp:11
+msgid "Buy Referrals"
+msgstr "Comprar recomendados"
+
+#: View/Elements/userSidebar.ctp:68
+msgid "Referral's Commissions"
+msgstr "Comisiones por recomendados"
+
+#: View/Elements/userSidebar.ctp:86
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:106
+msgid "Login Ads"
+msgstr "Anuncios del inicio de sesión"
+
+#: View/Elements/Layout/FooterMain.ctp:7
+#: View/Themed/Legacy/Layouts/default.ctp:72
+#: View/Themed/Legacy/Layouts/error.ctp:69
+msgid "Home Page"
+msgstr "Página principal"
+
+#: View/Elements/Layout/FooterMain.ctp:8
+#: View/Elements/Layout/HeaderDashboard.ctp:70
+#: View/Themed/Legacy/Layouts/default.ctp:78
+#: View/Themed/Legacy/Layouts/error.ctp:75
+#: View/Themed/Legacy/Pages/home.ctp:142
+msgid "View Ads"
+msgstr "Ver anuncios"
+
+#: View/Elements/Layout/FooterMain.ctp:10
+#: View/Elements/Layout/HeaderDashboard.ctp:81
+#: View/Themed/Legacy/Layouts/default.ctp:83
+#: View/Themed/Legacy/Layouts/error.ctp:80
+#: View/Themed/Legacy/Pages/home.ctp:145
+msgid "AdGrid"
+msgstr "Juego AdGrid"
+
+#: View/Elements/Layout/FooterMain.ctp:13
+#: View/Elements/Layout/HeaderDashboard.ctp:84
+#: View/Themed/Legacy/Layouts/default.ctp:94
+#: View/Themed/Legacy/Layouts/error.ctp:91
+#: View/Themed/Legacy/Pages/home.ctp:152
+msgid "Forum"
+msgstr "Foro"
+
+#: View/Elements/Layout/FooterMain.ctp:16
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:30
+#: View/Themed/Legacy/Pages/home.ctp:154
+msgid "Support system"
+msgstr "Contacto"
+
+#: View/Elements/Layout/FooterMain.ctp:24 View/Themed/Legacy/Pages/home.ctp:129
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: View/Elements/Layout/FooterMain.ctp:27 View/Themed/Legacy/Pages/home.ctp:132
+msgid "FAQ"
+msgstr "FAQ"
+
+#: View/Elements/Layout/FooterMain.ctp:30 View/Themed/Legacy/Pages/home.ctp:135
+msgid "ToS"
+msgstr "Reglamento"
+
+#: View/Elements/Layout/HeaderDashboard.ctp:75
+#: View/Themed/Legacy/Layouts/default.ctp:86
+#: View/Themed/Legacy/Layouts/error.ctp:83
+msgid "Offerwalls"
+msgstr "Ofertas de pago"
+
+#: View/Elements/Layout/HeaderDashboard.ctp:78
+#: View/Themed/Legacy/Layouts/default.ctp:89
+#: View/Themed/Legacy/Layouts/error.ctp:86
+msgid "Revenue shares"
+msgstr "Acciones"
+
+#: View/Elements/Layout/HeaderDashboard.ctp:86
+#: View/Elements/Layout/HeaderMain.ctp:56
+#: View/Themed/Legacy/Layouts/default.ctp:98
+#: View/Themed/Legacy/Layouts/error.ctp:95
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: View/Elements/Layout/HeaderMain.ctp:58
+msgid "Sign up"
+msgstr "Registrarse"
+
+#: View/Elements/Layout/HeaderMain.ctp:60
+#: View/Themed/Legacy/Layouts/default.ctp:101
+#: View/Themed/Legacy/Layouts/error.ctp:98
+#: View/Themed/Legacy/LoginAds/index.ctp:33
+#: View/Themed/Legacy/Users/login.ctp:6;27 View/Users/login.ctp:4;24
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: View/Elements/Layout/HeaderMain.ctp:66
+msgid "Simple Advertising Platform"
+msgstr "Plataforma publicitaria sencilla"
+
+#: View/Elements/Layout/HeaderMain.ctp:67
+msgid "Maximize your earnings. Just sign up on our platform and earn!"
+msgstr "Maximiza tus ganancias. ¡Simplemente regístrate y gana!"
+
+#: View/Elements/Layout/HeaderMain.ctp:68
+msgid "I want to earn!"
+msgstr "¡Quiero ganar!"
+
+#: View/Elements/Layout/HeaderMain.ctp:69
+msgid "I want to advertise"
+msgstr "Quiero publicitarme"
+
+#: View/FeaturedAds/add.ctp:11 View/FeaturedAds/assign.ctp:11
+#: View/FeaturedAds/assign_to.ctp:11 View/FeaturedAds/buy.ctp:11
+#: View/FeaturedAds/edit.ctp:11 View/FeaturedAds/index.ctp:11
+#: View/FeaturedAds/statistics.ctp:11 View/Themed/Legacy/FeaturedAds/add.ctp:8
+#: View/Themed/Legacy/FeaturedAds/assign.ctp:8
+#: View/Themed/Legacy/FeaturedAds/assign_to.ctp:8
+#: View/Themed/Legacy/FeaturedAds/buy.ctp:8
+#: View/Themed/Legacy/FeaturedAds/edit.ctp:8
+#: View/Themed/Legacy/FeaturedAds/index.ctp:8
+#: View/Themed/Legacy/FeaturedAds/statistics.ctp:8
+msgid "Featured Ads Panel"
+msgstr "Panel de anuncios destacados"
+
+#: View/FeaturedAds/index.ctp:28 View/Themed/Legacy/FeaturedAds/index.ctp:29
+msgid "My current Featured ads advertisements"
+msgstr "Mis anuncios destacados actuales"
+
+#: View/Helper/AppFormHelper.php:189 View/Memberships/index.ctp:135
+#: View/Themed/Legacy/Memberships/index.ctp:135
+msgid "Yes"
+msgstr "Sí"
+
+#: View/Helper/AppFormHelper.php:190 View/Memberships/index.ctp:137
+#: View/Themed/Legacy/Memberships/index.ctp:137
+msgid "No"
+msgstr "No"
+
+#: View/Helper/ChartHelper.php:77
+msgid "Sunday"
+msgstr "Domingo"
+
+#: View/Helper/ChartHelper.php:78
+msgid "Monday"
+msgstr "Lunes"
+
+#: View/Helper/ChartHelper.php:79
+msgid "Tuesday"
+msgstr "Martes"
+
+#: View/Helper/ChartHelper.php:80
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: View/Helper/ChartHelper.php:81
+msgid "Thursday"
+msgstr "Jueves"
+
+#: View/Helper/ChartHelper.php:82
+msgid "Friday"
+msgstr "Viernes"
+
+#: View/Helper/ChartHelper.php:83
+msgid "Saturday"
+msgstr "Sábado"
+
+#: View/Helper/ChartHelper.php:84
+#: View/Themed/Legacy/Users/rented_referrals.ctp:125
+#: View/Users/rented_referrals.ctp:130
+msgid "Today"
+msgstr "Hoy"
+
+#: View/Helper/ChartHelper.php:85
+#: View/Themed/Legacy/Users/rented_referrals.ctp:127
+#: View/Users/rented_referrals.ctp:132
+msgid "Yesterday"
+msgstr "Ayer"
+
+#: View/Helper/ChartHelper.php:88
+msgid "Jan"
+msgstr "Enero"
+
+#: View/Helper/ChartHelper.php:89
+msgid "Feb"
+msgstr "Febrero"
+
+#: View/Helper/ChartHelper.php:90
+msgid "Mar"
+msgstr "Marzo"
+
+#: View/Helper/ChartHelper.php:91
+msgid "Apr"
+msgstr "Abril"
+
+#: View/Helper/ChartHelper.php:92
+msgid "May"
+msgstr "Mayo"
+
+#: View/Helper/ChartHelper.php:93
+msgid "Jun"
+msgstr "Junio"
+
+#: View/Helper/ChartHelper.php:94
+msgid "Jul"
+msgstr "Julio"
+
+#: View/Helper/ChartHelper.php:95
+msgid "Aug"
+msgstr "Agosto"
+
+#: View/Helper/ChartHelper.php:96
+msgid "Sep"
+msgstr "Septiembre"
+
+#: View/Helper/ChartHelper.php:97
+msgid "Oct"
+msgstr "Octubre"
+
+#: View/Helper/ChartHelper.php:98
+msgid "Nov"
+msgstr "Noviembre"
+
+#: View/Helper/ChartHelper.php:99
+msgid "Dec"
+msgstr "Diciembre"
+
+#: View/Helper/UserFormHelper.php:62
+msgid "English"
+msgstr "Inglés"
+
+#: View/Layouts/error.ctp:7 View/Themed/Legacy/Layouts/error.ctp:111
+msgid "Ooops, something went wrong..."
+msgstr "Oh... algo ha fallado..."
+
+#: View/Layouts/maintenance.ctp:20
+#: View/Themed/Legacy/Layouts/maintenance.ctp:20
+msgid "Maintenance Mode"
+msgstr "Página en restauración"
+
+#: View/LoginAds/add.ctp:11 View/LoginAds/assign.ctp:11
+#: View/LoginAds/assign_to.ctp:11 View/LoginAds/buy.ctp:11
+#: View/LoginAds/edit.ctp:11 View/LoginAds/index.ctp:11
+#: View/LoginAds/statistics.ctp:11 View/Themed/Legacy/LoginAds/add.ctp:8
+#: View/Themed/Legacy/LoginAds/assign.ctp:8
+#: View/Themed/Legacy/LoginAds/assign_to.ctp:8
+#: View/Themed/Legacy/LoginAds/buy.ctp:8 View/Themed/Legacy/LoginAds/edit.ctp:8
+#: View/Themed/Legacy/LoginAds/index.ctp:8
+#: View/Themed/Legacy/LoginAds/statistics.ctp:8
+msgid "Login Ads Panel"
+msgstr "Panel de anuncios LoginAds"
+
+#: View/LoginAds/assign_to.ctp:23 View/Themed/Legacy/LoginAds/assign_to.ctp:25
+msgid "Sorry, you do not have any Login Ads packages."
+msgstr "Desgraciadamente no hay ningún paquete LoginAds."
+
+#: View/LoginAds/buy.ctp:41 View/Themed/Legacy/AdsCategoryPackages/buy.ctp:44
+#: View/Themed/Legacy/BannerAds/buy.ctp:41
+#: View/Themed/Legacy/FeaturedAds/buy.ctp:39
+#: View/Themed/Legacy/LoginAds/buy.ctp:42
+msgid "Total price"
+msgstr "En total"
+
+#: View/LoginAds/index.ctp:28
+msgid "My current Login Ads Advertisements"
+msgstr "Mis campañas actuales LoginAds"
+
+#: View/Memberships/buy.ctp:21 View/Memberships/index.ctp:20
+#: View/Themed/Legacy/Memberships/buy.ctp:21
+#: View/Themed/Legacy/Memberships/index.ctp:27
+msgid "Current membership"
+msgstr "Membresía actual"
+
+#: View/Memberships/buy.ctp:25 View/Memberships/index.ctp:24
+#: View/Themed/Legacy/Memberships/buy.ctp:27
+#: View/Themed/Legacy/Memberships/index.ctp:33
+msgid "Membership valid until"
+msgstr "Membresía válida hasta"
+
+#: View/Memberships/buy.ctp:32 View/Themed/Legacy/Memberships/buy.ctp:35
+msgid "You are buying %s Membership %d months for %s, pay with:"
+msgstr "Compras la membresía %s para % meses, pagada por:"
+
+#: View/Memberships/index.ctp:31 View/Themed/Legacy/Memberships/index.ctp:40
+msgid "Free"
+msgstr "Gratuita"
+
+#: View/Memberships/index.ctp:36
+msgid "Select membership<br /> for your needs"
+msgstr "Elige la membresía <br /> según tus necesidades"
+
+#: View/Memberships/index.ctp:40 View/Themed/Legacy/Memberships/index.ctp:51
+msgid "Direct referrals limit"
+msgstr "Límite de recomendados directos"
+
+#: View/Memberships/index.ctp:43 View/Themed/Legacy/Memberships/index.ctp:61
+msgid "Rented referrals limit"
+msgstr "Límite de recomendados alquilados"
+
+#: View/Memberships/index.ctp:46 View/Themed/Legacy/Memberships/index.ctp:71
+msgid "Direct referrals delete cost"
+msgstr "Coste de eliminación del recomendado directo"
+
+#: View/Memberships/index.ctp:49 View/Themed/Legacy/Memberships/index.ctp:77
+msgid "Rented referrals expiry fee"
+msgstr "Coste de expiración del alquiler del recomendado"
+
+#: View/Memberships/index.ctp:52 View/Themed/Legacy/Memberships/index.ctp:83
+msgid "Rented referrals recycle cost"
+msgstr "Coste de cambio del recomendado alquilado"
+
+#: View/Memberships/index.ctp:55 View/Themed/Legacy/Memberships/index.ctp:89
+msgid "Inactive rented referral recycle time"
+msgstr "Tiempo de cambio del recomendado alquilado inactivo"
+
+#: View/Memberships/index.ctp:58 View/Themed/Legacy/Memberships/index.ctp:107
+msgid "Time between renting"
+msgstr "Tiempo entre alquileres"
+
+#: View/Memberships/index.ctp:61 View/Themed/Legacy/Memberships/index.ctp:113
+msgid "Minimum payout"
+msgstr "Mínimo a desembolsar"
+
+#: View/Memberships/index.ctp:64 View/Themed/Legacy/Memberships/index.ctp:119
+msgid "Maximum single payout"
+msgstr "Importe máximo de desembolso individual"
+
+#: View/Memberships/index.ctp:67 View/Themed/Legacy/Memberships/index.ctp:125
+msgid "Payout waiting time"
+msgstr "Tiempo entre desembolsos"
+
+#: View/Memberships/index.ctp:70 View/Themed/Legacy/Memberships/index.ctp:131
+msgid "Instant payouts"
+msgstr "Desembolsos inmediatos"
+
+#: View/Memberships/index.ctp:73 View/Themed/Legacy/Memberships/index.ctp:143
+msgid "Referral upgrade commission"
+msgstr "Comisión por mejorar la cuenta por el recomendado"
+
+#: View/Memberships/index.ctp:76 View/Themed/Legacy/Memberships/index.ctp:149
+msgid "Referral purchase commission"
+msgstr "Comisión por la compra del recomendado"
+
+#: View/Memberships/index.ctp:79 View/Themed/Legacy/Memberships/index.ctp:155
+msgid "Price / Duration"
+msgstr "Precio / Tiempo de duración"
+
+#: View/Memberships/index.ctp:82;162
+#: View/Themed/Legacy/Memberships/index.ctp:170;174
+msgid "Buy"
+msgstr "Comprar"
+
+#: View/Memberships/index.ctp:118;130
+#: View/Themed/Legacy/Memberships/index.ctp:91;127
+msgid "days"
+msgstr "días"
+
+#: View/Memberships/index.ctp:150 View/Themed/Legacy/Memberships/index.ctp:159
+msgid "Free / Unlimited"
+msgstr "Gratuito / Sin límite"
+
+#: View/News/index.ctp:4 View/News/view.ctp:4
+#: View/Themed/Legacy/News/index.ctp:6 View/Themed/Legacy/News/view.ctp:6
+msgid "%s news"
+msgstr "%s mensajes"
+
+#: View/News/index.ctp:8 View/News/view.ctp:7
+#: View/Themed/Legacy/News/index.ctp:11 View/Themed/Legacy/News/view.ctp:10
+msgid "Posted at %s"
+msgstr "Publicado a %s"
+
+#: View/News/index.ctp:10 View/News/view.ctp:9
+#: View/Themed/Legacy/News/index.ctp:13 View/Themed/Legacy/News/view.ctp:12
+msgid "Last modification at %s"
+msgstr "Última modificación a %s"
+
+#: View/Pages/finish_registration.ctp:4
+#: View/Themed/Legacy/Pages/finish_registration.ctp:6
+msgid "Finish your registration"
+msgstr "Finaliza el registro"
+
+#: View/Pages/finish_registration.ctp:6
+#: View/Themed/Legacy/Pages/finish_registration.ctp:10
+msgid "Your registration is almost finished!"
+msgstr "¡Tu registro ya está casi listo!"
+
+#: View/Pages/finish_registration.ctp:9
+#: View/Themed/Legacy/Pages/finish_registration.ctp:13
+msgid "We have just sent you an activation email to the address you have provided while signing up. "
+msgstr "Te hemos enviado un correo electrónico a la dirección introducida para verificarla"
+
+#: View/Pages/finish_registration.ctp:10
+#: View/Themed/Legacy/Pages/finish_registration.ctp:14
+msgid "Please click on the activation link to verify your email address. If you did not get your activation email, please check your spam folder. "
+msgstr "Por favor, pulsa el enlace de activación para confirmar tu dirección de correo electrónico. Si no has recibido el correo de activación, comprueba la carpeta spam."
+
+#: View/Pages/finish_registration.ctp:11
+#: View/Themed/Legacy/Pages/finish_registration.ctp:15
+msgid "If it is still not there after few minutes, please open support ticket. "
+msgstr "Si sigues sin recibirlo durante unos minutos, contacta con nosotros."
+
+#: View/Pages/finish_registration.ctp:12
+#: View/Themed/Legacy/Pages/finish_registration.ctp:16
+msgid "You will be automatically redirected to login page. If not please click "
+msgstr "Si no has sido redirigido automáticamente, pulsa el botón"
+
+#: View/Pages/finish_registration.ctp:12
+#: View/Themed/Legacy/Pages/finish_registration.ctp:16
+msgid "here."
+msgstr "aquí."
+
+#: View/Pages/locked.ctp:4 View/Themed/Legacy/Pages/locked.ctp:6
+msgid "Your IP is blocked!"
+msgstr "¡Tu IP ha sido bloqueada!"
+
+#: View/PaidOffers/add.ctp:29 View/PaidOffers/edit.ctp:31
+#: View/Themed/Legacy/PaidOffers/add.ctp:31
+#: View/Themed/Legacy/PaidOffers/edit.ctp:32
+msgid "Enter your offertitle"
+msgstr "Introduce el título de tu tarea"
+
+#: View/PaidOffers/add.ctp:45 View/PaidOffers/edit.ctp:47
+#: View/Themed/Legacy/PaidOffers/add.ctp:46
+#: View/Themed/Legacy/PaidOffers/edit.ctp:47
+msgid "Please describe in details what applicant have to do to get this offer approved and what info has to be provided after submitting this offer."
+msgstr "Por favor, describe detalladamente lo que debe hacer el notificador para que la tarea sea aceptada y qué información debe suministrarse tras realizar la tarea."
+
+#: View/PaidOffers/add.ctp:67 View/PaidOffers/edit.ctp:69
+#: View/PaidOffers/view.ctp:55;102;143;172;200
+#: View/Themed/Legacy/PaidOffers/add.ctp:66
+#: View/Themed/Legacy/PaidOffers/edit.ctp:67
+#: View/Themed/Legacy/PaidOffers/index.ctp:45
+#: View/Themed/Legacy/PaidOffers/view.ctp:55;96;140;167;194
+msgid "Category"
+msgstr "Categoría"
+
+#: View/PaidOffers/add.ctp:73 View/PaidOffers/edit.ctp:75
+msgid "Targeted Memberships"
+msgstr "Membresías elegidas"
+
+#: View/PaidOffers/add.ctp:83;99 View/PaidOffers/edit.ctp:85;101
+#: View/Themed/Legacy/PaidOffers/add.ctp:81;96
+#: View/Themed/Legacy/PaidOffers/edit.ctp:82;97
+msgid "Select All"
+msgstr "Marcar todo"
+
+#: View/PaidOffers/add.ctp:89 View/PaidOffers/edit.ctp:91
+msgid "Targeted Countries"
+msgstr "Países elegidos"
+
+#: View/PaidOffers/application_add.ctp:7
+#: View/PaidOffers/application_reject.ctp:5
+#: View/Themed/Legacy/PaidOffers/application_add.ctp:7
+#: View/Themed/Legacy/PaidOffers/application_reject.ctp:4
+msgid "Application sucessfully saved."
+msgstr "La notificación se ha guardado correctamente."
+
+#: View/PaidOffers/application_add.ctp:8
+#: View/PaidOffers/application_reject.ctp:6
+#: View/Themed/Legacy/PaidOffers/application_add.ctp:9
+#: View/Themed/Legacy/PaidOffers/application_reject.ctp:5
+msgid "Failed to save application, please try again later."
+msgstr "No se han podido guardar las notificaciones. Inténtalo de nuevo más tarde."
+
+#: View/PaidOffers/application_add.ctp:17
+#: View/Themed/Legacy/PaidOffers/application_add.ctp:14
+msgid "Please provide information that you have completed above offer:"
+msgstr "Por favor, introduce la información que confirma la realización de esta tarea:"
+
+#: View/PaidOffers/application_add.ctp:26
+#: View/PaidOffers/application_reject.ctp:22 View/PaidOffers/view.ctp:66;113
+#: View/Themed/Legacy/PaidOffers/application_add.ctp:20
+#: View/Themed/Legacy/PaidOffers/application_reject.ctp:16
+#: View/Themed/Legacy/PaidOffers/view.ctp:66;107
+msgid "Submit"
+msgstr "Aceptar"
+
+#: View/PaidOffers/application_reject.ctp:3 View/PaidOffers/applications.ctp:53
+#: View/Themed/Legacy/PaidOffers/applications.ctp:67
+msgid "Reject application"
+msgstr "Rechazar la notificación"
+
+#: View/PaidOffers/application_reject.ctp:13
+#: View/Themed/Legacy/PaidOffers/application_reject.ctp:10
+msgid "Please provide information why you reject that application:"
+msgstr "Por favor, explica por qué rechazas esta notificación:"
+
+#: View/PaidOffers/applications.ctp:21
+#: View/Themed/Legacy/PaidOffers/applications.ctp:24
+msgid "Applications for Paid Offer \"%s\""
+msgstr "Notificaciones para la tarea de pago \"%s\""
+
+#: View/PaidOffers/applications.ctp:25
+#: View/Themed/Legacy/PaidOffers/applications.ctp:30
+msgid "Applicant"
+msgstr "Notificador"
+
+#: View/PaidOffers/applications.ctp:26 View/Support/view.ctp:40
+#: View/Themed/Legacy/Ads/index.ctp:101
+#: View/Themed/Legacy/BannerAds/index.ctp:117
+#: View/Themed/Legacy/FeaturedAds/index.ctp:105
+#: View/Themed/Legacy/LoginAds/index.ctp:117
+#: View/Themed/Legacy/PaidOffers/applications.ctp:40
+#: View/Themed/Legacy/PaidOffers/index.ctp:98
+#: View/Themed/Legacy/Support/view.ctp:40
+msgid "Status"
+msgstr "Estado"
+
+#: View/PaidOffers/applications.ctp:27
+#: View/Themed/Legacy/PaidOffers/applications.ctp:44
+msgid "Appliction date"
+msgstr "Fecha de realización"
+
+#: View/PaidOffers/applications.ctp:28
+#: View/Themed/Legacy/PaidOffers/applications.ctp:48
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#: View/PaidOffers/applications.ctp:29
+#: View/Themed/Legacy/PaidOffers/applications.ctp:53
+#: View/Themed/Legacy/PaidOffers/view.ctp:202
+msgid "Reject reason"
+msgstr "Motivo del rechazo"
+
+#: View/PaidOffers/applications.ctp:30 View/PaidOffers/view.ctp:57;104
+#: View/Support/index.ctp:28 View/Themed/Legacy/PaidOffers/applications.ctp:63
+#: View/Themed/Legacy/Support/index.ctp:28
+msgid "Actions"
+msgstr "Actividades"
+
+#: View/PaidOffers/applications.ctp:40
+#: View/Themed/Legacy/PaidOffers/applications.ctp:35
+msgid "Deleted"
+msgstr "Eliminado"
+
+#: View/PaidOffers/applications.ctp:49
+#: View/Themed/Legacy/Memberships/index.ctp:101
+msgid "None"
+msgstr "No hay"
+
+#: View/PaidOffers/applications.ctp:53
+#: View/Themed/Legacy/PaidOffers/applications.ctp:67
+msgid "Reject"
+msgstr "Rechazar"
+
+#: View/PaidOffers/applications.ctp:55
+#: View/Themed/Legacy/PaidOffers/applications.ctp:71
+msgid "Approve"
+msgstr "Aceptar"
+
+#: View/PaidOffers/applications.ctp:58
+#: View/Themed/Legacy/PaidOffers/applications.ctp:74
+msgid "Are you sure you want to accept this application?"
+msgstr "¿Estás seguro de que quieres aceptar esta notificación?"
+
+#: View/PaidOffers/assign.ctp:23 View/Themed/Legacy/PaidOffers/assign.ctp:24
+msgid "Sorry, you do not have any not assigned approved offers."
+msgstr "Desgraciadamente no tienes ninguna oferta no asignada que sea aceptada."
+
+#: View/PaidOffers/assign.ctp:25 View/Themed/Legacy/PaidOffers/assign.ctp:26
+msgid "Sorry, you do not have any Paid Offers packages."
+msgstr "No tienes ningún paquete de tareas de pago."
+
+#: View/PaidOffers/assign_to.ctp:23
+#: View/Themed/Legacy/PaidOffers/assign_to.ctp:25
+msgid "Sorry, you do not have any Paid Offers packages for this offer. You will be automatically redirected to purchase offer exposures after 5 seconds."
+msgstr "No tienes ningún paquete de tareas de pago para este tipo de anuncio. Serás redirigido automáticamente a la compra del paquete."
+
+#: View/PaidOffers/assign_to.ctp:30
+#: View/Themed/Legacy/PaidOffers/assign_to.ctp:32
+msgid "Assign paid offers click packages"
+msgstr "Asignar paquetes de tareas de pago"
+
+#: View/PaidOffers/buy.ctp:32
+msgid "Price Per Slot"
+msgstr "Precio por slot"
+
+#: View/PaidOffers/index.ctp:28
+msgid "My Current Paid Offers Advertisements"
+msgstr "Mis tareas de pago"
+
+#: View/PaidOffers/index.ctp:74
+msgid "slots"
+msgstr "slots"
+
+#: View/PaidOffers/index.ctp:82 View/Themed/Legacy/PaidOffers/index.ctp:139
+msgid "Applications"
+msgstr "Notificaciones"
+
+#: View/PaidOffers/index.ctp:84
+msgid "All applications"
+msgstr "Todas las notificaciones"
+
+#: View/PaidOffers/index.ctp:90;109 View/Themed/Legacy/PaidOffers/index.ctp:64
+msgid "Pending applications"
+msgstr "Notificaciones pendientes"
+
+#: View/PaidOffers/index.ctp:96
+msgid "Accepted applications"
+msgstr "Notificaciones aceptadas"
+
+#: View/PaidOffers/index.ctp:102
+msgid "Rejected applications"
+msgstr "Notificaciones rechazadas"
+
+#: View/PaidOffers/index.ctp:109 View/Themed/Legacy/PaidOffers/index.ctp:68
+msgid "Applications today"
+msgstr "Notificaciones hoy"
+
+#: View/PaidOffers/index.ctp:109 View/Themed/Legacy/PaidOffers/index.ctp:72
+msgid "Total applications"
+msgstr "Notificaciones en total"
+
+#: View/PaidOffers/index.ctp:109 View/Themed/Legacy/PaidOffers/index.ctp:76
+msgid "Slots left"
+msgstr "Quedan slots"
+
+#: View/PaidOffers/report.ctp:3;26
+#: View/Themed/Legacy/PaidOffers/report.ctp:3;16
+msgid "Report Offer"
+msgstr "Notificar para moderación"
+
+#: View/PaidOffers/view.ctp:17 View/Themed/Legacy/PaidOffers/view.ctp:21
+msgid "Paid Offers Terms Of Service"
+msgstr "Reglamento y normas de las tareas de pago"
+
+#: View/PaidOffers/view.ctp:30
+msgid "Active Offers"
+msgstr "Tareas activas"
+
+#: View/PaidOffers/view.ctp:31
+msgid "Ignored Offers"
+msgstr "Tareas ignoradas"
+
+#: View/PaidOffers/view.ctp:32 View/Themed/Legacy/PaidOffers/view.ctp:36
+msgid "Completed"
+msgstr "Realizadas"
+
+#: View/PaidOffers/view.ctp:34 View/Themed/Legacy/PaidOffers/index.ctp:169
+#: View/Themed/Legacy/PaidOffers/view.ctp:38
+msgid "Rejected"
+msgstr "Rechazadas"
+
+#: View/PaidOffers/view.ctp:54;101 View/Themed/Legacy/Ads/index.ctp:48
+#: View/Themed/Legacy/BannerAds/index.ctp:62
+#: View/Themed/Legacy/FeaturedAds/index.ctp:50
+#: View/Themed/Legacy/LoginAds/index.ctp:62
+#: View/Themed/Legacy/PaidOffers/index.ctp:53
+msgid "Date Added"
+msgstr "Añadido"
+
+#: View/PaidOffers/view.ctp:56;103;144;173;201
+msgid "Offer's Value"
+msgstr "Valor de la tarea"
+
+#: View/PaidOffers/view.ctp:68 View/Themed/Legacy/PaidOffers/view.ctp:68
+msgid "Ignore"
+msgstr "Ignorar"
+
+#: View/PaidOffers/view.ctp:71 View/Themed/Legacy/PaidOffers/view.ctp:71
+msgid "Are you sure you want to add \"%s\" to ignore list?"
+msgstr "¿Estás seguro de que quieres añadir \"%s\" a la lista de ignorados?"
+
+#: View/PaidOffers/view.ctp:74;121
+#: View/Themed/Legacy/PaidOffers/view.ctp:74;115
+msgid "Report"
+msgstr "Notificar para moderación"
+
+#: View/PaidOffers/view.ctp:115 View/Themed/Legacy/PaidOffers/view.ctp:109
+msgid "Unignore"
+msgstr "Dejar de ignorar"
+
+#: View/PaidOffers/view.ctp:118 View/Themed/Legacy/PaidOffers/view.ctp:112
+msgid "Are you sure you want to remove \"%s\" from ignore list?"
+msgstr "¿Estás seguro de que quieres eliminar \"%s\" de la lista de ignorados?"
+
+#: View/PaidOffers/view.ctp:141
+msgid "Completed Date"
+msgstr "Fecha de realización"
+
+#: View/PaidOffers/view.ctp:142
+msgid "Approval Date"
+msgstr "Fecha de aceptación"
+
+#: View/PaidOffers/view.ctp:171
+msgid "Pending Since"
+msgstr "Pendiente desde"
+
+#: View/PaidOffers/view.ctp:199
+msgid "Rejection Date"
+msgstr "Fecha del rechazo"
+
+#: View/PaidOffers/view.ctp:202
+msgid "Reject Reason"
+msgstr "Motivo del rechazo"
+
+#: View/Payments/cancel.ctp:12
+msgid "Payment Canceled"
+msgstr "El pago ha sido anulado"
+
+#: View/Payments/cancel.ctp:16
+msgid "Payment canceled.."
+msgstr "El pago ha sido anulado"
+
+#: View/Payments/cancel.ctp:16
+msgid "We are sorry but for some reason your payment was canceled."
+msgstr "Lo sentimos, pero por alguna razón tu pago ha sido anulado."
+
+#: View/Payments/message.ctp:12
+msgid "Payment Message"
+msgstr "Información sobre el pago"
+
+#: View/Payments/payment_redirect.ctp:12
+msgid "Payment Redirection"
+msgstr "Redireccionamiento del pago"
+
+#: View/Payments/payment_redirect.ctp:20
+msgid "You will be redirected to %s site in seconds, if not, please click %s"
+msgstr "Si no eres redirigido automáticamente a %s en unos segundos, pulsa %s"
+
+#: View/Payments/success.ctp:16
+msgid "Payment successful."
+msgstr "El pago ha sido realizado."
+
+#: View/Payments/success.ctp:16
+msgid "Thanks, your payment is successful and all services are added to your account now."
+msgstr "Gracias, tu pago ha sido realizado y todos los objetos comprados ya se han añadido a tu cuenta."
+
+#: View/Support/add.ctp:6 View/Support/index.ctp:6
+#: View/Support/not_logged_in.ctp:5 View/Support/view.ctp:6
+msgid "Support Tickets"
+msgstr "Notificaciones"
+
+#: View/Support/add.ctp:19
+msgid "Full Name"
+msgstr "Nombre y apellido"
+
+#: View/Support/add.ctp:30 View/Users/signup.ctp:50
+msgid "E-mail Address"
+msgstr "Dirección de correo electrónico"
+
+#: View/Support/add.ctp:41 View/Support/view.ctp:28
+#: View/Themed/Legacy/Support/add.ctp:41 View/Themed/Legacy/Support/view.ctp:28
+msgid "Department"
+msgstr "Departamento"
+
+#: View/Support/add.ctp:46 View/Themed/Legacy/Support/add.ctp:46
+#: View/Themed/Legacy/UserProfiles/edit.ctp:24 View/UserProfiles/edit.ctp:20
+msgid "Please select..."
+msgstr "Elegir..."
+
+#: View/Support/add.ctp:52 View/Support/view.ctp:34
+#: View/Themed/Legacy/Support/add.ctp:52 View/Themed/Legacy/Support/view.ctp:34
+msgid "Subject"
+msgstr "Asunto"
+
+#: View/Support/add.ctp:62 View/Themed/Legacy/Support/add.ctp:62
+msgid "Message"
+msgstr "Mensaje"
+
+#: View/Support/add.ctp:73 View/Users/login.ctp:18 View/Users/signup.ctp:115
+msgid "Please Enter Captcha"
+msgstr "Introduce el código Captcha"
+
+#: View/Support/add.ctp:79
+msgid "Send Support Ticket"
+msgstr "Enviar notificación"
+
+#: View/Support/index.ctp:15 View/Themed/Legacy/Support/index.ctp:15
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing Elit."
+
+#: View/Support/index.ctp:19
+msgid "Your Support Tickets"
+msgstr "Tus notificaciones"
+
+#: View/Support/index.ctp:24 View/Support/view.ctp:16
+#: View/Themed/Legacy/Support/index.ctp:24
+#: View/Themed/Legacy/Support/view.ctp:16
+msgid "Ticket ID"
+msgstr "ID de la notificación"
+
+#: View/Support/index.ctp:38 View/Themed/Legacy/Support/index.ctp:38
+msgid "View ticket"
+msgstr "Ver notificación"
+
+#: View/Support/index.ctp:67 View/Support/not_logged_in.ctp:15
+msgid "Open Support Ticket"
+msgstr "Abrir una nueva notificación"
+
+#: View/Support/not_logged_in.ctp:14
+#: View/Themed/Legacy/Support/not_logged_in.ctp:15
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit euismod enim."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing Elit. Nulla suscipit euismod enim."
+
+#: View/Support/not_logged_in.ctp:20
+msgid "Check Ticket Status"
+msgstr "Comprobar el estado de la notificación"
+
+#: View/Support/view.ctp:22
+msgid "Creation Time"
+msgstr "Fecha de creación"
+
+#: View/Support/view.ctp:47 View/Themed/Legacy/Support/view.ctp:47
+msgid "Owner at %s"
+msgstr "Propietario a %s"
+
+#: View/Support/view.ctp:54 View/Themed/Legacy/Support/view.ctp:54
+msgid "%s at %s"
+msgstr "%s a %s"
+
+#: View/Support/view.ctp:64 View/Themed/Legacy/Support/view.ctp:64
+msgid "You"
+msgstr "Tú"
+
+#: View/Support/view.ctp:69 View/Themed/Legacy/Support/view.ctp:69
+msgid "Answer"
+msgstr "Respuesta"
+
+#: View/Themed/Legacy/Ads/assign.ctp:34 View/Themed/Legacy/Ads/assign_to.ctp:37
+#: View/Themed/Legacy/BannerAds/assign.ctp:33
+#: View/Themed/Legacy/BannerAds/assign_to.ctp:32
+#: View/Themed/Legacy/FeaturedAds/assign.ctp:34
+#: View/Themed/Legacy/FeaturedAds/assign_to.ctp:32
+#: View/Themed/Legacy/LoginAds/assign.ctp:34
+#: View/Themed/Legacy/LoginAds/assign_to.ctp:32
+#: View/Themed/Legacy/PaidOffers/assign.ctp:33
+#: View/Themed/Legacy/PaidOffers/assign_to.ctp:37
+msgid "Choose package"
+msgstr "Elegir paquete"
+
+#: View/Themed/Legacy/Ads/index.ctp:31
+msgid "My current Paid To Click advertisements"
+msgstr "Mis campañas publicitarias Paid To Click"
+
+#: View/Themed/Legacy/Ads/index.ctp:37
+#: View/Themed/Legacy/BannerAds/index.ctp:47
+#: View/Themed/Legacy/FeaturedAds/index.ctp:35
+#: View/Themed/Legacy/LoginAds/index.ctp:47
+#: View/Themed/Legacy/PaidOffers/index.ctp:34
+msgid "Advertisement details"
+msgstr "Detalles del anuncio"
+
+#: View/Themed/Legacy/Ads/index.ctp:52
+msgid "Ad category"
+msgstr "Categoría de anuncio"
+
+#: View/Themed/Legacy/Ads/index.ctp:60
+#: View/Themed/Legacy/BannerAds/index.ctp:70
+#: View/Themed/Legacy/FeaturedAds/index.ctp:58
+#: View/Themed/Legacy/LoginAds/index.ctp:70
+#: View/Themed/Legacy/PaidOffers/index.ctp:61
+#: View/Themed/Legacy/Users/rented_referrals.ctp:50;59;82
+#: View/Users/rented_referrals.ctp:31;67;76
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: View/Themed/Legacy/Ads/index.ctp:98
+#: View/Themed/Legacy/BannerAds/index.ctp:114
+#: View/Themed/Legacy/FeaturedAds/index.ctp:102
+#: View/Themed/Legacy/LoginAds/index.ctp:114
+#: View/Themed/Legacy/PaidOffers/index.ctp:95
+msgid "Other"
+msgstr "Otros"
+
+#: View/Themed/Legacy/Ads/index.ctp:105;108;124;141
+#: View/Themed/Legacy/BannerAds/index.ctp:121;124
+#: View/Themed/Legacy/FeaturedAds/index.ctp:109;112
+#: View/Themed/Legacy/LoginAds/index.ctp:121;124
+#: View/Themed/Legacy/PaidOffers/index.ctp:102;105
+msgid "Edit"
+msgstr "Editar"
+
+#: View/Themed/Legacy/Ads/index.ctp:120
+msgid "Geo targetting"
+msgstr "Focalización geográfica"
+
+#: View/Themed/Legacy/Ads/index.ctp:127
+msgid "Click to set geotargetting"
+msgstr "Pulsa para configurar la focalización geográfica"
+
+#: View/Themed/Legacy/Ads/index.ctp:133
+msgid "Not available in this category."
+msgstr "No disponible en esta categoría."
+
+#: View/Themed/Legacy/Ads/index.ctp:138
+msgid "Membership targetting"
+msgstr "Focalización por membresía"
+
+#: View/Themed/Legacy/Ads/index.ctp:144
+msgid "Click to set memberships targetting"
+msgstr "Pulsa para configurar la focalización por membresías"
+
+#: View/Themed/Legacy/Ads/index.ctp:152
+#: View/Themed/Legacy/BannerAds/index.ctp:136
+#: View/Themed/Legacy/FeaturedAds/index.ctp:124
+#: View/Themed/Legacy/LoginAds/index.ctp:136
+#: View/Themed/Legacy/PaidOffers/index.ctp:117
+msgid "Action"
+msgstr "Actividad"
+
+#: View/Themed/Legacy/Ads/index.ctp:156
+#: View/Themed/Legacy/BannerAds/index.ctp:140
+#: View/Themed/Legacy/FeaturedAds/index.ctp:128
+#: View/Themed/Legacy/LoginAds/index.ctp:140
+#: View/Themed/Legacy/PaidOffers/index.ctp:121
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:120
+msgid "Pause"
+msgstr "Pausar"
+
+#: View/Themed/Legacy/Ads/index.ctp:164
+#: View/Themed/Legacy/BannerAds/index.ctp:148
+#: View/Themed/Legacy/FeaturedAds/index.ctp:136
+#: View/Themed/Legacy/LoginAds/index.ctp:148
+#: View/Themed/Legacy/PaidOffers/index.ctp:129
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:128
+msgid "Activate"
+msgstr "Activar"
+
+#: View/Themed/Legacy/Ads/index.ctp:174
+#: View/Themed/Legacy/BannerAds/index.ctp:158
+#: View/Themed/Legacy/FeaturedAds/index.ctp:146
+#: View/Themed/Legacy/LoginAds/index.ctp:158
+msgid "Stats"
+msgstr "Estadísticas"
+
+#: View/Themed/Legacy/Ads/index.ctp:177
+#: View/Themed/Legacy/BannerAds/index.ctp:161
+#: View/Themed/Legacy/FeaturedAds/index.ctp:149
+#: View/Themed/Legacy/LoginAds/index.ctp:161
+msgid "Show"
+msgstr "Mostrar"
+
+#: View/Themed/Legacy/Ads/index.ctp:191
+#: View/Themed/Legacy/BannerAds/index.ctp:175
+#: View/Themed/Legacy/FeaturedAds/index.ctp:163
+#: View/Themed/Legacy/LoginAds/index.ctp:175
+#: View/Themed/Legacy/PaidOffers/index.ctp:183
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/index.ctp:155
+msgid "Delete"
+msgstr "Eliminar"
+
+#: View/Themed/Legacy/Ads/preview.ctp:12
+msgid "Please watch your site below."
+msgstr "Mira el siguiente anuncio."
+
+#: View/Themed/Legacy/Ads/preview.ctp:30
+msgid "Buy your banner in here"
+msgstr "Compra tu banner aquí"
+
+#: View/Themed/Legacy/AdsCategoryPackages/buy.ctp:29
+msgid "Advertisement category"
+msgstr "Categoría de anuncio"
+
+#: View/Themed/Legacy/AdsCategoryPackages/buy.ctp:39;61
+#: View/Themed/Legacy/BannerAds/buy.ctp:36;59
+#: View/Themed/Legacy/FeaturedAds/buy.ctp:34;56
+#: View/Themed/Legacy/LoginAds/buy.ctp:37;60
+msgid "Price per click"
+msgstr "Precio por clic"
+
+#: View/Themed/Legacy/AdsCategoryPackages/buy.ctp:62
+#: View/Themed/Legacy/BannerAds/buy.ctp:60
+#: View/Themed/Legacy/FeaturedAds/buy.ctp:57
+#: View/Themed/Legacy/LoginAds/buy.ctp:61
+msgid "Price per day"
+msgstr "Precio por día"
+
+#: View/Themed/Legacy/BannerAds/buy.ctp:61
+#: View/Themed/Legacy/FeaturedAds/buy.ctp:58
+msgid "Price per impression"
+msgstr "Precio por visionado"
+
+#: View/Themed/Legacy/BannerAds/index.ctp:33
+msgid "Banner"
+msgstr "Banner"
+
+#: View/Themed/Legacy/Commissions/index.ctp:17
+#: View/Themed/Legacy/Deposits/index.ctp:17
+msgid "Purchase date"
+msgstr "Fecha de compra"
+
+#: View/Themed/Legacy/Elements/adsPanelBoxes.ctp:19
+msgid "Active advertisements"
+msgstr "Anuncios activos"
+
+#: View/Themed/Legacy/Elements/adsPanelBoxes.ctp:27
+msgid "My click packages"
+msgstr "Mis paquetes de anuncios Paid To Click"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:4
+msgid "Upgrade your membership"
+msgstr "Mejora tu membresía"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:10
+msgid "Default membership"
+msgstr "Membresía normal"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:12
+msgid "Membership: \"%s\""
+msgstr "Membresía: \"%s\""
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:13
+msgid "Valid until: %s"
+msgstr "Válido hasta: %s"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:22
+msgid "Personal settings"
+msgstr "Ajustes personales"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:32
+msgid "Edit profile"
+msgstr "Editar perfil"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:34
+msgid "Fund purchase balance"
+msgstr "Recarga tu cuenta de compra"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:38
+msgid "Offerwalls log"
+msgstr "Registro de ofertas de pago"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:52
+msgid "PTC advertisement panel"
+msgstr "Panel de anuncios PTC"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:54
+msgid "Featured advertisement panel"
+msgstr "Panel de anuncios destacados"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:57
+msgid "Banner advertisement panel"
+msgstr "Panel de anuncios banner"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:60
+msgid "Login Ads advertisement panel"
+msgstr "Panel de anuncios LoginAds"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:66
+msgid "AdGrid advertisement panel"
+msgstr "Panel de anuncios AdGrid"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:81
+#: View/Themed/Legacy/Elements/userPanel.ctp:16
+#: View/Themed/Legacy/Users/buy_referrals.ctp:30
+#: View/Themed/Legacy/Users/dashboard.ctp:48 View/Users/buy_referrals.ctp:26
+msgid "Direct referrals"
+msgstr "Recomendados directos"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:84
+msgid "Referral's contest"
+msgstr "Concurso de recomendados"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:90
+#: View/Themed/Legacy/Elements/userPanel.ctp:17
+#: View/Themed/Legacy/Users/dashboard.ctp:62
+#: View/Themed/Legacy/Users/rent_referrals.ctp:30
+#: View/Themed/Legacy/Users/rented_referrals.ctp:91
+#: View/Users/rent_referrals.ctp:26 View/Users/rented_referrals.ctp:87
+msgid "Rented referrals"
+msgstr "Recomendados alquilados"
+
+#: View/Themed/Legacy/Elements/userLeftMenu.ctp:91
+#: View/Themed/Legacy/Users/dashboard.ctp:56
+msgid "Rent referrals"
+msgstr "Alquilar recomendados"
+
+#: View/Themed/Legacy/Elements/userPanel.ctp:14
+#: View/Themed/Legacy/Users/dashboard.ctp:22
+msgid "Account balance"
+msgstr "Estado de cuenta"
+
+#: View/Themed/Legacy/Layouts/default.ctp:75
+#: View/Themed/Legacy/Layouts/error.ctp:72
+msgid "Earn Money"
+msgstr "Gana dinero"
+
+#: View/Themed/Legacy/Layouts/default.ctp:100
+#: View/Themed/Legacy/Layouts/error.ctp:97
+msgid "Sign Up!"
+msgstr "¡Regístrate!"
+
+#: View/Themed/Legacy/Layouts/default.ctp:150
+#: View/Themed/Legacy/Layouts/error.ctp:140
+#: View/Themed/Legacy/Plugin/Forum/Layouts/forum.ctp:88
+msgid "Choose here"
+msgstr "Elige aquí"
+
+#: View/Themed/Legacy/LoginAds/index.ctp:29
+msgid "My current Login ads advertisements"
+msgstr "Mis campañas actuales LoginAds"
+
+#: View/Themed/Legacy/Memberships/index.ctp:45
+msgid "Account name"
+msgstr "Nombre de cuenta"
+
+#: View/Themed/Legacy/Memberships/index.ctp:95
+msgid "Available referrals pack"
+msgstr "Paquetes disponibles de recomendados"
+
+#: View/Themed/Legacy/Memberships/index.ctp:151
+msgid "%s %%"
+msgstr "%s %%"
+
+#: View/Themed/Legacy/Pages/home.ctp:13
+msgid "Open an account"
+msgstr "Abrir cuenta"
+
+#: View/Themed/Legacy/Pages/home.ctp:14
+msgid "It's fast and simple, just type your info below"
+msgstr "Es rápido y sencillo, rellena la siguiente información"
+
+#: View/Themed/Legacy/Pages/home.ctp:16 View/Themed/Legacy/Users/signup.ctp:54
+msgid "Email address"
+msgstr "Dirección de correo electrónico"
+
+#: View/Themed/Legacy/Pages/home.ctp:17 View/Themed/Legacy/Users/login.ctp:12
+#: View/Themed/Legacy/Users/signup.ctp:12 View/Users/login.ctp:9
+#: View/Users/signup.ctp:8
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: View/Themed/Legacy/Pages/home.ctp:20
+msgid "Register new account"
+msgstr "Registrarse"
+
+#: View/Themed/Legacy/Pages/home.ctp:91
+msgid "Latest news"
+msgstr "Últimos mensajes"
+
+#: View/Themed/Legacy/Pages/home.ctp:126
+msgid "Pages"
+msgstr "Páginas"
+
+#: View/Themed/Legacy/Pages/home.ctp:140
+msgid "Earn money"
+msgstr "Gana dinero"
+
+#: View/Themed/Legacy/Pages/home.ctp:150
+msgid "Support"
+msgstr "Contacto"
+
+#: View/Themed/Legacy/Pages/home.ctp:159
+msgid "Extras"
+msgstr "Complementos"
+
+#: View/Themed/Legacy/PaidOffers/add.ctp:71
+#: View/Themed/Legacy/PaidOffers/edit.ctp:72
+msgid "Targetted memberships"
+msgstr "Membresías elegidas"
+
+#: View/Themed/Legacy/PaidOffers/add.ctp:86
+#: View/Themed/Legacy/PaidOffers/edit.ctp:87
+msgid "Targetted countries"
+msgstr "Países elegidos"
+
+#: View/Themed/Legacy/PaidOffers/application_add.ctp:8
+msgid "Please provide description of application."
+msgstr "Por favor, introduce el contenido de la notificación."
+
+#: View/Themed/Legacy/PaidOffers/application_reject.ctp:6
+msgid "Please provide reason of application rejection."
+msgstr "Por favor, introduce el motivo del rechazo de la notificación."
+
+#: View/Themed/Legacy/PaidOffers/applications.ctp:71
+msgid "Accept application"
+msgstr "Aceptar notificación"
+
+#: View/Themed/Legacy/PaidOffers/buy.ctp:33
+msgid "Price per slot"
+msgstr "Precio por slot"
+
+#: View/Themed/Legacy/PaidOffers/edit.ctp:23
+msgid "Edit \"%s\""
+msgstr "Editar \"%s\""
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:28
+msgid "My current Paid Offers"
+msgstr "Mis tareas de pago"
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:83
+msgid "Add more slots"
+msgstr "Añadir más slots"
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:121
+msgid "Pause offer"
+msgstr "Detener la tarea"
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:129
+msgid "Activate offer"
+msgstr "Activar la tarea"
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:142
+msgid "All"
+msgstr "Todo"
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:145
+msgid "Show all applications"
+msgstr "Mostrar todas las notificaciones"
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:154
+msgid "Show pending applications"
+msgstr "Mostrar notificaciones pendientes"
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:160
+msgid "Accepted"
+msgstr "Aceptadas"
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:163
+msgid "Show accepted applications"
+msgstr "Mostrar notificaciones aceptadas"
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:172
+msgid "Show rejected applications"
+msgstr "Mostrar notificaciones rechazadas"
+
+#: View/Themed/Legacy/PaidOffers/index.ctp:183
+msgid "Delete this offer"
+msgstr "Eliminar esta tarea"
+
+#: View/Themed/Legacy/PaidOffers/view.ctp:34
+msgid "Active offers"
+msgstr "Tareas activas"
+
+#: View/Themed/Legacy/PaidOffers/view.ctp:35
+msgid "Ignored offers"
+msgstr "Ofertas ignoradas"
+
+#: View/Themed/Legacy/PaidOffers/view.ctp:51;92
+msgid "Date added"
+msgstr "Añadido"
+
+#: View/Themed/Legacy/PaidOffers/view.ctp:59;100;144;171;198
+msgid "Offer's value"
+msgstr "Valor de la tarea"
+
+#: View/Themed/Legacy/PaidOffers/view.ctp:132
+msgid "Completed date"
+msgstr "Fecha de realización"
+
+#: View/Themed/Legacy/PaidOffers/view.ctp:136
+msgid "Approval date"
+msgstr "Fecha de aceptación"
+
+#: View/Themed/Legacy/PaidOffers/view.ctp:163
+msgid "Pending since"
+msgstr "Pendiente desde"
+
+#: View/Themed/Legacy/PaidOffers/view.ctp:190
+msgid "Rejection date"
+msgstr "Fecha del rechazo"
+
+#: View/Themed/Legacy/Payments/cancel.ctp:10
+msgid "Payment cancelled: %s - %s."
+msgstr "Fecha del rechazo"
+
+#: View/Themed/Legacy/Payments/cancel.ctp:12
+msgid "Payment cancelled: %s."
+msgstr "El pago ha sido anulado: %s."
+
+#: View/Themed/Legacy/Payments/cancel.ctp:14
+msgid "Payment cancelled."
+msgstr "El pago ha sido anulado."
+
+#: View/Themed/Legacy/Payments/payment_redirect.ctp:19
+msgid "You will be redirected to %s site in 5 seconds, if not, please click %s"
+msgstr "Si no eres redirigido automáticamente a %s en unos segundos, pulsa %s"
+
+#: View/Themed/Legacy/Payments/success.ctp:10
+msgid "Payment completed: %s - %s."
+msgstr "Si no eres redirigido automáticamente a %s en unos segundos, pulsa %s"
+
+#: View/Themed/Legacy/Payments/success.ctp:12
+msgid "Payment completed: %s."
+msgstr "El pago ha sido finalizado: %s."
+
+#: View/Themed/Legacy/Payments/success.ctp:14
+msgid "Payment completed."
+msgstr "El pago ha sido finalizado."
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:25
+msgid "Click anywhere on the picture"
+msgstr "Pulsa la imagen en cualquier lugar"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:34;37
+msgid "%d / %d"
+msgstr "%d / %d"
+
+#: View/Themed/Legacy/Plugin/AdGrid/AdGrid/grid.ctp:40
+#: View/Themed/Legacy/Users/buy_referrals.ctp:31
+#: View/Themed/Legacy/Users/rent_referrals.ctp:31
+#: View/Users/buy_referrals.ctp:27 View/Users/rent_referrals.ctp:27
+msgid "%s / %s"
+msgstr "%s / %s"
+
+#: View/Themed/Legacy/Plugin/FacebookLogin/FacebookLogin/signup.ctp:74
+#: View/Themed/Legacy/Users/signup.ctp:113 View/Users/signup.ctp:110
+msgid "Terms of Service"
+msgstr "Reglamento"
+
+#: View/Themed/Legacy/Plugin/Forum/Users/profile.ctp:22
+msgid "Signature:"
+msgstr "Firma:"
+
+#: View/Themed/Legacy/Plugin/ReferralsContest/ReferralsContest/view.ctp:38
+msgid "%s Balance"
+msgstr "% cuenta"
+
+#: View/Themed/Legacy/Support/add.ctp:6 View/Themed/Legacy/Support/index.ctp:6
+#: View/Themed/Legacy/Support/not_logged_in.ctp:6
+#: View/Themed/Legacy/Support/view.ctp:6
+msgid "Support tickets"
+msgstr "Notificaciones"
+
+#: View/Themed/Legacy/Support/add.ctp:19
+msgid "Full name"
+msgstr "Nombre y apellido"
+
+#: View/Themed/Legacy/Support/add.ctp:74 View/Themed/Legacy/Users/login.ctp:21
+#: View/Themed/Legacy/Users/signup.ctp:118
+msgid "Please enter captcha"
+msgstr "Introduce el código Captcha"
+
+#: View/Themed/Legacy/Support/add.ctp:80
+msgid "Send support ticket"
+msgstr "Enviar notificación"
+
+#: View/Themed/Legacy/Support/index.ctp:19
+msgid "Your support tickets"
+msgstr "Tus notificaciones"
+
+#: View/Themed/Legacy/Support/index.ctp:67
+#: View/Themed/Legacy/Support/not_logged_in.ctp:16
+msgid "Open support ticket"
+msgstr "Abrir una nueva notificación"
+
+#: View/Themed/Legacy/Support/not_logged_in.ctp:21
+msgid "Check ticket status"
+msgstr "Comprobar el estado de la notificación"
+
+#: View/Themed/Legacy/Support/view.ctp:22
+msgid "Creation time"
+msgstr "Fecha de creación"
+
+#: View/Themed/Legacy/Tools/promotion.ctp:8
+msgid "Banners and referral links"
+msgstr "Banners y enlaces de referencia"
+
+#: View/Themed/Legacy/Tools/promotion.ctp:13
+msgid "SHOW YOUR USERNAME AS:"
+msgstr "Mostrar el nombre de usuario como:"
+
+#: View/Themed/Legacy/Tools/promotion.ctp:22
+msgid "YOUR REFERRAL LINK:"
+msgstr "Tu enlace de recomendación"
+
+#: View/Themed/Legacy/Tools/promotion.ctp:23;45;49;58
+#: View/Tools/promotion.ctp:25;49;53;62
+msgid "Click to copy into clipboard"
+msgstr "Pulsa para copiarlo al portapapeles"
+
+#: View/Themed/Legacy/Tools/promotion.ctp:28
+msgid "QR CODE:"
+msgstr "Código QR"
+
+#: View/Themed/Legacy/Tools/promotion.ctp:35
+msgid "Statistical banner"
+msgstr "Banner estadístico"
+
+#: View/Themed/Legacy/Tools/promotion.ctp:44
+msgid "BANNER LINK:"
+msgstr "Enlace del banner"
+
+#: View/Themed/Legacy/Tools/promotion.ctp:48
+msgid "HTML CODE:"
+msgstr "Código HTML"
+
+#: View/Themed/Legacy/Tools/promotion.ctp:57
+msgid "FORUM CODE:"
+msgstr "Código en el foro:"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:8
+msgid "Your profile"
+msgstr "Tu perfil"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:20 View/UserProfiles/edit.ctp:16
+msgid "Gender:"
+msgstr "Sexo:"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:32
+msgid "Date of birth:"
+msgstr "Fecha de nacimiento:"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:46 View/UserProfiles/edit.ctp:38
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:53 View/UserProfiles/edit.ctp:45
+msgid "%s is waiting for verification. To resend verification e-mail please click %s."
+msgstr "%s espera la verificación. Para enviar de nuevo el correo de verificación, pulsa %s."
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:63
+msgid "Account id for %s:"
+msgstr "Identificador de la cuenta %s:"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:75
+msgid "Forum avatar:"
+msgstr "Avatar en el foro:"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:85
+msgid "Forum signature:"
+msgstr "Firma en el foro:"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:96
+msgid "Forum statistics:"
+msgstr "Estadísticas en el foro:"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:105 View/UserProfiles/edit.ctp:86
+msgid "New Password:"
+msgstr "Nueva contraseña"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:115 View/UserProfiles/edit.ctp:94
+msgid "Confirm New Password:"
+msgstr "Confirmar nueva contraseña"
+
+#: View/Themed/Legacy/UserProfiles/edit.ctp:126 View/UserProfiles/edit.ctp:103
+msgid "Current Password:"
+msgstr "Tu contraseña actual"
+
+#: View/Themed/Legacy/Users/autopay_stats.ctp:3
+msgid "AutoPay statistics"
+msgstr "Estadísticas AutoPay"
+
+#: View/Themed/Legacy/Users/autorenew_stats.ctp:3
+msgid "AutoRenew statistics"
+msgstr "Estadísticas AutoRenew"
+
+#: View/Themed/Legacy/Users/buy_referrals.ctp:29
+#: View/Users/buy_referrals.ctp:30
+msgid "Referrals count / your referral limit"
+msgstr "Número de recomendados / Tu límite"
+
+#: View/Themed/Legacy/Users/buy_referrals.ctp:31
+#: View/Themed/Legacy/Users/rent_referrals.ctp:31
+#: View/Users/buy_referrals.ctp:27 View/Users/rent_referrals.ctp:27
+msgid "unlimited"
+msgstr "Sin límite"
+
+#: View/Themed/Legacy/Users/buy_referrals.ctp:36
+#: View/Themed/Legacy/Users/rent_referrals.ctp:36
+#: View/Users/buy_referrals.ctp:34 View/Users/rent_referrals.ctp:34
+msgid "Please choose your referral pack:"
+msgstr "Elige el paquete de recomendados:"
+
+#: View/Themed/Legacy/Users/buy_referrals.ctp:40
+#: View/Themed/Legacy/Users/rent_referrals.ctp:39
+#: View/Users/buy_referrals.ctp:38 View/Users/rent_referrals.ctp:38
+msgid "Price: %s"
+msgstr "Precio: %s"
+
+#: View/Themed/Legacy/Users/buy_referrals.ctp:53
+#: View/Users/buy_referrals.ctp:51
+msgid "Sorry, but we don't have any direct referrals for sale at the moment."
+msgstr "Lo sentimos, pero en este momento no tenemos ningún recomendado para vender."
+
+#: View/Themed/Legacy/Users/cashout.ctp:18 View/Users/cashout.ctp:16
+msgid "Please choose to which account you want to transfer money:"
+msgstr "Por favor, elige la cuenta a la que quieres transferir el dinero:"
+
+#: View/Themed/Legacy/Users/cashout.ctp:22
+msgid "You can not be paid on %s as an existing payment and the total sum of your existing %s payments exceeded the amount of purchases made with %s."
+msgstr "No puedes recibir dinero a la cuenta %s, porque el desembolso actual y la suma de los desembolsos realizados hasta ahora a la cuenta %s superan la suma de la compra realizada de la cuenta %s."
+
+#: View/Themed/Legacy/Users/cashout.ctp:26
+msgid "You can not be paid on %s unless you fill an payment account address in User Profile."
+msgstr "No podemos desembolsar el dinero a la cuenta %s hasta que no completes el número de cuenta (dirección) en tu perfil."
+
+#: View/Themed/Legacy/Users/cashout.ctp:30 View/Users/cashout.ctp:29
+msgid "You can not use %s due to recent changes in your account. Please wait untill %s"
+msgstr "No puedes desembolsar el dinero a la cuenta %s, porque has realizado cambios en tu perfil. Tienes que esperar hasta %s"
+
+#: View/Themed/Legacy/Users/cashout.ctp:48
+msgid "Maximum withdraw amount"
+msgstr "Importe máximo de desembolso"
+
+#: View/Themed/Legacy/Users/cashout.ctp:54
+msgid "Our fees"
+msgstr "Nuestros cargos"
+
+#: View/Themed/Legacy/Users/cashout.ctp:60
+msgid "You will receive"
+msgstr "Recibirás"
+
+#: View/Themed/Legacy/Users/cashout.ctp:66
+msgid "Payment account"
+msgstr "Cuenta de pagos"
+
+#: View/Themed/Legacy/Users/cashout.ctp:74
+#: View/Themed/Legacy/Users/dashboard.ctp:17
+msgid "Withdraw money"
+msgstr "Desembolsar fondos"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:42
+msgid "Buy more referrals"
+msgstr "Comprar más recomendados"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:70
+msgid "Other statistics"
+msgstr "Otras estadísticas"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:73
+msgid "Total earinings"
+msgstr "Ganancias en total"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:77
+msgid "Your own clicks"
+msgstr "Tus propios clics"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:81
+msgid "Personal earnings"
+msgstr "Ganancias personales"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:85
+msgid "Rented Referral clicks"
+msgstr "Clics de recomendados alquilados"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:89
+msgid "Direct Referral clicks"
+msgstr "Clics de recomendados directos"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:93
+msgid "Earned from direct referrals"
+msgstr "Ganancias de recomendados directos"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:97
+msgid "Earned from rented referrals"
+msgstr "Ganancias de recomendados alquilados"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:101
+msgid "Credited referral commissions"
+msgstr "Comisión aprobada por recomendados"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:106
+msgid "Pending referral commissions"
+msgstr "Comisión pendiente por recomendados"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:111
+msgid "Total purchases"
+msgstr "Compras en total"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:115
+msgid "Total received"
+msgstr "Desembolsos en total"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:120
+msgid "Pending cashout"
+msgstr "Desembolsos pendientes"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:132;135 View/Users/dashboard.ctp:37
+msgid "Your Clicks"
+msgstr "Tus propios clics"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:150;168
+#: View/Users/dashboard.ctp:109;130
+msgid "Clicks credited"
+msgstr "Clics aprobados"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:153
+msgid "Direct referrals clicks"
+msgstr "Clics de recomendados directos"
+
+#: View/Themed/Legacy/Users/dashboard.ctp:171
+msgid "Rented referrals clicks"
+msgstr "Clics de recomendados alquilados"
+
+#: View/Themed/Legacy/Users/deposit.ctp:17
+msgid "Please choose from where you want to transfer money:"
+msgstr "Por favor, elige la cuenta de la que quieres ingresar el dinero:"
+
+#: View/Themed/Legacy/Users/deposit.ctp:25
+#: View/Themed/Legacy/Users/transfer.ctp:20
+msgid "Current purchase balance"
+msgstr "Saldo actual de la cuenta de compra"
+
+#: View/Themed/Legacy/Users/deposit.ctp:31;68 View/Users/deposit.ctp:64
+msgid "Minimum deposit amount is: "
+msgstr "Importe mínimo del ingreso:"
+
+#: View/Themed/Legacy/Users/deposit.ctp:37
+#: View/Themed/Legacy/Users/transfer.ctp:44
+msgid "Fee: "
+msgstr "Cargo:"
+
+#: View/Themed/Legacy/Users/deposit.ctp:58
+#: View/Themed/Legacy/Users/transfer.ctp:65
+msgid "Transfer money"
+msgstr "Transferir"
+
+#: View/Themed/Legacy/Users/deposit.ctp:67 View/Users/deposit.ctp:63
+msgid "Total Payment: "
+msgstr "Importe del ingreso"
+
+#: View/Themed/Legacy/Users/direct_referral_stats.ctp:3;8
+#: View/Themed/Legacy/Users/rented_referral_stats.ctp:3;9
+#: View/Users/direct_referral_stats.ctp:3;8
+#: View/Users/rented_referral_stats.ctp:3;9
+msgid "%s clicks"
+msgstr "%s clics"
+
+#: View/Themed/Legacy/Users/direct_referral_stats.ctp:9
+#: View/Users/direct_referral_stats.ctp:9
+msgid "%s clicks credited"
+msgstr "%s clics aprobados"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:28
+#: View/Themed/Legacy/Users/rented_referrals.ctp:107
+msgid "Referral since"
+msgstr "Recomendado de"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:29
+#: View/Users/direct_referrals.ctp:25
+msgid "Comes From"
+msgstr "Originario de"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:30
+#: View/Users/direct_referrals.ctp:26 View/Users/rented_referrals.ctp:114
+msgid "Last Click"
+msgstr "Último clic"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:32
+#: View/Themed/Legacy/Users/rented_referrals.ctp:111
+#: View/Users/direct_referrals.ctp:28 View/Users/rented_referrals.ctp:116
+msgid "AVG"
+msgstr "Media"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:42
+#: View/Themed/Legacy/Users/rented_referrals.ctp:122
+#: View/Users/direct_referrals.ctp:38 View/Users/rented_referrals.ctp:127
+msgid "Never"
+msgstr "Nunca"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:49
+#: View/Themed/Legacy/Users/rented_referrals.ctp:136
+#: View/Users/direct_referrals.ctp:45 View/Users/rented_referrals.ctp:141
+msgid "Show this referral statistics"
+msgstr "Mostar estadísticas de este recomendado"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:51
+#: View/Users/direct_referrals.ctp:47
+msgid "Delete this referral"
+msgstr "Eliminar este recomendado"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:54
+#: View/Users/direct_referrals.ctp:50
+msgid "Do you want to remove %s for $%s?"
+msgstr "¿Quieres eliminar %s por $%s?"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:87
+#: View/Themed/Legacy/Users/rented_referrals.ctp:175
+#: View/Users/direct_referrals.ctp:81 View/Users/rented_referrals.ctp:178
+msgid "What would you like to do with selected referrals?"
+msgstr "¿Qué quieres hacer con los recomendados seleccionados?"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:92
+#: View/Themed/Legacy/Users/rented_referrals.ctp:181
+#: View/Users/direct_referrals.ctp:86 View/Users/rented_referrals.ctp:184
+msgid "Please choose"
+msgstr "Selecciona"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:96
+#: View/Themed/Legacy/Users/rented_referrals.ctp:185
+#: View/Users/direct_referrals.ctp:90 View/Users/rented_referrals.ctp:188
+msgid "Continue"
+msgstr "Continuar"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:107
+#: View/Users/direct_referrals.ctp:101
+msgid "Do you want to remove those referrals for"
+msgstr "¿Quieres eliminar estos recomendados por?"
+
+#: View/Themed/Legacy/Users/direct_referrals.ctp:108
+#: View/Users/direct_referrals.ctp:102
+msgid "Please select an action."
+msgstr "Es necesario elegir la actividad"
+
+#: View/Themed/Legacy/Users/login.ctp:13 View/Users/login.ctp:10
+msgid "Enter your username"
+msgstr "Introduce nombre de usuario"
+
+#: View/Themed/Legacy/Users/login.ctp:17 View/Users/login.ctp:14
+msgid "Enter your password"
+msgstr "Introduce contraseña"
+
+#: View/Themed/Legacy/Users/login.ctp:26 View/Users/login.ctp:23
+msgid "Reset Password"
+msgstr "Restablecer contraseña"
+
+#: View/Themed/Legacy/Users/rent_referrals.ctp:18
+#: View/Users/rent_referrals.ctp:19
+msgid "Add more funds"
+msgstr "Añadir fondos"
+
+#: View/Themed/Legacy/Users/rent_referrals.ctp:29
+#: View/Users/rent_referrals.ctp:30
+msgid "Already rented referrals / your referral limit"
+msgstr "Alquilados / Tu límite de recomendados"
+
+#: View/Themed/Legacy/Users/rented_referral_stats.ctp:10
+#: View/Users/rented_referral_stats.ctp:10
+msgid "%s credited clicks"
+msgstr "%s clics aprobados"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:35
+#: View/Users/rented_referrals.ctp:34
+msgid "Disable AutoPay"
+msgstr "Desactiva AutoPay"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:38
+#: View/Users/rented_referrals.ctp:37
+msgid "Are you sure you want to disable AutoPay?"
+msgstr "¿Estás seguro de que quieres desactivar AutoPay?"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:43
+#: View/Users/rented_referrals.ctp:42
+msgid "Enable AutoPay"
+msgstr "Activar AutoPay"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:46
+#: View/Users/rented_referrals.ctp:45
+msgid "Are you sure you want to enable AutoPay?"
+msgstr "¿Estás seguro de que quieres activar AutoPay?"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:51
+#: View/Users/rented_referrals.ctp:27
+msgid "AutoPay"
+msgstr "AutoPay"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:52
+#: View/Users/rented_referrals.ctp:28
+msgid "Enabled"
+msgstr "Activado"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:58
+#: View/Users/rented_referrals.ctp:68
+msgid "Enable AutoRenew"
+msgstr "Activar AutoRenew"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:60;83
+#: View/Users/rented_referrals.ctp:52;72
+msgid "AutoRenew"
+msgstr "AutoRenew"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:64
+#: View/Users/rented_referrals.ctp:57
+msgid "Period:"
+msgstr "Período:"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:65
+#: View/Users/rented_referrals.ctp:59
+msgid "Days:"
+msgstr "Días:"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:66
+#: View/Users/rented_referrals.ctp:61
+msgid "Enable"
+msgstr "Activar"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:76
+#: View/Users/rented_referrals.ctp:78
+msgid "Disable AutoRenew"
+msgstr "Desactivar AutoRenew"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:79
+#: View/Users/rented_referrals.ctp:81
+msgid "Are you sure you want to disable AutoRenew?"
+msgstr "¿Estás seguro de que quieres desactivar AutoRenew?"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:84
+#: View/Users/rented_referrals.ctp:73
+msgid "%d/%d"
+msgstr "%d/%d"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:90
+#: View/Users/rented_referrals.ctp:92
+msgid "Rent more referrals"
+msgstr "Alquilar más recomendados"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:98
+#: View/Users/rented_referrals.ctp:100
+msgid "Currently you don't have any rented referrals. To rent some please go %s."
+msgstr "Actualmente no tienes ningún recomendado alquilado. Para alquilar, pulsa aquí %s."
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:108
+msgid "Expiry date"
+msgstr "Fecha de expiración"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:109
+msgid "Last click"
+msgstr "Último clic"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:138
+#: View/Users/rented_referrals.ctp:143
+msgid "Recycle this referral"
+msgstr "Cambiar este recomendado"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:141
+#: View/Users/rented_referrals.ctp:146
+msgid "Are you sure you want to recycle %s?"
+msgstr "¿Estás seguro de que quieres cambiar %s?"
+
+#: View/Themed/Legacy/Users/rented_referrals.ctp:198
+#: View/Users/rented_referrals.ctp:202
+msgid "for"
+msgstr "por"
+
+#: View/Themed/Legacy/Users/resend_verification_email.ctp:6
+msgid "Resend verification email"
+msgstr "Enviar de nuevo el correo de activación"
+
+#: View/Themed/Legacy/Users/resend_verification_email.ctp:13
+#: View/Themed/Legacy/Users/send_password_request_email.ctp:13
+msgid "Please enter your e-mail"
+msgstr "Introduce tu correo electrónico"
+
+#: View/Themed/Legacy/Users/resend_verification_email.ctp:14
+#: View/Themed/Legacy/Users/send_password_request_email.ctp:14
+msgid "Enter your email address"
+msgstr "Introduce tu correo electrónico"
+
+#: View/Themed/Legacy/Users/send_password_request_email.ctp:6
+msgid "Request for a new password"
+msgstr "Solicitar nueva contraseña"
+
+#: View/Themed/Legacy/Users/signup.ctp:40
+msgid "Confirm password"
+msgstr "Confirmar contraseña"
+
+#: View/Themed/Legacy/Users/signup.ctp:68
+msgid "First name"
+msgstr "Nombre"
+
+#: View/Themed/Legacy/Users/signup.ctp:82
+msgid "Last name"
+msgstr "Apellido"
+
+#: View/Themed/Legacy/Users/signup.ctp:97 View/Users/signup.ctp:93
+msgid "Referrer"
+msgstr "Recomendante"
+
+#: View/Themed/Legacy/Users/signup.ctp:113
+msgid "I understand and agree with %s"
+msgstr "Entiendo y estoy conforme con %s"
+
+#: View/Themed/Legacy/Users/signup.ctp:123 View/Users/signup.ctp:122
+msgid "Register"
+msgstr "Registrarse"
+
+#: View/Themed/Legacy/Users/signup.ctp:125
+msgid "Register with Facebook"
+msgstr "Registrarse mediante Facebook"
+
+#: View/Themed/Legacy/Users/transfer.ctp:26
+msgid "Minimum transfer amount is:"
+msgstr "Importe mínimo del ingreso:"
+
+#: View/Themed/Legacy/Users/transfer.ctp:32
+msgid "Maximum transfer amount is:"
+msgstr "Importe máximo del ingreso:"
+
+#: View/Themed/Legacy/Users/transfer.ctp:38
+msgid "Total Payment:"
+msgstr "Importe del ingreso"
+
+#: View/Tools/promotion.ctp:11
+msgid "Banners And Referral Links"
+msgstr "Banners y enlaces de referencia"
+
+#: View/Tools/promotion.ctp:15
+msgid "Show Your Username As:"
+msgstr "Mostrar el nombre de usuario como:"
+
+#: View/Tools/promotion.ctp:24
+msgid "Your Referral Link:"
+msgstr "Tu enlace de recomendación"
+
+#: View/Tools/promotion.ctp:30
+msgid "QR Code:"
+msgstr "Código QR"
+
+#: View/Tools/promotion.ctp:39
+msgid "Statistical Banner"
+msgstr "Banner estadístico"
+
+#: View/Tools/promotion.ctp:48
+msgid "Banner Link:"
+msgstr "Enlace del banner"
+
+#: View/Tools/promotion.ctp:52
+msgid "HTML Code:"
+msgstr "Código HTML"
+
+#: View/Tools/promotion.ctp:61
+msgid "Forum Code:"
+msgstr "Código en el foro:"
+
+#: View/UserProfiles/edit.ctp:11
+msgid "Your Profile"
+msgstr "Tu perfil"
+
+#: View/UserProfiles/edit.ctp:26
+msgid "Date Of Birth:"
+msgstr "Fecha de nacimiento:"
+
+#: View/UserProfiles/edit.ctp:52
+msgid "Account Id For %s:"
+msgstr "Identificador de la cuenta %s:"
+
+#: View/UserProfiles/edit.ctp:62
+msgid "Forum Avatar:"
+msgstr "Avatar en el foro:"
+
+#: View/UserProfiles/edit.ctp:70
+msgid "Forum Signature:"
+msgstr "Firma en el foro:"
+
+#: View/UserProfiles/edit.ctp:79
+msgid "Forum Statistics:"
+msgstr "Estadísticas en el foro:"
+
+#: View/Users/autopay_stats.ctp:3
+msgid "AutoPay Statistics"
+msgstr "Estadísticas AutoPay"
+
+#: View/Users/autorenew_stats.ctp:3
+msgid "AutoRenew Statistics"
+msgstr "Estadísticas AutoRenew"
+
+#: View/Users/cashout.ctp:11
+msgid "Withdraw Funds"
+msgstr "Desembolsar fondos"
+
+#: View/Users/cashout.ctp:21
+msgid "You can not pay on %s as an existing payment and the total sum of your existing %s payments exceeded the amount of purchases made with %s."
+msgstr "No puedes recibir dinero a la cuenta %s, porque el desembolso actual y la suma de los desembolsos realizados hasta ahora a la cuenta %s superan la suma de la compra realizada de la cuenta %s."
+
+#: View/Users/cashout.ctp:25
+msgid "You can not pay on %s unless you fill an payment account address in User Profile."
+msgstr "No podemos desembolsar el dinero a la cuenta %s hasta que no completes el número de cuenta (dirección) en tu perfil."
+
+#: View/Users/cashout.ctp:46
+msgid "Maximum Withdraw Amount"
+msgstr "Importe máximo de desembolso"
+
+#: View/Users/cashout.ctp:50
+msgid "Our Fees"
+msgstr "Nuestros cargos"
+
+#: View/Users/cashout.ctp:54
+msgid "You Will Receive"
+msgstr "Recibirás"
+
+#: View/Users/cashout.ctp:58
+msgid "Payment Account"
+msgstr "Cuenta de pagos"
+
+#: View/Users/cashout.ctp:65
+msgid "Withdraw Money"
+msgstr "Desembolsar fondos"
+
+#: View/Users/dashboard.ctp:11
+msgid "Your Account In Numbers"
+msgstr "Tu cuenta en números"
+
+#: View/Users/dashboard.ctp:18
+msgid "Purchase Balance"
+msgstr "Cuenta de compra"
+
+#: View/Users/dashboard.ctp:33
+msgid "Your Clicks This Week"
+msgstr "Clics esta semana"
+
+#: View/Users/dashboard.ctp:61
+msgid "Other Statistics"
+msgstr "Otras estadísticas"
+
+#: View/Users/dashboard.ctp:63
+msgid "Total Earinings"
+msgstr "Ganancias en total"
+
+#: View/Users/dashboard.ctp:66
+msgid "Your Own Clicks"
+msgstr "Tus propios clics"
+
+#: View/Users/dashboard.ctp:69
+msgid "Personal Earnings"
+msgstr "Ganancias personales"
+
+#: View/Users/dashboard.ctp:72
+msgid "Rented Referral Clicks"
+msgstr "Clics de recomendados alquilados"
+
+#: View/Users/dashboard.ctp:75
+msgid "Direct Referral Clicks"
+msgstr "Clics de recomendados directos"
+
+#: View/Users/dashboard.ctp:78
+msgid "Earned From Direct Referrals"
+msgstr "Ganancias de recomendados directos"
+
+#: View/Users/dashboard.ctp:81
+msgid "Earned From Rented Referrals"
+msgstr "Ganancias de recomendados alquilados"
+
+#: View/Users/dashboard.ctp:84
+msgid "Credited Referral Commissions"
+msgstr "Comisión aprobada por recomendados"
+
+#: View/Users/dashboard.ctp:88
+msgid "Pending Referral Commissions"
+msgstr "Comisión pendiente por recomendados"
+
+#: View/Users/dashboard.ctp:92
+msgid "Total Purchases"
+msgstr "Compras en total"
+
+#: View/Users/dashboard.ctp:95
+msgid "Total Received"
+msgstr "Desembolsos en total"
+
+#: View/Users/dashboard.ctp:99
+msgid "Pending Cashout"
+msgstr "Desembolsos pendientes"
+
+#: View/Users/dashboard.ctp:104
+msgid "Direct Referrals Clicks"
+msgstr "Clics de recomendados directos"
+
+#: View/Users/dashboard.ctp:126
+msgid "Rented Referrals Clicks"
+msgstr "Clics de recomendados alquilados"
+
+#: View/Users/deposit.ctp:14
+msgid "Please Choose From Where You Want To Transfer Money:"
+msgstr "Por favor, elige la cuenta de la que quieres ingresar el dinero:"
+
+#: View/Users/deposit.ctp:22 View/Users/transfer.ctp:16
+msgid "Current Purchase Balance"
+msgstr "Saldo actual de la cuenta de compra"
+
+#: View/Users/deposit.ctp:26
+msgid "Minimum Deposit Amount Is: "
+msgstr "Importe mínimo del ingreso:"
+
+#: View/Users/deposit.ctp:30 View/Users/transfer.ctp:32
+msgid "Fee"
+msgstr "Cargo"
+
+#: View/Users/deposit.ctp:51 View/Users/transfer.ctp:52
+msgid "Transfer Money"
+msgstr "Transferir"
+
+#: View/Users/direct_referrals.ctp:24 View/Users/rented_referrals.ctp:112
+msgid "Referral Since"
+msgstr "Recomendado de"
+
+#: View/Users/rent_referrals.ctp:51
+msgid "Sorry, but we don't have any referrals to rent at the moment."
+msgstr "Lo sentimos, pero en este momento no tenemos ningún recomendado para alquilar."
+
+#: View/Users/rented_referrals.ctp:113
+msgid "Expiry Date"
+msgstr "Fecha de expiración"
+
+#: View/Users/resend_verification_email.ctp:4
+msgid "Resend Verification E-mail"
+msgstr "Enviar de nuevo el correo de confirmación"
+
+#: View/Users/resend_verification_email.ctp:10
+#: View/Users/send_password_request_email.ctp:10
+msgid "Enter Your E-mail Address"
+msgstr "Introduce tu correo electrónico"
+
+#: View/Users/send_password_request_email.ctp:4
+msgid "Request For A New Password"
+msgstr "Solicitar nueva contraseña"
+
+#: View/Users/signup.ctp:4
+msgid "Register at"
+msgstr "Regístrate en"
+
+#: View/Users/signup.ctp:36
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+#: View/Users/signup.ctp:64
+msgid "First Name"
+msgstr "Nombre"
+
+#: View/Users/signup.ctp:78
+msgid "Last Name"
+msgstr "Apellido"
+
+#: View/Users/signup.ctp:110
+msgid "I Understand And Agree With %s"
+msgstr "Entiendo y estoy conforme con %s"
+
+#: View/Users/transfer.ctp:20
+msgid "Minimum Transfer Amount Is"
+msgstr "Importe mínimo del ingreso"
+
+#: View/Users/transfer.ctp:24
+msgid "Maximum Transfer Amount Is"
+msgstr "Importe máximo del ingreso"
+
+#: View/Users/transfer.ctp:28
+msgid "Total Payment"
+msgstr "Importe del ingreso"
+
+#: Model/Ad.php:validation for field title Model/LoginAd.php:validation
+#: Model/PaidOffer.php:validation
+msgid "Title cannot be longer than 128 characters"
+msgstr "El título no puede superar 128 caracteres"
+
+#: Model/Ad.php:validation for field title Model/BannerAd.php:validation
+#: Model/FeaturedAd.php:validation Model/LoginAd.php:validation
+#: Model/PaidOffer.php:validation
+msgid "Title can contain only alphanumerical characters, \"-\", \"_\" or \".\""
+msgstr "El título puede tener solamente los caracteres alfanuméricos \"-\", \"_\" o \".\""
+
+#: Model/Ad.php:validation for field description Model/PaidOffer.php:validation
+msgid "Description cannot be longer than 1024 characters"
+msgstr "La descripción no puede superar 1024 caracteres"
+
+#: Model/Ad.php:validation for field url Model/BannerAd.php:validation
+#: Model/FeaturedAd.php:validation Model/LoginAd.php:validation
+msgid "URL cannot be longer than 512 characters"
+msgstr "La dirección URL no puede superar 512 caracteres"
+
+#: Model/Ad.php:validation for field url Model/BannerAd.php:validation
+#: Model/FeaturedAd.php:validation Model/LoginAd.php:validation
+#: Model/PaidOffer.php:validation
+msgid "Please enter a valid URL"
+msgstr "Por favor, introduce una dirección URL correcta"
+
+#: Model/Ad.php:validation for field clicks;validation outside_clicks
+#: Model/BannerAd.php:validation total_clicks Model/FeaturedAd.php:validation
+#: Model/LoginAd.php:validation
+msgid "Number of clicks should be a natural number or 0"
+msgstr "El número de clics debe ser un número natural o 0"
+
+#: Model/Ad.php:validation for field status Model/BannerAd.php:validation
+#: Model/FeaturedAd.php:validation Model/LoginAd.php:validation
+#: Model/PaidOffer.php:validation
+msgid "Please select a valid status"
+msgstr "Por favor, elige un estado adecuado"
+
+#: Model/Ad.php:validation for field package_type Model/BannerAd.php:validation
+#: Model/FeaturedAd.php:validation Model/LoginAd.php:validation
+msgid "Package type cannot be longer than 20 characters"
+msgstr "El tipo de paquete no puede superar 20 caracteres"
+
+#: Model/Ad.php:validation for field package_type Model/BannerAd.php:validation
+#: Model/FeaturedAd.php:validation Model/LoginAd.php:validation
+msgid "Please select a valid package type"
+msgstr "El tipo de paquete no puede superar 20 caracteres"
+
+#: Model/Ad.php:validation for field expiry
+msgid "Expiry should be a natural number or 0"
+msgstr "La expiración debe ser un número natural o 0"
+
+#: Model/Admin.php:validation for field email
+msgid "Please enter valid e-mail address"
+msgstr "Por favor, introduce un correo electrónico correcto"
+
+#: Model/Admin.php:validation for field email
+msgid "This e-mail adress is in use"
+msgstr "Este correo electrónico está en uso"
+
+#: Model/Admin.php:validation for field password
+msgid "Password should be at least 7 characters long"
+msgstr "La contraseña debe tener al menos siete caracteres."
+
+#: Model/Admin.php:validation for field allowed_ips
+#: Model/Settings.php:validation maintenanceIPs
+msgid "Please enter a comma separated list of valid IP addresses"
+msgstr "Introduce la lista de direcciones IP, separada por comas."
+
+#: Model/AdsCategory.php:validation for field name
+msgid "Name cannot be longer than 32 characters"
+msgstr "El nombre no puede superar 32 caracteres"
+
+#: Model/AdsCategory.php:validation for field name
+msgid "Name cannot be empty"
+msgstr "El nombre no puede estar vacío"
+
+#: Model/AdsCategory.php:validation for field name
+msgid "Name can only contain alphanumerical symbols"
+msgstr "El nombre puede tener solamente símbolos alfanuméricos"
+
+#: Model/AdsCategory.php:validation for field time
+msgid "Time should be a numeric value (seconds)"
+msgstr "El tiempo debe ser un valor numérico (segundos)"
+
+#: Model/AdsCategory.php:validation for field time
+msgid "Time cannot be a negative value"
+msgstr "El tiempo no puede ser un valor negativo"
+
+#: Model/AdsCategory.php:validation for field allow_description
+msgid "Allow description should be a boolean value"
+msgstr "El permiso para la descripción debe ser un valor booleano"
+
+#: Model/AdsCategory.php:validation for field geo_targetting
+msgid "Geo-targeting should be a boolean value"
+msgstr "La focalización geográfica debe ser un valor booleano"
+
+#: Model/AdsCategory.php:validation for field referrals_earnings
+msgid "Referrals earnings should be a boolean value"
+msgstr "Las ganancias de los recomendados deben ser un valor booleano"
+
+#: Model/AdsCategory.php:validation for field status
+msgid "Status cannot be longer than 20 characters"
+msgstr "El estado no puede superar 20 caracteres"
+
+#: Model/AdsCategoryPackage.php:validation for field type
+msgid "Type cannot be longer than 20 characters"
+msgstr "El tipo no puede superar 20 caracteres"
+
+#: Model/AdsCategoryPackage.php:validation for field type
+msgid "Type have to be \"Clicks\" or \"Days\""
+msgstr "El tipo deben ser “Clics” o “Días”"
+
+#: Model/AdsCategoryPackage.php:validation for field type
+msgid "Type cannot be empty"
+msgstr "El tipo no puede estar vacío"
+
+#: Model/AdsCategoryPackage.php:validation for field amount
+#: Model/BannerAdsPackage.php:validation
+#: Model/DirectReferralsPrice.php:validation
+#: Model/FeaturedAdsPackage.php:validation Model/LoginAdsPackage.php:validation
+msgid "Amount should be a numeric value"
+msgstr "El importe debe ser un valor numérico"
+
+#: Model/AdsCategoryPackage.php:validation for field amount
+#: Model/BannerAdsPackage.php:validation Model/Cashout.php:validation
+#: Model/Deposit.php:validation Model/FeaturedAdsPackage.php:validation
+#: Model/LoginAdsPackage.php:validation
+msgid "Amount cannot be a negative number"
+msgstr "El importe no puede ser un valor negativo"
+
+#: Model/AdsCategoryPackage.php:validation for field price
+#: Model/BannerAdsPackage.php:validation
+#: Model/FeaturedAdsPackage.php:validation Model/LoginAdsPackage.php:validation
+msgid "Price should be non-negative decimal with max two places after dot"
+msgstr "El precio debe ser un número decimal positivo con un máximo de dos decimales"
+
+#: Model/Banner.php:validation for field file
+msgid "Please supply a valid image"
+msgstr "Por favor, introduce una imagen adecuada"
+
+#: Model/Banner.php:validation for field file
+msgid "Invalid file, only images allowed (gif, png, jpg)"
+msgstr "Archivo incorrecto, los tipos de archivos permitidos: gif, png, jpg"
+
+#: Model/Banner.php:validation for field file
+msgid "Image must be less than 2MB"
+msgstr "El tamaño de la imagen no puede superar 2 MB"
+
+#: Model/Banner.php:validation for field file;validation filename
+msgid "Something went wrong with upload. Please try again."
+msgstr "Algo ha fallado, inténtalo de nuevo."
+
+#: Model/Banner.php:validation for field file
+msgid "File with this name already exists"
+msgstr "Ya existe un archivo con este nombre."
+
+#: Model/Banner.php:validation for field remote Model/BannerAd.php:validation
+#: image_url Model/LoginAd.php:validation
+msgid "Please supply a valid URL to image file"
+msgstr "Por favor, introduce una dirección URL correcta para el archivo de la imagen"
+
+#: Model/Banner.php:validation for field remote
+msgid "Failed to download given file"
+msgstr "No se puede descargar el archivo"
+
+#: Model/Banner.php:validation for field statistical;validation
+#: user_paid;validation user_earned;validation site_paid
+#: Model/PaymentGateway.php:validation deposits;validation cashouts
+msgid "boolean"
+msgstr "valor lógico"
+
+#: Model/Banner.php:validation for field font_name
+msgid "Font name have to be shorter than 50 characters"
+msgstr "El nombre de la fuente no puede superar 50 caracteres"
+
+#: Model/Banner.php:validation for field font_color
+msgid "Font color should be in format RRGGBB"
+msgstr "El color de la fuente debe estar en formato RRGGBB"
+
+#: Model/Banner.php:validation for field font_size
+msgid "Font size should be a numeric value"
+msgstr "El tamaño de la fuente debe ser un valor numérico"
+
+#: Model/Banner.php:validation for field user_paid_x;validation
+#: user_paid_y;validation user_earned_x;validation user_earned_y;validation
+#: site_paid_x;validation site_paid_y
+msgid "Coordinate should be a numeric value"
+msgstr "Las coordenadas deben ser un valor numérico"
+
+#: Model/BannerAd.php:validation for field title
+#: Model/FeaturedAd.php:validation
+msgid "Title cannot be longer than 128 charcters"
+msgstr "El título no puede superar 128 caracteres"
+
+#: Model/BannerAd.php:validation for field image_url
+#: Model/LoginAd.php:validation
+msgid "Image URL cannot be longer than 512 characters"
+msgstr "La dirección URL de la imagen no puede superar 512 caracteres"
+
+#: Model/BannerAd.php:validation for field impressions
+#: Model/FeaturedAd.php:validation
+msgid "Number of impressions should be a natural number or 0"
+msgstr "El número de visitas debe ser un número natural o 0"
+
+#: Model/BannerAd.php:validation for field expiry
+#: Model/FeaturedAd.php:validation Model/LoginAd.php:validation
+msgid "Expiry value should be a natural number or 0"
+msgstr "El valor de expiración debe ser un número natural o 0"
+
+#: Model/BannerAdsPackage.php:validation for field type
+#: Model/FeaturedAdsPackage.php:validation
+msgid "Type have to be \"Clicks\", \"Days\", or \"Impressions\""
+msgstr "El tipo deben ser “Clics”, “Días” o “Visitas”"
+
+#: Model/BoughtItem.php:validation for field model
+#: Model/ClickHistory.php:validation Model/ImpressionHistory.php:validation
+#: Model/Settings.php:validation key
+msgid "maxLength"
+msgstr "maxLength"
+
+#: Model/Cashout.php:validation for field amount Model/Deposit.php:validation
+msgid "Amount should be a decimal value"
+msgstr "El importe debe ser un valor decimal"
+
+#: Model/Cashout.php:validation for field fee
+msgid "Fee should be a decimal value"
+msgstr "El cargo debe ser un valor decimal"
+
+#: Model/Cashout.php:validation for field fee
+msgid "Fee cannot be a negative number"
+msgstr "El cargo debe ser un valor decimal"
+
+#: Model/Cashout.php:validation for field payment_account;validation gateway
+msgid "between"
+msgstr "entre"
+
+#: Model/Cashout.php:validation for field status
+#: Model/Commission.php:validation
+msgid "inList"
+msgstr "inList"
+
+#: Model/ClickValue.php:validation for field user_click_value;validation
+#: direct_referral_click_value;validation rented_referral_click_value
+msgid "Click value should be non-negative decimal value"
+msgstr "El valor del clic debe ser un valor decimal positivo"
+
+#: Model/Commission.php:validation for field amount
+msgid "userDefined"
+msgstr "userDefined"
+
+#: Model/Commission.php:validation for field credit_date
+#: Model/UserProfile.php:validation birth_day
+msgid "datetime"
+msgstr "datetime"
+
+#: Model/CountryLock.php:validation for field note
+#: Model/EmailLock.php:validation Model/IpLock.php:validation
+#: Model/UsernameLock.php:validation
+msgid "Note cannot be longer than 255 characters."
+msgstr "El comentario no puede superar 255 caracteres."
+
+#: Model/Currency.php:validation for field code
+msgid "Currency code cannot be empty"
+msgstr "El código de moneda no puede estar vacío"
+
+#: Model/Currency.php:validation for field code
+msgid "Currency code cannot be shorter than 3 characters"
+msgstr "El código de moneda no puede ser inferior a 3 caracteres"
+
+#: Model/Currency.php:validation for field code
+msgid "Currency code cannot be longer than 3 characters"
+msgstr "El código de moneda no puede superar 3 caracteres"
+
+#: Model/Currency.php:validation for field name
+msgid "Currency name cannot be empty"
+msgstr "El nombre de moneda no puede estar vacío"
+
+#: Model/Currency.php:validation for field name
+msgid "Currency name cannot be longer than 32 characters"
+msgstr "El nombre de moneda no puede superar 32 caracteres"
+
+#: Model/Currency.php:validation for field symbol
+msgid "Currency symbol cannot be empty"
+msgstr "El símbolo de moneda no puede estar vacío"
+
+#: Model/Currency.php:validation for field symbol
+msgid "Currency symbol cannot be longer than 3 characters"
+msgstr "El símbolo de moneda no puede superar 3 caracteres"
+
+#: Model/Currency.php:validation for field iso_number
+msgid "Currency ISO number should be a numeric value"
+msgstr "El número ISO de moneda debe ser un valor numérico"
+
+#: Model/Currency.php:validation for field step
+msgid "Real step value should be a valid monetary value"
+msgstr "El paso auténtico del valor debe ser un valor monetario correcto"
+
+#: Model/Deposit.php:validation for field gateway
+msgid "Gateway name cannot be longer than 25 characters"
+msgstr "El nombre de la pasarela de pagos no puede superar 25 caracteres"
+
+#: Model/Deposit.php:validation for field account
+msgid "Account cannot be longer than 50 characters"
+msgstr "La cuenta no debe superar 50 caracteres"
+
+#: Model/Deposit.php:validation for field status
+msgid "Deposit status is wrong"
+msgstr "Estado de depósito incorrecto"
+
+#: Model/Deposit.php:validation for field item
+msgid "Item id cannot be longer than 100 characters"
+msgstr "El identificador del elemento no puede superar 100 caracteres"
+
+#: Model/Deposit.php:validation for field gatewayid
+msgid "Gateway identification cannot be longer than 255 characters"
+msgstr "El identificador de la pasarela de pagos no puede superar 255 caracteres"
+
+#: Model/Deposit.php:validation for field date
+msgid "Datetime should be valid datetime"
+msgstr "Datetime debe ser un datetime correcto"
+
+#: Model/DepositBonus.php:validation for field amount Model/User.php:validation
+#: purchase_balance
+msgid "Purchase balance should be a decimal value"
+msgstr "La cuenta de compra debe ser un valor decimal"
+
+#: Model/DepositBonus.php:validation for field status
+msgid "Status can be only \"Credited\" or \"Cancelled\"."
+msgstr "El estado puede ser solamente “Aceptado” o “Anulado”"
+
+#: Model/DirectReferralsPrice.php:validation for field amount
+msgid "Amount should be less than 65535"
+msgstr "El importe no debe superar 65535"
+
+#: Model/DirectReferralsPrice.php:validation for field price
+msgid "Price should be a valid decimal value"
+msgstr "El precio debe ser un valor decimal correcto"
+
+#: Model/Email.php:validation for field name Model/PendingEmail.php:validation
+msgid "E-mail name cannot be longer than 50 characters"
+msgstr "El nombre de correo electrónico no puede superar 50 caracteres"
+
+#: Model/Email.php:validation for field format
+#: Model/PendingEmail.php:validation
+msgid "Format can only be \"text\" or \"html\""
+msgstr "El formato puede ser sólo “texto” o “html”"
+
+#: Model/Email.php:validation for field subject
+#: Model/PendingEmail.php:validation
+msgid "Subject cannot be longer than 50 characters"
+msgstr "El asunto no puede superar 50 caracteres"
+
+#: Model/EmailLock.php:validation for field template
+#: Model/UsernameLock.php:validation
+msgid "Template cannot be empty."
+msgstr "La plantilla no puede estar vacía."
+
+#: Model/EmailLock.php:validation for field template
+#: Model/UsernameLock.php:validation
+msgid "Template cannot be longer than 50 characters."
+msgstr "El nombre de la plantilla no puede superar 50 caracteres."
+
+#: Model/FeaturedAd.php:validation for field description
+msgid "Description cannot be longer than 300 characters"
+msgstr "La descripción no puede superar 300 caracteres"
+
+#: Model/IpLock.php:validation for field ip_start;validation ip_end
+msgid "Please supply a valid IP address."
+msgstr "Introduce una dirección IP correcta"
+
+#: Model/LoginAdsPackage.php:validation for field type
+msgid "Type have to be \"Clicks\" or \"Days\"."
+msgstr "El tipo deben ser “Clics” o “Días”"
+
+#: Model/Membership.php:validation for field name
+msgid "Name should be between 1 and 50 characters"
+msgstr "El nombre debe tener entre 1 y 50 caracteres"
+
+#: Model/Membership.php:validation for field status
+msgid "values"
+msgstr "valores"
+
+#: Model/Membership.php:validation for field direct_referrals_limit;validation
+#: rented_referrals_limit
+msgid "Limit should be lower than 1000000 (or -1 for unlimited value)"
+msgstr "El límite debe ser inferior a 1000000 (o -1 para el valor unlimited)"
+
+#: Model/Membership.php:validation for field 1_month_price;validation
+#: 2_months_price;validation 3_months_price;validation
+#: 4_months_price;validation 5_months_price;validation
+#: 6_months_price;validation 7_months_price;validation
+#: 8_months_price;validation 9_months_price;validation
+#: 10_months_price;validation 11_months_price
+msgid "Price should be non-negative decimal value"
+msgstr "El precio debe ser un valor decimal positivo"
+
+#: Model/Membership.php:validation for field 1_month_price;validation
+#: 2_months_price;validation 3_months_price;validation
+#: 4_months_price;validation 5_months_price;validation
+#: 6_months_price;validation 7_months_price;validation
+#: 8_months_price;validation 9_months_price;validation
+#: 10_months_price;validation 11_months_price;validation 12_months_price
+msgid "Price cannot be negative value"
+msgstr "El tiempo no puede ser un valor negativo"
+
+#: Model/Membership.php:validation for field 12_months_price
+#: Model/RentedReferralsPrice.php:validation price;validation autopay_price
+msgid "Price should be a decimal value"
+msgstr "El precio debe ser un valor decimal correcto"
+
+#: Model/Membership.php:validation for field direct_referrals_delete_cost
+msgid "Direct referrals delete cost should be a decimal value"
+msgstr "El coste de eliminación de un recomendado directo debe ser un valor decimal"
+
+#: Model/Membership.php:validation for field rented_referral_expiry_fee
+msgid "Rented referrals expiry fee should be a decimal value"
+msgstr "El coste de expiración de un recomendado debe ser un valor decimal"
+
+#: Model/Membership.php:validation for field minimum_cashout
+msgid "Minimum payout cannot be longer than 255 characters"
+msgstr "El límite mínimo de desembolso no puede superar 255 caracteres"
+
+#: Model/Membership.php:validation for field minimum_cashout
+msgid "Minimum payout should be a comma separated list of numbers"
+msgstr "Los límites mínimos de desembolsos deben ser números separados por comas sin espacio"
+
+#: Model/Membership.php:validation for field maximum_cashout_amount
+msgid "Maximum cashout amount should be a decimal value"
+msgstr "El importe máximo de desembolso debe ser un valor decimal"
+
+#: Model/Membership.php:validation for field upgrade_commission
+msgid "Upgrade commission should be a decimal value"
+msgstr "La comisión por mejorar la cuenta del recomendado debe ser un valor decimal"
+
+#: Model/Membership.php:validation for field fund_commission
+msgid "Fund commission should be a percentage value (0-100)"
+msgstr "La comisión por recargar la cuenta por el recomendado debe ser un valor porcentual entre 0 y 100"
+
+#: Model/Membership.php:validation for field purchase_commission
+msgid "Purchase commission should be a percentage value (0-100)"
+msgstr "La comisión por la compra del recomendado debe ser un valor porcentual entre 0 y 100"
+
+#: Model/Membership.php:validation for field time_between_renting
+msgid "Time between renting should be a non-negative numeric value"
+msgstr "El tiempo entre el alquiler debe ser un valor numérico positivo"
+
+#: Model/Membership.php:validation for field available_referrals_packs
+msgid "Available referrals packs cannot be longer than 255 characters"
+msgstr "Los paquetes disponibles de recomendados no pueden superar 255 caracteres"
+
+#: Model/Membership.php:validation for field available_referrals_packs
+msgid "Available referrals packs should be a comma separated list of numbers"
+msgstr "Los paquetes disponibles de recomendados deben ser números, separados por comas sin espacios"
+
+#: Model/Membership.php:validation for field referral_recycle_cost
+msgid "Referral recycle cost should be a decimal value"
+msgstr "El coste de cambio de un recomendado debe ser un valor decimal"
+
+#: Model/Membership.php:validation for field autorecycle_time;validation
+#: cashout_waiting_time
+msgid "Autorecycle time should be a non-negative numeric value"
+msgstr "El tiempo AutoRecycle debe ser un valor numérico positivo"
+
+#: Model/Membership.php:validation for field max_purchase_commission_referral
+msgid "Maximum purchase commission per referral should be a decimal value"
+msgstr "La comisión máxima por la compra de un recomendado debe ser un valor numérico positivo"
+
+#: Model/Membership.php:validation for field
+#: max_purchase_commission_transaction
+msgid "Maximum purchase commission per transaction should be a decimal value"
+msgstr "La máxima comisión individual por la compra de un recomendado debe ser un valor numérico positivo"
+
+#: Model/Membership.php:validation for field commission_delay
+msgid "Commission delay should be a non-negative numeric value"
+msgstr "El retraso en la concesión de la comisión debe ser un valor numérico positivo"
+
+#: Model/Membership.php:validation for field commission_delay
+msgid "Commission delay cannot be longer than 65535 days"
+msgstr "El retraso en la concesión de la comisión no puede superar 65535 días"
+
+#: Model/Membership.php:validation for field results_per_page
+msgid "Results per page should be a non-negative numeric value"
+msgstr "El número de resultados en la página debe ser un valor numérico positivo"
+
+#: Model/Membership.php:validation for field results_per_page
+msgid "Results per page  should be a non-negative numeric value"
+msgstr "El número de resultados en la página debe ser un valor numérico positivo"
+
+#: Model/Membership.php:validation for field results_per_page
+msgid "Results per page cannot be more than 65535"
+msgstr "El número de resultados en la página no puede superar 65535"
+
+#: Model/Membership.php:validation for field autopay_trigger_days
+msgid "AutoPay trigger days should be a non-negative numeric value"
+msgstr "Los días de funcionamiento de AutoPay deben ser un valor numérico positivo"
+
+#: Model/Membership.php:validation for field autopay_trigger_days
+msgid "AutoPay trigger days cannot be longer than 255 days"
+msgstr "Los días de funcionamiento de AutoPay deben superar 255 días"
+
+#: Model/News.php:validation for field title
+msgid "Title length cannot be longer than 150 characters."
+msgstr "El título no puede superar 150 caracteres"
+
+#: Model/News.php:validation for field content
+msgid "New's content cannot be empty."
+msgstr "El contenido del mensaje no puede estar vacío"
+
+#: Model/News.php:validation for field show_in_login_ads_until
+msgid "Show in login ads should be a valid date and time value."
+msgstr "El valor mostrar en LoginAds debe ser una fecha correcta"
+
+#: Model/PaidOffer.php:validation for field url
+msgid "URL should be between 10 and 512 characters"
+msgstr "La dirección URL debe tener entre 10 y 512 caracteres"
+
+#: Model/PaidOffer.php:validation for field total_slots
+msgid "Number of slots should be a natural number or 0"
+msgstr "El número de slots debe ser un número natural o 0"
+
+#: Model/PaidOffer.php:validation for field taken_slots
+msgid "Number of taken slots should be a natural number or 0"
+msgstr "El número de slots utilizados debe ser un número natural o 0"
+
+#: Model/PaidOffer.php:validation for field value
+msgid "Value should be a valid monetary value"
+msgstr "El valor debe ser un valor monetario correcto"
+
+#: Model/PaidOffersApplication.php:validation for field status
+msgid "Invalid status."
+msgstr "Estado incorrecto"
+
+#: Model/PaidOffersApplication.php:validation for field description
+msgid "Description cannot be longer than 1024 characters."
+msgstr "La descripción no puede superar 1024 caracteres"
+
+#: Model/PaidOffersApplication.php:validation for field reject_reason
+msgid "Reject reason cannot be longer than 1024 characters."
+msgstr "El motivo del rechazo no puede superar 1024 caracteres"
+
+#: Model/PaidOffersCategory.php:validation for field name
+msgid "Name length should be between 1 and 100 characters"
+msgstr "El nombre debe tener entre 1 y 100 caracteres"
+
+#: Model/PaidOffersPackage.php:validation for field value
+#: Model/PaidOffersValue.php:validation
+msgid "Value should be a valid monetary value."
+msgstr "El valor debe ser un valor monetario correcto"
+
+#: Model/PaidOffersPackage.php:validation for field quantity
+msgid "Quantity should be a valid numeric value."
+msgstr "El número debe ser un valor numérico correcto"
+
+#: Model/PaidOffersPackage.php:validation for field quantity
+msgid "Quantity should be between 0 and 4294967295."
+msgstr "El número debe ser entre 0 y 4294967295"
+
+#: Model/PaidOffersPackage.php:validation for field price
+msgid "Price should be a valid monetary value."
+msgstr "El precio debe ser un valor monetario correcto"
+
+#: Model/PaymentGateway.php:validation for field name
+msgid "Name should be between 0 and 129 characters long"
+msgstr "El nombre debe tener entre 0 y 129 caracteres"
+
+#: Model/PaymentGateway.php:validation for field minimum_deposit_amount
+msgid "Minimum deposit amount should be a decimal value"
+msgstr "El importe mínimo del ingreso debe ser un valor decimal"
+
+#: Model/PaymentGateway.php:validation for field deposit_fee_percent
+msgid "Deposit fee (percent) should be a valid percentage value"
+msgstr "El cargo por el ingreso debe ser un valor porcentual correcto"
+
+#: Model/PaymentGateway.php:validation for field deposit_fee
+msgid "Deposit fee should be a decimal value"
+msgstr "El cargo por el ingreso debe ser un valor decimal correcto"
+
+#: Model/PaymentGateway.php:validation for field cashout_fee_percent
+msgid "Cashout fee (percent) should be a valid percentage value"
+msgstr "El cargo por el desembolso debe ser un valor porcentual correcto"
+
+#: Model/PaymentGateway.php:validation for field cashout_fee
+msgid "Cashout fee should be a decimal value"
+msgstr "El cargo por el desembolso debe ser un valor decimal correcto"
+
+#: Model/PaymentGateway.php:validation for field api_settings
+msgid "Wrong gateway settings"
+msgstr "Ajustes incorrectos de la pasarela de pagos"
+
+#: Model/RentExtensionPeriod.php:validation for field days
+msgid "Number of days should be natural number"
+msgstr "El número de días debe ser un número natural"
+
+#: Model/RentExtensionPeriod.php:validation for field days
+msgid "Number of days should be unique"
+msgstr "El número de días debe ser único"
+
+#: Model/RentExtensionPeriod.php:validation for field discount
+msgid "Discount value should be a percentage value (0% - 100%)"
+msgstr "El valor del descuento debe ser un valor porcentual entre 0 y 100"
+
+#: Model/RentedReferralsPrice.php:validation for field min
+msgid "Range start should be a natural number"
+msgstr "El inicio del alcance debe ser un número natural"
+
+#: Model/RentedReferralsPrice.php:validation for field min
+msgid "Start value has to be lower than end value"
+msgstr "El valor inicial debe ser un valor inferior al valor final"
+
+#: Model/RentedReferralsPrice.php:validation for field max
+msgid "Range end should be a natural number"
+msgstr "El final del alcance debe ser un número natural"
+
+#: Model/RentedReferralsPrice.php:validation for field max
+msgid "End value has to be bigger than start value"
+msgstr "El valor final debe ser superior al valor inicial"
+
+#: Model/RentedReferralsPrice.php:validation for field price;validation
+#: autopay_price
+msgid "Price has to be bigger or equal to zero"
+msgstr "El precio debe ser superior o igual a cero"
+
+#: Model/RequestObject.php:validation for field alias
+msgid "Alias should be unique"
+msgstr "El alias debe ser único"
+
+#: Model/RequestObject.php:validation for field maxLength
+msgid "Alias should be shorter than 200 characters."
+msgstr "El alias no debe superar 200 caracteres"
+
+#: Model/Settings.php:validation for field key
+msgid "characters"
+msgstr "caracteres"
+
+#: Model/Settings.php:validation for field key
+msgid "minLength"
+msgstr "minLength"
+
+#: Model/Settings.php:validation for field siteTitle
+msgid "Please enter site title."
+msgstr "Introduce el título de página"
+
+#: Model/Settings.php:validation for field siteName
+msgid "Please enter site name."
+msgstr "Introduce el nombre de página"
+
+#: Model/Settings.php:validation for field siteURL
+msgid "Please enter site URL."
+msgstr "Introduce la dirección de página"
+
+#: Model/Settings.php:validation for field siteURL
+msgid "Please enter a valid URL."
+msgstr "Introduce la dirección correcta"
+
+#: Model/Settings.php:validation for field siteEmail
+msgid "Site email should be a valid e-mail address."
+msgstr "El correo de la página debe ser una dirección de correo electrónico correcta"
+
+#: Model/Settings.php:validation for field siteTheme;validation
+#: activeStatsNumber;validation signUpBonus;validation paidOffers;validation
+#: Evercookie
+msgid "rule"
+msgstr "rule"
+
+#: Model/Settings.php:validation for field siteTheme;validation
+#: activeStatsNumber
+msgid "allowEmpty"
+msgstr "allowEmpty"
+
+#: Model/Settings.php:validation for field loadTimeAdView
+msgid "Time should be a natural number."
+msgstr "El tiempo debe ser un número natural."
+
+#: Model/Settings.php:validation for field typeTimeAdView
+msgid "Wrong value for start timer."
+msgstr "Valor incorrecto para el inicio de la calculación"
+
+#: Model/Settings.php:validation for field captchaType;validation
+#: captchaTypeSurfer
+msgid "Unsupported captcha type."
+msgstr "Tipo de Captcha no soportado"
+
+#: Model/Settings.php:validation for field rentingOption
+msgid "Unsupported renting option."
+msgstr "Opción de alquiler no soportada"
+
+#: Model/Settings.php:validation for field rentMinClickDays;validation
+#: rentPeriod;validation directMinClickDays;validation
+#: checkLoginIpDays;validation checkSignupIpDays
+msgid "Number of days should be a natural number."
+msgstr "El número de días debe ser un número natural"
+
+#: Model/Settings.php:validation for field rentFilter
+msgid "Unsupported renting filter"
+msgstr "Filtro de alquiler no soportado"
+
+#: Model/Settings.php:validation for field directFilter
+msgid "Unsupported renting filter."
+msgstr "Filtro de alquiler no soportado"
+
+#: Model/Settings.php:validation for field cashoutMode
+msgid "Unknown cashout mode"
+msgstr "Modo de desembolso desconocido"
+
+#: Model/Settings.php:validation for field maximumTransfer
+msgid "Maximum transfer value should be a decimal value."
+msgstr "El importe máximo de la transferencia debe ser un valor decimal"
+
+#: Model/Settings.php:validation for field minimumTransfer
+msgid "Minimum transfer value should be a decimal value."
+msgstr "El importe mínimo de la transferencia debe ser un valor decimal"
+
+#: Model/Settings.php:validation for field currencySymbol
+msgid "Invalid value for currency symbol display mode."
+msgstr "Valor incorrecto para el símbolo de moneda"
+
+#: Model/Settings.php:validation for field commaPlaces
+msgid "Available places after comma should be in range [0, 8]."
+msgstr "El número de decimales disponibles debe ser entre 0 y 8"
+
+#: Model/Settings.php:validation for field commaPlaces
+msgid "Available places after comma should be a valid natural number (0 included)."
+msgstr "El número de decimales disponibles debe ser un número natural o 0"
+
+#: Model/Settings.php:validation for field totalDeposits;validation
+#: totalCashouts
+msgid "Total deposits amount should be a decimal value."
+msgstr "El importe total de ingresos debe ser un valor decimal"
+
+#: Model/Settings.php:validation for field commissionTo
+msgid "Commission can be added only to Account or Purchase Balance."
+msgstr "La comisión puede añadirse únicamente de la cuenta principal o de compra"
+
+#: Model/Settings.php:validation for field deleteReferralsBalance
+msgid "Money can be taken only from Account or Purchase balance."
+msgstr "Se puede utilizar el dinero únicamente de la cuenta principal o de compra"
+
+#: Model/Settings.php:validation for field PTCTitleLength;validation
+#: featuredAdsTitleMaxLen;validation bannerAdsTitleMaxLen;validation
+#: loginAdsTitleMaxLen
+msgid "Title length should be between 0 and 128."
+msgstr "La longitud del título debe ser entre 0 y 128"
+
+#: Model/Settings.php:validation for field PTCTitleLength;validation
+#: featuredAdsTitleMaxLen;validation bannerAdsTitleMaxLen;validation
+#: loginAdsTitleMaxLen;validation loginAdsPerBox;validation supportMinMsgLen
+msgid "Title length should be a valid natural number."
+msgstr "La longitud del título debe ser un número natural correcto"
+
+#: Model/Settings.php:validation for field PTCDescLength
+msgid "Description length should be between 0 and 1024."
+msgstr "La longitud de la descripción debe ser entre 0 y 1024"
+
+#: Model/Settings.php:validation for field PTCDescLength;validation
+#: featuredAdsDescMaxLen
+msgid "Description length should be a valid natural number."
+msgstr "La longitud de la descripción debe ser un número natural correcto"
+
+#: Model/Settings.php:validation for field PTCPreviewTime
+msgid "Preview time should be a valid natural number."
+msgstr "El tiempo de vista previa debe ser un número natural"
+
+#: Model/Settings.php:validation for field PTCCheckConnectionTimeout
+msgid "Timeout should be a valid natural number."
+msgstr "El límite de tiempo debe ser un número natural"
+
+#: Model/Settings.php:validation for field userActivityClicks
+msgid "Activity clicks should be a valid natural number."
+msgstr "El número de clics de la actividad debe ser un número natural"
+
+#: Model/Settings.php:validation for field withdrawClicks
+msgid "Withdraw clicks should be a valid natural number."
+msgstr "El número de clics para el desembolso debe ser un número natural"
+
+#: Model/Settings.php:validation for field inactivitySuspendDays;validation
+#: inactivityDeleteDays
+msgid "Days should be a valid natural number."
+msgstr "El número de días debe ser un número natural"
+
+#: Model/Settings.php:validation for field cashoutBlockTime
+msgid "Number of hours should be a valid natural number."
+msgstr "El número de horas debe ser un número natural"
+
+#: Model/Settings.php:validation for field featuredAdsPerBox
+msgid "Ads per box should be a valid natural number."
+msgstr "El límite de anuncios por segmento publicitario debe ser un número natural"
+
+#: Model/Settings.php:validation for field featuredAdsDescMaxLen
+msgid "Description length should be between 0 and 300."
+msgstr "La longitud de la descripción debe ser entre 0 y 300"
+
+#: Model/Settings.php:validation for field loginAdsShowMode
+msgid "list"
+msgstr "lista"
+
+#: Model/Settings.php:validation for field autoRenewDays
+msgid "AutoRenew days should be numbers separated by commas."
+msgstr "Los días de AutoRenew deben ser separados por coma, sin espacio"
+
+#: Model/Settings.php:validation for field autoRenewTries
+msgid "AutoRenew tries number should be between -1 and 128."
+msgstr "El número de intentos AutoRenew debe ser un número entre -1 y 128"
+
+#: Model/Settings.php:validation for field paidOffersActive
+msgid "Paid Offers active setting should be a boolean value"
+msgstr "Los ajustes de actividad de las tareas de pago deben ser un valor lógico"
+
+#: Model/SupportCannedAnswer.php:validation for field name
+#: Model/SupportDepartment.php:validation
+msgid "Name cannot be longer than 100 characters."
+msgstr "El nombre no puede superar 100 caracteres"
+
+#: Model/SupportCannedAnswer.php:validation for field message
+#: Model/SupportTicket.php:validation
+msgid "Message cannot be empty."
+msgstr "El mensaje no puede estar vacío"
+
+#: Model/SupportTicket.php:validation for field id
+#: Model/SupportTicketAnswer.php:validation ticket_id
+msgid "uuid"
+msgstr "uuid"
+
+#: Model/SupportTicket.php:validation for field department_id
+msgid "Please select department."
+msgstr "Elige un departamento adecuado"
+
+#: Model/SupportTicket.php:validation for field full_name
+msgid "Full name cannot be longer than 71 characters."
+msgstr "El nombre y el apellido no pueden superar 71 caracteres"
+
+#: Model/SupportTicket.php:validation for field email
+msgid "E-mail cannot be longer than 50 characters."
+msgstr "La dirección de correo electrónico no puede superar 50 caracteres"
+
+#: Model/SupportTicket.php:validation for field email
+msgid "Please enter a valid e-mail address."
+msgstr "Por favor, introduce un correo electrónico correcto"
+
+#: Model/SupportTicket.php:validation for field subject
+msgid "Subject cannot be longer than 100 characters."
+msgstr "El asunto no puede superar 100 caracteres"
+
+#: Model/SupportTicket.php:validation for field status
+msgid "Status can be only \"Open\" or \"Closed\"."
+msgstr "El estado permitido es únicamente “Abierto” o “Cerrado”"
+
+#: Model/SupportTicketAnswer.php:validation for field sender_flag
+msgid "range"
+msgstr "alcance"
+
+#: Model/SupportTicketAnswer.php:validation for field message
+msgid "Message cannot be empty"
+msgstr "El mensaje no puede estar vacío"
+
+#: Model/User.php:validation for field username
+msgid "Username cannot be blank"
+msgstr "El nombre de usuario no puede estar vacío"
+
+#: Model/User.php:validation for field username
+msgid "Username cannot be longer than 50 and shorter than 3 characters"
+msgstr "El nombre de usuario no puede ser superior a 50 ni inferior a 3 caracteres"
+
+#: Model/User.php:validation for field username
+msgid "Username must only contain letters and numbers"
+msgstr "Tu nombre de usuario puede tener únicamente letras y cifras"
+
+#: Model/User.php:validation for field username
+msgid "This username is already taken"
+msgstr "El nombre de usuario ya está ocupado"
+
+#: Model/User.php:validation for field username
+msgid "This username is blocked"
+msgstr "El nombre de usuario está bloqueado"
+
+#: Model/User.php:validation for field password
+msgid "Password cannot be blank"
+msgstr "La contraseña no puede estar vacía"
+
+#: Model/User.php:validation for field password
+msgid "Password have to be longer than 6 characters"
+msgstr "La contraseña debe tener más de 6 caracteres"
+
+#: Model/User.php:validation for field password
+msgid "You cannot use your username as password"
+msgstr "No puedes utilizar el nombre de usuario como contraseña"
+
+#: Model/User.php:validation for field confirm_password
+msgid "Please retype your password"
+msgstr "Introduce de nuevo la contraseña"
+
+#: Model/User.php:validation for field confirm_password
+msgid "Passwords do not match"
+msgstr "Las contraseñas no coinciden"
+
+#: Model/User.php:validation for field role
+msgid "valid"
+msgstr "importante"
+
+#: Model/User.php:validation for field email
+msgid "Please enter a valid e-mail address"
+msgstr "Por favor, introduce un correo electrónico correcto"
+
+#: Model/User.php:validation for field email
+msgid "This e-mail is in use"
+msgstr "Este correo electrónico está en uso"
+
+#: Model/User.php:validation for field email
+msgid "This email is blocked."
+msgstr "Tu correo electrónico está bloqueado"
+
+#: Model/User.php:validation for field first_name
+msgid "Please enter your first name"
+msgstr "Introduce tu nombre"
+
+#: Model/User.php:validation for field last_name
+msgid "Please enter your last name"
+msgstr "Introduce tu apellido"
+
+#: Model/User.php:validation for field acceptTos
+msgid "Please read and accept Terms Of Service"
+msgstr "Por favor, lee y acepta el reglamento"
+
+#: Model/User.php:validation for field acceptTos
+msgid "notEmpty"
+msgstr "notEmpty"
+
+#: Model/User.php:validation for field signup_ip;validation last_ip
+msgid "Please supply a valid IP address"
+msgstr "Por favor, introduce una dirección IP correcta"
+
+#: Model/User.php:validation for field signup_ip;validation last_ip
+msgid "This IP is already in use"
+msgstr "Esta dirección IP ya está en uso"
+
+#: Model/User.php:validation for field account_balance
+msgid "Account balance should be a decimal value"
+msgstr "El saldo de la cuenta debe ser un valor decimal"
+
+#: Model/User.php:validation for field purchase_balance
+msgid "Purchase balance cannot be a negative number"
+msgstr "El saldo de la cuenta de compra no puede ser un número negativo"
+
+#: Model/User.php:validation for field upline_commission
+msgid "Upline commission should be a decimal value"
+msgstr "La comisión del recomendante debe ser un valor decimal"
+
+#: Model/User.php:validation for field upline_commission
+msgid "Upline commission cannot be a negative number"
+msgstr "La comisión del recomendante no puede ser un número negativo"
+
+#: Model/User.php:validation for field comes_from
+msgid "length"
+msgstr "longitud"
+
+#: Model/User.php:validation for field avatar
+msgid "Avatar URL cannot be longer than 255 characters"
+msgstr "La dirección URL del avatar no puede superar 512 caracteres"
+
+#: Model/User.php:validation for field avatar
+msgid "Avatar should be a valid HTTP URL (with \"http://\")"
+msgstr "Introduce la dirección completa con el protocolo http(s)://"
+
+#: Model/User.php:validation for field signature
+msgid "Signature cannot be longer than 255 characters"
+msgstr "La firma no puede superar 255 caracteres"
+
+#: Model/User.php:validation for field autopay_enable
+msgid "AutoPay enable should be a boolean value"
+msgstr "La activación de AutoPay debe ser un valor lógico"
+
+#: Model/User.php:validation for field autopay_done
+msgid "AutoPay done should be a boolean value"
+msgstr "La realización de AutoPay debe ser un valor lógico"
+
+#: Model/User.php:validation for field auto_renew_days
+msgid "AutoRenew days should be between 0 and 65535"
+msgstr "El alcance de días de AutoRenew es entre 0 y 65535"
+
+#: Model/User.php:validation for field auto_renew_extend
+msgid "AutoRenew extend should be between 0 and 65535"
+msgstr "El alcance de la prórroga del recomendado de AutoRenew es entre 0 y 65535"
+
+#: Model/User.php:validation for field country
+msgid "This country is blocked."
+msgstr "Este país está bloqueado"
+
+#: Model/UserProfile.php:validation for field gender
+msgid "Please select Male or Female"
+msgstr "Por favor, elige el sexo"
+
+#: Model/UserProfile.php:validation for field birth_day
+msgid "Birthday cannot be in the future"
+msgstr "La fecha de nacimiento no puede ser futura"
+
+#: Model/UserProfile.php:validation for field address
+msgid "Address cannot be longer than 200 characters"
+msgstr "La dirección no debe superar 200 caracteres"
+
+#: Model/UserStatistic.php:validation for field total_clicks;validation
+#: total_rrefs_clicks;validation total_rrefs_credited_clicks;validation
+#: total_drefs_clicks;validation total_drefs_credited_clicks;validation
+#: user_clicks_0;validation user_clicks_1;validation user_clicks_2;validation
+#: user_clicks_3;validation user_clicks_4;validation user_clicks_5;validation
+#: user_clicks_6;validation dref_clicks_0;validation dref_clicks_1;validation
+#: dref_clicks_2;validation dref_clicks_3;validation dref_clicks_4;validation
+#: dref_clicks_5;validation dref_clicks_6;validation rref_clicks_0;validation
+#: rref_clicks_1;validation rref_clicks_2;validation rref_clicks_3;validation
+#: rref_clicks_4;validation rref_clicks_5;validation rref_clicks_6
+msgid "numeric"
+msgstr "numéricos"
+
+#: Model/UserStatistic.php:validation for field total_rrefs_clicks;validation
+#: total_rrefs_credited_clicks;validation total_drefs_clicks;validation
+#: total_drefs_credited_clicks
+msgid "Total clicks number cannot be less than credited clicks number"
+msgstr "La suma de los clics no puede superar la suma de los clics aprobados"
+
+#: Model/UserStatistic.php:validation for field total_deposits;validation
+#: total_cashouts
+msgid "Deposit amount should be a decimal value"
+msgstr "El importe del ingreso debe ser un valor decimal"
+
+#: Model/UserStatistic.php:validation for field total_deposits;validation
+#: total_cashouts
+msgid "Deposit amount cannot be a negative number"
+msgstr "El importe del ingreso no puede ser un valor negativo"
+
+msgid "clicks"
+msgstr "clics"
+
+msgid "Learn more about our platform"
+msgstr "Más información"
+
+msgid "Sign up, now!"
+msgstr "¡Regístrate ahora!"
+
+msgid "Registered users"
+msgstr "Usuarios registrados"
+
+msgid "Users yesterday"
+msgstr "Usuarios registrados ayer"
+
+msgid "Paid so far"
+msgstr "Desembolsado"
+
+msgid "Ads watched"
+msgstr "Anuncios vistos"
+
+msgid "Navigation"
+msgstr "Navegación"
+
+msgid "Resources"
+msgstr "Páginas"
+
+msgid "or"
+msgstr "o"
+
+msgid "Please put your username (nickname) which you gonna use for logging in and in forum section. Make sure to use only alphanumerical symbols."
+msgstr "Introduce un nombre de usuario que utilizarás para iniciar sesión y también en el foro. Asegúrate de que sólo contiene símbolos alfanuméricos."
+
+msgid "Please put your password. Make sure it differs from the other sites you use and make it as much complicated as it possible. Make sure no one else will know your password for security purposes."
+msgstr "Introduce tu contraseña. Asegúrate de que es diferente a otras contraseñas que utilizas en otras páginas y de que es bastante complicada.  Asegúrate también de que nadie más sabrá tu contraseña para la seguridad de tu cuenta."
+
+msgid "Please confirm your password."
+msgstr "Por favor, confirma tu contraseña."
+
+msgid "Please put your real email address so we can send you confirmation link needed to finish sign up process. We will not share this email with anyone, we will use it only to keep you updated about site news and to recover your password in case you will forget it."
+msgstr "Por favor, introduce tu verdadero email  para que podamos enviarte un enlace que confirme el registro necesario para terminar la inscripción. No facilitamos tu email, lo utilizaremos solamente para enviar notificaciones sobre nuevos productos en el servicio y cuando intentes recuperar la contraseña."
+
+msgid "Enter your first name"
+msgstr "Introduce tu nombre"
+
+msgid "Please put your real first name. It is needed for payment purposes."
+msgstr "Introduce tu nombre verdadero, es necesario para procesar los pagos"
+
+msgid "Enter your last name"
+msgstr "Introduce tu apellido"
+
+msgid "Please put your real last name. It is needed for payment purposes."
+msgstr "Introduce tu apellido verdadero, es necesario para procesar los pagos"
+
+msgid "Person which referred you"
+msgstr "La persona que te ha recomendado"
+
+msgid "This is the nickname of person which referred you to FuturumClix. If you do not have any referrer just leave this field blank."
+msgstr "Esta es la persona que te ha recomendado al servicio. Si no la tienes deja la casilla en blanco"
+
+msgid "Show QR Code"
+msgstr "Mostrar el código QR"
+
+msgid "Show all clicks"
+msgstr "Mostrar todos los clics"
+
+msgid "Show only credited clicks"
+msgstr "Mostrar solo clics acreditados"
+
+msgid "Cashout History"
+msgstr "Historia de retirada"
+
+msgid "Date"
+msgstr "Fecha"

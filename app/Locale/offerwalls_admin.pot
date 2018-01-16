@@ -1,0 +1,344 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:58
+msgid "The settings has been saved."
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:60
+msgid "Error occurred when saving settings. Please, try again."
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:103
+msgid "Invalid id"
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:107
+msgid "Offer successfully deleted"
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:109
+msgid "Failed to delete offer, please try again."
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:119;142
+msgid "Please select at least one offer."
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:125
+msgid "Invalid offer"
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:140
+msgid "Mass Action done."
+msgstr ""
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:145
+msgid "Please select action."
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaOfferwall.php:40
+#: Module/Offerwalls/Lib/Offerwalls/MatomyOfferwall.php:35
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroOfferwall.php:19
+#: Module/Offerwalls/Lib/Offerwalls/PersonalyOfferwall.php:43
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsOfferwall.php:28
+#: Module/Offerwalls/Lib/Offerwalls/WannadsOfferwall.php:19
+#: Module/Offerwalls/Lib/Offerwalls/WoobiOfferwall.php:60
+msgid "Not allowed: %s"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaOfferwall.php:54
+#: Module/Offerwalls/Lib/Offerwalls/MatomyOfferwall.php:49
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroOfferwall.php:33
+#: Module/Offerwalls/Lib/Offerwalls/PersonalyOfferwall.php:57
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsOfferwall.php:43
+#: Module/Offerwalls/Lib/Offerwalls/WannadsOfferwall.php:32
+#: Module/Offerwalls/Lib/Offerwalls/WoobiOfferwall.php:73
+msgid "Invalid signature"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaOfferwall.php:58
+#: Module/Offerwalls/Lib/Offerwalls/MatomyOfferwall.php:53
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroOfferwall.php:38
+#: Module/Offerwalls/Lib/Offerwalls/PersonalyOfferwall.php:62
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsOfferwall.php:48
+#: Module/Offerwalls/Lib/Offerwalls/WannadsOfferwall.php:36
+#: Module/Offerwalls/Lib/Offerwalls/WoobiOfferwall.php:77
+msgid "Invalid user"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaSettings.ctp:5
+#: Module/Offerwalls/Lib/Offerwalls/MatomySettings.ctp:5
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroSettings.ctp:5
+#: Module/Offerwalls/Lib/Offerwalls/PersonalySettings.ctp:5
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsSettings.ctp:5
+#: Module/Offerwalls/Lib/Offerwalls/WannadsSettings.ctp:5
+#: Module/Offerwalls/Lib/Offerwalls/WoobiSettings.ctp:5
+msgid "%s settings"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaSettings.ctp:8
+#: Module/Offerwalls/Lib/Offerwalls/WoobiSettings.ctp:8
+msgid "Application ID"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaSettings.ctp:15;28;41;60;73;86
+#: Module/Offerwalls/Lib/Offerwalls/MatomySettings.ctp:15;28;41;54;67
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroSettings.ctp:15;28;41;54;67;80
+#: Module/Offerwalls/Lib/Offerwalls/PersonalySettings.ctp:15;28;41;54;67
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsSettings.ctp:15;28;41;54;67
+#: Module/Offerwalls/Lib/Offerwalls/WannadsSettings.ctp:15;28;41;54;67
+#: Module/Offerwalls/Lib/Offerwalls/WoobiSettings.ctp:15;28;41;54;67
+msgid ""
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaSettings.ctp:21
+msgid "Offerwall ID"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaSettings.ctp:34
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsSettings.ctp:21
+msgid "Postback Key"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaSettings.ctp:47
+msgid "Postback URL Template"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaSettings.ctp:53
+#: Module/Offerwalls/Lib/Offerwalls/MatomySettings.ctp:34
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroSettings.ctp:47
+#: Module/Offerwalls/Lib/Offerwalls/PersonalySettings.ctp:34
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsSettings.ctp:34
+#: Module/Offerwalls/Lib/Offerwalls/WannadsSettings.ctp:34
+#: Module/Offerwalls/Lib/Offerwalls/WoobiSettings.ctp:34
+msgid "Width"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaSettings.ctp:66
+#: Module/Offerwalls/Lib/Offerwalls/MatomySettings.ctp:47
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroSettings.ctp:60
+#: Module/Offerwalls/Lib/Offerwalls/PersonalySettings.ctp:47
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsSettings.ctp:47
+#: Module/Offerwalls/Lib/Offerwalls/WannadsSettings.ctp:47
+#: Module/Offerwalls/Lib/Offerwalls/WoobiSettings.ctp:47
+msgid "Height"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaSettings.ctp:79
+#: Module/Offerwalls/Lib/Offerwalls/MatomySettings.ctp:60
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroSettings.ctp:73
+#: Module/Offerwalls/Lib/Offerwalls/PersonalySettings.ctp:60
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsSettings.ctp:60
+#: Module/Offerwalls/Lib/Offerwalls/WannadsSettings.ctp:60
+#: Module/Offerwalls/Lib/Offerwalls/WoobiSettings.ctp:60
+msgid "Postback Allowed IP"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/AdscendMediaSettings.ctp:92
+#: Module/Offerwalls/Lib/Offerwalls/MatomySettings.ctp:79
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroSettings.ctp:92
+#: Module/Offerwalls/Lib/Offerwalls/PersonalySettings.ctp:79
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsSettings.ctp:79
+#: Module/Offerwalls/Lib/Offerwalls/WannadsSettings.ctp:79
+#: Module/Offerwalls/Lib/Offerwalls/WoobiSettings.ctp:79
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:90
+msgid "Save changes"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/MatomySettings.ctp:8
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:61
+msgid "ID"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/MatomySettings.ctp:21
+#: Module/Offerwalls/Lib/Offerwalls/PersonalySettings.ctp:21
+msgid "Secret Key"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/MatomySettings.ctp:73
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroSettings.ctp:86
+#: Module/Offerwalls/Lib/Offerwalls/PersonalySettings.ctp:73
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsSettings.ctp:73
+#: Module/Offerwalls/Lib/Offerwalls/WannadsSettings.ctp:73
+#: Module/Offerwalls/Lib/Offerwalls/WoobiSettings.ctp:73
+msgid "Postback"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroSettings.ctp:8
+msgid "App ID"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroSettings.ctp:21
+msgid "Pub ID"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/OfferToroSettings.ctp:34
+msgid "App Key (SecretKey)"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/PersonalySettings.ctp:8
+#: Module/Offerwalls/Lib/Offerwalls/SuperRewardsSettings.ctp:8
+msgid "App Hash"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/WannadsSettings.ctp:8
+msgid "API Key"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/WannadsSettings.ctp:21
+msgid "Secret"
+msgstr ""
+
+#: Module/Offerwalls/Lib/Offerwalls/WoobiSettings.ctp:21
+msgid "Hash Key"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:3
+msgid "Offerwalls Settings"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:6
+msgid "General Settings"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:14
+msgid "General settings"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:18
+msgid "Please Choose Which Oferwalls Do You Want To Use"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:31
+msgid "Where To Credit Money Made On Offerwalls"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:36
+msgid "Account Balance"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:37
+msgid "Purchase Balance"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:49
+msgid "\"%s\" settings"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:52
+msgid "Point Ratio"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:63
+msgid "Enter the value of 1 point. For example if you will set 1 point for $0.01 and user will make an offer worth 100 points, he will earn $1."
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:69
+msgid "Add Money Made On Offerwalls After"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:81
+msgid "After how many days add money earned on offers to user's account (put 0 for instant crediting)"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_index.ctp:84
+msgid "Days"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:3
+msgid "Postback log"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:11;56
+msgid "Username"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:16
+msgid "Enter username to search"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:21
+msgid "Offer ID"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:26
+msgid "Enter offer ID to search"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:31
+msgid "Offerwall"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:32;36
+msgid "Please select..."
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:35
+msgid "Status"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:39
+msgid "Search"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:44
+msgid "Detailed Log"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:58
+msgid "Date completed"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:59
+msgid "Date credited"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:63
+msgid "Actions"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:79
+msgid "Deleted"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:88
+msgid "Not yet"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:96;116
+msgid "Delete"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:99
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:109
+msgid "Mass action"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:112
+msgid "--Choose--"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:121
+msgid "Perform action"
+msgstr ""
+
+#: Module/Offerwalls/View/Offerwalls/admin_postback_log.ctp:127
+msgid "Page {:page} of {:pages}"
+msgstr ""
+

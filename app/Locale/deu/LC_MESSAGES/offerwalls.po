@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2016-06-20 15:28+0200\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.8\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:169
+#: Module/Offerwalls/View/Offerwalls/index.ctp:11
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/index.ctp:8
+msgid "Offerwalls"
+msgstr "Zahlangebote"
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:178
+msgid "Offerwall's Log"
+msgstr "Register von Zahlangeboten"
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:194
+msgid "Failed to get transaction id."
+msgstr "Transaktions-ID konnte nicht erhalten werden."
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:228
+msgid "Failed to save offer"
+msgstr "Angebot kann nicht gespeichert werden"
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:237
+msgid "Offerwall not specified"
+msgstr "Angebot wurde nicht bestimmt"
+
+#: Module/Offerwalls/Controller/OfferwallsController.php:245
+msgid "Offerwall not found: %s"
+msgstr "Angebot nicht gefunden %s"
+
+#: Module/Offerwalls/Controller/Component/OfferwallsComponent.php:45
+msgid "Offerwall settings not found"
+msgstr "Einstellungen von Zahlangebot nicht gefunden"
+
+#: Module/Offerwalls/Model/OfferwallsOffer.php:85
+msgid "Invalid user"
+msgstr "Ungültiger Benutzer"
+
+#: Module/Offerwalls/Model/OfferwallsOffer.php:92
+msgid "Empty offers options"
+msgstr "Keine Zahlangebotsoptionen verfügbar"
+
+#: Module/Offerwalls/Model/OfferwallsOffer.php:105;111;147;153
+msgid "Failed to credit offer"
+msgstr "Ist uns nicht gelungen, eine Prämie für das Angebot hinzufügen"
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:12
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:7
+msgid "Offerwalls Log"
+msgstr "Register von Zahlangeboten"
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:19
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:18
+msgid "Offer ID"
+msgstr "Angebots-ID"
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:20
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:19
+msgid "Date completed"
+msgstr "Ausführungsdatum"
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:21
+msgid "Credit date"
+msgstr "Datum Bonus"
+
+#: Module/Offerwalls/View/Offerwalls/postback_log.ctp:38
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:49
+msgid "Page {:page} of {:pages}"
+msgstr "Seite {:page} von {:pages}"
+
+#: View/Themed/Legacy/Plugin/Offerwalls/Offerwalls/postback_log.ctp:20
+msgid "Date credited"
+msgstr "Zahlungsdatum"

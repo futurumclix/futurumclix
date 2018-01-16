@@ -1,0 +1,993 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Forum Plugin\n"
+"POT-Creation-Date: 2013-08-15 06:55+0000\n"
+"PO-Revision-Date: 2013-08-14 23:58-0800\n"
+"Last-Translator: Miles Johnson <mileswjohnson@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: /Config/bootstrap.php:40 /View/Elements/navigation.ctp:22
+#: /View/Forum/index.ctp:15 /View/Layouts/forum.ctp:41
+#: /View/Search/index.ctp:33 /View/Stations/view.ctp:34
+#: /View/Stations/rss/view.ctp:4 /View/Topics/add.ctp:17
+#: /View/Topics/edit.ctp:20
+msgid "Forum"
+msgstr ""
+
+#: /Console/Command/SubscriptionShell.php:91
+msgid "%s [Subscriptions]"
+msgstr ""
+
+#: /Console/Command/SubscriptionShell.php:190
+msgid "Hello %s,"
+msgstr ""
+
+#: /Console/Command/SubscriptionShell.php:191
+msgid ""
+"You have asked to be notified for any new activity within %s. Below you will "
+"find an update on all your forum subscriptions. The last subscription update "
+"was sent on %s."
+msgstr ""
+
+#: /Console/Command/SubscriptionShell.php:192
+msgid ""
+"You may unsubscribe from a forum or topic by clicking the \"Unsubscribe\" "
+"button found within the respective forum or topic."
+msgstr ""
+
+#: /Console/Command/SubscriptionShell.php:197
+msgid "Forum Subscriptions"
+msgstr ""
+
+#: /Console/Command/SubscriptionShell.php:199
+msgid "The following topics have been created."
+msgstr ""
+
+#: /Console/Command/SubscriptionShell.php:206
+msgid "%s [%s] %s"
+msgstr ""
+
+#: /Console/Command/SubscriptionShell.php:220
+msgid "Topic Subscriptions"
+msgstr ""
+
+#: /Console/Command/SubscriptionShell.php:222
+msgid "The following topics have seen recent post activity."
+msgstr ""
+
+#: /Console/Command/SubscriptionShell.php:229
+msgid "%s [%s] %d new posts"
+msgstr ""
+
+#: /Controller/PostsController.php:141
+msgid ""
+"You have successfully reported this post! A moderator will review this post "
+"and take the necessary action."
+msgstr ""
+
+#: /Controller/SearchController.php:43
+msgid "Last post time"
+msgstr ""
+
+#: /Controller/SearchController.php:44
+msgid "Topic created time"
+msgstr ""
+
+#: /Controller/SearchController.php:45
+msgid "Total posts"
+msgstr ""
+
+#: /Controller/SearchController.php:46
+msgid "Total views"
+msgstr ""
+
+#: /Controller/StationsController.php:122
+msgid "A total of %d topic(s) have been permanently deleted"
+msgstr ""
+
+#: /Controller/StationsController.php:126
+msgid "A total of %d topic(s) have been locked to the public"
+msgstr ""
+
+#: /Controller/StationsController.php:130
+msgid "A total of %d topic(s) have been re-opened"
+msgstr ""
+
+#: /Controller/StationsController.php:134
+msgid "A total of %d topic(s) have been moved to another forum category"
+msgstr ""
+
+#: /Controller/StationsController.php:160 /Controller/TopicsController.php:228
+msgid "Failed To Subscribe"
+msgstr ""
+
+#: /Controller/StationsController.php:164 /Controller/TopicsController.php:232
+msgid "Subscribed"
+msgstr ""
+
+#: /Controller/StationsController.php:180 /Controller/TopicsController.php:248
+msgid "Failed To Unsubscribe"
+msgstr ""
+
+#: /Controller/StationsController.php:184 /Controller/TopicsController.php:252
+msgid "Unsubscribed"
+msgstr ""
+
+#: /Controller/TopicsController.php:69
+#: /View/Elements/tiles/forum_controls.ctp:23
+#: /View/Elements/tiles/topic_controls.ctp:22
+msgid "Create Poll"
+msgstr ""
+
+#: /Controller/TopicsController.php:72
+#: /View/Elements/tiles/forum_controls.ctp:19
+#: /View/Elements/tiles/topic_controls.ctp:18
+msgid "Create Topic"
+msgstr ""
+
+#: /Controller/TopicsController.php:169
+msgid ""
+"You have successfully reported this topic! A moderator will review this "
+"topic and take the necessary action."
+msgstr ""
+
+#: /Controller/TopicsController.php:283
+msgid "A total of %d post(s) have been permanently deleted"
+msgstr ""
+
+#: /View/Elements/login.ctp:6
+msgid "Username"
+msgstr ""
+
+#: /View/Elements/login.ctp:7
+msgid "Password"
+msgstr ""
+
+#: /View/Elements/login.ctp:8
+msgid "Remember Me?"
+msgstr ""
+
+#: /View/Elements/login.ctp:9 /View/Elements/navigation.ctp:10
+msgid "Login"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:6
+msgid "View New Posts"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:7
+msgid "Logout"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:13
+msgid "Sign Up"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:17
+msgid "Forgot Password"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:28
+msgid "Forums"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:29 /View/Search/index.ctp:3;6
+msgid "Search"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:30
+msgid "Rules"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:31
+msgid "Help"
+msgstr ""
+
+#: /View/Elements/navigation.ctp:34
+msgid "Admin"
+msgstr ""
+
+#: /View/Elements/tiles/forum_controls.ctp:7
+#: /View/Elements/tiles/topic_controls.ctp:7
+msgid "Subscribe"
+msgstr ""
+
+#: /View/Elements/tiles/forum_controls.ctp:9
+#: /View/Elements/tiles/topic_controls.ctp:9
+msgid "Unsubscribe"
+msgstr ""
+
+#: /View/Elements/tiles/forum_controls.ctp:14
+#: /View/Elements/tiles/topic_controls.ctp:14 /View/Stations/moderate.ctp:7;14
+#: /View/Topics/moderate.ctp:8;17
+msgid "Moderate"
+msgstr ""
+
+#: /View/Elements/tiles/forum_controls.ctp:26
+#: /View/Elements/tiles/topic_controls.ctp:29
+#: /View/Helper/ForumHelper.php:90;261 /View/Topics/view.ctp:21
+msgid "Closed"
+msgstr ""
+
+#: /View/Elements/tiles/forum_row.ctp:24 /View/Stations/view.ctp:27
+msgid "Sub-Forums"
+msgstr ""
+
+#: /View/Elements/tiles/forum_row.ctp:40 /View/Elements/tiles/topic_row.ctp:45
+msgid "by"
+msgstr ""
+
+#: /View/Elements/tiles/forum_row.ctp:43 /View/Elements/tiles/topic_row.ctp:50
+msgid "No latest activity to display"
+msgstr ""
+
+#: /View/Elements/tiles/topic_controls.ctp:27 /View/Posts/add.ctp:8;11;19
+#: /View/Topics/view.ctp:245
+msgid "Post Reply"
+msgstr ""
+
+#: /View/Elements/tiles/topic_row.ctp:13 /View/Topics/view.ctp:33
+msgid "Poll"
+msgstr ""
+
+#: /View/Elements/tiles/topic_row.ctp:19
+msgid "Pages"
+msgstr ""
+
+#: /View/Forum/help.ctp:2;5
+msgid "Help Desk"
+msgstr ""
+
+#: /View/Forum/help.ctp:9
+msgid "Why do I need to sign up?"
+msgstr ""
+
+#: /View/Forum/help.ctp:10
+msgid ""
+"You may read all public forums as a guest, but to be able to post or reply "
+"to a topic, you must have a user account."
+msgstr ""
+
+#: /View/Forum/help.ctp:12
+msgid "Why can't I post a topic, poll or reply?"
+msgstr ""
+
+#: /View/Forum/help.ctp:13
+msgid ""
+"To begin you must have a user account and must be logged in. If you have "
+"done this, the topic might be locked or you do not have the proper access to "
+"post in that topic or forum."
+msgstr ""
+
+#: /View/Forum/help.ctp:15
+msgid "Why can't I login?"
+msgstr ""
+
+#: /View/Forum/help.ctp:16
+msgid ""
+"The server might be having technical difficulties and your request could not "
+"be processed. It may also be that your account has been deleted or banned."
+msgstr ""
+
+#: /View/Forum/help.ctp:18
+msgid "Oh no, I forgot my password!"
+msgstr ""
+
+#: /View/Forum/help.ctp:19
+msgid ""
+"If you have forgotten your password, you can reset it using the %s form."
+msgstr ""
+
+#: /View/Forum/help.ctp:19
+msgid "forgotten password"
+msgstr ""
+
+#: /View/Forum/help.ctp:21
+msgid "What does reporting do?"
+msgstr ""
+
+#: /View/Forum/help.ctp:22
+msgid ""
+"If you find a piece of content that you find inappropriate or offensive, you "
+"can report the content for a moderator to delete or fix."
+msgstr ""
+
+#: /View/Forum/help.ctp:24
+msgid "What are moderators, super moderators and administrators?"
+msgstr ""
+
+#: /View/Forum/help.ctp:25
+msgid ""
+"Those are users with higher access and privileges than a regular user. "
+"Moderators control and moderate specific forums, where as Super Moderators "
+"have full access to all forums. Administrators have full access to all "
+"forums as well as editing all the sites settings and configuration. "
+"Additionally, moderates have the power to edit and delete other users "
+"content."
+msgstr ""
+
+#: /View/Forum/help.ctp:27
+msgid "How do I edit my profile?"
+msgstr ""
+
+#: /View/Forum/help.ctp:28
+msgid ""
+"Once you have logged in, you can edit your profile by going to the %s link, "
+"located at the top right."
+msgstr ""
+
+#: /View/Forum/help.ctp:30
+msgid "How do I post a topic?"
+msgstr ""
+
+#: /View/Forum/help.ctp:31
+msgid ""
+"You would first navigate to the appropriate forum you want to post in. Once "
+"there, you would click the \"Create Topic\" link located at the top and "
+"bottom right of the page."
+msgstr ""
+
+#: /View/Forum/help.ctp:33
+msgid "How do I post a reply?"
+msgstr ""
+
+#: /View/Forum/help.ctp:34
+msgid ""
+"When you are reading a topic and are logged in, you would click the \"Post "
+"Reply\" link also located at the top and bottom right of the page."
+msgstr ""
+
+#: /View/Forum/help.ctp:36
+msgid "How do I create a poll?"
+msgstr ""
+
+#: /View/Forum/help.ctp:37
+msgid ""
+"You would create a poll the same way you would create a topic. First enter "
+"the correct forum, then hit the \"Create Poll\" link."
+msgstr ""
+
+#: /View/Forum/help.ctp:39
+msgid "How do I edit my topic, poll, post, etc?"
+msgstr ""
+
+#: /View/Forum/help.ctp:40
+msgid ""
+"When you are reading a topic, at the top right of each post you will see a "
+"few text links. Hit the \"Edit\" link to edit your respective content. If "
+"you are editing the first post of a topic, it will additionally edit the "
+"topic or poll as well. You may only edit your own posts or topics unless you "
+"have moderating capabilities."
+msgstr ""
+
+#: /View/Forum/help.ctp:42
+msgid "How do I report a topic, post or user?"
+msgstr ""
+
+#: /View/Forum/help.ctp:43
+msgid ""
+"At the top right of each post you would click the report button. From there "
+"you should add a comment on why you are reporting this content."
+msgstr ""
+
+#: /View/Forum/help.ctp:45
+msgid "How do I get higher access and permissions?"
+msgstr ""
+
+#: /View/Forum/help.ctp:46
+msgid ""
+"It is up to the administrator to give you higher access. All you can do is "
+"be an outstanding member on the forum and hope they promote you."
+msgstr ""
+
+#: /View/Forum/help.ctp:48
+msgid "I have more questions that aren't shown here!"
+msgstr ""
+
+#: /View/Forum/help.ctp:49
+msgid ""
+"If you have additional questions and need further help, please contact us at "
+"%s."
+msgstr ""
+
+#: /View/Forum/index.ctp:16 /View/Stations/view.ctp:35;82
+msgid "Topics"
+msgstr ""
+
+#: /View/Forum/index.ctp:17 /View/Search/index.ctp:36
+#: /View/Stations/moderate.ctp:32 /View/Stations/view.ctp:36;66
+msgid "Posts"
+msgstr ""
+
+#: /View/Forum/index.ctp:18 /View/Search/index.ctp:38
+#: /View/Stations/moderate.ctp:34 /View/Stations/view.ctp:37;68
+msgid "Activity"
+msgstr ""
+
+#: /View/Forum/index.ctp:33
+msgid "There are no categories within this forum"
+msgstr ""
+
+#: /View/Forum/index.ctp:49
+msgid "Statistics"
+msgstr ""
+
+#: /View/Forum/index.ctp:49
+msgid "%d topics, %d posts, and %d users"
+msgstr ""
+
+#: /View/Forum/index.ctp:54
+msgid "Newest User"
+msgstr ""
+
+#: /View/Forum/index.ctp:66
+msgid "Whos Online"
+msgstr ""
+
+#: /View/Forum/rules.ctp:2;5
+msgid "Rules and Regulations"
+msgstr ""
+
+#: /View/Forum/rules.ctp:9
+msgid "No Offensive Material"
+msgstr ""
+
+#: /View/Forum/rules.ctp:10
+msgid ""
+"No posting any harmful, threatening, abusive, harassing, defamatory, vulgar, "
+"obscene, hateful, or racially, ethnically or otherwise objectionable "
+"content. This means no porn, gore, offensive, violent or disturbing images, "
+"websites and or other adult content. This will result in an immediate ban "
+"from the community."
+msgstr ""
+
+#: /View/Forum/rules.ctp:12
+msgid "No Prejudice or Discrimination"
+msgstr ""
+
+#: /View/Forum/rules.ctp:13
+msgid ""
+"There is to be absolutely no discriminating or hatred against somebody else "
+"due to race, religion, gender, cultural background or sexual preference. "
+"This will result in an immediate ban from the community."
+msgstr ""
+
+#: /View/Forum/rules.ctp:15
+msgid "No Flaming"
+msgstr ""
+
+#: /View/Forum/rules.ctp:16
+msgid ""
+"There is to be no offensive language, personal attacks, harassment or "
+"flaming to another member of the forum. For each infraction you will be "
+"warned, and if the problem persists you will be banned."
+msgstr ""
+
+#: /View/Forum/rules.ctp:18
+msgid "No Spamming"
+msgstr ""
+
+#: /View/Forum/rules.ctp:19
+msgid ""
+"No spamming or flooding forums or threads by posting frequent and / or "
+"annoying messages in the forums which serve no purpose."
+msgstr ""
+
+#: /View/Forum/rules.ctp:21
+msgid "No Short Length Posts"
+msgstr ""
+
+#: /View/Forum/rules.ctp:22
+msgid ""
+"A response with only a few words is considered spam. If you post a reply "
+"that contains less than 5-10 words, it is considered spam. If you do not "
+"have anything worth while to add to the conversation, then do not reply at "
+"all. Please refer to the No Spamming rule above."
+msgstr ""
+
+#: /View/Forum/rules.ctp:24
+msgid "No Virus, Trojans or Warez"
+msgstr ""
+
+#: /View/Forum/rules.ctp:25
+msgid ""
+"Posting links to and / or information about cheats, hacks, virus, trojans, "
+"warez and otherwise illegal content is prohibited. If this happens you will "
+"be banned immediately."
+msgstr ""
+
+#: /View/Forum/rules.ctp:27
+msgid "No Threadomancy"
+msgstr ""
+
+#: /View/Forum/rules.ctp:28
+msgid ""
+"Posting in a thread that hasn't had any new replies in roughly 3-4 weeks or "
+"more (up to mod discretion; possible exceptions apply)."
+msgstr ""
+
+#: /View/Forum/rules.ctp:30
+msgid "No Trolling"
+msgstr ""
+
+#: /View/Forum/rules.ctp:31
+msgid ""
+"No trolling these forums are allowed. Do not intentionally post "
+"controversial or contrary messages to invoke other members of the community. "
+"This will result in an immediate ban."
+msgstr ""
+
+#: /View/Forum/rules.ctp:33
+msgid "No Advertising"
+msgstr ""
+
+#: /View/Forum/rules.ctp:34
+msgid ""
+"Posting links to other community sites that are not on our affiliates list "
+"or posting links to advertise your site or community is prohibited. You may "
+"place a link within your signature, but you may not advertise with a topic. "
+"This will result in a warning or a ban."
+msgstr ""
+
+#: /View/Forum/rules.ctp:36
+msgid "No Double Posting"
+msgstr ""
+
+#: /View/Forum/rules.ctp:37
+msgid ""
+"Do not double post, if you need to double post please edit your previous "
+"post instead. Posting consecutively is not permitted."
+msgstr ""
+
+#: /View/Forum/rules.ctp:39
+msgid "No Duplicate Topics"
+msgstr ""
+
+#: /View/Forum/rules.ctp:40
+msgid ""
+"Do not create a new topic with the same content to an existing topic. "
+"Duplicated topics will be locked, and removed. Browse through the forum, or "
+"do a search and see if a topic already exist."
+msgstr ""
+
+#: /View/Forum/rules.ctp:42
+msgid "No Abusing Topics"
+msgstr ""
+
+#: /View/Forum/rules.ctp:43
+msgid ""
+"Do not post topics that have no real reason for being created. Also do not "
+"spam topics/polls."
+msgstr ""
+
+#: /View/Forum/rss/index.ctp:4
+msgid "Latest Topics"
+msgstr ""
+
+#: /View/Forum/rss/index.ctp:6
+msgid "The latest 10 topics out of all forums"
+msgstr ""
+
+#: /View/Helper/ForumHelper.php:89;259;260
+msgid "No New Posts"
+msgstr ""
+
+#: /View/Helper/ForumHelper.php:91;262;263
+msgid "New Posts"
+msgstr ""
+
+#: /View/Helper/ForumHelper.php:264
+msgid "Sticky"
+msgstr ""
+
+#: /View/Helper/ForumHelper.php:265
+msgid "Important"
+msgstr ""
+
+#: /View/Helper/ForumHelper.php:266
+msgid "Announcement"
+msgstr ""
+
+#: /View/Layouts/forum.ctp:18
+msgid "RSS Feed - Latest Topics"
+msgstr ""
+
+#: /View/Layouts/forum.ctp:20
+msgid "RSS Feed - Content Review"
+msgstr ""
+
+#: /View/Layouts/forum.ctp:51
+msgid "Powered by the %s v%s"
+msgstr ""
+
+#: /View/Layouts/forum.ctp:52
+msgid "Created by %s"
+msgstr ""
+
+#: /View/Posts/add.ctp:17 /View/Posts/edit.ctp:17 /View/Topics/add.ctp:53
+#: /View/Topics/edit.ctp:75
+msgid "Content"
+msgstr ""
+
+#: /View/Posts/add.ctp:26
+msgid "Topic Review - Last 10 Replies"
+msgstr ""
+
+#: /View/Posts/edit.ctp:8;11 /View/Topics/view.ctp:136
+msgid "Edit Post"
+msgstr ""
+
+#: /View/Posts/edit.ctp:19
+msgid "Update Post"
+msgstr ""
+
+#: /View/Posts/report.ctp:8;11 /View/Topics/view.ctp:140
+msgid "Report Post"
+msgstr ""
+
+#: /View/Posts/report.ctp:16
+msgid ""
+"Are you sure you want to report the post (below) in the topic %s? If so, "
+"please add a comment as to why you are reporting it, 255 max characters."
+msgstr ""
+
+#: /View/Posts/report.ctp:22 /View/Topics/moderate.ctp:32
+msgid "Post"
+msgstr ""
+
+#: /View/Posts/report.ctp:24 /View/Topics/report.ctp:23
+msgid "Comment"
+msgstr ""
+
+#: /View/Posts/report.ctp:25 /View/Topics/report.ctp:24
+msgid "Report"
+msgstr ""
+
+#: /View/Search/index.ctp:14
+msgid "With keywords"
+msgstr ""
+
+#: /View/Search/index.ctp:15
+msgid "in forum"
+msgstr ""
+
+#: /View/Search/index.ctp:16
+msgid "by user"
+msgstr ""
+
+#: /View/Search/index.ctp:17
+msgid "order by"
+msgstr ""
+
+#: /View/Search/index.ctp:21
+msgid "Search Topics"
+msgstr ""
+
+#: /View/Search/index.ctp:32 /View/Stations/moderate.ctp:28
+#: /View/Stations/view.ctp:63 /View/Topics/rss/view.ctp:4
+msgid "Topic"
+msgstr ""
+
+#: /View/Search/index.ctp:34 /View/Stations/moderate.ctp:30
+#: /View/Stations/view.ctp:64
+msgid "Author"
+msgstr ""
+
+#: /View/Search/index.ctp:35 /View/Stations/moderate.ctp:31
+#: /View/Stations/view.ctp:65
+msgid "Created"
+msgstr ""
+
+#: /View/Search/index.ctp:37 /View/Stations/moderate.ctp:33
+#: /View/Stations/view.ctp:67
+msgid "Views"
+msgstr ""
+
+#: /View/Search/index.ctp:46
+msgid "No results were found, please refine your search criteria"
+msgstr ""
+
+#: /View/Stations/admin_delete.ctp:28
+msgid "Move Topics To"
+msgstr ""
+
+#: /View/Stations/admin_delete.ctp:37
+msgid "Move Forums To"
+msgstr ""
+
+#: /View/Stations/moderate.ctp:11
+msgid "Return to Forum"
+msgstr ""
+
+#: /View/Stations/moderate.ctp:29 /View/Topics/add.ctp:20
+#: /View/Topics/edit.ctp:21
+msgid "Status"
+msgstr ""
+
+#: /View/Stations/moderate.ctp:50 /View/Stations/view.ctp:97
+msgid "There are no topics within this forum"
+msgstr ""
+
+#: /View/Stations/moderate.ctp:66
+msgid "Open Topic(s)"
+msgstr ""
+
+#: /View/Stations/moderate.ctp:67
+msgid "Close Topic(s)"
+msgstr ""
+
+#: /View/Stations/moderate.ctp:68
+msgid "Move Topic(s)"
+msgstr ""
+
+#: /View/Stations/moderate.ctp:69
+msgid "Delete Topic(s)"
+msgstr ""
+
+#: /View/Stations/moderate.ctp:72 /View/Topics/moderate.ctp:70
+msgid "Perform Action"
+msgstr ""
+
+#: /View/Stations/moderate.ctp:75
+msgid "Move To"
+msgstr ""
+
+#: /View/Stations/moderate.ctp:76 /View/Topics/moderate.ctp:71
+msgid "Process"
+msgstr ""
+
+#: /View/Stations/view.ctp:121 /View/Topics/view.ctp:182
+msgid "Total Topics"
+msgstr ""
+
+#: /View/Stations/view.ctp:124
+msgid "Increases Post Count"
+msgstr ""
+
+#: /View/Stations/view.ctp:125;128;131;138;141;144
+msgid "Yes"
+msgstr ""
+
+#: /View/Stations/view.ctp:127
+msgid "Can Read Topics"
+msgstr ""
+
+#: /View/Stations/view.ctp:128;131;138;141;144
+msgid "No"
+msgstr ""
+
+#: /View/Stations/view.ctp:130
+msgid "Can Create Topics"
+msgstr ""
+
+#: /View/Stations/view.ctp:134 /View/Topics/view.ctp:186
+msgid "Total Posts"
+msgstr ""
+
+#: /View/Stations/view.ctp:137
+msgid "Auto-Lock Topics"
+msgstr ""
+
+#: /View/Stations/view.ctp:140
+msgid "Can Reply"
+msgstr ""
+
+#: /View/Stations/view.ctp:143
+msgid "Can Create Polls"
+msgstr ""
+
+#: /View/Stations/view.ctp:148
+msgid "Moderators"
+msgstr ""
+
+#: /View/Topics/add.ctp:16 /View/Topics/edit.ctp:17
+msgid "Title"
+msgstr ""
+
+#: /View/Topics/add.ctp:17 /View/Topics/edit.ctp:20
+msgid "Select a Forum"
+msgstr ""
+
+#: /View/Topics/add.ctp:21 /View/Topics/edit.ctp:22
+msgid "Type"
+msgstr ""
+
+#: /View/Topics/add.ctp:27 /View/Topics/edit.ctp:31
+msgid "Poll Options"
+msgstr ""
+
+#: /View/Topics/add.ctp:28
+msgid "One option per line. Max 10 options."
+msgstr ""
+
+#: /View/Topics/add.ctp:33 /View/Topics/edit.ctp:53
+msgid "Expiration Date"
+msgstr ""
+
+#: /View/Topics/add.ctp:34 /View/Topics/edit.ctp:54
+msgid "How many days till expiration? Leave blank to last forever."
+msgstr ""
+
+#: /View/Topics/add.ctp:44 /View/Topics/edit.ctp:65
+msgid "Excerpt"
+msgstr ""
+
+#: /View/Topics/add.ctp:48 /View/Topics/edit.ctp:69
+msgid "%s characters remaining"
+msgstr ""
+
+#: /View/Topics/edit.ctp:8;11;81 /View/Topics/view.ctp:126
+msgid "Edit Topic"
+msgstr ""
+
+#: /View/Topics/edit.ctp:44
+msgid "Delete?"
+msgstr ""
+
+#: /View/Topics/moderate.ctp:13 /View/Topics/view.ctp:130
+msgid "Delete Topic"
+msgstr ""
+
+#: /View/Topics/moderate.ctp:13 /View/Topics/view.ctp:130;137
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: /View/Topics/moderate.ctp:14
+msgid "Return to Topic"
+msgstr ""
+
+#: /View/Topics/moderate.ctp:31
+msgid "User"
+msgstr ""
+
+#: /View/Topics/moderate.ctp:33
+msgid "Date"
+msgstr ""
+
+#: /View/Topics/moderate.ctp:70
+msgid "Delete Post(s)"
+msgstr ""
+
+#: /View/Topics/report.ctp:8;11 /View/Topics/view.ctp:133
+msgid "Report Topic"
+msgstr ""
+
+#: /View/Topics/report.ctp:16
+msgid ""
+"Are you sure you want to report the topic %s? If so, please add a comment as "
+"to why you are reporting it, 255 max characters."
+msgstr ""
+
+#: /View/Topics/view.ctp:62
+msgid "Voting on this poll has been closed"
+msgstr ""
+
+#: /View/Topics/view.ctp:64
+msgid "Vote"
+msgstr ""
+
+#: /View/Topics/view.ctp:67
+msgid "Please login to vote!"
+msgstr ""
+
+#: /View/Topics/view.ctp:83
+msgid "%d votes"
+msgstr ""
+
+#: /View/Topics/view.ctp:86
+msgid "Your Vote"
+msgstr ""
+
+#: /View/Topics/view.ctp:137
+msgid "Delete Post"
+msgstr ""
+
+#: /View/Topics/view.ctp:144
+msgid "Quote"
+msgstr ""
+
+#: /View/Topics/view.ctp:155
+msgid "Rate Up"
+msgstr ""
+
+#: /View/Topics/view.ctp:165
+msgid "Rate Down"
+msgstr ""
+
+#: /View/Topics/view.ctp:195
+msgid "This post has been buried."
+msgstr ""
+
+#: /View/Topics/view.ctp:196
+msgid "View the buried post?"
+msgstr ""
+
+#: /View/Topics/view.ctp:231
+msgid "Quick Reply"
+msgstr ""
+
+#: Forum
+msgid "forum.status.0"
+msgstr "Hidden"
+
+msgid "forum.status.1"
+msgstr "Visible"
+
+#: Topic
+msgid "topic.status.0"
+msgstr "Closed"
+
+msgid "topic.status.1"
+msgstr "Open"
+
+msgid "topic.type.0"
+msgstr "Normal"
+
+msgid "topic.type.1"
+msgstr "Sticky"
+
+msgid "topic.type.2"
+msgstr "Important"
+
+msgid "topic.type.3"
+msgstr "Announcement"
+
+#: Controllers
+msgid "Not Found"
+msgstr ""
+
+msgid "Forbidden"
+msgstr ""
+
+msgid "Unauthorized"
+msgstr ""
+
+msgid "The following tags have been nested in the wrong order: %s"
+msgstr ""
+
+msgid "The following tags have no closing tag: %s"
+msgstr ""
+
+msgid "The following tags can not be placed within a specific tag: %s"
+msgstr ""
+
+msgid "No user exists with this ID"
+msgstr ""
+
+msgid "This user is already a moderator for this forum"
+msgstr ""
+
+msgid "You must wait %s more second(s) till you can post a reply"
+msgstr ""
+
+msgid "You are only allowed to post %s time(s) per hour"
+msgstr ""
+
+msgid "You must wait %s more second(s) till you can post a topic"
+msgstr ""
+
+msgid "You are only allowed to post %s topic(s) per hour"
+msgstr ""
+
+msgid "Please supply a number"
+msgstr ""
+
+msgid "This setting is required"
+msgstr ""
+
+msgid "This field is required"
+msgstr ""
+
+msgid "Expiration must be a numerical value for days"
+msgstr ""
+
+msgid "You must supply a minimum of 2 options and a max of 10"
+msgstr ""
+
+msgid "Please supply some answer options for your poll"
+msgstr ""

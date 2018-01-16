@@ -1,0 +1,47 @@
+FuturumClix uses additional software listed below:
+
+Evercookie, by samy kamkar http://samy.pl : code@samy.pl  
+
+Decoda, Type Converter, Forum and Utility plugins for CakePHP made available under MIT License by Miles Johnson. http://milesj.me
+
+TinyMCE released as open source under the LGPL. https://www.tinymce.com/
+
+Payeer, SweetCaptcha, SolveMedia, reCaptcha, Facebook API library files made available under terms of they own licenses by respective owners.
+
+Services_JSON made available under terms of BSD License by Michal Migurski <mike-json@teczno.com> with contributions of Matt Knapp <mdknapp[at]gmail[dot]com> and Brett Stimmerman <brettstimmerman[at]gmail[dot]com>.
+
+big.js library made available under terms of MIT Expat License by Michael Mclaughlin.
+
+Bootstrap made available under terms of MIT License by Twitter, Inc.
+
+Clipboard.js made available by Zeno Rocha under MIT License.
+
+HTML5 Shiv prev3.7.1 by @afarkas @jdalton @jon_neal @rem under MIT/GPL2 Licenses.
+
+JQuery packages made available by jQuery Foundation and other contributors under terms of MIT License.
+
+jQuery DateTimePicker plugin made available under terms of MIT License by Chupurnov Valeriy, XDSoft. http://xdsoft.net
+
+jQuery Vector Map made available under MIT/GPL2 License by Peter Schmalfeldt. me@peterschmalfeldt.com
+
+Respond.js made available under MIT License by Scott Jehl. https://github.com/scottjehl/Respond
+
+tether library copyright (c) 2014-2016 HubSpot, Inc.
+
+jqvmap made available under MIT License by Manifest Interactive. https://jqvmap.com
+
+Ip2nation database available free by Per Gustafsson Consulting at http://ip2nation.com
+
+Forum flags available free by Mark James at http://www.famfamfam.com/lab/icons/flags/
+
+ReferrerKiller made available under MIT License by Juan Pablo Guereca http://jpgerek.github.io/referrer-killer/example.html
+
+Online CakePHP Plugin made available under MIT License by Nick Baker Webtechnick http://www.webtechnick.com 
+
+Google Authenticator implementation made available under Apache License 2.0 by Andre DeMarre
+
+Cubits PHP Client Library made available under MIT License by (c) 2014 Cubits, Inc https://github.com/cubits/cubits-php
+
+Block.io PHP library made available under MIT License by Block.io https://github.com/BlockIo/block_io-php
+
+Full contents of Licenses are available in source code files or in additional text files included in this package.

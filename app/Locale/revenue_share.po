@@ -1,0 +1,129 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2016-06-20 15:43+0200\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.8\n"
+"Last-Translator: \n"
+"Language: pl_PL\n"
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:201;273
+#: Module/RevenueShare/View/RevenueShare/index.ctp:11
+msgid "Revenue Shares"
+msgstr "Akcje"
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:232
+msgid "Not allowed"
+msgstr "Niedozwolone"
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:253
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:281
+msgid "Please enter a valid amount"
+msgstr "Wpisz poprawną kwotę"
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:286
+#: Module/RevenueShare/Model/RevenueShareOption.php:207
+msgid "Invalid option"
+msgstr "Nieprawidłowa opcja"
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:291
+msgid "Invalid gateway"
+msgstr "Nieprawidłowa bramka płatności"
+
+#: Module/RevenueShare/Controller/RevenueShareController.php:295
+msgid "You can buy maximum of %d packs."
+msgstr "Maksymalnie możesz kupić %d pakietów."
+
+#: Module/RevenueShare/Model/RevenueShareOption.php:127
+msgid "Missing conversion data"
+msgstr "Brakujące dane konwersji"
+
+#: Module/RevenueShare/View/RevenueShare/buy.ctp:11
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/buy.ctp:16
+msgid "Buy revenue shares"
+msgstr "Kup akcje"
+
+#: Module/RevenueShare/View/RevenueShare/buy.ctp:17
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/buy.ctp:21
+msgid "Choose revenue share pack"
+msgstr "Wybierz pakiet akcji"
+
+#: Module/RevenueShare/View/RevenueShare/buy.ctp:23
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/buy.ctp:27
+msgid "Packs amount"
+msgstr "Ilość akcji"
+
+#: Module/RevenueShare/View/RevenueShare/buy.ctp:33
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/buy.ctp:37
+msgid "Max allowed: %s"
+msgstr "Maksymalnie dozwolone %s"
+
+#: Module/RevenueShare/View/RevenueShare/index.ctp:15
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/index.ctp:19
+msgid "Currently you do not have any revenue shares."
+msgstr "Obecnie nie posiadasz żadnych akcji."
+
+#: Module/RevenueShare/View/RevenueShare/index.ctp:23
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/index.ctp:27
+msgid "Pack name"
+msgstr "Nazwa paczki"
+
+#: Module/RevenueShare/View/RevenueShare/index.ctp:24
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/index.ctp:28
+msgid "Start date"
+msgstr "Data rozpoczęcia"
+
+#: Module/RevenueShare/View/RevenueShare/index.ctp:26
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/index.ctp:30
+msgid "Current income"
+msgstr "Obecny przychód"
+
+#: Module/RevenueShare/View/RevenueShare/index.ctp:35
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/index.ctp:39
+msgid "Not longer available"
+msgstr "Nie jest już dostępny"
+
+#: Module/RevenueShare/View/RevenueShare/index.ctp:41
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/index.ctp:45
+msgid "Completed"
+msgstr "Zakończony"
+
+#: Module/RevenueShare/View/RevenueShare/index.ctp:48
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/index.ctp:54
+msgid "Page {:page} of {:pages}"
+msgstr "Strona {:page} z {:pages}"
+
+#: Module/RevenueShare/View/RevenueShare/index.ctp:66
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/index.ctp:74
+msgid ""
+"Currently you cannot buy more shares. You have to wait until %s to get more "
+"revenue shares."
+msgstr ""
+"Obecnie nie możesz kupić więcej akcji. Musisz poczekać do %s aby kupić "
+"więcej akcji."
+
+#: Module/RevenueShare/View/RevenueShare/index.ctp:72
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/index.ctp:80
+msgid ""
+"Currently you cannot buy more shares as you have reached maximum amount of "
+"allowed revenue shares."
+msgstr ""
+"Obecnie nie możesz kupić więcej akcji ponieważ osiągnąłeś maksymalną "
+"dozwoloną ilość posiadanych akcji."
+
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/buy.ctp:8
+#: View/Themed/Legacy/Plugin/RevenueShare/RevenueShare/index.ctp:9
+msgid "Revenue shares"
+msgstr "Akcje"

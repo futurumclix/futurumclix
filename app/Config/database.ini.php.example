@@ -1,0 +1,7 @@
+;<?php exit(0); ?>
+[default]
+host = localhost
+login = mydbuser
+password = mydbuserpassword
+database = mydatabase
+prefix = futurum_
