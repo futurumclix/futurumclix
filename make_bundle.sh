@@ -48,8 +48,11 @@ wget "https://github.com/cakephp/cakephp/archive/$CAKEVERSION.zip" -O "$TMPDIR/c
 (cd "$TMPDIR" && unzip cakephp.zip > /dev/null 2>&1) || exit 13
 cp -R `pwd` "$TMPDIR/dist" > /dev/null 2>&1 || exit 15
 cp -R "$TMPDIR/cakephp-$CAKEVERSION/lib" "$TMPDIR/dist/" || exit 16
-rm -rf "$TMPDIR/dist/$0" > /dev/null 2>&1 || exit 17
-(cd "$TMPDIR/dist" && zip -ro9T "futurumclix-$FUTURUMVERSION.zip" * > /dev/null 2>&1) || exit 18
-mv "$TMPDIR/dist/futurumclix-$FUTURUMVERSION.zip" ./ > /dev/null 2>&1 || exit 19
+cp -R "$TMPDIR/cakephp-$CAKEVERSION/.htaccess" "$TMPDIR/dist/" || exit 17
+(rm -rf "$TMPDIR/dist/$0" > /dev/null 2>&1 && touch "$TMPDIR/dist/app/Config/database.ini.php" > /dev/null 2>&1) || exit 18
+mkdir -p "$TMPDIR/dist/app/tmp/cache/models" "$TMPDIR/dist/app/tmp/cache/persistent" "$TMPDIR/dist/app/tmp/logs" > /dev/null 2>&1 || exit 19
+(chmod -R 777 "$TMPDIR/dist/app/tmp" > /dev/null 2>&1 && touch "$TMPDIR/dist/app/Config/core.ini.php") || exit 20
+(cd "$TMPDIR/dist" && zip -ro9T "futurumclix-$FUTURUMVERSION.zip" .htaccess * > /dev/null 2>&1) || exit 21
+mv "$TMPDIR/dist/futurumclix-$FUTURUMVERSION.zip" ./ > /dev/null 2>&1 || exit 22
 
 STATUS="done."
