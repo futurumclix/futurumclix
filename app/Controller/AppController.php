@@ -37,7 +37,6 @@ class AppController extends Controller {
  */
 	public $components = array(
 		'Security',
-		'DebugKit.Toolbar' => array('panels' => array('history' => false)),
 		'Session',
 		'Auth',
 		'Notice',
@@ -97,6 +96,10 @@ class AppController extends Controller {
 	);
 
 	public function constructClasses() {
+		if(CakePlugin::loaded('DebugKit')) {
+			$this->components['DebugKit.Toolbar'] = array('panels' => array('history' => false));
+		}
+
 		if(isset($this->params['prefix']) && $this->params['prefix'] == 'admin') {
 			if(isset($this->components['Pagniator'])) {
 				$this->components['Paginator']['className'] = 'AdminPaginator';

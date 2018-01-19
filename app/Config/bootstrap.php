@@ -131,11 +131,22 @@ CakePlugin::load(array(
 		'bootstrap' => true,
 		'ignoreMissing' => true
 	),
-	'DebugKit' => array('routes' => true, 'bootstrap' => true, 'ignoreMissing' => true), // NOTE: need to be in one line (autoremoving in script)
 	'TinyMCE',
 	'Online',
 	'GoogleAuthenticator',
 ));
+
+try {
+	CakePlugin::load(array(
+		'DebugKit' => array(
+			'routes' => true,
+			'bootstrap' => true,
+			'ignoreMissing' => true,
+		),
+	));
+} catch (MissingPluginException $e) {
+	/* ignore */
+}
 
 /* Forum plugin configuration */
 Configure::write('Forum.settings.name', Configure::read('siteName'));
