@@ -369,7 +369,7 @@ class ChartHelper extends AppHelper {
 
 			$style .= '"';
 
-			return '<div'.$style.'>Please install <a href="https://www.highcharts.com">HighCharts</a> to see the chart.</div>'
+			return '<div'.$style.'>Please install <a href="https://www.highcharts.com">HighCharts</a> to see the chart.</div>';
 		}
 
 		if(isset($divOptions['continous'])) {
