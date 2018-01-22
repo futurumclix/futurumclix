@@ -30,6 +30,9 @@ CakePHP 2 root directory.
 Release packages of FuturumClix comes with CakePHP 2 bundled. For additional
 information check the documentation included in release package.
 
+If you want to install [HighCharts](https://www.highcharts.com/) all you need
+to do is copy *highcharts.js* file to *app/webroot/js/charts/* directory. 
+
 ## Troubleshooting 
 In case of any problems with the script, we recommend to activate the debug mode, 
 which provides a full reporting of errors. To activate the debug mode, find
