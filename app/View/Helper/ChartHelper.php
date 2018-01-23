@@ -94,7 +94,8 @@ class ChartHelper extends AppHelper {
 /**
  * __construct method
  *
- *
+ * @param View $view
+ * @param array $settings
  */
 	function __construct(View $view, $settings = array()) {
 		parent::__construct($view, $settings);
@@ -154,16 +155,19 @@ class ChartHelper extends AppHelper {
 /**
  * _encodeOptions
  *
+ * @param $flatOptions
  * @return string
  */
-	private function _encodeOptions($flotOptions) {
-		return json_encode($flotOptions, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+	private function _encodeOptions($flatOptions) {
+		return json_encode($flatOptions, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
 	}
 
 /**
  * _encodeData
  *
- * @return string
+ * @param $data array
+ * @param $options array
+ * @return void
  */
 	private function _joinData(&$data, &$options) {
 		foreach($data as $k => $v) {
@@ -201,6 +205,8 @@ class ChartHelper extends AppHelper {
 /**
  * createJs method
  *
+ * @param $data array
+ * @param $options array
  * @return string
  */
 	protected function createJs($data, $options) {
@@ -218,6 +224,7 @@ class ChartHelper extends AppHelper {
 /**
  * createDiv method
  *
+ * @param $options array
  * @return string
  */
 	protected function createDiv($options) {
@@ -300,11 +307,12 @@ class ChartHelper extends AppHelper {
 	}
 
 /**
- * makeContinousByDay method
+ * makeContinuousByDay method
  *
+ * @param $data array
  * @return void
  */
-	protected function makeContinousByDay(&$data) {
+	protected function makeContinuousByDay(&$data) {
 		$end = $start = date('Y-m-d');
 
 		foreach($data as &$v) {
@@ -351,6 +359,9 @@ class ChartHelper extends AppHelper {
 /**
  * show method
  *
+ * @param array $data
+ * @param array $divOptions
+ * @param array $jsOptions
  * @return string
  */
 	public function show($data = array(), $divOptions = array(), $jsOptions = array()) {
@@ -372,11 +383,11 @@ class ChartHelper extends AppHelper {
 			return '<div '.$style.'>Please install <a href="https://www.highcharts.com">HighCharts</a> to see the chart.</div>';
 		}
 
-		if(isset($divOptions['continous'])) {
-			if($divOptions['continous'] == 'day' || $divOptions['continous'] == true) {
-				$this->makeContinousByDay($data);
+		if(isset($divOptions['continuous'])) {
+			if($divOptions['continuous'] == 'day' || $divOptions['continuous'] == true) {
+				$this->makeContinuousByDay($data);
 			}
-			unset($divOptions['continous']);
+			unset($divOptions['continuous']);
 		}
 
 		$jsOptions = Hash::merge($this->defaultOptions, $jsOptions);
