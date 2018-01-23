@@ -59,6 +59,7 @@ class RevenueShareSchema extends CakeSchema {
 			$toAdd[] = array(
 				'membership_id' => $membership_id,
 				'enabled' => false,
+				'credit' => 0,
 				'max_packs' => 0,
 				'max_packs_one_purchase' => 0,
 				'days_between' => 65535,
