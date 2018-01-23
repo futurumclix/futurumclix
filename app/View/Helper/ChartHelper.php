@@ -357,7 +357,7 @@ class ChartHelper extends AppHelper {
 		$this->emitScripts();
 
 		if(!$this->highChartsInstalled) {
-			$style = 'style="';
+			$style = 'style="display: inline-block;';
 
 			if(isset($divOptions['width'])) {
 				$style .= 'width: '.$divOptions['width'].';';
@@ -369,7 +369,7 @@ class ChartHelper extends AppHelper {
 
 			$style .= '"';
 
-			return '<div'.$style.'>Please install <a href="https://www.highcharts.com">HighCharts</a> to see the chart.</div>';
+			return '<div '.$style.'>Please install <a href="https://www.highcharts.com">HighCharts</a> to see the chart.</div>';
 		}
 
 		if(isset($divOptions['continous'])) {
