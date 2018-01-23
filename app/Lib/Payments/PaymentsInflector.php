@@ -24,6 +24,15 @@
  * @link          https://github.com/futurumclix/futurumclix
  * @license       https://opensource.org/licenses/AGPL-3.0 AGPLv3
  */
+
+/**
+ * Class PaymentsInflector
+ *
+ * @method static string humanize($word)
+ * @method static string classify($word)
+ * @method static string tableize($word)
+ * @method static string underscore($word)
+ */
 class PaymentsInflector {
 	private static $exceptions = array(
 		'humanize' => array(
