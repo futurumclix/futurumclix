@@ -67,18 +67,6 @@ class UserFormHelper extends AppFormHelper {
 		App::uses('L10n', 'I18n');
 		$l10n = new L10n();
 
-		if(ioncube_file_is_encoded()) {
-			$props = ioncube_license_properties();
-
-			if($props === false || !isset($props['Translations']) || empty($props['Translations']) || empty($props['Translations']['value'])) {
-				$licensed_translations = array();
-			} else {
-				$licensed_translations = explode(',', $props['Translations']['value']);
-			}
-		} else {
-			$licensed_translations = true;
-		}
-
 		$res = array();
 		$paths = App::path('Locale');
 		$dir = new Folder(reset($paths));
@@ -86,10 +74,8 @@ class UserFormHelper extends AppFormHelper {
 		$content = $content[0];
 
 		foreach($content as $loc) {
-			if($licensed_translations === true || in_array($loc, $licensed_translations)) {
-				$cat = $l10n->catalog($loc);
-				$res[$loc] = __($cat['language']);
-			}
+			$cat = $l10n->catalog($loc);
+			$res[$loc] = __($cat['language']);
 		}
 
 		$res['en'] = __('English');
