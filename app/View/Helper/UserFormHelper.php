@@ -37,6 +37,8 @@ class UserFormHelper extends AppFormHelper {
 /**
  * getGatewaysButtons
  *
+ * @param array $gateways
+ * @param array $options
  * @return string
  */
 	public function getGatewaysButtons($gateways, $options = array()) {
@@ -86,6 +88,8 @@ class UserFormHelper extends AppFormHelper {
 /**
  * end method
  *
+ * @param null $options
+ * @param array $secureAttributes
  * @return string
  */
 	public function end($options = null, $secureAttributes = array()) {
