@@ -1182,7 +1182,7 @@ class UsersController extends AppController {
 		}
 
 		$rrclicks = array();
-		$rrclicksCredtied = array();
+		$rrclicksCredited = array();
 		$n = $this->magicStatsNumber(6);
 
 		for($i = 6; $i >= 0; --$i, $n = ($n + 1) % 7) {
