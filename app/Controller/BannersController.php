@@ -117,7 +117,7 @@ class BannersController extends AppController {
 					if(isset($this->request->data['file'])) {
 						$this->Notice->success(__d('admin', 'File uploaded successfully'));
 					} else {
-						$this->Notice->success(__d('admin', 'Banner saved sucessfully'));
+						$this->Notice->success(__d('admin', 'Banner saved successfully'));
 					}
 				}
 			} else {
