@@ -2,6 +2,10 @@
 <p><?=__d('installer', 'Great, we have just installed database on your server. All we need now is to gather few basic information about your site from you. Please fill in the form below and press the button to move forward.')?></p>
 <?=$this->AdminForm->create('Settings')?>
 	<fieldset class="form-group">
+		<label><?=__d('installer', 'Install for production?')?></label>
+		<?=$this->AdminForm->booleanRadio('productionInstall')?>
+	</fieldset>
+	<fieldset class="form-group">
 		<label><?=__d('installer', 'Site name')?></label>
 		<?=$this->AdminForm->input('siteName', array('class' => 'form-control', 'placeholder' => __d('installer', 'Please enter your site name.'), 'required' => true))?>
 	</fieldset>

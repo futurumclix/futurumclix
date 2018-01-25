@@ -300,7 +300,7 @@ class InstallerController extends InstallerAppController {
 						if(file_put_contents($path, $contents) === FALSE) {
 							return $this->Notice->error(__d('installer', 'Failed to save database configuration. Please check if file %s is writable.', $path));
 						}
-						if(!chmod($path, 0644)) {
+						if(!@chmod($path, 0644)) {
 							$this->Notice->info(__d('installer', 'Failed to automatically change permissions on %s. Please make sure that file can be accessed only by trusted users.', $path));
 						}
 						return $this->redirect(array('action' => 'step2'));
@@ -354,12 +354,11 @@ class InstallerController extends InstallerAppController {
 			'siteEmailSender',
 		);
 
-		if(Configure::read('App.fullBaseUrl')) {
+		if(Configure::read('App.fullBaseUrl') && empty($this->request->data['Settings']['siteURL'])) {
 			$this->request->data['Settings']['siteURL'] = Configure::read('App.fullBaseUrl');
 		}
 
 		if($this->request->is(array('post', 'put'))) {
-			debug($this->request->data['Security']);
 			if($this->request->data['Security']['auto']) {
 				$bytes = openssl_random_pseudo_bytes(30, $cstrong);
 				if(!$cstrong) {
@@ -395,7 +394,10 @@ class InstallerController extends InstallerAppController {
 				return $this->Notice->error(__d('installer', 'Please enter security cipher seed.'));
 			}
 
-			$toFile  = ";<?php exit(0); ?>\n[debug]\nlevel = \"0\"\n[security]\n";
+			$debugLevel = intval($this->request->data['Settings']['productionInstall']) == 0 ? 2 : 0;
+			unset($this->request->data['Settings']['productionInstall']);
+
+			$toFile  = ";<?php exit(0); ?>\n[debug]\nlevel = \"$debugLevel\"\n[security]\n";
 			$toFile .= "salt = \"{$this->request->data['Security']['salt']}\"\n";
 			$toFile .= "key = \"{$this->request->data['Security']['key']}\"\n";
 			$toFile .= "cipher_seed = \"{$this->request->data['Security']['cipherSeed']}\"\n";
@@ -405,7 +407,7 @@ class InstallerController extends InstallerAppController {
 				return $this->Notice->error(__d('installer', 'Failed to save security configuration configuration. Please check if file %s is writable.', $path));
 			}
 
-			if(!chmod($path, 0644)) {
+			if(!@chmod($path, 0644)) {
 				$this->Notice->info(__d('installer', 'Failed to automatically change permissions on %s. Please make sure that this file can be accessed only by trusted users.', $path));
 			}
 
