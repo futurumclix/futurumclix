@@ -390,7 +390,7 @@ class UsersController extends AppController {
 				}
 			}
 
-			if(in_array('login', $settings['Settings']['googleAuthenticator'])) {
+			if(@in_array('login', $settings['Settings']['googleAuthenticator'])) {
 				$ga = $this->Session->read('GoogleAuthenticator');
 
 				if(!$ga || !$ga['pass']) {
@@ -1515,7 +1515,8 @@ class UsersController extends AppController {
 
 		$settings = $this->Settings->fetch(array('withdrawClicks', 'cashoutBlockTime', 'cashoutMode', 'googleAuthenticator'));
 
-		if(in_array('cashout', $settings['Settings']['googleAuthenticator']) && $user['UserSecret']['mode'] == UserSecret::MODE_GA && !empty($user['UserSecret']['ga_secret'])) {
+		if(@in_array('cashout', $settings['Settings']['googleAuthenticator'])
+			&& $user['UserSecret']['mode'] == UserSecret::MODE_GA && !empty($user['UserSecret']['ga_secret'])) {
 			$googleAuthenticator = true;
 		} else {
 			$googleAuthenticator = false;

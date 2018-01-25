@@ -104,7 +104,7 @@ class UserProfilesController extends AppController {
 		));
 		$profile = $this->UserProfile->findByUserId($id);
 		$nextEmail = $profile['UserMetadata']['next_email'];
-		$googleAuthenticator = in_array('profile', $this->Settings->fetchOne('googleAuthenticator'));
+		$googleAuthenticator = @in_array('profile', $this->Settings->fetchOne('googleAuthenticator'));
 		$googleAuthenticator = $googleAuthenticator && $profile['User']['UserSecret']['mode'] == UserSecret::MODE_GA;
 		$this->set(compact('googleAuthenticator'));
 
