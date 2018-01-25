@@ -25,8 +25,9 @@ mod_rewrite.
 ## Installation
 To install FututurmClix from this repository you need working [CakePHP 2
 installation](https://book.cakephp.org/2.0/en/installation.html). After
-installing CakePHP 2 just clone this repository to the "app" directory under
-CakePHP 2 root directory.
+installing CakePHP 2 just merge this repository with directory where you
+installed CakePHP 2 (so the lib directory will contain CakePHP 2, and app
+directory will contain FuturumClix).
 Release packages of FuturumClix comes with CakePHP 2 bundled. For additional
 information check the documentation included in release package.
 
