@@ -39,6 +39,53 @@ class PendingEmail extends Email {
 	public $displayField = 'subject';
 
 /**
+ * Validation rules
+ *
+ * @var array
+ */
+	public $validate = array(
+		'format' => array(
+			'inList' => array(
+				'rule' => array('inList', array(CakeEmail::MESSAGE_TEXT, CakeEmail::MESSAGE_HTML)),
+				'message' => 'Format can only be "text" or "html"',
+				'allowEmpty' => false,
+			),
+		),
+		'subject' => array(
+			'notBlank' => array(
+				'rule' => array('notBlank'),
+				'message' => 'Subject cannot be empty.',
+			),
+			'maxLength' => array(
+				'rule' => array('maxLength', 100),
+				'message' => 'Subject cannot be longer than 50 characters',
+			),
+		),
+		'content' => array(
+			'notBlank' => array(
+				'rule' => array('notBlank'),
+				'message' => 'Message content cannot be empty.',
+			),
+		),
+		'sender_name' => array(
+			'notBlank' => array(
+				'rule' => array('notBlank'),
+				'message' => 'Sender Name cannot be empty.',
+			),
+		),
+		'reply_to' => array(
+			'notBlank' => array(
+				'rule' => array('notBlank'),
+				'message' => 'Reply To field cannot be empty.',
+			),
+			'email' => array(
+				'rule' => array('email'),
+				'message' => 'Please enter a valid e-mail address.',
+			),
+		),
+	);
+
+/**
  * belongsTo associations
  *
  * @var array
