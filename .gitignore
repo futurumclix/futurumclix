@@ -9,3 +9,4 @@
 /vendor/*
 /*.zip
 /.idea/*
+/app/Plugin/InstallerDone/*
