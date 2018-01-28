@@ -13,35 +13,35 @@ function explorerAfterLoad(subpages, subpageTime, focus) {
 	atStart();
 
 	var progressBar = $('#progressBar');
-	var done = false;
 	var percentPerSubpage = 100 / (subpages + 1);
+	var intervalHandle;
+	var nextCheck = Date.now() + subpageTime;
 
 	function progressFunc() {
 		if(document.hasFocus() || !focus) {
-			if(done == false) {
-				var percent = ProgressBarValue / subpageTime * 100;
+			var percent = ProgressBarValue / subpageTime * 100;
 
-				progressBar.attr('value', percent);
+			progressBar.css('width', percent + '%').attr('aria-valuenow', ProgressBarValue);
 
+			if(percentPerSubpage * Visited > percent) {
 				ProgressBarValue += 100;
-				if(percent >= percentPerSubpage * Visited) {
-					result = false;
-					done = true;
-					Visited++;
+			}
 
-					if(Visited >= subpages + 2) {
-						result = atSuccess();
-					} else {
-						result = atWait();
-					}
+			if(Date.now() >= nextCheck) {
+				Visited++;
 
-					Running = !result;
+				if(Visited >= subpages + 2) {
+					Running = !atSuccess();
+				} else {
+					Running = !atWait();
 				}
+
+				window.clearInterval(intervalHandle);
 			}
 		}
 	}
 
 	if(Visited < subpages + 2) {
-		window.setInterval(progressFunc, 100);
+		intervalHandle = window.setInterval(progressFunc, 100);
 	}
 }
