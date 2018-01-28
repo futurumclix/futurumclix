@@ -16,7 +16,7 @@ Additional information about license is available at beginning of each file.
 
 ## Requirements
 The following server parameters are required for proper functioning of the script:
-- PHP 5.6, with curl, openssl, bcmath, gettext extensions installed;
+- PHP 5.6, with curl, gd, openssl, bcmath, gettext extensions installed;
 - MySQL database;
 - E-mail server, e.g. postfix;
 - Nginx (or Apache, but Nginx is a recommended solution). Apache requires active
