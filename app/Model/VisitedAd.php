@@ -222,7 +222,7 @@ class VisitedAd extends AppModel {
 				continue;
 			}
 
-			switch($oder) {
+			switch($order) {
 				case 'DESC':
 					if($result === null || $result < $date) {
 						$result = $date;
