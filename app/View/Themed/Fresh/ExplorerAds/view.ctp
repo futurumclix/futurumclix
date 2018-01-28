@@ -31,7 +31,6 @@
 			url: '<?=Router::url(array('action' => 'next_subpage', $ad['ExplorerAd']['id']), true)?>',
 			cache: false,
 			async: false,
-			type: 'POST',
 			dataType: 'HTML',
 			success: function(data) {
 				$('#progressField').html(data);
@@ -52,7 +51,6 @@
 			url: '<?=Router::url(array('action' => 'next_subpage', $ad['ExplorerAd']['id']), true)?>',
 			cache: false,
 			async: false,
-			type: 'POST',
 			dataType: 'HTML',
 			success: function(data) {
 				$('#progressText').html(data);
