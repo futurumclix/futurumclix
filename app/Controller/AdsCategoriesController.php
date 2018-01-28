@@ -192,7 +192,8 @@ class AdsCategoriesController extends AppController {
 		if(Configure::read('explorerAdsActive')) {
 			$explorerSettings = $this->Settings->fetchOne('explorerAds');
 			$explorerAdsActive = true;
-			$explorerAds = ClassRegistry::init('ExplorerAd')->fetchAdsForUser($user_id, $membership_id, $expressSettings['geo_targetting'] ? $locations : null);
+			$geoTargeting = isset($expressSettings['geo_targetting']) && $expressSettings['geo_targetting'];
+			$explorerAds = ClassRegistry::init('ExplorerAd')->fetchAdsForUser($user_id, $membership_id, $geoTargeting ? $locations : null);
 		} else {
 			$explorerSettings = array();
 			$explorerAdsActive = false;
