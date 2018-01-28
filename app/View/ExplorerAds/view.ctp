@@ -26,7 +26,7 @@ function verifyCaptcha() {
 }
 
 function atSuccess() {
-	result = false;
+	var result = false;
 	$.ajax({
 		url: '<?=Router::url(array('action' => 'next_subpage', $ad['ExplorerAd']['id']), true)?>',
 		cache: false,
@@ -46,7 +46,7 @@ function atSuccess() {
 }
 
 function atWait() {
-	result = false;
+	var result = false;
 	$.ajax({
 		url: '<?=Router::url(array('action' => 'next_subpage', $ad['ExplorerAd']['id']), true)?>',
 		cache: false,
@@ -83,7 +83,7 @@ $(document).ready(function() {
 				<?=$this->Html->image('logo_dashboard_bw.png', array('alt' => 'Logo')); ?>
 			</div>
 			<div id="progressField" class="col-xs-3 info">
-				<?php if($loggedIn):	?>
+				<?php if($loggedIn):?>
 					<i class="fa fa-spinner fa-spin fa-3x pull-left"></i>
 					<div class="progressplacement">
 						<progress id="progressBar" class="progress progress-striped progress-info progress-animated" max="100" value="<?=$adTime?>" style="width: 0%"></progress>
