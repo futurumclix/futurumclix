@@ -193,7 +193,7 @@
 	<div class="form-group">
 		<label class="col-sm-6 control-label"><?=__d('admin', 'Clear cache')?></label>
 		<div class="col-sm-6">
-			<?=$this->AdminForm->postLink('Clear Cache', array('action' => 'clear_cache'), array('class' => 'btn btn-primary btn-sm'), __d('admin', 'Are you sure you want to clear cache?'))?>
+			<?=$this->AdminForm->postLink('Clear Cache', array('action' => 'clear_cache'), array('class' => 'btn btn-warning btn-sm'), __d('admin', 'Are you sure you want to clear cache?'))?>
 		</div>
 	</div>
 	<div class="title2">
