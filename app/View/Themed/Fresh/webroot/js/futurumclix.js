@@ -87,7 +87,7 @@ function ajaxModal(event) {
 
 function showModal(id) {
 	$(document).ready(function() {
-		UIkit.modal('#' + id, {center:true})[0].show();
+		UIkit.modal('#' + id, {center:true}).show();
 	});
 }
 
