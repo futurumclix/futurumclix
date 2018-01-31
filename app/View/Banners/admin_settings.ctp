@@ -2,6 +2,11 @@
 	<div class="title">
 		<h2><?=__d('admin', 'Add new banner')?></h2>
 	</div>
+	<?php if(empty($fonts)): ?>
+	<div class="alert alert-danger" role="alert">
+		<?=__d('admin', 'To be able to use statistical banners you need to install some fonts by copying *.ttf files into the %s directory.', FONTS_DIRECTORY)?>
+	</div>
+	<?php endif; ?>
 	<?=$this->AdminForm->create('Banner', array('type' => 'file', 'class' => 'form-horizontal'))?>
 	<div class="form-group">
 		<label class="col-sm-4 control-label"><?=__d('admin', 'Upload New Banner')?></label>
@@ -48,25 +53,28 @@
 			</div>
 		</h2>
 	</div>
-	<?=$this->AdminForm->create('Banner', array('class' => 'form-horizontal'))?>
-	<?=$this->AdminForm->input('id', array(
-		'type' => 'hidden',
-		'value' => $banner['Banner']['id'],
-	))?>
 	<div class="text-center paddingten">
-		<?=$this->Html->image(Router::url(array('action' => 'image', $banner['Banner']['id'])))?>
+		<?=$this->Html->image(Router::url(array('action' => 'image', $banner['Banner']['id'])), array(
+			'alt' => __d('admin','If you see this message some error occurred during banner loading. Please check if the file was uploaded correctly.'
+		)))?>
 	</div>
-	<div class="form-group">
-		<label class="col-sm-4 control-label"><?=__d('admin', 'Make This Banner Statistical')?></label>
-		<div class="col-sm-8">
-			<?=$this->AdminForm->input('statistical', array(
-				'checked' => $banner['Banner']['statistical'],
-				'data-toggleid' => 'statisticalOptions-'.$banner['Banner']['id'],
-				'class' => 'toggleCheckbox',
-			))?>
+	<?php if(!empty($fonts)): ?>
+		<?=$this->AdminForm->create('Banner', array('class' => 'form-horizontal'))?>\
+		<?=$this->AdminForm->input('id', array(
+			'type' => 'hidden',
+			'value' => $banner['Banner']['id'],
+		))?>
+		<div class="form-group">
+			<label class="col-sm-4 control-label"><?=__d('admin', 'Make This Banner Statistical')?></label>
+			<div class="col-sm-8">
+				<?=$this->AdminForm->input('statistical', array(
+					'checked' => $banner['Banner']['statistical'],
+					'data-toggleid' => 'statisticalOptions-'.$banner['Banner']['id'],
+					'class' => 'toggleCheckbox',
+				))?>
+			</div>
 		</div>
-	</div>
-	<div id="statisticalOptions-<?=$banner['Banner']['id']?>" <?php if(!$banner['Banner']['statistical']): ?> style="display: none;"<?php endif;?>>
+		<div id="statisticalOptions-<?=$banner['Banner']['id']?>" <?php if(!$banner['Banner']['statistical']): ?> style="display: none;"<?php endif;?>>
 		<div class="form-group">
 			<label class="col-sm-4 control-label"><?=__d('admin', 'What Data Do You Want To Show On This Banner')?></label>
 			<div class="col-sm-8">
@@ -246,10 +254,11 @@
 		</div>
 		
 	</div>
-	<div class="text-center">
-		<button class="btn btn-primary"><?=__d('admin', 'Save Changes')?></button>
-	</div>
-	<?=$this->AdminForm->end()?>
+		<div class="text-center">
+			<button class="btn btn-primary"><?=__d('admin', 'Save Changes')?></button>
+		</div>
+		<?=$this->AdminForm->end()?>
+	<?php endif; ?>
 	<?php endforeach; ?>
 </div>
 <?php
