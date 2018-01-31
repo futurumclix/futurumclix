@@ -378,9 +378,18 @@ class AdGridAd extends AdGridAppModel {
 			}
 
 			if(bccomp($userPrize['prize'], 0) > 0 || (isset($userPrize['points']) && $userPrize['points'] > 0)) {
-				if(!$userModel->accountBalanceAdd($userPrize['prize'], $user_id)) {
-					throw new InternalErrorException(__d('ad_grid_exception', 'Failed to save user account balance'));
+				$settings = ClassRegistry::init('AdGrid.AdGridSettings')->fetchOne('adGrid');
+
+				if(!empty($settings) && $settings['payMode'] === 'purchase') {
+					if(!$userModel->purchaseBalanceAdd($userPrize['prize'], $user_id)) {
+						throw new InternalErrorException(__d('ad_grid_exception', 'Failed to save user purchase balance'));
+					}
+				} else {
+					if(!$userModel->accountBalanceAdd($userPrize['prize'], $user_id)) {
+						throw new InternalErrorException(__d('ad_grid_exception', 'Failed to save user account balance'));
+					}
 				}
+
 				if(isset($userPrize['points'])) {
 					if(!$userModel->pointsAdd($userPrize['points'], $user_id)) {
 						throw new InternalErrorException(__d('ad_grid_exception', 'Failed to save user points balance'));
