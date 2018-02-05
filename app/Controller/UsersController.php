@@ -1662,6 +1662,7 @@ class UsersController extends AppController {
 		$accounts = $this->User->UserProfile->findByUserId($user_id, $fields)['UserProfile'];
 
 		foreach($gData as $k => $v) {
+			$accounts[$k] = trim($accounts[$k]);
 			if(!isset($accounts[$k]) || empty($accounts[$k])) {
 				$gData[$k] = array('state' => 'noAccount');
 			} elseif($v == 'disabled') {
