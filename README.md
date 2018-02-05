@@ -55,4 +55,5 @@ If you would like to support developing of FuturumClix by donation you can use f
 addresses:
 - BTC: 18gq7jCB57HL7mSpWc7VgJBhxNsdMeYrHN
 - ETH: 0x653b24C4058661bE4693c1689Ff0d940ed6f007B
+
 Thank you! :-)
