@@ -49,3 +49,10 @@ like: "enabled = false".
 If you found any bugs, have questions or would like to propose an enhancement
 please contact us by [Issues Page](https://github.com/futurumclix/futurumclix/issues)
 or submit a [Pull Request](https://github.com/futurumclix/futurumclix/pull/new/master). 
+
+## Donations
+If you would like to support developing of FuturumClix by donation you can use following
+addresses:
+- BTC: 18gq7jCB57HL7mSpWc7VgJBhxNsdMeYrHN
+- ETH: 0x653b24C4058661bE4693c1689Ff0d940ed6f007B
+Thank you! :-)
