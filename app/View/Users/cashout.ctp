@@ -26,7 +26,7 @@
 									<button class="btn btn-primary disabled" disabled="disabled"><?=$v['humanizedName']?></button>
 								</div>
 								<?php elseif($v['state'] == 'blocked'): ?>
-								<div class="tooltip-wrapper" data-title="<?=__('You can not use %s due to recent changes in your account. Please wait untill %s', $v['humanizedName'], $this->Time->niceShort($v['available']))?>" data-toggle="tooltip" data-placement="top">
+								<div class="tooltip-wrapper" data-title="<?=__('You can not use %s due to recent changes in your account. Please wait until %s', $v['humanizedName'], $this->Time->niceShort($v['available']))?>" data-toggle="tooltip" data-placement="top">
 									<button class="btn btn-primary disabled" disabled="disabled"><?=$v['humanizedName']?></button>
 								</div>
 								<?php else: ?>
