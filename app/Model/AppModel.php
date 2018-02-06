@@ -275,8 +275,8 @@ class AppModel extends Model {
 			$column = $ds->buildColumn(array('name' => $name, 'type' => $type, 'null' => $null, 'length' => $length));
 			$sql = "ALTER TABLE `{$this->tablePrefix}{$this->table}` ADD COLUMN $column";
 
-			$this->query($sql);
-			return $this->getAffectedRows() > 0;
+			$res = $this->query($sql);
+			return $res;
 		}
 		return true;
 	}
