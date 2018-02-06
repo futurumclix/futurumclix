@@ -15,13 +15,13 @@
 				<div class="uk-inline">
 					<?php foreach($gData as $k => $v): ?>
 					<?php if($v['state'] == 'disabled'): ?>
-					<button class="uk-button uk-button-primary" disabled="disabled" title="<?=__('You can not pay on %s as an existing payment and the total sum of your existing %s payments exceeded the amount of purchases made with %s.', $v['humanizedName'], $v['humanizedName'], $v['humanizedName'])?>" uk-tooltip><?=$v['humanizedName']?></button>
+					<button class="uk-button uk-button-primary uk-button-primary-disabled" title="<?=__('You can not pay on %s as an existing payment and the total sum of your existing %s payments exceeded the amount of purchases made with %s.', $v['humanizedName'], $v['humanizedName'], $v['humanizedName'])?>" data-uk-tooltip><?=$v['humanizedName']?></button>
 					<?php elseif($v['state'] == 'noAccount'): ?>
-					<button class="uk-button uk-button-primary" disabled="disabled" title="<?=__('You can not pay on %s unless you fill an payment account address in User Profile.', $v['humanizedName'])?>" uk-tooltip><?=$v['humanizedName']?></button>
+					<button class="uk-button uk-button-primary uk-button-primary-disabled" title="<?=__('You can not pay on %s unless you fill an payment account address in User Profile.', $v['humanizedName'])?>" data-uk-tooltip><?=$v['humanizedName']?></button>
 					<?php elseif($v['state'] == 'blocked'): ?>
-					<button class="uk-button uk-button-primary" disabled="disabled" title="<?=__('You can not use %s due to recent changes in your account. Please wait until %s', $v['humanizedName'], $this->Time->niceShort($v['available']))?>" uk-tooltip><?=$v['humanizedName']?></button>
+					<button class="uk-button uk-button-primary uk-button-primary-disabled" title="<?=__('You can not use %s due to recent changes in your account. Please wait until %s', $v['humanizedName'], $this->Time->niceShort($v['available']))?>" data-uk-tooltip><?=$v['humanizedName']?></button>
 					<?php else: ?>
-					<button id="gatewayButton<?=$k?>" value="<?=$k?>" class="uk-button uk-button-primary" title="<?=$v['humanizedName']?>" uk-tooltip><?=$v['humanizedName']?></button>
+					<button id="gatewayButton<?=$k?>" value="<?=$k?>" class="uk-button uk-button-primary" title="<?=$v['humanizedName']?>" data-uk-tooltip><?=$v['humanizedName']?></button>
 					<?php endif; ?>
 					<?php endforeach; ?>
 				</div>

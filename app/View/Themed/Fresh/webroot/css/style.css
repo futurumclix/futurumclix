@@ -56,6 +56,12 @@ p {
 	color: #ffffff;
 }
 
+.uk-button-primary-disabled, .uk-button-primary-disabled:hover, .uk-button-primary-disabled:focus {
+	background-color:transparent;
+	color:#999;
+	border-color:#e5e5e5
+}
+
 .uk-button-secondary {
 	background-color: #d7dee4;
 	color: #8d99a5;
