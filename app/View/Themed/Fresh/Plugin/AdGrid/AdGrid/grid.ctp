@@ -54,27 +54,31 @@
 			</table>
 			<?php endif; ?>
 			<h2><?=__d('ad_grid', 'Latest winners')?></h2>
-			<table class="uk-table uk-table-small uk-table-striped">
-				<?php foreach($lastWinners as $w): ?>
-				<tr>
-					<td><?=h($w['AdGridWinHistory']['username'])?><br />
-						<span><?=$this->Time->nice($w['AdGridWinHistory']['date'])?></span>
-					</td>
-					<td><span class="uk-badge"><?=$this->Currency->format($w['AdGridWinHistory']['prize'])?></span></td>
-				</tr>
-				<?php endforeach; ?>
-			</table>
+			<div class="adgridlist">
+				<table class="uk-table uk-table-small uk-table-striped">
+					<?php foreach($lastWinners as $w): ?>
+					<tr>
+						<td><?=h($w['AdGridWinHistory']['username'])?><br />
+							<span><?=$this->Time->nice($w['AdGridWinHistory']['date'])?></span>
+						</td>
+						<td><span class="uk-badge"><?=$this->Currency->format($w['AdGridWinHistory']['prize'])?></span></td>
+					</tr>
+					<?php endforeach; ?>
+				</table>
+			</div>
 			<h4><?=__d('ad_grid', 'Latest %s winners', $this->Currency->format($mainPrize))?></h4>
-			<table class="uk-table uk-table-small uk-table-striped">
-				<?php foreach($lastMaxWinners as $w): ?>
-				<tr>
-					<td><?=h($w['AdGridWinHistory']['username'])?><br />
-						<span><?=$this->Time->nice($w['AdGridWinHistory']['date'])?></span>
-					</td>
-					<td><span class="uk-badge"><?=$this->Currency->format($w['AdGridWinHistory']['prize'])?></span></td>
-				</tr>
-				<?php endforeach; ?>
-			</table>
+			<div class="adgridlist">
+				<table class="uk-table uk-table-small uk-table-striped">
+					<?php foreach($lastMaxWinners as $w): ?>
+					<tr>
+						<td><?=h($w['AdGridWinHistory']['username'])?><br />
+							<span><?=$this->Time->nice($w['AdGridWinHistory']['date'])?></span>
+						</td>
+						<td><span class="uk-badge"><?=$this->Currency->format($w['AdGridWinHistory']['prize'])?></span></td>
+					</tr>
+					<?php endforeach; ?>
+				</table>
+			</div>
 		</div>
 	</div>
 </div>

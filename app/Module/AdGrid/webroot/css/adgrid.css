@@ -165,3 +165,8 @@
 .adgridpacks:nth-of-type(2):after {
 	content: "";
 }
+
+.adgridlist {
+	max-height: 300px;
+	overflow-x: scroll;
+}
