@@ -163,8 +163,22 @@ class InstallerController extends InstallerAppController {
 			$anyErrors = true;
 		}
 
-		if(file_exists(WWW_ROOT.'css'.DS.'cake.generic.css')) {
+		if(!ini_get('allow_url_fopen')) {
+			$this->Notice->error(__d('installer', 'Please enable "allow_url_fopen" in your php.ini file'));
 			$anyErrors = true;
+		} else {
+			$protocol = 'http://';
+
+			if($this->request->is('ssl')) {
+				$protocol = 'https://';
+			}
+
+			$remoteFile = file_get_contents($protocol.$_SERVER['SERVER_NAME'].DS.'css'.DS.'installer.css');
+			$localFile = file_get_contents(WWW_ROOT.'css'.DS.'installer.css');
+
+			if($remoteFile !== $localFile) {
+				$anyErrors = true;
+			}
 		}
 
 		if(!extension_loaded('curl')) {
