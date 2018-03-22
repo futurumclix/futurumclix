@@ -11,3 +11,5 @@
 /.idea/*
 /app/Plugin/InstallerDone/*
 /app/Plugin/DebugKit/*
+.htaccess
+
