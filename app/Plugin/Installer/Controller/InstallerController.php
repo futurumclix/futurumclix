@@ -217,7 +217,16 @@ class InstallerController extends InstallerAppController {
 			$anyErrors = true;
 		}
 
-		if(file_exists(WWW_ROOT.'css'.DS.'cake.generic.css')) {
+		if($this->request->is('ssl')) {
+			$protocol = 'https://';
+		} else {
+			$protocol = 'http://';
+		}
+
+		$remoteFile = file_get_contents($protocol.$_SERVER['SERVER_NAME'].DS.'css'.DS.'installer.css');
+		$localFile = file_get_contents(WWW_ROOT.'css'.DS.'installer.css');
+
+		if($remoteFile !== $localFile) {
 			$this->Notice->error(__d('installer', 'Sorry but you need to have URL rewriting enabled on your server in order to install FuturumClix. Please check our Installation Manual for more details.'));
 			$anyErrors = true;
 		}
