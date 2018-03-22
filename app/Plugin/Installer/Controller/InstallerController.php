@@ -139,7 +139,7 @@ class InstallerController extends InstallerAppController {
 		parent::beforeFilter();
 		$this->layout = 'installer';
 
-		if(!version_compare(PHP_VERSION, '5.2.8', '>=')) {
+		if(!version_compare(PHP_VERSION, '5.6', '>=')) {
 			$anyErrors = true;
 		}
 
@@ -201,8 +201,8 @@ class InstallerController extends InstallerAppController {
 	public function index() {
 		$anyErrors = false;
 
-		if(!version_compare(PHP_VERSION, '5.2.8', '>=')) {
-			$this->Notice->error(__d('installer', 'Your PHP version is too old. You need at least 5.2.8.'));
+		if(!version_compare(PHP_VERSION, '5.6', '>=')) {
+			$this->Notice->error(__d('installer', 'Your PHP version is too old. You need at least 5.6.'));
 			$anyErrors = true;
 		}
 
