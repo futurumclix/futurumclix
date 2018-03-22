@@ -114,7 +114,7 @@ label a {
 /* recaptcha centering */
 
 .g-recaptcha > div > div {
- margin 10px auto !important;
+ margin: 10px auto !important;
  text-align: center;
  width: auto !important;
  height: auto !important;
