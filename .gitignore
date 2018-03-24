@@ -1,6 +1,7 @@
 # CakePHP 2
 
 /app/tmp/*
+/app/tmp
 /app/Config/core.ini.php
 /app/Config/database.ini.php
 /vendors/*
@@ -12,4 +13,6 @@
 /app/Plugin/InstallerDone/*
 /app/Plugin/DebugKit/*
 .htaccess
-
+access.log
+error.log
+.vagrant/*
