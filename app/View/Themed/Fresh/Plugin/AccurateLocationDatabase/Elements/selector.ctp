@@ -89,28 +89,24 @@ var alds_rows = $max;
 function regionChange() {
 row = $(this).closest('span');
 city = row.find('#AccurateTargettedLocations' + row.data('row') + 'City');
-all = $('
-<option>').text('All').attr('value', '*');
+all = $('<option>').text('All').attr('value', '*');
 	$.getJSON('$dataURL/' + $(this).val(), function(json) {
 	city.empty();
 	city.append(all);
 	$.each(json, function(i, obj) {
-	city.append($('
-<option>').text(obj.AccurateLocationDatabaseLocation.name).attr('value', obj.AccurateLocationDatabaseLocation.name));
+	city.append($('<option>').text(obj.AccurateLocationDatabaseLocation.name).attr('value', obj.AccurateLocationDatabaseLocation.name));
 	});
 	});
 	}
 	function countryChange() {
 	row = $(this).closest('span');
 	region = row.find('#AccurateTargettedLocations' + row.data('row') + 'Region');
-	all = $('
-<option>').text('All').attr('value', '*');
+	all = $('<option>').text('All').attr('value', '*');
 	$.getJSON('$dataURL/' + $(this).val(), function(json) {
 	region.empty();
 	region.append(all);
 	$.each(json, function(i, obj) {
-	region.append($('
-<option>').text(obj.AccurateLocationDatabaseLocation.name).attr('value', obj.AccurateLocationDatabaseLocation.name));
+	region.append($('<option>').text(obj.AccurateLocationDatabaseLocation.name).attr('value', obj.AccurateLocationDatabaseLocation.name));
 	});
 	city = row.find('#AccurateTargettedLocations' + row.data('row') + 'City');
 	city.empty();
@@ -132,10 +128,8 @@ all = $('
 	regionSelect = $('#SelectorContainer').children().last().find('#AccurateTargettedLocations' + alds_rows + 'Region');
 	regionSelect.on('change', regionChange);
 	regionSelect.empty();
-	regionSelect.append($('
-<option>').text('All').attr('value', '*'));
-	$('#SelectorContainer').children().last().find('#AccurateTargettedLocations' + alds_rows + 'City').empty().append($('
-<option>').text('All').attr('value', '*'));
+	regionSelect.append($('<option>').text('All').attr('value', '*'));
+	$('#SelectorContainer').children().last().find('#AccurateTargettedLocations' + alds_rows + 'City').empty().append($('<option>').text('All').attr('value', '*'));
 	alds_rows++;
 	});
 	$('.RemoveButton[data-row]').on('click', function(e) {
