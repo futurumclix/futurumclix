@@ -4,6 +4,7 @@
 /app/tmp
 /app/Config/core.ini.php
 /app/Config/database.ini.php
+/app/Config/.installed
 /vendors/*
 /lib/*
 /plugins/*

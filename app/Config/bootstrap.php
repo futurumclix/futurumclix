@@ -53,17 +53,19 @@ App::build(array(
 
 App::uses('Module', 'Lib');
 
-try {
-	CakePlugin::load(array(
-		'Installer',
-	));
-	/* routes should be in routes.php in plugin, but they won't work that way (we need to install '/' route before standard one)... */
-	Router::connect('/', array('plugin' => 'Installer', 'controller' => 'installer', 'action' => 'index'));
-	Router::connect('/:action', array('plugin' => 'Installer', 'controller' => 'installer'));
-	CakePlugin::loadAll(array('bootstrap' => true, 'ignoreMissing' => true));
-	return true;
-}	catch(MissingPluginException $e) {
-	/* do nothing, go next. */
+if(!file_exists(APP.'Config'.DS.'.installed')) {
+	try {
+		CakePlugin::load(array(
+			'Installer',
+		));
+		/* routes should be in routes.php in plugin, but they won't work that way (we need to install '/' route before standard one)... */
+		Router::connect('/', array('plugin' => 'Installer', 'controller' => 'installer', 'action' => 'index'));
+		Router::connect('/:action', array('plugin' => 'Installer', 'controller' => 'installer'));
+		CakePlugin::loadAll(array('bootstrap' => true, 'ignoreMissing' => true));
+		return true;
+	}	catch(MissingPluginException $e) {
+		/* do nothing, go next. */
+	}
 }
 
 App::uses('ClassRegistry', 'Utility');

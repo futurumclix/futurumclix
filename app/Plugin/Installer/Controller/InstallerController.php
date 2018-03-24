@@ -548,8 +548,8 @@ class InstallerController extends InstallerAppController {
 
 	/* finish */
 	public function end() {
-		if(!@rename(APP.'Plugin'.DS.'Installer', APP.'Plugin'.DS.'InstallerDone')) {
-			$this->Notice->error(__d('installer', 'Failed to remove installer. Please remove or rename "%s" manually. Please remove those files, otherwise your script will not be working properly and you are exposing yourself for security issues!', APP.'Plugin'.DS.'Installer'));
+		if(!touch(APP.'Config'.DS.'.installed') && !@rename(APP.'Plugin'.DS.'Installer', APP.'Plugin'.DS.'InstallerDone')) {
+			$this->Notice->error(__d('installer', 'Failed to remove installer. Please create empty file in %s or remove/rename "%s" manually. Otherwise your script will not be working properly and you are exposing yourself for security issues!', APP.'Config'.DS.'.installed', APP.'Plugin'.DS.'Installer'));
 		} else {
 			$this->Notice->success(__d('installer', 'FuturumClix is sucessfully installed. Please, log in.'), 'admin_action');
 			$this->redirect('/admin');
