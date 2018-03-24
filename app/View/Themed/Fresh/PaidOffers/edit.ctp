@@ -78,7 +78,7 @@
 				<?=
 					$this->UserForm->input('TargettedLocations', array(
 					'type' => 'select',
-					'class' => 'uk-input',
+					'class' => 'uk-textarea',
 					'multiple' => 'multiple',
 					'options' => $countries,
 					'selected' => $selectedCountries,
