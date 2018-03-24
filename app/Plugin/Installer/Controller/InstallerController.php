@@ -123,6 +123,16 @@ class InstallerController extends InstallerAppController {
 		return true;
 	}
 
+	private function _isDatabaseConfigurationStored() {
+		$configuration = parse_ini_file(APP.'Config'.DS.'database.ini.php', true);
+		return isset($configuration['default']['host']) && !empty($configuration['default']['host']);
+	}
+
+	private function _isCoreConfigurationStored() {
+		$configuration = parse_ini_file(APP.'Config'.DS.'core.ini.php', true);
+		return isset($configuration['debug']['level']);
+	}
+
 	/* load only components specified in this controller, so we can skip AppController ones */
 	public function constructClasses() {
 		if($this->uses) {
@@ -147,11 +157,11 @@ class InstallerController extends InstallerAppController {
 			$anyErrors = true;
 		}
 
-		if(!is_writable(APP.'Config'.DS.'database.ini.php')) {
+		if(!is_writable(APP.'Config'.DS.'database.ini.php') && !$this->_isDatabaseConfigurationStored()) {
 			$anyErrors = true;
 		}
 		
-		if(!is_writable(APP.'Config'.DS.'core.ini.php')) {
+		if(!is_writable(APP.'Config'.DS.'core.ini.php') && !$this->_isCoreConfigurationStored()) {
 			$anyErrors = true;
 		}
 
