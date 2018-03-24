@@ -93,7 +93,7 @@
 					'class' => 'fancy form-control',
 					'multiple' => 'multiple',
 					'options' => $countries,
-					'selected' => $this->request->data['TargettedLocations'],
+					'selected' => isset($this->request->data['TargettedLocations']) ? $this->request->data['TargettedLocations'] : array(),
 				))
 				?>
 		</div>
