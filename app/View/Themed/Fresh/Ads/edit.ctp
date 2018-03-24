@@ -12,8 +12,7 @@
 				'assign' => array('controller' => 'ads', 'action' => 'assign'),
 				))
 				?>
-			<h2 class="uk-margin-top">
-			<?=__('Edit advertisement')?></h5>
+			<h2 class="uk-margin-top"><?=__('Edit advertisement')?></h2>
 			<?=
 				$this->UserForm->create('Ad', array(
 				'url' => array('action' => 'preview'),
